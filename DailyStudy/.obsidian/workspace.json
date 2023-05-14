@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Social Skills/决策.md",
+                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Social Skills/决策.md",
+                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Social Skills/决策.md",
+                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Social Skills/决策.md"
+                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md"
               }
             }
           },
@@ -158,10 +158,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "bcffd6e5de88c4f1",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
-    "Python/YouTube Python Tutorial.md",
     "Daliy/Social Skills/决策.md",
+    "Python/YouTube Python Tutorial.md",
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Daliy/Social Skills",
     "Daliy",
