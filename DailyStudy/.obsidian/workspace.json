@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
+                "file": "Python/YouTube Python Tutorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
+                "file": "Python/YouTube Python Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
+                "file": "Python/YouTube Python Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md"
+                "file": "Python/YouTube Python Tutorial.md"
               }
             }
           },
@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,17 +152,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "bcffd6e5de88c4f1",
   "lastOpenFiles": [
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
-    "Python/YouTube Python Tutorial.md",
     "Daliy/Social Skills/决策.md",
+    "Python/YouTube Python Tutorial.md",
     "Daliy/Social Skills",
     "Daliy",
     "Python/Python编程：从入门到实践",
