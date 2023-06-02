@@ -149,12 +149,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "b33877f9b5ad8d56",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,7 +179,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e699d424e794e53a",
+  "active": "ea75a4b8e02cce7f",
   "lastOpenFiles": [
     "Python/YouTube Python Tutorial.md",
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",

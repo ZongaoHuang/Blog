@@ -8,5 +8,13 @@
   "obsidian-outliner",
   "obsidian-tasks-plugin",
   "obsidian-admonition",
-  "obsidian-git"
+  "obsidian-git",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-checklist-plugin",
+  "obsidian-annotator",
+  "obsidian-icon-folder",
+  "nldates-obsidian",
+  "quickadd",
+  "obsidian-style-settings",
+  "tag-wrangler"
 ]
