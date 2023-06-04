@@ -11,11 +11,10 @@
             "id": "6a5f053ff2380f76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
-                "mode": "source",
-                "source": false
+                "file": "DailyStudy/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/Python编程：从入门到实践/第一部分 基础知识.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,11 +141,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +163,8 @@
   },
   "active": "6a5f053ff2380f76",
   "lastOpenFiles": [
-    "Python/YouTube Python Tutorial.md",
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
+    "Python/YouTube Python Tutorial.md",
     "Daliy/Funny Recording/Eason R&Q.md",
     "Daliy/Funny Recording",
     "Daliy/Social Skills/决策.md",
