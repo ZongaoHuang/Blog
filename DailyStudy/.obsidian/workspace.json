@@ -11,10 +11,11 @@
             "id": "6a5f053ff2380f76",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "DailyStudy/.obsidian/workspace.json",
-                "staged": false
+                "file": "Python/YouTube Python Tutorial.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python/YouTube Python Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python/YouTube Python Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Python/YouTube Python Tutorial.md"
+              }
             }
           },
           {
@@ -161,7 +166,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6a5f053ff2380f76",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Python/YouTube Python Tutorial.md",
