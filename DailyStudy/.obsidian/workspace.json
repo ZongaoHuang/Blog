@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -166,7 +167,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4104d0f23ae4c276",
+  "active": "6a5f053ff2380f76",
   "lastOpenFiles": [
     "Security/APT/初步了解.md",
     "Security/APT/红队笔记课程记录.md",
