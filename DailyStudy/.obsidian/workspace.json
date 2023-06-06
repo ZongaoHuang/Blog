@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "Security/项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "Security/项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "Security/项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md"
+                "file": "Security/项目.md"
               }
             }
           },
@@ -151,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,8 +169,9 @@
   },
   "active": "6a5f053ff2380f76",
   "lastOpenFiles": [
-    "Security/APT/初步了解.md",
     "Security/APT/红队笔记课程记录.md",
+    "Security/项目.md",
+    "Security/APT/初步了解.md",
     "Python/YouTube Python Tutorial.md",
     "Security/APT",
     "Security",
