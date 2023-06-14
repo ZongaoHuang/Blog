@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/项目/项目资料搜集.md",
+                "file": "Security/APT/红队笔记课程记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/项目/项目资料搜集.md",
+                "file": "Security/APT/红队笔记课程记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/项目/项目资料搜集.md",
+                "file": "Security/APT/红队笔记课程记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/项目/项目资料搜集.md"
+                "file": "Security/APT/红队笔记课程记录.md"
               }
             }
           },
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,19 +168,38 @@
   },
   "active": "858d28d7831cf115",
   "lastOpenFiles": [
+    "Security/APT/初步了解.md",
+    "Security/APT/红队笔记课程记录.md",
+    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/README.md",
+    "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
+    "Security/项目/项目资料搜集.md",
+    "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
+    "security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/network-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/kubernetes-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/gcp-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/docker-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/devsecops-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/cryptography-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/azure-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/aws-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main",
+    "security-study-plan-main",
+    "security-study-plan-main.zip",
     "Security/项目/数据库审计工具.md",
     "Security/项目/attachments/Pasted image 20230608151959.png",
     "Security/项目/attachments/Pasted image 20230608150110.png",
     "Security/项目/attachments/Pasted image 20230608145951.png",
     "Security/项目/入侵防御知识.md",
-    "Security/项目/项目资料搜集.md",
     "Security/项目/预发布环境配置.md",
     "Security/项目/新建 文本文档.txt",
     "Security/项目/attachments/Pasted image 20230607153106.png",
     "Security/项目/attachments",
     "Security/项目",
-    "Security/APT/红队笔记课程记录.md",
-    "Security/APT/初步了解.md",
     "Python/YouTube Python Tutorial.md",
     "Security/APT",
     "Security",
@@ -189,10 +207,6 @@
     "Daliy/Funny Recording/Eason R&Q.md",
     "Daliy/Funny Recording",
     "Daliy/Social Skills/决策.md",
-    "Daliy/Social Skills",
-    "Daliy",
-    "Python/Python编程：从入门到实践",
-    "Python/New Note.md",
-    "Python"
+    "Daliy/Social Skills"
   ]
 }
