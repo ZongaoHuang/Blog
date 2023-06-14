@@ -7,11 +7,12 @@ So, I will explain from where to study and how much time you should devote to le
 
 **These 5 common skills are:**
 
-1. -[ ] [Linux](#linux-basics-and-linux-commands) (1 week)
+1. [ ] 🛫 2023-06-14 [Linux](#linux-basics-and-linux-commands) (1 week)
 2. -[ ] [Networking](#networking-fundamentals) (1 week)
 3. -[ ] [Programming](#programming-skills) (2 weeks)
 4. -[ ] [Cloud Computing Fundamentals](#cloud-computing) (2 weeks)
 5. -[ ] [git commands](#git-commands) (1 week)
+
 ## Linux basics and Linux Commands (1-2 weeks)
 It should not take more than a week to be comfortable with basic linux commands to do day to day activities.
 Once you are comfortable with basic command, go fo networking and other security related command in little depth.

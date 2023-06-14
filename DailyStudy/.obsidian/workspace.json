@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md",
+                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/APT/红队笔记课程记录.md"
+                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
               }
             }
           },
@@ -166,14 +166,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "858d28d7831cf115",
+  "active": "ea75a4b8e02cce7f",
   "lastOpenFiles": [
-    "Security/APT/初步了解.md",
-    "Security/APT/红队笔记课程记录.md",
-    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "security-study-plan-main/security-study-plan-main/README.md",
-    "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
     "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
+    "Security/APT/红队笔记课程记录.md",
+    "Security/APT/初步了解.md",
+    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Security/项目/项目资料搜集.md",
     "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
