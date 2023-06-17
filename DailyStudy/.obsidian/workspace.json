@@ -8,7 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "858d28d7831cf115",
+            "id": "30fdb58ee945a730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/网络安全基础学习/学习计划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "05cc04910b614f8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b38ce4c765f84f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,8 +163,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,14 +183,16 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ea75a4b8e02cce7f",
+  "active": "6b38ce4c765f84f6",
   "lastOpenFiles": [
-    "security-study-plan-main/security-study-plan-main/README.md",
-    "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
+    "Security/网络安全基础学习/学习计划.md",
+    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
+    "Security/网络安全基础学习",
+    "security-study-plan-main/security-study-plan-main/README.md",
     "Security/APT/红队笔记课程记录.md",
     "Security/APT/初步了解.md",
-    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Security/项目/项目资料搜集.md",
     "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
@@ -205,8 +224,6 @@
     "Security",
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Daliy/Funny Recording/Eason R&Q.md",
-    "Daliy/Funny Recording",
-    "Daliy/Social Skills/决策.md",
-    "Daliy/Social Skills"
+    "Daliy/Funny Recording"
   ]
 }
