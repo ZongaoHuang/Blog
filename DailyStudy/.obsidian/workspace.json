@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
+                "file": "Security/网络安全基础学习/学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
+                "file": "Security/网络安全基础学习/学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
+                "file": "Security/网络安全基础学习/学习计划.md"
               }
             }
           },
@@ -163,7 +163,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,10 +184,12 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6b38ce4c765f84f6",
+  "active": "30fdb58ee945a730",
   "lastOpenFiles": [
-    "Security/网络安全基础学习/学习计划.md",
     "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
+    "Security/网络安全基础学习/学习计划.md",
+    "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
+    "Security/网络安全基础学习/attachments",
     "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
     "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
     "Security/网络安全基础学习",
@@ -221,9 +224,6 @@
     "Security/项目",
     "Python/YouTube Python Tutorial.md",
     "Security/APT",
-    "Security",
-    "Python/Python编程：从入门到实践/第一部分 基础知识.md",
-    "Daliy/Funny Recording/Eason R&Q.md",
-    "Daliy/Funny Recording"
+    "Python/Python编程：从入门到实践/第一部分 基础知识.md"
   ]
 }
