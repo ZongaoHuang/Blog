@@ -4,4 +4,4 @@
 - pwd
 - whoami
 - cd
-- 
+- man
