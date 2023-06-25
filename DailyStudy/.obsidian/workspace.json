@@ -11,8 +11,12 @@
             "id": "30fdb58ee945a730",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Security/项目/项目资料搜集.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Security/项目/项目资料搜集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Security/项目/项目资料搜集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Security/项目/项目资料搜集.md"
+              }
             }
           },
           {
@@ -161,16 +169,16 @@
   },
   "active": "30fdb58ee945a730",
   "lastOpenFiles": [
-    "Daliy/Social Skills/常识答题.md",
     "Security/项目/数据库审计工具.md",
-    "Security/项目/项目资料搜集.md",
-    "Security/项目/attachments/Pasted image 20230619142910.png",
     "Security/项目/入侵防御知识.md",
     "Security/项目/1.1 数据库日志.md",
+    "Security/项目/项目资料搜集.md",
+    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
+    "Daliy/Social Skills/常识答题.md",
+    "Security/项目/attachments/Pasted image 20230619142910.png",
     "Security/项目/attachments/Pasted image 20230619134715.png",
     "Security/项目/attachments/Pasted image 20230619133605.png",
     "Security/项目/attachments/Pasted image 20230619133355.png",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments/Pasted image 20230618160513.png",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
     "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
