@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c830feec5a45b490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/项目/项目资料搜集.md",
+                "file": "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/项目/项目资料搜集.md",
+                "file": "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/项目/项目资料搜集.md"
+                "file": "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md"
               }
             }
           },
@@ -166,8 +179,27 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "30fdb58ee945a730",
+  "active": "c830feec5a45b490",
   "lastOpenFiles": [
+    "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
+    "security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/README.md",
+    "security-study-plan-main/security-study-plan-main/network-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/docker-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/gcp-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/kubernetes-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/devsecops-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/azure-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/cryptography-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/aws-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
+    "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
+    "Python/Python编程：从入门到实践/第一部分 基础知识.md",
+    "Python/YouTube Python Tutorial.md",
+    "Daliy/Social Skills/决策.md",
+    "Daliy/Funny Recording/Eason R&Q.md",
     "Security/APT/初步了解.md",
     "Security/APT/红队笔记课程记录.md",
     "Security/项目/项目资料搜集.md",
@@ -185,30 +217,12 @@
     "Security/项目/attachments/Pasted image 20230703210700.png",
     "Security/项目/attachments/Pasted image 20230703150502.png",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
-    "Daliy/Social Skills/常识答题.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
-    "security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers",
-    "Security/网络安全基础学习/学习计划.md",
     "Security/网络安全基础学习/Linux",
     "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
     "Security/网络安全基础学习/attachments",
-    "security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
     "Security/网络安全基础学习",
-    "security-study-plan-main/security-study-plan-main/README.md",
-    "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
-    "security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/network-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/kubernetes-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/gcp-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/docker-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/devsecops-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/cryptography-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/azure-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/aws-security-study-plan.md",
     "security-study-plan-main/security-study-plan-main",
     "security-study-plan-main",
     "security-study-plan-main.zip",
