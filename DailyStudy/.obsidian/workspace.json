@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/项目/1.1 数据库日志.md",
+                "file": "Security/项目/项目资料搜集.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/项目/1.1 数据库日志.md",
+                "file": "Security/项目/项目资料搜集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/项目/1.1 数据库日志.md",
+                "file": "Security/项目/项目资料搜集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/项目/1.1 数据库日志.md"
+                "file": "Security/项目/项目资料搜集.md"
               }
             }
           },
@@ -193,6 +193,8 @@
   },
   "active": "95854d119683a818",
   "lastOpenFiles": [
+    "Security/项目/数据库审计工具.md",
+    "Security/项目/1.1 数据库日志.md",
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
     "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
     "security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
@@ -215,9 +217,7 @@
     "Security/APT/初步了解.md",
     "Security/APT/红队笔记课程记录.md",
     "Security/项目/项目资料搜集.md",
-    "Security/项目/1.1 数据库日志.md",
     "Security/项目/入侵防御知识.md",
-    "Security/项目/数据库审计工具.md",
     "Security/项目/attachments/Pasted image 20230703214826.png",
     "Security/项目/attachments/Pasted image 20230703214321.png",
     "Security/项目/attachments/Pasted image 20230703214311.png",
