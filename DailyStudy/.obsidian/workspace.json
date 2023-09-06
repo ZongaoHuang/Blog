@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95854d119683a818",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +189,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c830feec5a45b490",
+  "active": "95854d119683a818",
   "lastOpenFiles": [
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
     "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
