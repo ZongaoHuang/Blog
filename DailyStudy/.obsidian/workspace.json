@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95854d119683a818",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Security/项目/数据库审计.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +32,25 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "92e8be85ba806f5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e22b9afc757b014b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/项目/OpenRASP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/项目/数据库审计.md",
+                "file": "Security/项目/OpenRASP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/项目/数据库审计.md",
+                "file": "Security/项目/OpenRASP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/项目/数据库审计.md"
+                "file": "Security/项目/OpenRASP.md"
               }
             }
           },
@@ -191,13 +197,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "95854d119683a818",
+  "active": "e22b9afc757b014b",
   "lastOpenFiles": [
+    "Security/项目/数据库审计.md",
+    "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
+    "Security/项目/OpenRASP.md",
     "Security/项目/项目资料搜集.md",
     "Security/项目/数据库审计工具.md",
     "Security/APT/初步了解.md",
     "security-study-plan-main/security-study-plan-main/README.md",
-    "Security/项目/数据库审计.md",
     "Security/项目/1.1 数据库日志.md",
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
     "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
@@ -217,8 +225,6 @@
     "Python/YouTube Python Tutorial.md",
     "Daliy/Social Skills/决策.md",
     "Daliy/Funny Recording/Eason R&Q.md",
-    "Security/APT/红队笔记课程记录.md",
-    "Security/项目/入侵防御知识.md",
     "Security/项目/attachments/Pasted image 20230703214826.png",
     "Security/项目/attachments/Pasted image 20230703214321.png",
     "Security/项目/attachments/Pasted image 20230703214311.png",
