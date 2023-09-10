@@ -41,4 +41,29 @@ IPS与WAF/WAAP解决方案相辅相成，通常一起部署。WAF部署保护Web
 - RASP几乎没有误报情况。边界设备基于请求特征检测攻击，通常⽆法得知攻击是否成功。对于扫描器的踩点⾏为、nday 扫描，⼀般会产⽣⼤量报警。RASP 运行在应用内部，失败的攻击不会触发检测逻辑，所以每条攻击都是成功的报警。
 - RASP 可以发现更多攻击。以SQL注⼊为例，边界设备只能看到请求信息。RASP 不但能够看到请求信息，还能看到完整的SQL语句，并进行关联。如果SQL注⼊让服务器产生了语法错误或者其他异常，RASP引擎也能够识别和处理。
 - RASP 可以对抗未知漏洞。发生攻击时，边界防护设备无法掌握应用下一步的动向。RASP 技术可以识别出异常的程序逻辑，比如反序列化漏洞导致的命令执行，因此可以对抗未知漏洞。
-### 检测能力
+### 检测算法实现
+#### API接口中的数据泄露检测 
+随着公司业务的扩大，无论是梳理敏感数据的类型，还是梳理数据展示接口，都将成为一个难题。通过增加HTTP响应检测点，支持对请求进行检测。为了保证性能，默认每分钟仅抽样5个请求进行检测，且只处理html/json/xml 三种响应类型（均可配置）:
+```Java
+type   = response
+params = {
+    "content_type": "text/html",
+    "content":      "<h1>xxxx</h1>"
+}
+```
+在OpanRASP最新的官方插件里，增加了对**身份证**、**手机号**、**银行卡**三类数据的识别，当接口返回了此类数据，且**没有打码**时，会发出报警：![[Pasted image 20230910191746.png]]
+#### Web根目录的敏感数据检测
+OpenRASP在PHP版本中加入了Web根目录的扫描，若存在`.git/.tar/.sql/.log` 等敏感文件（正则可配置），将会发出报警。为了保证性能，默认每隔6小时扫描一遍，最多检测100个文件:![[Pasted image 20230910191839.png]]
+### 安装管理后台
+本地主机安装实践：[OpenRASP 安装流程_初心者|的博客-CSDN博客](https://blog.csdn.net/roukmanx/article/details/103782829)
+![[Pasted image 20230627092405.png]]
+配置完成后登录：用户名固定为 openrasp，初始密码为 admin@123
+![[Pasted image 20230628105207.png]]![[Pasted image 20230628105300.png]]
+### 服务器安装
+以Tomacat服务器自动化安装为例
+下载 `rasp-java.tar.gz` 或者 `rasp-java.zip` 并解压缩。之后进入到解压后的目录中，e.g **rasp-20181221**
+**如果你要开启远程管理**，请先参考 [管理后台 - 添加主机](https://rasp.baidu.com/doc/setup/panel.html#add-host) 文档，找到 `app_id/app_secret/backend_url` 三个关键参数，然后执行如下命令，
+```
+java -jar RaspInstall.jar -install <tomcat_root> -backendurl http://XXX -appsecret XXX -appid XXX
+```
+安装后，需要重启 Tomcat 服务器生效。
