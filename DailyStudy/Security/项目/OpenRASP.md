@@ -14,8 +14,9 @@
 IPS与WAF/WAAP解决方案相辅相成，通常一起部署。WAF部署保护Web应用流量，而IPS部署则通过检查所有数据包在网络级别进行扫描和保护。IPS通常采用内联方式部署至传入流量，扫描大多数网络协议中的威胁，并在OSI第4-7层发挥作用。WAF和WAAP解决方案主要部署于IPS之后，针对传入流量并扫描OSI第7层的应用威胁。
 ## RASP
 ### 什么是RASP
+
+- 随着 Web 应用攻击手段变得复杂，基于请求特征的防护手段，已经不能满足企业安全防护需求。早在2014 Gartner 引入了“Runtime application self-protection”一词，简称为RASP，属于一种新型应用安全保护技术，它将防护功能"注入"到应用程序中，与应用程序融为一体，通过Hook少量关键函数,来实时观测程序运行期间的内部情况。当应用出现可疑行为时,RASP根据当前上下文环境精准识别攻击事件，并给予实时阻断，使应用程序具备自我防护能力，而不需要进行人工干预。
 - RASP技术可以快速的将安全防御功能整合到正在运行的应用程序中，它拦截从应用程序到系统的所有调用，确保它们是安全的，并直接在应用程序内验证数据请求。Web和非Web应用程序都可以通过RASP进行保护。该技术不会影响应用程序的设计，因为RASP的检测和保护功能是在应用程序运行的系统上运行的。
-- 随着 Web 应用攻击手段变得复杂，基于请求特征的防护手段，已经不能满足企业安全防护需求。早在2014 Gartner 引入了“Runtime application self-protection”一词，简称为RASP，属于一种新型应用安全保护技术，它将防护功能"注入"到应用程序中，与应用程序融为一体，通过Horootok少量关键函数,来实时观测程序运行期间的内部情况。当应用出现可疑行为时,RASP根据当前上下文环境精准识别攻击事件，并给予实时阻断，使应用程序具备自我防护能力，而不需要进行人工干预。
 - RASP 通过实时采集 Web 应用的高风险行为，通过特征规则、上下文语义分析及第三方安全产品数据关联分析等多种安全模型来提升检测准确率，相较于传统 Web 应用安全产品，RASP从海量的攻击中排除掉了大量的无效攻击，聚焦发现真实的已知和未知安全威胁。并且在发出的报警信息上, RASP可以清晰的还原出代码行级别的攻击路径，对漏洞重现与修复具有极大的帮助。
   ![[Pasted image 20230909145600.png]]
 ### RASP vs WAF
@@ -31,7 +32,10 @@ IPS与WAF/WAAP解决方案相辅相成，通常一起部署。WAF部署保护Web
 5. 防御0day漏洞：RASP可以保护应用运行时环境中的所有代码，包括自研代码、第三方组件、Web应用容器（Tomcat、Django、Flask等）。例如最近几个波及范围较广的0day漏洞：Log4j2 RCE（CVE-2021-44228）、Spring4Shell（CVE-2022-22965）、Fastjson反序列化漏洞（[https://github.com/alibaba/fastjson/wiki/security_update_20220523](https://link.zhihu.com/?target=https%3A//github.com/alibaba/fastjson/wiki/security_update_20220523)），虽然攻击方式有变化，但是最终实施攻击总是需要调用一些底层的方法/函数。无论攻击入口如何变化、攻击手段如何隐蔽，都无法绕开最终关键函数的执行过程，因此RASP一定能对其进行有效拦截。
 ## OpenRASP
 [[项目资料搜集]]
+[初识Rasp——Openrasp代码分析 - Highness_DragonFly - 博客园 (cnblogs.com)](https://www.cnblogs.com/HighnessDragonfly/p/16844377.html)
+[奇安信攻防社区-初识Rasp——Openrasp代码分析 (butian.net)](https://forum.butian.net/share/1959)
 ### 介绍
+以Java服务器为例，在 Java 技术栈下，RASP 引擎以 javaagent 的形式实现，并运⾏在 JVM 之上。在应⽤服务器启动的时候，RASP 引擎借助 JVM ⾃身提供的 instrumentation 技术，通过替换字节码的⽅式对关键类⽅法进⾏挂钩:
 ![[Pasted image 20230910171045.png]]
 **技术能力优点：**
 - RASP几乎没有误报情况。边界设备基于请求特征检测攻击，通常⽆法得知攻击是否成功。对于扫描器的踩点⾏为、nday 扫描，⼀般会产⽣⼤量报警。RASP 运行在应用内部，失败的攻击不会触发检测逻辑，所以每条攻击都是成功的报警。
