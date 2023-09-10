@@ -1,5 +1,7 @@
 # 相关链接
 [百度安全的OpenRASP项目，究竟是什么？ - FreeBuf网络安全行业门户](https://www.freebuf.com/articles/web/164413.html)
+
+[奇安信攻防社区-初识Rasp——Openrasp代码分析 (butian.net)](https://forum.butian.net/share/1959)
 # 实施方案
 ## IPS和WAF
 ### 什么是WAF
