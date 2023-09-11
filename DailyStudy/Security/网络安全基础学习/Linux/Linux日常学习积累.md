@@ -19,3 +19,8 @@ useradd -g oinstall -G dba,oper oracle
 # 将oracle用户的密码设置为oracle
 echo "oracle"|passwd oracle --stdin
 ```
+### Linux chown 命令
+[Linux chown 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-chown.html)
+- Linux chown（英文全拼：**change owner**）命令用于设置文件所有者和文件关联组的命令。
+- **使用权限** : root
+- 将当前前目录下的所有文件与子目录的拥有者皆设为 runoob，群体的使用者 runoobgroup:```chown -R runoob:runoobgroup * ```
