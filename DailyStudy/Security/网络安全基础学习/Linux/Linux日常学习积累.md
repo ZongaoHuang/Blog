@@ -24,3 +24,12 @@ echo "oracle"|passwd oracle --stdin
 - Linux chown（英文全拼：**change owner**）命令用于设置文件所有者和文件关联组的命令。
 - **使用权限** : root
 - 将当前前目录下的所有文件与子目录的拥有者皆设为 runoob，群体的使用者 runoobgroup:```chown -R runoob:runoobgroup * ```
+### Linux 删除命令
+- 删除文件夹
+```vim
+rm -rf /root/logs/game
+```
+- 删除文件
+```
+rm -f /root/logs/game/nohup.log
+```
