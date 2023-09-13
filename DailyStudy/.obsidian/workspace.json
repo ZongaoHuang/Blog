@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/项目/数据库审计.md",
+                "file": "Security/项目/1.1 数据库日志.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/项目/数据库审计.md",
+                "file": "Security/项目/1.1 数据库日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/项目/数据库审计.md",
+                "file": "Security/项目/1.1 数据库日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/项目/数据库审计.md"
+                "file": "Security/项目/1.1 数据库日志.md"
               }
             }
           },
@@ -193,9 +193,13 @@
   },
   "active": "95854d119683a818",
   "lastOpenFiles": [
+    "Security/项目/入侵防御知识.md",
+    "Security/项目/数据库审计.md",
     "Security/项目/项目资料搜集.md",
     "Security/项目/数据库审计工具.md",
-    "Security/项目/数据库审计.md",
+    "Security/网络安全基础学习/学习计划.md",
+    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
+    "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
     "Security/项目/1.1 数据库日志.md",
     "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
     "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
@@ -215,10 +219,6 @@
     "Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Python/YouTube Python Tutorial.md",
     "Daliy/Social Skills/决策.md",
-    "Daliy/Funny Recording/Eason R&Q.md",
-    "Security/APT/初步了解.md",
-    "Security/APT/红队笔记课程记录.md",
-    "Security/项目/入侵防御知识.md",
     "Security/项目/attachments/Pasted image 20230703214826.png",
     "Security/项目/attachments/Pasted image 20230703214321.png",
     "Security/项目/attachments/Pasted image 20230703214311.png",
@@ -232,7 +232,6 @@
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers",
     "Security/网络安全基础学习/Linux",
-    "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
     "Security/网络安全基础学习/attachments",
     "Security/网络安全基础学习",
     "security-study-plan-main/security-study-plan-main",
