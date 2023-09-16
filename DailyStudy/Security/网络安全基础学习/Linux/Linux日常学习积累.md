@@ -1,7 +1,5 @@
 # Linux安装Oracle
-[Linux CentOS 7安装Oracle11g超完美教程_centos7安装oracle11g_蜗牛er的博客-CSDN博客](https://blog.csdn.net/qq_37768368/article/details/121384247)
 
-[centos7 下载安装 oracle11 最新必成功_oracle11g依赖包下载-CSDN博客](https://blog.csdn.net/secretWHD/article/details/117847099)
 
 使用Xshell安装Oracle成功：[软件安装09：CentOS安装Oracle - 虚拟机 - 5997CK - 欢迎您! (hezhilin.online)](https://hezhilin.online/forum.php?mod=viewthread&tid=55&extra=)
 ## 安装细节
