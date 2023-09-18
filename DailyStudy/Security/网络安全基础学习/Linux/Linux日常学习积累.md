@@ -34,3 +34,5 @@ rm -rf /root/logs/game
 rm -f /root/logs/game/nohup.log
 ```
 
+# 使用笔记本中的Xshell通过ssh链接实验室台式机上的Linux
+[xshell远程访问另一台电脑的ubuntu虚拟机，实现方式（关键在于虚拟机端口映射转发与win防火墙设置）_xshell端口映射_千随Reflect的博客-CSDN博客](https://blog.csdn.net/mountain_D_kyle/article/details/131012018?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-131012018-blog-118150957.235%5Ev38%5Epc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-131012018-blog-118150957.235%5Ev38%5Epc_relevant_anti_t3_base&utm_relevant_index=2)
