@@ -6,7 +6,6 @@
       {
         "id": "e98acd418b24aeb5",
         "type": "tabs",
-        "dimension": 49.950149551345966,
         "children": [
           {
             "id": "5d0a80de84bbe55b",
@@ -57,25 +56,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "f0704a8cb9688ba8",
-        "type": "tabs",
-        "dimension": 50.04985044865404,
-        "children": [
-          {
-            "id": "9d9eb4269fb9da03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security/项目/1.4 Oracle审计实验.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -234,6 +214,8 @@
   },
   "active": "71aafe15ccdb541e",
   "lastOpenFiles": [
+    "Security/项目/attachments/Pasted image 20230919095822.png",
+    "Security/项目/attachments/Pasted image 20230919095301.png",
     "Security/项目/1.4 Oracle审计实验.md",
     "Security/项目/1.2 数据库审计.md",
     "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
@@ -268,7 +250,6 @@
     "Security/项目/attachments/Pasted image 20230703214826.png",
     "Security/项目/attachments/Pasted image 20230703214321.png",
     "Security/项目/attachments/Pasted image 20230703214311.png",
-    "Security/项目/attachments/Pasted image 20230703210833.png",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers",
     "Security/网络安全基础学习/Linux",
