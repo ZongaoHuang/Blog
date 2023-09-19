@@ -1,78 +1,71 @@
-**Slide 1: Title**
+# Introduction to Oracle Database and Security Auditing
 
-- Title: Introduction to Oracle Database and Security Auditing
-- Subtitle: A Brief Overview of Oracle Corporation and Its Database Technology
-- Your Name and Affiliation
+## Oracle Corporation
 
-**Slide 2: Oracle Corporation**
+- Founded in 1977
+- Headquarters: Redwood City, California
+- Key Figures: Revenue, Employees
+- Core Business Areas: Software and Cloud Computing
 
-- Introduction to Oracle Corporation
-    - Founding Year
-    - Headquarters
-    - Key Figures (e.g., Revenue, Employees)
-    - Core Business Areas
+## Oracle Database
 
-**Slide 3: Oracle Database**
+- A powerful relational database management system
+- Known for scalability, performance, and reliability
+- Plays a critical role in modern businesses
 
-- Overview of Oracle Database
-    - Brief History
-    - Features and Capabilities
-    - Market Position
-- Oracle Database Versions (e.g., Oracle Database 19c)
+## Oracle Database Architecture
 
-**Slide 4: Oracle Database Architecture**
+- Robust architecture
+- Components include:
+  - Oracle Database Server
+  - Client Applications
 
-- High-Level Architecture
-    - Components (e.g., Instance, Datafiles, Control Files)
-    - Oracle Database Server
-    - Client Applications
-
-**Slide 5: Oracle Database Security**
+## Oracle Database Security
 
 - Importance of Database Security
-- Oracle Database Security Features
-    - Authentication
-    - Authorization
-    - Encryption
-    - Auditing
+- Features:
+  - Authentication
+  - Authorization
+  - Encryption
+  - Auditing
 
-**Slide 6: Oracle Database Auditing**
+## Oracle Database Auditing
 
-- Introduction to Database Auditing
-- Types of Auditing in Oracle
-    - Statement Auditing
-    - Privilege Auditing
-    - Object Auditing
-- Enabling and Configuring Auditing
+- Monitoring and recording database activity
+- Types:
+  - Statement Auditing
+  - Privilege Auditing
+  - Object Auditing
+- Configurable to meet specific security requirements
 
-**Slide 7: Oracle Database Auditing (continued)**
+## Oracle Database Auditing (continued)
 
-- Monitoring and Analyzing Audit Data
-- Common Audit Events (e.g., Logins, DDL Statements)
-- Audit Data Storage (Database or Operating System)
-- Audit Policies and Best Practices
+- Powerful for enhancing security
+- Track login attempts, DDL statements, and more
+- Data storage options: Database or OS audit trail
+- Importance of well-defined audit policies and best practices
 
-**Slide 8: Benefits of Oracle Database Auditing**
+## Benefits of Oracle Database Auditing
 
-- Enhancing Security
-- Meeting Compliance Requirements (e.g., GDPR, HIPAA)
-- Detecting Suspicious Activities
-- Supporting Forensic Investigations
+- Enhancing security
+- Meeting compliance requirements (e.g., GDPR, HIPAA)
+- Detecting suspicious activities
+- Supporting forensic investigations
 
-**Slide 9: Demo or Real-World Example**
+## Demo or Real-World Example
 
-- Showcase a brief demonstration or provide a real-world example of how Oracle Database auditing works in practice.
+- Illustrate Oracle Database auditing through a brief demonstration or real-world example.
 
-**Slide 10: Conclusion**
+## Conclusion
 
-- Summary of Key Points
-- Importance of Oracle Database Security Auditing
-- Encourage Questions
+- Oracle Database and security auditing are crucial for data management.
+- Ensure data integrity, enhance security, and comply with regulations.
+- Questions?
 
-**Slide 11: Q&A**
+## Q&A
 
 - Open the floor for questions and answers.
 
-**Slide 12: Thank You**
+## Thank You
 
-- Express gratitude to the audience for their attention.
+- Thank you for your attention and participation!
