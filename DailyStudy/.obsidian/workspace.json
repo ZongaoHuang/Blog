@@ -25,25 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/项目/1.1 数据库日志.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "fbb8ba4857bbfd2a",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "DailyStudy/.obsidian/workspace.json",
-                "staged": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Security/项目/1.2 数据库审计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Security/项目/1.2 数据库审计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Security/项目/1.2 数据库审计.md"
+              }
             }
           },
           {
@@ -196,10 +189,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "fbb8ba4857bbfd2a",
+  "active": "ab4deff8d0012e19",
   "lastOpenFiles": [
-    "Daliy/Course/English Prenstation.md",
+    "Security/项目/1.4 Oracle审计实验.md",
+    "Security/项目/1.3 OpenRASP.md",
     "Security/项目/1.2 数据库审计.md",
+    "Security/项目/1.1 数据库日志.md",
+    "Daliy/Course/English Prenstation.md",
     "Daliy/Course",
     "Security/项目/attachments/Pasted image 20230919100821.png",
     "Security/项目/attachments/Pasted image 20230919100808.png",
@@ -208,11 +204,8 @@
     "Security/项目/attachments/Pasted image 20230919100227.png",
     "Security/项目/attachments/Pasted image 20230919095822.png",
     "Security/项目/attachments/Pasted image 20230919095301.png",
-    "Security/项目/1.4 Oracle审计实验.md",
     "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
-    "Security/项目/1.3 OpenRASP.md",
     "Security/项目/attachments/Pasted image 20230915164201.png",
-    "Security/项目/1.1 数据库日志.md",
     "Security/项目/数据库审计.md",
     "Security/项目/Mysql数据库审计.md",
     "Security/项目/入侵防御知识.md",
