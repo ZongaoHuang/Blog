@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "d102b6f74596a0dc",
+  "active": "00d955a57ab31cb0",
   "lastOpenFiles": [
     "Daliy/日记/attachments/Pasted image 20230925153506.png",
     "Daliy/日记/attachments",
