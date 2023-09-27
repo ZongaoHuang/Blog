@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "7ae3b8396422c8d4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d6d686f429ff986b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/日记/2023-09-25.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "3d1ddadd59c754d8",
         "type": "tabs",
         "children": [
@@ -31,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/日记/2023-09-26.md",
+                "file": "Daliy/diary/2023-09-26.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "457590af16e0dc74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/Dairy Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/日记/2023-09-26.md",
+                "file": "Template/Dairy Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/日记/2023-09-26.md",
+                "file": "Template/Dairy Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/日记/2023-09-26.md"
+                "file": "Template/Dairy Template.md"
               }
             }
           },
@@ -194,22 +189,26 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "dab983c7613eadd1",
+  "active": "457590af16e0dc74",
   "lastOpenFiles": [
+    "Daliy/Funny Recording/Eason R&Q.md",
+    "Template/Dairy Template.md",
+    "Daliy/diary/2023-09-27.md",
+    "Template",
     "Security/项目/1.2 数据库审计.md",
-    "Daliy/日记/2023-09-25.md",
+    "Daliy/diary/2023-09-25.md",
     "Security/项目/1.3 OpenRASP.md",
-    "Daliy/日记/2023-09-26.md",
-    "Daliy/日记/attachments/Pasted image 20230925173723.png",
-    "Daliy/日记/attachments/Pasted image 20230925173721.png",
-    "Daliy/日记/attachments/Pasted image 20230925173719.png",
-    "Daliy/日记/attachments/Pasted image 20230925153506.png",
-    "Daliy/日记/attachments",
+    "Daliy/diary/2023-09-26.md",
+    "Daliy/diary/attachments/Pasted image 20230925173723.png",
+    "Daliy/diary/attachments/Pasted image 20230925173721.png",
+    "Daliy/diary/attachments/Pasted image 20230925173719.png",
+    "Daliy/diary/attachments/Pasted image 20230925153506.png",
+    "Daliy/diary/attachments",
     "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
     "Security/网络安全基础学习/学习计划.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
     "Security/项目/1.1 数据库日志.md",
-    "Daliy/日记",
+    "Daliy/diary",
     "2023-09-25.md",
     "Security/APT/初步了解.md",
     "Security/APT/红队笔记课程记录.md",
@@ -226,21 +225,17 @@
     "Security/项目/Mysql数据库审计.md",
     "Security/项目/入侵防御知识.md",
     "conflict-files-obsidian-git.md",
-    "security-study-plan-main/security-study-plan-main/README.md",
-    "security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
-    "security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/network-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/docker-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/gcp-security-study-plan.md",
-    "security-study-plan-main/security-study-plan-main/kubernetes-security-study-plan.md",
+    "Security/security-study-plan-main/security-study-plan-main/README.md",
+    "Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
+    "Security/security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
+    "Security/security-study-plan-main/security-study-plan-main/security-development-lifecycle.md",
+    "Security/security-study-plan-main/security-study-plan-main/secure-code-review-study-plan.md",
+    "Security/security-study-plan-main/security-study-plan-main/network-security-study-plan.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers",
     "Security/网络安全基础学习/Linux",
     "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
     "Security/网络安全基础学习/attachments",
-    "Security/网络安全基础学习",
-    "security-study-plan-main/security-study-plan-main"
+    "Security/网络安全基础学习"
   ]
 }
