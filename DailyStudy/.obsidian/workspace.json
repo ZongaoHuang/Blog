@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-09-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-09-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-09-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Dairy Template.md"
+                "file": "Daliy/diary/2023-09-27.md"
               }
             }
           },
@@ -191,8 +191,8 @@
   },
   "active": "457590af16e0dc74",
   "lastOpenFiles": [
-    "Daliy/Funny Recording/Eason R&Q.md",
     "Template/Dairy Template.md",
+    "Daliy/Funny Recording/Eason R&Q.md",
     "Daliy/diary/2023-09-27.md",
     "Template",
     "Security/项目/1.2 数据库审计.md",
