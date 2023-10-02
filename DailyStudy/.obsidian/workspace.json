@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-10-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/diary/2023-10-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Dairy Template.md"
+                "file": "Daliy/diary/2023-10-02.md"
               }
             }
           },
@@ -188,8 +188,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4104d0f23ae4c276",
+  "active": "dab983c7613eadd1",
   "lastOpenFiles": [
+    "Template/Dairy Template.md",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章",
     "AI/通往AGI之路",
@@ -201,7 +202,6 @@
     "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
     "Daliy/diary/2023-09-26.md",
-    "Template/Dairy Template.md",
     "Daliy/Funny Recording/Eason R&Q.md",
     "Template",
     "Daliy/diary/2023-09-25.md",
@@ -234,7 +234,6 @@
     "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
     "Security/security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers"
+    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments"
   ]
 }
