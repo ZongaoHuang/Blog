@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-10-02.md",
+                "file": "Template/Dairy Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-10-02.md",
+                "file": "Template/Dairy Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-10-02.md",
+                "file": "Template/Dairy Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-10-02.md"
+                "file": "Template/Dairy Template.md"
               }
             }
           },
@@ -188,11 +188,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "dab983c7613eadd1",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
+    "AI/通往AGI之路/总结",
+    "AI/通往AGI之路/10篇从0到1的文章",
+    "AI/通往AGI之路",
+    "AI",
+    "Daliy/diary/2023-10-02.md",
     "Daliy/diary/attachments/Pasted image 20231002134632.png",
     "Daliy/diary/2023-09-27.md",
-    "Daliy/diary/2023-10-02.md",
     "Daliy/diary/未命名.md",
     "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
@@ -223,7 +227,6 @@
     "Security/项目/attachments/Pasted image 20230919100431.png",
     "Security/项目/attachments/Pasted image 20230919100319.png",
     "Security/项目/attachments/Pasted image 20230919100227.png",
-    "Security/项目/attachments/Pasted image 20230919095822.png",
     "Security/项目/数据库审计.md",
     "Security/项目/Mysql数据库审计.md",
     "Security/项目/入侵防御知识.md",
@@ -232,9 +235,6 @@
     "Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
     "Security/security-study-plan-main/security-study-plan-main/threat-modeling-study-plan.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers",
-    "Security/网络安全基础学习/Linux",
-    "Security/网络安全基础学习/attachments/Linux Basics for Hackers - PDF Room.pdf",
-    "Security/网络安全基础学习/attachments"
+    "Security/网络安全基础学习/Linux/Linux Basics for Hackers"
   ]
 }
