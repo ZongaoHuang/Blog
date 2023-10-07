@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -210,12 +210,13 @@
   },
   "active": "dab983c7613eadd1",
   "lastOpenFiles": [
+    "Template/Dairy Template.md",
+    "Daliy/diary/2023-10-07.md",
+    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/Pasted image 20231007193820.png",
     "Daliy/diary/attachments/Pasted image 20231007170308.png",
     "Daliy/diary/attachments/Pasted image 20231007163433.png",
     "Daliy/diary/2023-10-02.md",
-    "Daliy/diary/2023-10-07.md",
-    "Template/Dairy Template.md",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章",
     "AI/通往AGI之路",
@@ -223,7 +224,6 @@
     "Daliy/diary/attachments/Pasted image 20231002134632.png",
     "Daliy/diary/2023-09-27.md",
     "Daliy/diary/未命名.md",
-    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
     "Daliy/diary/2023-09-26.md",
     "Daliy/Funny Recording/Eason R&Q.md",
@@ -248,7 +248,6 @@
     "Daliy/Course",
     "Security/项目/attachments/Pasted image 20230919100821.png",
     "Security/项目/attachments/Pasted image 20230919100808.png",
-    "Security/项目/attachments/Pasted image 20230919100431.png",
     "Security/项目/数据库审计.md",
     "Security/项目/Mysql数据库审计.md",
     "Security/项目/入侵防御知识.md",
