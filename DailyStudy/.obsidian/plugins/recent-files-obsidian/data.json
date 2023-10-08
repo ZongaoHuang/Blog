@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "1.2 数据库审计",
+      "path": "Security/项目/1.2 数据库审计.md"
+    },
+    {
+      "basename": "红队笔记课程记录",
+      "path": "Security/APT/红队笔记课程记录.md"
+    },
+    {
+      "basename": "初步了解",
+      "path": "Security/APT/初步了解.md"
+    },
+    {
+      "basename": "2023-10-08",
+      "path": "Daliy/diary/2023-10-08.md"
+    },
+    {
+      "basename": "Linux日常学习积累",
+      "path": "Security/网络安全基础学习/Linux/Linux日常学习积累.md"
+    },
+    {
       "basename": "Dairy Template",
       "path": "Template/Dairy Template.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "2023-10-07",
       "path": "Daliy/diary/2023-10-07.md"
-    },
-    {
-      "basename": "1.2 数据库审计",
-      "path": "Security/项目/1.2 数据库审计.md"
     }
   ],
   "omittedPaths": [],

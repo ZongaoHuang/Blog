@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Dairy Template.md"
+                "file": "Security/项目/1.2 数据库审计.md"
               }
             }
           },
@@ -210,6 +210,11 @@
   },
   "active": "b62fcf229f637f58",
   "lastOpenFiles": [
+    "Security/APT/红队笔记课程记录.md",
+    "Security/APT/初步了解.md",
+    "Daliy/diary/2023-10-08.md",
+    "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
+    "Template/Dairy Template.md",
     "AI/通往AGI之路/10篇从0到1的文章/未命名.md",
     "Daliy/Course/English Prenstation.md",
     "Daliy/Social Skills/决策.md",
@@ -217,7 +222,6 @@
     "Daliy/diary/2023-10-02.md",
     "Daliy/diary/2023-10-07.md",
     "Security/项目/1.2 数据库审计.md",
-    "Template/Dairy Template.md",
     "Daliy/diary/attachments/Pasted image 20231007193820.png",
     "Daliy/diary/attachments/Pasted image 20231007170308.png",
     "Daliy/diary/attachments/Pasted image 20231007163433.png",
@@ -239,14 +243,11 @@
     "Daliy/diary/attachments/Pasted image 20230925173719.png",
     "Daliy/diary/attachments/Pasted image 20230925153506.png",
     "Daliy/diary/attachments",
-    "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
     "Security/网络安全基础学习/学习计划.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
     "Security/项目/1.1 数据库日志.md",
     "Daliy/diary",
     "2023-09-25.md",
-    "Security/APT/初步了解.md",
-    "Security/APT/红队笔记课程记录.md",
     "Security/项目/1.4 Oracle审计实验.md",
     "Daliy/Course",
     "Security/项目/attachments/Pasted image 20230919100821.png",
@@ -254,7 +255,6 @@
     "Security/项目/数据库审计.md",
     "Security/项目/Mysql数据库审计.md",
     "Security/项目/入侵防御知识.md",
-    "conflict-files-obsidian-git.md",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments"
   ]
 }
