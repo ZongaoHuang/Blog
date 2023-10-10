@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-10-09.md",
+                "file": "Daliy/diary/2023-10-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-10-09.md",
+                "file": "Daliy/diary/2023-10-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-10-09.md",
+                "file": "Daliy/diary/2023-10-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-10-09.md"
+                "file": "Daliy/diary/2023-10-08.md"
               }
             }
           },
@@ -209,11 +209,13 @@
   },
   "active": "a82fac66778123cc",
   "lastOpenFiles": [
+    "Daliy/diary/2023-10-09.md",
+    "Daliy/diary/2023-10-10.md",
+    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/e836758e69f441d1adc6707e0264427.jpg",
     "Daliy/diary/attachments/Pasted image 20231009184149.png",
     "Daliy/diary/attachments/Pasted image 20231009184140.png",
     "Daliy/diary/2023-10-08.md",
-    "Daliy/diary/2023-10-09.md",
     "Daliy/diary/attachments/Pasted image 20231008183343.png",
     "Daliy/diary/attachments/Pasted image 20231008183257.png",
     "Daliy/diary/attachments/Pasted image 20231008183220.png",
@@ -221,9 +223,7 @@
     "Daliy/diary/attachments/Pasted image 20231008172812.png",
     "Daliy/diary/attachments/Pasted image 20231008153308.png",
     "Daliy/diary/attachments/Pasted image 20231008103609.png",
-    "Daliy/diary/attachments/Pasted image 20231008103534.png",
     "AI/通往AGI之路/10篇从0到1的文章/未命名.md",
-    "Security/项目/1.2 数据库审计.md",
     "Security/APT/红队笔记课程记录.md",
     "Security/APT/初步了解.md",
     "Security/网络安全基础学习/Linux/Linux日常学习积累.md",
