@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/security-study-plan-main/security-study-plan-main/README.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/security-study-plan-main/security-study-plan-main/README.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/security-study-plan-main/security-study-plan-main/README.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/security-study-plan-main/security-study-plan-main/README.md"
+                "file": "Security/项目/1.2 数据库审计.md"
               }
             }
           },
@@ -222,6 +221,8 @@
   },
   "active": "a82fac66778123cc",
   "lastOpenFiles": [
+    "Daliy/diary/2023-10-12.md",
+    "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Daliy/diary/2023-10-11.md",
     "Daliy/diary/2023-10-10.md",
@@ -263,9 +264,7 @@
     "Daliy/diary/2023-09-25.md",
     "Daliy/diary/attachments",
     "Security/网络安全基础学习/学习计划.md",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/Day 1.md",
     "Daliy/diary",
-    "2023-09-25.md",
     "Daliy/Course",
     "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments"
   ]
