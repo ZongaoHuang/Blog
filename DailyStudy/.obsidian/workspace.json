@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2a9c0f8b3c8310bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/diary/2023-10-16.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da50574e3a2ccca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b066d92b0c87f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/diary/2023-10-09.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "file": "Daliy/diary/2023-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "file": "Daliy/diary/2023-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md"
+                "file": "Daliy/diary/2023-10-16.md"
               }
             }
           },
@@ -232,15 +195,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ea75a4b8e02cce7f",
+  "active": "1e594d92b5441937",
   "lastOpenFiles": [
+    "Daliy/diary/attachments/三级头招新 1.md",
     "Daliy/diary/attachments/attachments/Pasted image 20231008221818 1.png",
     "Daliy/diary/attachments/attachments/Pasted image 20231008221842 1.png",
     "Daliy/diary/attachments/attachments/Pasted image 20231008221842.png",
     "Daliy/diary/attachments/attachments/Pasted image 20231008221818.png",
     "Daliy/diary/attachments/Pasted image 20231008221842.png.md",
     "Daliy/diary/2023-10-16.md",
-    "Daliy/diary/attachments/三级头招新 1.md",
     "Daliy/diary/2023-10-09.md",
     "Daliy/diary/attachments/attachments/Pasted image 20231008191904.png",
     "Daliy/diary/attachments/attachments",
@@ -259,7 +222,6 @@
     "Daliy/diary/attachments/Pasted image 20231013200253.png",
     "Daliy/diary/attachments/Pasted image 20231013200135.png",
     "Daliy/diary/attachments/Pasted image 20231013200126.png",
-    "Daliy/diary/attachments/Pasted image 20231013193723.png",
     "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Security/项目/1.1 数据库日志.md",
