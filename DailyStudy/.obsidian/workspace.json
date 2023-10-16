@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2a9c0f8b3c8310bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5b066d92b0c87f1c",
             "type": "leaf",
             "state": {
@@ -40,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daliy/diary/attachments/三级头招新 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daliy/diary/attachments/三级头招新 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daliy/diary/attachments/三级头招新 1.md"
+              }
             }
           },
           {
@@ -212,16 +228,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "229921af2ab90c18",
+  "active": "2a9c0f8b3c8310bf",
   "lastOpenFiles": [
     "Daliy/diary/2023-10-09.md",
+    "Daliy/diary/attachments/三级头招新 1.md",
     "Daliy/diary/2023-10-16.md",
     "Daliy/diary/2023-10-10.md",
     "Daliy/diary/2023-10-11.md",
     "Daliy/diary/2023-10-12.md",
     "Daliy/diary/2023-10-13.md",
     "Daliy/diary/2023-10-15.md",
-    "Daliy/diary/attachments/三级头招新 1.md",
     "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/三级头招新.md",
     "Daliy/diary/attachments/Pasted image 20231008191904.png.md",
