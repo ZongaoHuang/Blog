@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "file": "Daliy/diary/2023-10-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,14 +41,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "229921af2ab90c18",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -134,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "file": "Daliy/diary/2023-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md",
+                "file": "Daliy/diary/2023-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/attachments/三级头招新 1.md"
+                "file": "Daliy/diary/2023-10-16.md"
               }
             }
           },
@@ -230,8 +222,10 @@
   },
   "active": "2a9c0f8b3c8310bf",
   "lastOpenFiles": [
-    "Daliy/diary/2023-10-09.md",
     "Daliy/diary/attachments/三级头招新 1.md",
+    "Daliy/diary/attachments/attachments/Pasted image 20231008191904.png",
+    "Daliy/diary/attachments/attachments",
+    "Daliy/diary/2023-10-09.md",
     "Daliy/diary/2023-10-16.md",
     "Daliy/diary/2023-10-10.md",
     "Daliy/diary/2023-10-11.md",
@@ -252,7 +246,6 @@
     "Daliy/diary/attachments/2f71f65fe57efc156261ed6b3feb289.png",
     "Daliy/diary/attachments/21271934a710b806f84799be7e5bbbd.jpg",
     "Daliy/diary/attachments/aebb3d8447cc685a0dd5dce75558243.jpg",
-    "Daliy/diary/attachments/ec7e21f2b40adacce0620fdef861f47.jpg",
     "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
     "Security/项目/1.1 数据库日志.md",
@@ -265,7 +258,6 @@
     "Daliy/Course/English Prenstation.md",
     "Daliy/Social Skills/决策.md",
     "AI/通往AGI之路/10篇从0到1的文章/未命名看板.md",
-    "Daliy/diary/2023-10-02.md",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章",
     "AI/通往AGI之路",
@@ -274,7 +266,6 @@
     "Template",
     "Daliy/diary/attachments",
     "Daliy/diary",
-    "Daliy/Course",
-    "Security/网络安全基础学习/Linux/Linux Basics for Hackers/attachments"
+    "Daliy/Course"
   ]
 }
