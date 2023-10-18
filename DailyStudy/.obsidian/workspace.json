@@ -98,12 +98,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -221,7 +221,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a44e78c4e119a976",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "Daliy/diary/2023-10-12.md",
     "Security/项目/1.2 数据库审计.md",
