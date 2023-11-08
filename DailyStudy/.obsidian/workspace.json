@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "oracle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md"
+                "file": "Security/项目/1.2 数据库审计.md"
               }
             }
           },
@@ -210,9 +211,9 @@
   },
   "active": "ce6c64f984499944",
   "lastOpenFiles": [
+    "Daliy/diary/2023-11-08.md",
     "Daliy/diary/attachments/Pasted image 20231108155551.png",
     "Daliy/diary/2023-11-07.md",
-    "Daliy/diary/2023-11-08.md",
     "Daliy/diary/2023-11-06.md",
     "Daliy/diary/2023-11-05.md",
     "Daliy/diary/2023-11-01.md",
@@ -245,7 +246,6 @@
     "Daliy/diary/2023-10-16.md",
     "Daliy/diary/attachments/10ac027a7c3d3db014d1a2f6a206dd2.jpg",
     "Daliy/diary/attachments/Pasted image 20231016164525.png",
-    "Daliy/diary/attachments/Pasted image 20231016155718.png",
     "Daliy/diary/attachments/attachments",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章",
