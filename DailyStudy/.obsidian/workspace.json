@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "审计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md",
+                "file": "Security/项目/1.2 数据库审计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-11-08.md"
+                "file": "Security/项目/1.2 数据库审计.md"
               }
             }
           },
@@ -210,8 +211,8 @@
   },
   "active": "ce6c64f984499944",
   "lastOpenFiles": [
-    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/2023-11-08.md",
+    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/attachments/Pasted image 20231108155551.png",
     "Daliy/diary/2023-11-07.md",
     "Daliy/diary/2023-11-06.md",
