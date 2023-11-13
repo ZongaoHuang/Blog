@@ -5,40 +5,20 @@
       "path": "Daliy/diary/2023-11-13.md"
     },
     {
+      "basename": "决策",
+      "path": "Daliy/Social Skills/决策.md"
+    },
+    {
+      "basename": "Eason R&Q",
+      "path": "Daliy/Funny Recording/Eason R&Q.md"
+    },
+    {
       "basename": "2023-11-12",
       "path": "Daliy/diary/2023-11-12.md"
     },
     {
       "basename": "2023-11-11",
       "path": "Daliy/diary/2023-11-11.md"
-    },
-    {
-      "basename": "2023-10-18",
-      "path": "Daliy/diary/2023-10-18.md"
-    },
-    {
-      "basename": "aws-security-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md"
-    },
-    {
-      "basename": "common-skills-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
-    },
-    {
-      "basename": "English Prenstation",
-      "path": "Daliy/Course/English Prenstation.md"
-    },
-    {
-      "basename": "2023-10-12",
-      "path": "Daliy/diary/2023-10-12.md"
-    },
-    {
-      "basename": "2023-09-27",
-      "path": "Daliy/diary/2023-09-27.md"
-    },
-    {
-      "basename": "1.2 数据库审计",
-      "path": "Security/项目/1.2 数据库审计.md"
     },
     {
       "basename": "2023-11-08",
@@ -77,10 +57,6 @@
       "path": "Daliy/diary/2023-10-28.md"
     },
     {
-      "basename": "1.3 OpenRASP",
-      "path": "Security/项目/1.3 OpenRASP.md"
-    },
-    {
       "basename": "2023-10-27",
       "path": "Daliy/diary/2023-10-27.md"
     },
@@ -105,36 +81,80 @@
       "path": "Daliy/diary/2023-10-20.md"
     },
     {
-      "basename": "1.1 数据库日志",
-      "path": "Security/项目/1.1 数据库日志.md"
+      "basename": "2023-10-19",
+      "path": "Daliy/diary/2023-10-19.md"
     },
     {
-      "basename": "2023-10-10",
-      "path": "Daliy/diary/2023-10-10.md"
-    },
-    {
-      "basename": "2023-10-11",
-      "path": "Daliy/diary/2023-10-11.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "Daliy/diary/2023-10-13.md"
-    },
-    {
-      "basename": "2023-10-15",
-      "path": "Daliy/diary/2023-10-15.md"
-    },
-    {
-      "basename": "2023-10-16",
-      "path": "Daliy/diary/2023-10-16.md"
+      "basename": "2023-10-18",
+      "path": "Daliy/diary/2023-10-18.md"
     },
     {
       "basename": "2023-10-17",
       "path": "Daliy/diary/2023-10-17.md"
     },
     {
-      "basename": "2023-10-19",
-      "path": "Daliy/diary/2023-10-19.md"
+      "basename": "2023-10-16",
+      "path": "Daliy/diary/2023-10-16.md"
+    },
+    {
+      "basename": "2023-10-15",
+      "path": "Daliy/diary/2023-10-15.md"
+    },
+    {
+      "basename": "2023-10-11",
+      "path": "Daliy/diary/2023-10-11.md"
+    },
+    {
+      "basename": "2023-10-07",
+      "path": "Daliy/diary/2023-10-07.md"
+    },
+    {
+      "basename": "2023-10-08",
+      "path": "Daliy/diary/2023-10-08.md"
+    },
+    {
+      "basename": "2023-10-09",
+      "path": "Daliy/diary/2023-10-09.md"
+    },
+    {
+      "basename": "2023-10-10",
+      "path": "Daliy/diary/2023-10-10.md"
+    },
+    {
+      "basename": "2023-10-12",
+      "path": "Daliy/diary/2023-10-12.md"
+    },
+    {
+      "basename": "2023-10-13",
+      "path": "Daliy/diary/2023-10-13.md"
+    },
+    {
+      "basename": "aws-security-study-plan",
+      "path": "Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md"
+    },
+    {
+      "basename": "common-skills-study-plan",
+      "path": "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
+    },
+    {
+      "basename": "English Prenstation",
+      "path": "Daliy/Course/English Prenstation.md"
+    },
+    {
+      "basename": "2023-09-27",
+      "path": "Daliy/diary/2023-09-27.md"
+    },
+    {
+      "basename": "1.2 数据库审计",
+      "path": "Security/项目/1.2 数据库审计.md"
+    },
+    {
+      "basename": "1.3 OpenRASP",
+      "path": "Security/项目/1.3 OpenRASP.md"
+    },
+    {
+      "basename": "1.1 数据库日志",
+      "path": "Security/项目/1.1 数据库日志.md"
     },
     {
       "basename": "Linux日常学习积累",
@@ -147,14 +167,6 @@
     {
       "basename": "2023-09-26",
       "path": "Daliy/diary/2023-09-26.md"
-    },
-    {
-      "basename": "2023-10-09",
-      "path": "Daliy/diary/2023-10-09.md"
-    },
-    {
-      "basename": "2023-10-08",
-      "path": "Daliy/diary/2023-10-08.md"
     },
     {
       "basename": "Dairy Template",
@@ -187,18 +199,6 @@
     {
       "basename": "红队笔记课程记录",
       "path": "Security/APT/红队笔记课程记录.md"
-    },
-    {
-      "basename": "初步了解",
-      "path": "Security/APT/初步了解.md"
-    },
-    {
-      "basename": "决策",
-      "path": "Daliy/Social Skills/决策.md"
-    },
-    {
-      "basename": "2023-10-02",
-      "path": "Daliy/diary/2023-10-02.md"
     }
   ],
   "omittedPaths": [],
