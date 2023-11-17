@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-11-13.md",
+                "file": "Daliy/diary/2023-11-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-11-13.md",
+                "file": "Daliy/diary/2023-11-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-11-13.md",
+                "file": "Daliy/diary/2023-11-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-11-13.md"
+                "file": "Daliy/diary/2023-11-17.md"
               }
             }
           },
@@ -209,9 +209,9 @@
   },
   "active": "3f35b002013e45ca",
   "lastOpenFiles": [
+    "Daliy/diary/2023-11-13.md",
     "Daliy/diary/2023-11-11.md",
     "Daliy/diary/2023-11-12.md",
-    "Daliy/diary/2023-11-13.md",
     "Daliy/diary/2023-11-15.md",
     "Daliy/diary/2023-11-17.md",
     "Daliy/diary/2023-10-27.md",
