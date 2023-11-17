@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-11-17",
+      "path": "Daliy/diary/2023-11-17.md"
+    },
+    {
       "basename": "2023-11-15",
       "path": "Daliy/diary/2023-11-15.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "README",
       "path": "Security/security-study-plan-main/security-study-plan-main/README.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "AI/通往AGI之路/10篇从0到1的文章/未命名.md"
     }
   ],
   "omittedPaths": [],
