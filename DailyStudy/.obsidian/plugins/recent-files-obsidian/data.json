@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-11-19",
+      "path": "Daliy/diary/2023-11-19.md"
+    },
+    {
       "basename": "2023-11-17",
       "path": "Daliy/diary/2023-11-17.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231008191904.png",
       "path": "Daliy/diary/attachments/Pasted image 20231008191904.png.md"
-    },
-    {
-      "basename": "README",
-      "path": "Security/security-study-plan-main/security-study-plan-main/README.md"
     }
   ],
   "omittedPaths": [],
