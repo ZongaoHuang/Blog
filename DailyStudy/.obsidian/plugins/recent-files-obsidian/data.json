@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-12-05",
+      "path": "Daliy/diary/2023-12-05.md"
+    },
+    {
       "basename": "1.2 数据库审计",
       "path": "Security/项目/1.2 数据库审计.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "三级头招新 1",
       "path": "Daliy/diary/attachments/三级头招新 1.md"
-    },
-    {
-      "basename": "Pasted image 20231008221842.png",
-      "path": "Daliy/diary/attachments/Pasted image 20231008221842.png.md"
     }
   ],
   "omittedPaths": [],
