@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rasp",
+                "query": "审计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,6 +210,8 @@
   },
   "active": "3f35b002013e45ca",
   "lastOpenFiles": [
+    "Daliy/diary/2023-12-05.md",
+    "Security/项目/1.2 数据库审计.md",
     "Daliy/diary/2023-12-04.md",
     "Daliy/diary/2023-11-29.md",
     "Daliy/diary/2023-11-19.md",
@@ -235,8 +237,6 @@
     "Daliy/diary/2023-10-23.md",
     "Daliy/diary/2023-10-22.md",
     "Daliy/diary/2023-10-20.md",
-    "Daliy/diary/2023-10-19.md",
-    "Daliy/diary/2023-10-18.md",
     "Daliy/diary/attachments/Pasted image 20231108155551.png",
     "Daliy/diary/attachments/Pasted image 20231031150916.png",
     "Daliy/diary/attachments/Pasted image 20231031150859.png",
