@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/常用指令/Oracle_Audit.md",
+                "file": "Tools/统计项目总代码量.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/常用指令/Oracle_Audit.md",
+                "file": "Tools/统计项目总代码量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/常用指令/Oracle_Audit.md",
+                "file": "Tools/统计项目总代码量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/常用指令/Oracle_Audit.md"
+                "file": "Tools/统计项目总代码量.md"
               }
             }
           },
@@ -197,8 +197,10 @@
   },
   "active": "ce6c64f984499944",
   "lastOpenFiles": [
-    "Python/YouTube Python Tutorial.md",
     "Linux/常用指令/Oracle_Audit.md",
+    "Tools/统计项目总代码量.md",
+    "Tools",
+    "Python/YouTube Python Tutorial.md",
     "Linux/常用指令",
     "Linux",
     "Template/Dairy Template.md",
@@ -225,7 +227,6 @@
     "Daliy/diary/2023-11-03.md",
     "Daliy/diary/2023-11-01.md",
     "Daliy/diary/2023-10-31.md",
-    "Daliy/diary/2023-10-30.md",
     "Daliy/diary/attachments/Pasted image 20231108155551.png",
     "Daliy/diary/attachments/Pasted image 20231031150916.png",
     "Daliy/diary/attachments/Pasted image 20231031150859.png",
@@ -241,7 +242,6 @@
     "AI/通往AGI之路",
     "AI",
     "Daliy/diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
-    "Template",
-    "Daliy/diary/attachments"
+    "Template"
   ]
 }
