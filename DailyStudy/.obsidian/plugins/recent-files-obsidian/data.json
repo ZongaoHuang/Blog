@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-12-14",
+      "path": "Daliy/diary/2023-12-14.md"
+    },
+    {
+      "basename": "2023-12-12",
+      "path": "Daliy/diary/2023-12-12.md"
+    },
+    {
       "basename": "Oracle_Audit",
       "path": "Linux/常用指令/Oracle_Audit.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "YouTube Python Tutorial",
       "path": "Python/YouTube Python Tutorial.md"
-    },
-    {
-      "basename": "2023-12-12",
-      "path": "Daliy/diary/2023-12-12.md"
     },
     {
       "basename": "Dairy Template",
@@ -195,10 +199,6 @@
     {
       "basename": "common-skills-study-plan",
       "path": "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
-    },
-    {
-      "basename": "English Prenstation",
-      "path": "Daliy/Course/English Prenstation.md"
     }
   ],
   "omittedPaths": [],
