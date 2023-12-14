@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "统计项目总代码量",
-      "path": "Tools/统计项目总代码量.md"
-    },
-    {
-      "basename": "2023-12-12",
-      "path": "Daliy/diary/2023-12-12.md"
-    },
-    {
       "basename": "Oracle_Audit",
       "path": "Linux/常用指令/Oracle_Audit.md"
     },
     {
+      "basename": "统计项目总代码量",
+      "path": "Tools/统计项目总代码量.md"
+    },
+    {
+      "basename": "第一部分 基础知识",
+      "path": "Python/Python编程：从入门到实践/第一部分 基础知识.md"
+    },
+    {
       "basename": "YouTube Python Tutorial",
       "path": "Python/YouTube Python Tutorial.md"
+    },
+    {
+      "basename": "2023-12-12",
+      "path": "Daliy/diary/2023-12-12.md"
     },
     {
       "basename": "Dairy Template",
@@ -195,10 +199,6 @@
     {
       "basename": "English Prenstation",
       "path": "Daliy/Course/English Prenstation.md"
-    },
-    {
-      "basename": "2023-09-27",
-      "path": "Daliy/diary/2023-09-27.md"
     }
   ],
   "omittedPaths": [],
