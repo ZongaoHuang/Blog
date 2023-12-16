@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-12-16",
+      "path": "Daliy/diary/2023-12-16.md"
+    },
+    {
       "basename": "2023-12-14",
       "path": "Daliy/diary/2023-12-14.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "aws-security-study-plan",
       "path": "Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md"
-    },
-    {
-      "basename": "common-skills-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
     }
   ],
   "omittedPaths": [],
