@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名",
+      "path": "Tools/China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名.md"
+    },
+    {
+      "basename": "统计项目总代码量",
+      "path": "Tools/统计项目总代码量.md"
+    },
+    {
       "basename": "2023-12-16",
       "path": "Daliy/diary/2023-12-16.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Oracle_Audit",
       "path": "Linux/常用指令/Oracle_Audit.md"
-    },
-    {
-      "basename": "统计项目总代码量",
-      "path": "Tools/统计项目总代码量.md"
     },
     {
       "basename": "第一部分 基础知识",
@@ -195,10 +199,6 @@
     {
       "basename": "2023-10-13",
       "path": "Daliy/diary/2023-10-13.md"
-    },
-    {
-      "basename": "aws-security-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md"
     }
   ],
   "omittedPaths": [],
