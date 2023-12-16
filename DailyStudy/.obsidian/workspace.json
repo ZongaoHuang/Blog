@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4534619e95afa29b",
+        "id": "f9bed60788043232",
         "type": "tabs",
         "children": [
           {
-            "id": "ce6c64f984499944",
+            "id": "3d644e77588920f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/diary/2023-12-11.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#header",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-12-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-12-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daliy/diary/2023-12-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,8 +187,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ce6c64f984499944",
+  "active": "3d644e77588920f3",
   "lastOpenFiles": [
+    "Daliy/diary/2023-12-11.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
     "Tools/China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名.md",
@@ -215,7 +207,6 @@
     "Linux",
     "Daliy/Social Skills/决策.md",
     "Daliy/Funny Recording/Eason R&Q.md",
-    "Daliy/diary/2023-12-11.md",
     "Daliy/diary/2023-11-13.md",
     "Daliy/diary/2023-12-07.md",
     "Security/项目/1.2 数据库审计.md",
