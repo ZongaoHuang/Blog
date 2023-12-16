@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名",
-      "path": "Tools/China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名.md"
+      "basename": "China software copyright extraction tool - 中国软件著作权代码自动提取工具",
+      "path": "Tools/China software copyright extraction tool - 中国软件著作权代码自动提取工具.md"
+    },
+    {
+      "basename": "Tools Template",
+      "path": "Template/Tools Template.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "统计项目总代码量",
@@ -31,10 +39,6 @@
     {
       "basename": "YouTube Python Tutorial",
       "path": "Python/YouTube Python Tutorial.md"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "决策",
@@ -187,18 +191,6 @@
     {
       "basename": "2023-10-09",
       "path": "Daliy/diary/2023-10-09.md"
-    },
-    {
-      "basename": "2023-10-10",
-      "path": "Daliy/diary/2023-10-10.md"
-    },
-    {
-      "basename": "2023-10-12",
-      "path": "Daliy/diary/2023-10-12.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "Daliy/diary/2023-10-13.md"
     }
   ],
   "omittedPaths": [],
