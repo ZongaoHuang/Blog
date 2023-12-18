@@ -11,8 +11,12 @@
             "id": "3d644e77588920f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/diary/2023-12-18.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daliy/diary/2023-12-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daliy/diary/2023-12-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daliy/diary/2023-12-18.md"
+              }
             }
           },
           {
@@ -189,6 +197,7 @@
   },
   "active": "3d644e77588920f3",
   "lastOpenFiles": [
+    "Daliy/diary/2023-12-18.md",
     "Daliy/diary/2023-12-11.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
@@ -218,7 +227,6 @@
     "Daliy/diary/2023-11-17.md",
     "Daliy/diary/2023-11-11.md",
     "Daliy/diary/2023-11-12.md",
-    "Daliy/diary/2023-11-15.md",
     "Daliy/diary/attachments/Pasted image 20231108155551.png",
     "Daliy/diary/attachments/Pasted image 20231031150916.png",
     "Daliy/diary/attachments/Pasted image 20231031150859.png",
