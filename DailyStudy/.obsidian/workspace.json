@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "翻译",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,7 +209,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3d644e77588920f3",
+  "active": "00d955a57ab31cb0",
   "lastOpenFiles": [
     "Daliy/diary/2023-11-19.md",
     "Daliy/diary/2024-01-10.md",
