@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2023-12-25.md",
+                "file": "Daliy/diary/2023-11-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "翻译",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2023-12-25.md",
+                "file": "Daliy/diary/2023-11-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2023-12-25.md",
+                "file": "Daliy/diary/2023-11-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2023-12-25.md"
+                "file": "Daliy/diary/2023-11-19.md"
               }
             }
           },
@@ -209,8 +209,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "00d955a57ab31cb0",
+  "active": "3d644e77588920f3",
   "lastOpenFiles": [
+    "Daliy/diary/2023-12-25.md",
     "Daliy/diary/2023-11-19.md",
     "Daliy/diary/2024-01-10.md",
     "Daliy/diary/2024-01-09.md",
@@ -222,7 +223,6 @@
     "Daliy/diary/2023-12-18.md",
     "Daliy/diary/2023-12-22.md",
     "Daliy/diary/2023-12-20.md",
-    "Daliy/diary/2023-12-25.md",
     "Linux/常用指令/Oracle_Audit.md",
     "Daliy/diary/2023-12-11.md",
     "Tools/中国软件著作权代码自动提取工具.md",
