@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2024-01-12.md",
+                "file": "Daliy/diary/2024-01-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2024-01-12.md",
+                "file": "Daliy/diary/2024-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2024-01-12.md",
+                "file": "Daliy/diary/2024-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2024-01-12.md"
+                "file": "Daliy/diary/2024-01-15.md"
               }
             }
           },
@@ -211,8 +211,9 @@
   },
   "active": "3d644e77588920f3",
   "lastOpenFiles": [
-    "GO/Basic/Study1.md",
     "Daliy/diary/2024-01-12.md",
+    "Daliy/diary/2024-01-15.md",
+    "GO/Basic/Study1.md",
     "Template/Dairy Template.md",
     "GO/Basic",
     "未命名",
@@ -240,7 +241,6 @@
     "Tools/China software copyright extraction tool - 中国软件著作权代码自动提取工具未命名.md",
     "Tools/Untitled.md",
     "Daliy/diary/2023-12-16.md",
-    "Daliy/diary/2023-12-14.md",
     "Tools",
     "Linux/常用指令",
     "Linux",
