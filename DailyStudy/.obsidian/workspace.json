@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2024-01-15.md",
+                "file": "Template/Dairy Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2024-01-15.md",
+                "file": "Template/Dairy Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2024-01-15.md",
+                "file": "Template/Dairy Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2024-01-15.md"
+                "file": "Template/Dairy Template.md"
               }
             }
           },
@@ -212,13 +211,13 @@
   },
   "active": "3d644e77588920f3",
   "lastOpenFiles": [
+    "Daliy/diary/2024-01-15.md",
     "Daliy/diary/attachments/Pasted image 20240115213301.png",
     "Daliy/diary/attachments/ab221c3c28cf555588bdf68b787ab25.jpg",
     "Daliy/diary/attachments/Pasted image 20240115205347.png",
     "Daliy/diary/attachments/Pasted image 20240115205211.png",
     "Daliy/diary/2023-10-10.md",
     "Security/项目/1.2 数据库审计.md",
-    "Daliy/diary/2024-01-15.md",
     "Daliy/diary/2024-01-12.md",
     "GO/Basic/Study1.md",
     "Template/Dairy Template.md",
@@ -253,7 +252,6 @@
     "Daliy/diary/attachments/Pasted image 20231031150916.png",
     "Daliy/diary/attachments/Pasted image 20231031150859.png",
     "Daliy/diary/attachments/Pasted image 20231031133207.png",
-    "Daliy/diary/attachments/Pasted image 20231031133137.png",
     "Daliy/diary/attachments/attachments",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章",

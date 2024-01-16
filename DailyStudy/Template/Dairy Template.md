@@ -1,5 +1,5 @@
 # Daily Plan
-- [ ] Acwing + LeetCode
+- [ ] 
 - [ ] 
 # Daily Study
 # Daily Problem
