@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-16",
+      "path": "Daliy/diary/2024-01-16.md"
+    },
+    {
       "basename": "Dairy Template",
       "path": "Template/Dairy Template.md"
+    },
+    {
+      "basename": "2023-11-19",
+      "path": "Daliy/diary/2023-11-19.md"
     },
     {
       "basename": "2024-01-15",
@@ -43,10 +51,6 @@
     {
       "basename": "2024-01-11",
       "path": "Daliy/diary/2024-01-11.md"
-    },
-    {
-      "basename": "2023-11-19",
-      "path": "Daliy/diary/2023-11-19.md"
     },
     {
       "basename": "2023-12-25",
@@ -195,10 +199,6 @@
     {
       "basename": "2023-10-30",
       "path": "Daliy/diary/2023-10-30.md"
-    },
-    {
-      "basename": "2023-10-28",
-      "path": "Daliy/diary/2023-10-28.md"
     }
   ],
   "omittedPaths": [],
