@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2024-01-16.md",
+                "file": "diary/2024-01-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/diary/2024-01-18.md",
+                "file": "diary/2024-01-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/diary/2024-01-18.md",
+                "file": "diary/2024-01-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/diary/2024-01-18.md",
+                "file": "diary/2024-01-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/diary/2024-01-18.md"
+                "file": "diary/2024-01-18.md"
               }
             }
           },
@@ -210,24 +210,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fffb0fc6212bb5ca",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
-    "Daliy/diary/2024-01-17.md",
-    "Daliy/diary/2024-01-18.md",
+    "diary/2023-12-04.md",
+    "diary/2023-12-11.md",
+    "diary/2023-12-16.md",
+    "diary/2023-12-18.md",
+    "diary/2024-01-15.md",
+    "diary/2024-01-12.md",
+    "diary/2024-01-11.md",
+    "diary/2024-01-17.md",
+    "diary/2023-12-05.md",
+    "diary/2023-10-09.md",
+    "diary/2023-10-10.md",
+    "diary/2023-10-12.md",
+    "diary/2023-10-15.md",
+    "diary/2023-11-11.md",
+    "diary/2024-01-18.md",
     "实验指导.md",
     "attachments/Pasted image 20240117152031.png",
     "attachments",
-    "Daliy/diary/2024-01-16.md",
+    "diary/2024-01-16.md",
     "Template/Dairy Template.md",
-    "Daliy/diary/2023-11-19.md",
-    "Daliy/diary/2024-01-15.md",
-    "Daliy/diary/attachments/Pasted image 20240115213301.png",
-    "Daliy/diary/attachments/ab221c3c28cf555588bdf68b787ab25.jpg",
-    "Daliy/diary/attachments/Pasted image 20240115205347.png",
-    "Daliy/diary/attachments/Pasted image 20240115205211.png",
-    "Daliy/diary/2023-10-10.md",
+    "diary/2023-11-19.md",
+    "diary/attachments/Pasted image 20240115213301.png",
+    "diary/attachments/ab221c3c28cf555588bdf68b787ab25.jpg",
+    "diary/attachments/Pasted image 20240115205347.png",
+    "diary/attachments/Pasted image 20240115205211.png",
     "Security/项目/1.2 数据库审计.md",
-    "Daliy/diary/2024-01-12.md",
     "GO/Basic/Study1.md",
     "GO/Basic",
     "未命名",
@@ -235,27 +245,17 @@
     "Template/Tools Template.md",
     "Security/项目/1.3 OpenRASP.md",
     "Linux/常用指令/Oracle_Audit.md",
-    "Daliy/diary/2024-01-11.md",
-    "Daliy/diary/2023-12-25.md",
-    "Daliy/diary/2024-01-10.md",
-    "Daliy/diary/2024-01-09.md",
-    "Daliy/diary/2024-01-05.md",
-    "Daliy/diary/attachments/Pasted image 20240105100541.png",
-    "Daliy/diary/2024-01-04.md",
-    "Daliy/diary/2023-11-06.md",
-    "Daliy/diary/2024-01-02.md",
-    "Daliy/diary/2023-12-18.md",
-    "Daliy/diary/2023-12-22.md",
-    "Daliy/diary/2023-12-20.md",
-    "Daliy/diary/2023-12-11.md",
+    "diary/2023-12-25.md",
+    "diary/2024-01-10.md",
+    "diary/attachments/Pasted image 20240105100541.png",
     "Tools",
     "Linux/常用指令",
     "Linux",
-    "Daliy/diary/attachments/Pasted image 20231124124938.png",
-    "Daliy/diary/attachments/Pasted image 20231108155551.png",
-    "Daliy/diary/attachments/Pasted image 20231031150916.png",
-    "Daliy/diary/attachments/Pasted image 20231031150859.png",
-    "Daliy/diary/attachments/attachments",
+    "diary/attachments/Pasted image 20231124124938.png",
+    "diary/attachments/Pasted image 20231108155551.png",
+    "diary/attachments/Pasted image 20231031150916.png",
+    "diary/attachments/Pasted image 20231031150859.png",
+    "diary/attachments/attachments",
     "AI/通往AGI之路/总结",
     "AI/通往AGI之路/10篇从0到1的文章"
   ]
