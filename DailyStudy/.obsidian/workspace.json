@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "3d5c58528aa21d92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/Diary/2024-02-26.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e7ed372e56b51cec",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md",
+                "file": "Daliy/Diary/2024-02-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md",
+                "file": "Daliy/Diary/2024-02-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md"
+                "file": "Daliy/Diary/2024-02-26.md"
               }
             }
           },
@@ -211,8 +224,9 @@
       "dbfolder:创建一个新数据库表": false
     }
   },
-  "active": "3d644e77588920f3",
+  "active": "3d5c58528aa21d92",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-02-26.md",
     "Daliy/Diary/2024-02-22.md",
     "Daliy/Diary/2024-01-23.md",
     "Daliy/Diary/2024-01-22.md",
@@ -241,7 +255,6 @@
     "Daliy/Diary/2023-12-05.md",
     "Daliy/Diary/2023-10-09.md",
     "Daliy/Diary/2023-10-10.md",
-    "Daliy/Diary/2023-10-12.md",
     "attachments",
     "Daliy/Diary/attachments/Pasted image 20240115213301.png",
     "Daliy/Diary/attachments/ab221c3c28cf555588bdf68b787ab25.jpg",
