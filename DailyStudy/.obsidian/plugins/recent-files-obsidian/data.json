@@ -17,6 +17,10 @@
       "path": "Daliy/Diary/2024-02-22.md"
     },
     {
+      "basename": "手机作电脑摄像头",
+      "path": "Tools/手机作电脑摄像头.md"
+    },
+    {
       "basename": "2024-01-22",
       "path": "Daliy/Diary/2024-01-22.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Eason R&Q",
       "path": "Daliy/Funny Recording/Eason R&Q.md"
-    },
-    {
-      "basename": "2023-11-13",
-      "path": "Daliy/Diary/2023-11-13.md"
     }
   ],
   "omittedPaths": [],
