@@ -13,7 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/统计项目总代码量.md",
+                "file": "Daliy/Diary/2024-02-29.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cac670dacdecf86e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "75894c522d636b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/Diary/2024-02-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -28,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daliy/Diary/2024-02-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daliy/Diary/2024-02-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daliy/Diary/2024-02-29.md"
+              }
             }
           },
           {
@@ -177,6 +203,22 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "a192313e3c532610",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9707f8f4e80acb2c",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -204,8 +246,16 @@
       "dbfolder:创建一个新数据库表": false
     }
   },
-  "active": "e7ed372e56b51cec",
+  "active": "75894c522d636b6c",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-02-27.md",
+    "Daliy/Diary/2024-02-28.md",
+    "Daliy/Diary/2024-02-29.md",
+    "未命名.canvas",
+    "Home.md",
+    "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md",
+    "Excalidraw",
+    "Tools/统计项目总代码量.md",
     "Daliy/Diary/2023-12-22.md",
     "Daliy/Diary/2024-01-10.md",
     "Daliy/Diary/2024-01-02.md",
@@ -223,20 +273,13 @@
     "Daliy/Diary/2024-02-22.md",
     "Daliy/Diary/2024-02-23.md",
     "Daliy/Diary/2024-02-26.md",
-    "Daliy/Diary/2024-02-27.md",
-    "Daliy/Diary/2024-02-28.md",
-    "Daliy/Diary/2024-02-29.md",
     "Tools/手机作电脑摄像头.md",
-    "Tools/统计项目总代码量.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/attachments/Pasted image 20240228151938.png",
-    "Daliy/Diary/2024-01-23.md",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
     "Tools/attachments/droidcamx611.apk",
     "Tools/attachments",
     "Language",
-    "Language/GO/Basic/Study1.md",
-    "Security/项目/1.1 数据库日志.md",
     "Security/Web安全",
     "attachments/Pasted image 20240117152031.png",
     "attachments",
@@ -248,7 +291,6 @@
     "Language/GO",
     "Daliy/Diary/attachments/Pasted image 20240105100541.png",
     "Tools",
-    "Linux/常用指令",
     "Daliy/Diary/attachments/Pasted image 20231124124938.png",
     "Daliy/Diary/attachments/Pasted image 20231108155551.png",
     "Daliy/Diary/attachments/Pasted image 20231031150916.png"
