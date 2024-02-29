@@ -237,21 +237,21 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
-      "remotely-save:Remotely Save": false,
       "dbfolder:创建一个新数据库表": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "homepage:Open homepage": false,
+      "remotely-save:Remotely Save": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "734dcdba300efcce",
+  "active": "75894c522d636b6c",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-02-29.md",
     "Daliy/Diary/2024-02-27.md",
     "Daliy/Diary/2024-02-28.md",
-    "Daliy/Diary/2024-02-29.md",
     "未命名.canvas",
     "Home.md",
     "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md",
