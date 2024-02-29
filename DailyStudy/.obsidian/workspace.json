@@ -104,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,7 +214,7 @@
             }
           },
           {
-            "id": "9707f8f4e80acb2c",
+            "id": "aa83b2b9f713a775",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -236,17 +237,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-day-planner:Timeline": false,
       "homepage:Open homepage": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
       "remotely-save:Remotely Save": false,
-      "dbfolder:创建一个新数据库表": false
+      "dbfolder:创建一个新数据库表": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "75894c522d636b6c",
+  "active": "734dcdba300efcce",
   "lastOpenFiles": [
     "Daliy/Diary/2024-02-27.md",
     "Daliy/Diary/2024-02-28.md",
