@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-02-29.md",
+                "file": "Daliy/Diary/2024-03-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-02-29.md",
+                "file": "Daliy/Diary/2024-03-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-02-29.md",
+                "file": "Daliy/Diary/2024-03-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-02-29.md"
+                "file": "Daliy/Diary/2024-03-01.md"
               }
             }
           },
@@ -250,6 +250,7 @@
   "active": "75894c522d636b6c",
   "lastOpenFiles": [
     "Daliy/Diary/2024-02-29.md",
+    "Daliy/Diary/2024-03-01.md",
     "Daliy/Diary/2024-02-27.md",
     "Daliy/Diary/2024-02-28.md",
     "未命名.canvas",
