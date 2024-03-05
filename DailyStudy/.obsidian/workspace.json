@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-03-01.md",
+                "file": "Daliy/Diary/2024-03-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-03-01.md",
+                "file": "Daliy/Diary/2024-03-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-03-01.md",
+                "file": "Daliy/Diary/2024-03-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-03-01.md"
+                "file": "Daliy/Diary/2024-03-05.md"
               }
             }
           },
@@ -249,8 +249,9 @@
   },
   "active": "75894c522d636b6c",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-02-29.md",
     "Daliy/Diary/2024-03-01.md",
+    "Daliy/Diary/2024-03-05.md",
+    "Daliy/Diary/2024-02-29.md",
     "Daliy/Diary/2024-02-27.md",
     "Daliy/Diary/2024-02-28.md",
     "未命名.canvas",
@@ -276,7 +277,6 @@
     "Daliy/Diary/2024-02-23.md",
     "Daliy/Diary/2024-02-26.md",
     "Tools/手机作电脑摄像头.md",
-    "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
     "Tools/attachments/droidcamx611.apk",
