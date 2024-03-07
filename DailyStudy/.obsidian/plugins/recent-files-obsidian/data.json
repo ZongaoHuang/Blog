@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-07",
+      "path": "Daliy/Diary/2024-03-07.md"
+    },
+    {
       "basename": "2024-03-06",
       "path": "Daliy/Diary/2024-03-06.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Tools Template",
       "path": "Template/Tools Template.md"
-    },
-    {
-      "basename": "Oracle_Audit",
-      "path": "Linux/常用指令/Oracle_Audit.md"
     }
   ],
   "omittedPaths": [],
