@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-11",
+      "path": "Daliy/Diary/2024-03-11.md"
+    },
+    {
       "basename": "2024-01-23",
       "path": "Daliy/Diary/2024-01-23.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2023-10-17",
       "path": "Daliy/Diary/2023-10-17.md"
-    },
-    {
-      "basename": "Tools Template",
-      "path": "Template/Tools Template.md"
     }
   ],
   "omittedPaths": [],
