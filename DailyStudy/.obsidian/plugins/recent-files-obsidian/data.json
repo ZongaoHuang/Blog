@@ -5,12 +5,28 @@
       "path": "Daliy/Diary/2024-03-13.md"
     },
     {
+      "basename": "2024-03-14",
+      "path": "Daliy/Diary/2024-03-14.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
       "basename": "2024-03-05",
       "path": "Daliy/Diary/2024-03-05.md"
     },
     {
       "basename": "Drawing 2024-02-29 16.03.41.excalidraw",
       "path": "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md"
+    },
+    {
+      "basename": "Tools Template",
+      "path": "Template/Tools Template.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "2024-03-11",
@@ -59,14 +75,6 @@
     {
       "basename": "2024-02-28",
       "path": "Daliy/Diary/2024-02-28.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.canvas"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "统计项目总代码量",
@@ -191,14 +199,6 @@
     {
       "basename": "2023-10-15",
       "path": "Daliy/Diary/2023-10-15.md"
-    },
-    {
-      "basename": "2023-11-11",
-      "path": "Daliy/Diary/2023-11-11.md"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     }
   ],
   "omittedPaths": [],
