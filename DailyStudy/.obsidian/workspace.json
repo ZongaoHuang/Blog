@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-03-14.md",
+                "file": "Daliy/Diary/2024-03-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-03-14.md",
+                "file": "Daliy/Diary/2024-03-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-03-14.md",
+                "file": "Daliy/Diary/2024-03-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-03-14.md"
+                "file": "Daliy/Diary/2024-03-15.md"
               }
             }
           },
@@ -239,8 +239,9 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-03-13.md",
     "Daliy/Diary/2024-03-14.md",
+    "Daliy/Diary/2024-03-15.md",
+    "Daliy/Diary/2024-03-13.md",
     "Template/Dairy Template.md",
     "Daliy/Diary/2024-03-05.md",
     "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md",
@@ -270,7 +271,6 @@
     "Daliy/Diary/2024-01-02.md",
     "Daliy/Diary/2024-01-05.md",
     "Daliy/Diary/2024-01-09.md",
-    "Daliy/Diary/2024-01-04.md",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
     "Tools/attachments/droidcamx611.apk",
