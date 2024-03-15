@@ -39,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -122,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-03-13.md",
+                "file": "Daliy/Diary/2024-03-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-03-13.md",
+                "file": "Daliy/Diary/2024-03-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-03-13.md"
+                "file": "Daliy/Diary/2024-03-15.md"
               }
             }
           },
@@ -236,10 +238,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "75894c522d636b6c",
+  "active": "51124ef6bffa261f",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-03-15.md",
     "Daliy/Diary/2024-03-13.md",
+    "Daliy/Diary/2024-03-15.md",
     "Daliy/Diary/2024-03-14.md",
     "Template/Dairy Template.md",
     "Daliy/Diary/2024-03-05.md",
