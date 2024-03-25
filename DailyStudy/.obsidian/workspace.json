@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2023-10-13.md",
+                "file": "Daliy/Diary/2024-03-25.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "go",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2023-10-13.md",
+                "file": "Daliy/Diary/2024-03-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2023-10-13.md",
+                "file": "Daliy/Diary/2024-03-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2023-10-13.md"
+                "file": "Daliy/Diary/2024-03-25.md"
               }
             }
           },
@@ -251,6 +251,7 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
+    "Daliy/Diary/2023-10-13.md",
     "Security/项目/1.3 OpenRASP.md",
     "Daliy/Diary/2024-03-25.md",
     "Daliy/Diary/2024-03-21.md",
@@ -283,7 +284,6 @@
     "Daliy/Diary/2024-02-27.md",
     "Daliy/Diary/2024-02-28.md",
     "Excalidraw",
-    "Tools/统计项目总代码量.md",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
     "Tools/attachments/droidcamx611.apk",
