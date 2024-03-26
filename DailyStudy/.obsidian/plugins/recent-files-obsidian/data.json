@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-11-19",
+      "path": "Daliy/Diary/2023-11-19.md"
+    },
+    {
+      "basename": "2024-03-26",
+      "path": "Daliy/Diary/2024-03-26.md"
+    },
+    {
       "basename": "2024-03-25",
       "path": "Daliy/Diary/2024-03-25.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "1.1 数据库日志",
       "path": "Security/项目/1.1 数据库日志.md"
-    },
-    {
-      "basename": "2023-12-16",
-      "path": "Daliy/Diary/2023-12-16.md"
-    },
-    {
-      "basename": "关键词",
-      "path": "Security/Web安全/关键词.md"
     }
   ],
   "omittedPaths": [],
