@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-23",
+      "path": "Daliy/Diary/2024-01-23.md"
+    },
+    {
+      "basename": "2024-03-31",
+      "path": "Daliy/Diary/2024-03-31.md"
+    },
+    {
       "basename": "2023-11-19",
       "path": "Daliy/Diary/2023-11-19.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "2024-03-12",
       "path": "Daliy/Diary/2024-03-12.md"
-    },
-    {
-      "basename": "2024-01-23",
-      "path": "Daliy/Diary/2024-01-23.md"
     },
     {
       "basename": "1.2 数据库审计",
@@ -195,10 +199,6 @@
     {
       "basename": "Study1",
       "path": "Language/GO/Basic/Study1.md"
-    },
-    {
-      "basename": "1.1 数据库日志",
-      "path": "Security/项目/1.1 数据库日志.md"
     }
   ],
   "omittedPaths": [],
