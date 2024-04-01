@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md",
+                "file": "Language/C++/LeetCode 笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,13 +106,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -136,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md",
+                "file": "Language/C++/LeetCode 笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md",
+                "file": "Language/C++/LeetCode 笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-01-23.md"
+                "file": "Language/C++/LeetCode 笔记.md"
               }
             }
           },
@@ -253,6 +251,10 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
+    "Language/GO/Basic/Study1.md",
+    "Language/C++/LeetCode 笔记.md",
+    "Language/C++",
+    "Daliy/Diary/2024-01-23.md",
     "Daliy/Diary/2024-03-31.md",
     "Daliy/Diary/2023-11-19.md",
     "Daliy/Diary/2024-03-26.md",
@@ -275,7 +277,6 @@
     "未命名.canvas",
     "Daliy/Diary/2024-03-11.md",
     "Daliy/Diary/2024-03-12.md",
-    "Daliy/Diary/2024-01-23.md",
     "Daliy/Diary/attachments/Pasted image 20240312150619.png",
     "Daliy/Diary/attachments/Pasted image 20240312150422.png",
     "Daliy/Diary/attachments/Pasted image 20240312150401.png",
@@ -283,8 +284,6 @@
     "Security/项目/1.2 数据库审计.md",
     "Daliy/Diary/2024-03-07.md",
     "Daliy/Diary/2024-03-06.md",
-    "Daliy/Diary/2024-01-16.md",
-    "Daliy/Diary/2024-02-29.md",
     "Excalidraw",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
@@ -298,7 +297,6 @@
     "Daliy/Diary/attachments/ab221c3c28cf555588bdf68b787ab25.jpg",
     "Daliy/Diary/attachments/Pasted image 20240115205347.png",
     "Language/GO/Basic",
-    "Language/GO",
-    "Tools"
+    "Language/GO"
   ]
 }
