@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-02",
+      "path": "Daliy/Diary/2024-04-02.md"
+    },
+    {
       "basename": "LeetCode 笔记",
       "path": "Language/C++/LeetCode 笔记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-02-26",
       "path": "Daliy/Diary/2024-02-26.md"
-    },
-    {
-      "basename": "手机作电脑摄像头",
-      "path": "Tools/手机作电脑摄像头.md"
     }
   ],
   "omittedPaths": [],
