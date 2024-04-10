@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/GO/Basic/Study1.md",
+                "file": "Daliy/Diary/2024-04-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/GO/Basic/Study1.md",
+                "file": "Daliy/Diary/2024-04-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/GO/Basic/Study1.md",
+                "file": "Daliy/Diary/2024-04-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/GO/Basic/Study1.md"
+                "file": "Daliy/Diary/2024-04-10.md"
               }
             }
           },
@@ -251,8 +252,8 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
-    "Language/C++/LeetCode 笔记.md",
     "Language/GO/Basic/Study1.md",
+    "Language/C++/LeetCode 笔记.md",
     "Daliy/Diary/2024-04-10.md",
     "Daliy/Diary/2024-04-09.md",
     "Daliy/Diary/2024-04-08.md",
