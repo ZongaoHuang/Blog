@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-04-11.md",
+                "file": "Daliy/Diary/2024-04-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-04-11.md",
+                "file": "Daliy/Diary/2024-04-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-04-11.md",
+                "file": "Daliy/Diary/2024-04-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-04-11.md"
+                "file": "Daliy/Diary/2024-04-12.md"
               }
             }
           },
@@ -252,8 +252,9 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-04-10.md",
     "Daliy/Diary/2024-04-11.md",
+    "Daliy/Diary/2024-04-12.md",
+    "Daliy/Diary/2024-04-10.md",
     "Language/GO/Basic/Study1.md",
     "Language/C++/LeetCode 笔记.md",
     "Daliy/Diary/2024-04-09.md",
@@ -279,7 +280,6 @@
     "Daliy/Diary/2024-03-15.md",
     "Template/Dairy Template.md",
     "Daliy/Diary/2024-03-05.md",
-    "Excalidraw/Drawing 2024-02-29 16.03.41.excalidraw.md",
     "未命名.canvas",
     "Daliy/Diary/attachments/Pasted image 20240312150619.png",
     "Daliy/Diary/attachments/Pasted image 20240312150422.png",
