@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "push",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,7 +216,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "51124ef6bffa261f",
+  "active": "00d955a57ab31cb0",
   "lastOpenFiles": [
     "Daliy/Diary/2024-04-18.md",
     "Daliy/Diary/2023-11-19.md",
