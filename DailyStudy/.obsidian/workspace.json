@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f9bed60788043232",
+        "id": "78693039830824ac",
         "type": "tabs",
         "children": [
           {
-            "id": "51124ef6bffa261f",
+            "id": "4da30b819b523103",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daliy/Diary/2024-04-23.md"
-              }
+              "state": {}
             }
           },
           {
@@ -216,11 +208,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f3d8d2664257172c",
+  "active": "4da30b819b523103",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-04-23.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
-    "Daliy/Diary/2024-04-23.md",
     "Daliy/Diary/2024-04-22.md",
     "Daliy/Diary/attachments/Pasted image 20240422163452.png",
     "Daliy/Diary/2024-04-20.md",
