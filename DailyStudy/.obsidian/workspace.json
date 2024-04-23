@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
+                "file": "Tools/中国软件著作权代码自动提取工具.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
+                "file": "Tools/中国软件著作权代码自动提取工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md",
+                "file": "Tools/中国软件著作权代码自动提取工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-04-23.md"
+                "file": "Tools/中国软件著作权代码自动提取工具.md"
               }
             }
           },
@@ -218,8 +217,9 @@
   },
   "active": "51124ef6bffa261f",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-04-22.md",
+    "Tools/统计项目总代码量.md",
     "Daliy/Diary/2024-04-23.md",
+    "Daliy/Diary/2024-04-22.md",
     "Daliy/Diary/attachments/Pasted image 20240422163452.png",
     "Daliy/Diary/2024-04-20.md",
     "Language/GO/Basic/Study1.md",
@@ -244,7 +244,6 @@
     "Daliy/Diary/2024-03-18.md",
     "Daliy/Diary/2024-03-15.md",
     "Daliy/Diary/2024-03-14.md",
-    "Daliy/Diary/2024-03-13.md",
     "Daliy/Diary/attachments/Pasted image 20240416164449.png",
     "Daliy/Diary/attachments/Pasted image 20240416164419.png",
     "Daliy/Diary/attachments/Pasted image 20240416164400.png",
