@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-05-20",
+      "path": "Daliy/Diary/2024-05-20.md"
+    },
+    {
       "basename": "2024-05-15",
       "path": "Daliy/Diary/2024-05-15.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1.2 数据库审计",
       "path": "Security/项目/1.2 数据库审计.md"
-    },
-    {
-      "basename": "2024-03-07",
-      "path": "Daliy/Diary/2024-03-07.md"
     }
   ],
   "omittedPaths": [],

@@ -212,7 +212,7 @@ var require_main = __commonJS({
     function getDateFromFile2(file, granularity) {
       return getDateFromFilename(file.basename, granularity);
     }
-    function getDateFromPath3(path, granularity) {
+    function getDateFromPath4(path, granularity) {
       return getDateFromFilename(basename(path), granularity);
     }
     function getDateFromFilename(filename, granularity) {
@@ -630,7 +630,7 @@ var require_main = __commonJS({
     exports.getDailyNote = getDailyNote5;
     exports.getDailyNoteSettings = getDailyNoteSettings;
     exports.getDateFromFile = getDateFromFile2;
-    exports.getDateFromPath = getDateFromPath3;
+    exports.getDateFromPath = getDateFromPath4;
     exports.getDateUID = getDateUID;
     exports.getMonthlyNote = getMonthlyNote;
     exports.getMonthlyNoteSettings = getMonthlyNoteSettings;
@@ -23529,7 +23529,7 @@ var require_lodash = __commonJS({
         function isElement(value) {
           return isObjectLike(value) && value.nodeType === 1 && !isPlainObject2(value);
         }
-        function isEmpty2(value) {
+        function isEmpty3(value) {
           if (value == null) {
             return true;
           }
@@ -23839,7 +23839,7 @@ var require_lodash = __commonJS({
         var mergeWith2 = createAssigner(function(object, source, srcIndex, customizer) {
           baseMerge(object, source, srcIndex, customizer);
         });
-        var omit = flatRest(function(object, paths) {
+        var omit2 = flatRest(function(object, paths) {
           var result2 = {};
           if (object == null) {
             return result2;
@@ -24530,7 +24530,7 @@ var require_lodash = __commonJS({
         lodash.mixin = mixin;
         lodash.negate = negate;
         lodash.nthArg = nthArg;
-        lodash.omit = omit;
+        lodash.omit = omit2;
         lodash.omitBy = omitBy;
         lodash.once = once;
         lodash.orderBy = orderBy;
@@ -24662,7 +24662,7 @@ var require_lodash = __commonJS({
         lodash.isBuffer = isBuffer;
         lodash.isDate = isDate;
         lodash.isElement = isElement;
-        lodash.isEmpty = isEmpty2;
+        lodash.isEmpty = isEmpty3;
         lodash.isEqual = isEqual2;
         lodash.isEqualWith = isEqualWith;
         lodash.isError = isError;
@@ -28986,13 +28986,13 @@ var require_axios = __commonJS({
     var HttpStatusCode$1 = HttpStatusCode;
     function createInstance(defaultConfig) {
       const context = new Axios$1(defaultConfig);
-      const instance45 = bind(Axios$1.prototype.request, context);
-      utils$1.extend(instance45, Axios$1.prototype, context, { allOwnKeys: true });
-      utils$1.extend(instance45, context, null, { allOwnKeys: true });
-      instance45.create = function create2(instanceConfig) {
+      const instance46 = bind(Axios$1.prototype.request, context);
+      utils$1.extend(instance46, Axios$1.prototype, context, { allOwnKeys: true });
+      utils$1.extend(instance46, context, null, { allOwnKeys: true });
+      instance46.create = function create2(instanceConfig) {
         return createInstance(mergeConfig(defaultConfig, instanceConfig));
       };
-      return instance45;
+      return instance46;
     }
     var axios = createInstance(defaults$1);
     axios.Axios = Axios$1;
@@ -33620,7 +33620,7 @@ __export(main_exports, {
   default: () => DayPlanner
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian12 = require("obsidian");
+var import_obsidian13 = require("obsidian");
 
 // node_modules/svelte/internal/index.mjs
 function noop() {
@@ -34332,7 +34332,7 @@ function make_dirty(component, i) {
   }
   component.$$.dirty[i / 31 | 0] |= 1 << i % 31;
 }
-function init(component, options, instance45, create_fragment45, not_equal, props, append_styles2, dirty = [-1]) {
+function init(component, options, instance46, create_fragment46, not_equal, props, append_styles2, dirty = [-1]) {
   const parent_component = current_component;
   set_current_component(component);
   const $$ = component.$$ = {
@@ -34358,7 +34358,7 @@ function init(component, options, instance45, create_fragment45, not_equal, prop
   };
   append_styles2 && append_styles2($$.root);
   let ready = false;
-  $$.ctx = instance45 ? instance45(component, options.props || {}, (i, ret, ...rest) => {
+  $$.ctx = instance46 ? instance46(component, options.props || {}, (i, ret, ...rest) => {
     const value = rest.length ? rest[0] : ret;
     if ($$.ctx && not_equal($$.ctx[i], $$.ctx[i] = value)) {
       if (!$$.skip_bound && $$.bound[i])
@@ -34371,7 +34371,7 @@ function init(component, options, instance45, create_fragment45, not_equal, prop
   $$.update();
   ready = true;
   run_all($$.before_update);
-  $$.fragment = create_fragment45 ? create_fragment45($$.ctx) : false;
+  $$.fragment = create_fragment46 ? create_fragment46($$.ctx) : false;
   if (options.target) {
     if (options.hydrate) {
       start_hydrating();
@@ -34552,7 +34552,7 @@ function derived(stores, fn, initial_value) {
 var viewTypeTimeline = "timeline";
 var viewTypeWeekly = "weekly";
 var obsidianContext = "obsidian";
-var editContextKey = "editContext";
+var dateRangeContextKey = "dateRangeContext";
 var errorContextKey = "errorContext";
 var defaultDayFormat = "YYYY-MM-DD";
 var originalRecurrenceDayKeyFormat = "YYYY-MM-DD";
@@ -34565,12 +34565,15 @@ var clockKey = "clocked";
 var clockFormat = "YYYY-MM-DDTHH:mm:ss";
 var reQueryAfterMillis = 200;
 var icalRefreshIntervalMillis = 5 * 60 * 1e3;
-var supportBanner = `Support the project:
-- \u{1FAB2} [Create issues and improvement suggestions](https://github.com/ivan-lednev/obsidian-day-planner/issues)
-- \u{1FA9B} [Submit pull-requests](./CONTRIBUTING.md)
-- \u2764\uFE0F Support the project directly:
+var supportBanner = `\u{1FAB2} [Report bugs and suggest features](https://github.com/ivan-lednev/obsidian-day-planner/issues)<br>
+\u2753 [Ask questions](https://github.com/ivan-lednev/obsidian-day-planner/discussions/new?category=q-a)<br>
+\u{1F44D} [Give thumbs up to issues important to you](https://github.com/ivan-lednev/obsidian-day-planner/issues)<br>
+\u{1FA9B} [Submit pull-requests](./CONTRIBUTING.md)<br>
+\u2764\uFE0F Support the project directly:
 
-  <a href="https://www.buymeacoffee.com/machineelf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/machineelf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+You can disable these release notes in the settings tab.
 `;
 var icons = [
   "any-key",
@@ -34666,7 +34669,11 @@ var defaultSettings = {
   pluginVersion: "",
   showCompletedTasks: true,
   showSubtasksInTaskBlocks: true,
-  icals: []
+  icals: [],
+  colorOverrides: [],
+  editMode: "simple",
+  copyOnDrag: false,
+  releaseNotes: true
 };
 var defaultSettingsForTests = {
   ...defaultSettings,
@@ -34679,22 +34686,6 @@ var settings = writable(defaultSettings);
 
 // src/service/dataview-facade.ts
 var import_obsidian_dataview = __toESM(require_lib());
-
-// src/util/performance.ts
-function withPerformanceReport(fn, variables = {}) {
-  performance.mark("op-start");
-  const result = fn();
-  performance.mark("op-end");
-  const { duration } = performance.measure("op-time", "op-start", "op-end");
-  const formattedVariables = Object.entries(variables).map(([key, value]) => `${key}: ${value || "empty"}`).join("\n  ");
-  console.debug(`obsidian-day-planner:
-  took: ${duration.toFixed(2)} ms
-  ${formattedVariables}
-  `);
-  return result;
-}
-
-// src/service/dataview-facade.ts
 var DataviewFacade = class {
   constructor(app) {
     this.app = app;
@@ -34704,23 +34695,13 @@ var DataviewFacade = class {
       if (!this.getDataview()) {
         return [];
       }
-      return withPerformanceReport(
-        () => this.getDataview().pages(source).file.tasks,
-        {
-          source
-        }
-      );
+      return this.getDataview().pages(source).file.tasks.array();
     };
     this.getAllListsFrom = (source) => {
       if (!this.getDataview()) {
         return [];
       }
-      return withPerformanceReport(
-        () => this.getDataview().pages(source).file.lists,
-        {
-          source
-        }
-      );
+      return this.getDataview().pages(source).file.lists.array();
     };
     this.getTasksFromPath = (path) => {
       var _a, _b, _c;
@@ -34867,7 +34848,7 @@ var hours = `\\d{1,2}`;
 var minutes = `\\d{2}`;
 var hourMinuteSeparator = `[:. ]`;
 var date = "\\d{4}-\\d{2}-\\d{2}";
-var time = `(${hours})(?:${hourMinuteSeparator}?(${minutes}))?\\s*([apAP][mM])?`;
+var time = `(${hours})(?:${hourMinuteSeparator}?(${minutes}))?\\s*([apAP][mM](?!\\w))?`;
 var timeRegExp = new RegExp(time);
 var timeFromStartRegExp = new RegExp(`^${time}`);
 var timestampRegExp = new RegExp(
@@ -34884,7 +34865,7 @@ var scheduledPropRegExp = new RegExp(
 var keylessScheduledPropRegExp = new RegExp(
   `(\\(scheduled\\s*::\\s*)${date}(\\))`
 );
-var shortScheduledPropRegExp = new RegExp(`(\u231B\\s*)${date}`);
+var shortScheduledPropRegExp = new RegExp(`(\u23F3\\s*)${date}`);
 var propRegexp = /\[(.+)::(.*)]/g;
 
 // src/util/id.ts
@@ -35063,7 +35044,8 @@ function getRenderKey(task) {
   return `${task.startMinutes} ${getEndMinutes(task)} ${task.text} ${(_a = task.isGhost) != null ? _a : ""}`;
 }
 function getNotificationKey(task) {
-  return `${task.location.path}::${task.startMinutes}::${task.durationMinutes}::${task.text}`;
+  var _a, _b;
+  return `${(_b = (_a = task.location) == null ? void 0 : _a.path) != null ? _b : "blank"}::${task.startMinutes}::${task.durationMinutes}::${task.text}`;
 }
 function copy(task) {
   return {
@@ -35094,7 +35076,7 @@ function updateScheduledPropInText(text2, dayKey) {
   if (updated !== text2) {
     return updated;
   }
-  return `${text2} \u231B ${dayKey}`;
+  return `${text2} \u23F3 ${dayKey}`;
 }
 function updateTaskText(task) {
   return { ...task, firstLineText: taskLineToString(task) };
@@ -35355,7 +35337,7 @@ function toUnscheduledTask(sTask, day) {
   return {
     durationMinutes: defaultDurationMinutes,
     // todo: bad abstraction
-    listTokens: `${sTask.symbol} [${sTask.status}] `,
+    listTokens: getListTokens(sTask),
     firstLineText: sTask.text,
     text: toString(sTask),
     location: {
@@ -35380,7 +35362,7 @@ function toTask(sTask, day) {
   const durationMinutes = (endTime == null ? void 0 : endTime.isAfter(startTime)) ? getDiffInMinutes(endTime, startTime) : void 0;
   return {
     startTime,
-    listTokens: `${sTask.symbol} [${sTask.status}] `,
+    listTokens: getListTokens(sTask),
     firstLineText,
     text: text2,
     durationMinutes,
@@ -35409,10 +35391,14 @@ function toMarkdown(sTask) {
   const extraIndent = " ".repeat(indentBeforeTaskParagraph);
   return sTask.text.split("\n").map((line, i) => {
     if (i === 0) {
-      return `${baseIndent}${sTask.symbol} [${sTask.status}] ${line}`;
+      return `${baseIndent}${getListTokens(sTask)}${line}`;
     }
     return `${baseIndent}${extraIndent}${line}`;
   }).join("\n");
+}
+function getListTokens(sTask) {
+  const maybeCheckbox = sTask.status === void 0 ? "" : `[${sTask.status}] `;
+  return `${sTask.symbol} ${maybeCheckbox}`;
 }
 function replaceSTaskInFile(contents, sTask, newText) {
   const lines2 = contents.split("\n");
@@ -36033,9 +36019,30 @@ var Status_bar_widget = class extends SvelteComponent {
 };
 var status_bar_widget_default = Status_bar_widget;
 
-// src/ui/release-notes-modal.ts
+// src/ui/confirmation-modal.ts
 var import_obsidian3 = require("obsidian");
-var ReleaseNotesModal = class extends import_obsidian3.Modal {
+var ConfirmationModal = class extends import_obsidian3.Modal {
+  constructor(app, props) {
+    super(app);
+    const { cta, onAccept, text: text2, title } = props;
+    this.contentEl.createEl("h2", { text: title });
+    this.contentEl.createEl("p", { text: text2 });
+    this.contentEl.createDiv("day-planner-modal-buttons", (buttonsEl) => {
+      buttonsEl.createEl("button", { text: "Never mind" }).addEventListener("click", () => this.close());
+      buttonsEl.createEl("button", {
+        cls: "mod-cta",
+        text: cta
+      }).addEventListener("click", async (e) => {
+        await onAccept(e);
+        this.close();
+      });
+    });
+  }
+};
+
+// src/ui/release-notes-modal.ts
+var import_obsidian4 = require("obsidian");
+var ReleaseNotesModal = class extends import_obsidian4.Modal {
   constructor(plugin) {
     super(plugin.app);
     this.plugin = plugin;
@@ -36044,7 +36051,7 @@ var ReleaseNotesModal = class extends import_obsidian3.Modal {
     this.titleEl.setText("Day Planner Release Notes");
     this.containerEl.addClass("day-planner-release-notes-modal");
     this.contentEl.createDiv({ cls: "support" }, async (el) => {
-      await import_obsidian3.MarkdownRenderer.render(
+      await import_obsidian4.MarkdownRenderer.render(
         this.plugin.app,
         supportBanner,
         el,
@@ -36053,9 +36060,9 @@ var ReleaseNotesModal = class extends import_obsidian3.Modal {
       );
     });
     this.contentEl.createDiv({ cls: "releases" }, async (el) => {
-      await import_obsidian3.MarkdownRenderer.render(
+      await import_obsidian4.MarkdownRenderer.render(
         this.plugin.app,
-        "## 0.19.1 - 0.19.6\n\n- \u{1F41E} Fix iOS crash\n- \u{1F41E} Fix performance on startup\n- \u{1F41E} Fix colorful timeline both for local & remote calendars\n- \u{1F41E} Fix planner not reacting to daily note creation\n- \u{1F41E} Fix displaying hover preview\n\n## 0.19.0\n\n### \u2728 New Feature: Internet Calendar Sync (Google, Outlook, iCloud)\n\n- This lets you display events from calendars like Google Calendar, iCloud Calendar, Outlook Calendar\n- You only need to add a link in the plugin settings to start displaying events from that calendar\n\nSee [README](https://github.com/ivan-lednev/obsidian-day-planner?tab=readme-ov-file#showing-internet-calendars) for details.\n\n## 0.18.0\n\n### \u2728 New features\n\n- Now hovering over a task with `Control` pressed will trigger a preview pop-up. This works great with the awesome [Hover Editor plugin](https://github.com/nothingislost/obsidian-hover-editor)\n- Now when you click on a task, if there is an open tab for that file, the plugin is going to reuse it\n\n## 0.17.2\n\n### \u{1F41E} Fixed issues\n\n- Fix creating tasks with drag-and-drop\n\n## 0.17.0\n\n### \u{1F4A5} Breaking changes\n\n- Now by default, if your Dataview souce filter is empty, tasks are pulled only from visible daily notes\n  - Most people never touch this field, so the plugin is going to be lightning-fast by default\n  - If you want to add other folders or tags as task sources, you can still do so by adding them explicitly\n\n### \u2728 New features\n\n- When dragging tasks from daily notes across days in the weekly view, they now get moved across files\n- There is now an option to hide completed tasks from timeline\n- There is now an option to hide subtasks from task blocks in the timeline\n\n### \u{1F41E} Fixed issues\n\n- New drag-and-drop operations can now be started immediately after previous ones\n- The plugin is much faster in the default use case (daily notes only)\n- You can use plain list items in daily notes again\n- Notifications work again\n- Unscheduled tasks now fit their contents\n\n### Acknowledgements\n\n- Big thanks to @weph for helping me figure out a good performance solution\n",
+        "## 0.20.1 - 0.20.4\n\n- \u{1F41E} add toggle to disable release notes (#399)\n- \u{1F41E} do not reset timeline position when it's already open (#289)\n- \u{1F41E} do not replace tab content when opening weekly view (#313)\n- \u{1F41E} fix status bar error breaking plugin\n- \u{1F41E} Move task on copy, instead of changing its size\n- \u{1F41E} Fix different hourglass emoji breaking task movement\n- \u{1F41E} Fix calendar events without a location crashes plugin (#438, thanks, @sepatel)\n- \u{1F41E} Do not print undefined inside checkbox when list item is not a task (#368, thanks, @Gelio)\n- \u{1F41E} AM/PM doesn't match unexpectedly anymore (#312, thanks, @teisermann)\n\n## 0.20.0\n\n### New features\n\n- \u2728 Color coding: you can define background color for blocks containing certain text in first line\n- \u2728 Weekly view now displays unscheduled tasks on top\n- \u2728 Advanced drag-and-drop editing does not require modifier keys any more, you pick current edit mode in timeline controls \n\n### Fixed issues\n\n- \u{1F41E} Fixed scheduling tasks for other days than today (by @Lunkle)\n- \u{1F41E} Pointer to current time is now more visible \n- \u{1F41E} Task summary in internet calendars is now displayed next to calendar name, to make it visible in short blocks\n\n## 0.19.1 - 0.19.6\n\n- \u{1F41E} Fix iOS crash\n- \u{1F41E} Fix performance on startup\n- \u{1F41E} Fix colorful timeline both for local & remote calendars\n- \u{1F41E} Fix planner not reacting to daily note creation\n- \u{1F41E} Fix displaying hover preview\n\n## 0.19.0\n\n### \u2728 New Feature: Internet Calendar Sync (Google, Outlook, iCloud)\n\n- This lets you display events from calendars like Google Calendar, iCloud Calendar, Outlook Calendar\n- You only need to add a link in the plugin settings to start displaying events from that calendar\n\nSee [README](https://github.com/ivan-lednev/obsidian-day-planner?tab=readme-ov-file#showing-internet-calendars) for details.\n\n## 0.18.0\n\n### \u2728 New features\n\n- Now hovering over a task with `Control` pressed will trigger a preview pop-up. This works great with the awesome [Hover Editor plugin](https://github.com/nothingislost/obsidian-hover-editor)\n- Now when you click on a task, if there is an open tab for that file, the plugin is going to reuse it\n\n## 0.17.2\n\n### \u{1F41E} Fixed issues\n\n- Fix creating tasks with drag-and-drop\n\n## 0.17.0\n\n### \u{1F4A5} Breaking changes\n\n- Now by default, if your Dataview souce filter is empty, tasks are pulled only from visible daily notes\n  - Most people never touch this field, so the plugin is going to be lightning-fast by default\n  - If you want to add other folders or tags as task sources, you can still do so by adding them explicitly\n\n### \u2728 New features\n\n- When dragging tasks from daily notes across days in the weekly view, they now get moved across files\n- There is now an option to hide completed tasks from timeline\n- There is now an option to hide subtasks from task blocks in the timeline\n\n### \u{1F41E} Fixed issues\n\n- New drag-and-drop operations can now be started immediately after previous ones\n- The plugin is much faster in the default use case (daily notes only)\n- You can use plain list items in daily notes again\n- Notifications work again\n- Unscheduled tasks now fit their contents\n\n### Acknowledgements\n\n- Big thanks to @weph for helping me figure out a good performance solution\n",
         el,
         "/",
         this.plugin
@@ -36065,8 +36072,8 @@ var ReleaseNotesModal = class extends import_obsidian3.Modal {
 };
 
 // src/ui/settings-tab.ts
-var import_obsidian4 = require("obsidian");
-var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
+var import_obsidian5 = require("obsidian");
+var DayPlannerSettingsTab = class extends import_obsidian5.PluginSettingTab {
   constructor(plugin, settingsStore) {
     super(plugin.app, plugin);
     this.plugin = plugin;
@@ -36075,17 +36082,22 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian4.Setting(containerEl).setName("Round time to minutes").setDesc("While editing, tasks are going to get rounded to this number").addSlider(
+    new import_obsidian5.Setting(containerEl).setName("Show release notes after update").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings().releaseNotes).onChange((value) => {
+        this.update({ releaseNotes: value });
+      })
+    );
+    new import_obsidian5.Setting(containerEl).setName("Round time to minutes").setDesc("While editing, tasks are going to get rounded to this number").addSlider(
       (slider) => slider.setLimits(5, 20, 5).setValue(this.plugin.settings().snapStepMinutes).setDynamicTooltip().onChange((value) => {
         this.update({ snapStepMinutes: value });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Task Notification").setDesc("Display a notification when a new task is started").addToggle(
+    new import_obsidian5.Setting(containerEl).setName("Task Notification").setDesc("Display a notification when a new task is started").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings().showTaskNotification).onChange((value) => {
         this.update({ showTaskNotification: value });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Timeline Zoom Level").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Timeline Zoom Level").setDesc(
       "The zoom level to display the timeline. The higher the number, the more vertical space each task will take up."
     ).addSlider(
       (slider) => {
@@ -36095,7 +36107,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         });
       }
     );
-    new import_obsidian4.Setting(containerEl).setName("Timeline Icon").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Timeline Icon").setDesc(
       "The icon of the timeline pane. Reopen timeline pane or restart obsidian to see the change."
     ).addDropdown((dropdown) => {
       var _a;
@@ -36106,7 +36118,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         this.update({ timelineIcon: value });
       });
     });
-    new import_obsidian4.Setting(containerEl).setName("Start Hour").setDesc("The planner is going to start at this hour each day").addDropdown(
+    new import_obsidian5.Setting(containerEl).setName("Start Hour").setDesc("The planner is going to start at this hour each day").addDropdown(
       (component) => component.addOptions({
         "0": "0",
         "1": "1",
@@ -36126,7 +36138,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         this.update({ startHour: asNumber });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Center the Pointer in the Timeline View").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Center the Pointer in the Timeline View").setDesc(
       "Should the pointer continuously get scrolled to the center of the view"
     ).addToggle((component) => {
       component.setValue(this.plugin.settings().centerNeedle).onChange((value) => {
@@ -36135,7 +36147,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
     });
     containerEl.createEl("h2", { text: "Remote calendars" });
     this.plugin.settings().icals.map(
-      (ical2, index) => new import_obsidian4.Setting(containerEl).setName(`Calendar ${index + 1}`).addColorPicker(
+      (ical2, index) => new import_obsidian5.Setting(containerEl).setName(`Calendar ${index + 1}`).addColorPicker(
         (el) => (
           // todo: replace with immer
           el.setValue(ical2.color).onChange((value) => {
@@ -36177,7 +36189,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         })
       )
     );
-    new import_obsidian4.Setting(containerEl).addButton(
+    new import_obsidian5.Setting(containerEl).addButton(
       (el) => el.setButtonText("Add remote calendar").onClick(() => {
         const newIcal = {
           name: "",
@@ -36192,7 +36204,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
       })
     );
     containerEl.createEl("h2", { text: "Date & Time Formats" });
-    new import_obsidian4.Setting(containerEl).setName("Hour format").then((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Hour format").then((component) => {
       component.setDesc(
         createFragment((fragment) => {
           fragment.appendText(
@@ -36219,7 +36231,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         })
       );
     });
-    new import_obsidian4.Setting(containerEl).setName("Default timestamp format").then((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Default timestamp format").then((component) => {
       component.setDesc(
         createFragment((fragment) => {
           fragment.appendText(
@@ -36246,7 +36258,7 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
         })
       );
     });
-    new import_obsidian4.Setting(containerEl).setName("Date Format in Timeline Header").then((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Date Format in Timeline Header").then((component) => {
       component.setDesc(
         createFragment((fragment) => {
           fragment.appendText("Your current syntax looks like this: ");
@@ -36272,14 +36284,14 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
       );
     });
     containerEl.createEl("h2", { text: "Planner Heading" });
-    new import_obsidian4.Setting(containerEl).setName("Planner Heading Text").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Planner Heading Text").setDesc(
       `When you create a planner, this text is going to be in the heading`
     ).addText(
       (component) => component.setValue(this.plugin.settings().plannerHeading).onChange((value) => {
         this.update({ plannerHeading: value });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Planner heading level").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Planner heading level").setDesc(
       "When you create a planner in a file, this level of heading is going to be used"
     ).addSlider(
       (component) => component.setLimits(1, 6, 1).setDynamicTooltip().setValue(this.plugin.settings().plannerHeadingLevel).onChange((value) => {
@@ -36287,17 +36299,17 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
       })
     );
     containerEl.createEl("h2", { text: "Status bar widget" });
-    new import_obsidian4.Setting(containerEl).setName("Show active task").addToggle(
+    new import_obsidian5.Setting(containerEl).setName("Show active task").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings().showNow).onChange((value) => {
         this.update({ showNow: value });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Show upcoming task").addToggle(
+    new import_obsidian5.Setting(containerEl).setName("Show upcoming task").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings().showNext).onChange((value) => {
         this.update({ showNext: value });
       })
     );
-    new import_obsidian4.Setting(containerEl).setName("Current task progress indicator").addDropdown(
+    new import_obsidian5.Setting(containerEl).setName("Current task progress indicator").addDropdown(
       (component) => component.addOptions({
         bar: "bar",
         pie: "pie",
@@ -36309,40 +36321,104 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
       })
     );
     containerEl.createEl("h2", { text: "Task decoration" });
-    new import_obsidian4.Setting(containerEl).setName("Show a timestamp next to task text in timeline").addToggle((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Show a timestamp next to task text in timeline").addToggle((component) => {
       component.setValue(this.plugin.settings().showTimestampInTaskBlock).onChange((value) => {
         this.update({ showTimestampInTaskBlock: value });
       });
     });
     containerEl.createEl("h2", { text: "Duration" });
-    new import_obsidian4.Setting(containerEl).setName("Stretch task until next one in timeline if it has no end time").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Stretch task until next one in timeline if it has no end time").setDesc(
       'By "no end time" we mean "- [ ] 10:00 Wake up" instead of "- [ ] 10:00 - 11:00 Wake up"'
     ).addToggle((component) => {
       component.setValue(this.plugin.settings().extendDurationUntilNext).onChange((value) => {
         this.update({ extendDurationUntilNext: value });
       });
     });
-    new import_obsidian4.Setting(containerEl).setName("Default task duration").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Default task duration").setDesc(
       "Used when you create a task with drag-and-drop & when you don't specify an end time"
     ).addSlider(
       (slider) => slider.setLimits(20, 120, 10).setValue(Number(this.plugin.settings().defaultDurationMinutes)).setDynamicTooltip().onChange((value) => {
         this.update({ defaultDurationMinutes: value });
       })
     );
-    containerEl.createEl("h2", { text: "Colors" });
-    new import_obsidian4.Setting(containerEl).setName("Colorful Timeline").setDesc(
+    containerEl.createEl("h2", { text: "Color blocking" });
+    containerEl.createEl("p", {
+      text: `Define a background color for a block containing some text (it might be a tag, like '#important'). The first color is for light mode, the second is for dark mode.`
+    });
+    this.plugin.settings().colorOverrides.map(
+      (colorOverride, index) => new import_obsidian5.Setting(containerEl).setName(`Color ${index + 1}`).addColorPicker(
+        (el) => (
+          // todo: replace with immer
+          el.setValue(colorOverride.color).onChange((value) => {
+            this.settingsStore.update((previous) => ({
+              ...previous,
+              colorOverrides: previous.colorOverrides.map(
+                (editedOverride, editedIndex) => editedIndex === index ? { ...editedOverride, color: value } : editedOverride
+              )
+            }));
+          })
+        )
+      ).addColorPicker(
+        (el) => (
+          // todo: replace with immer
+          el.setValue(colorOverride.darkModeColor).onChange((value) => {
+            this.settingsStore.update((previous) => ({
+              ...previous,
+              colorOverrides: previous.colorOverrides.map(
+                (editedOverride, editedIndex) => editedIndex === index ? { ...editedOverride, darkModeColor: value } : editedOverride
+              )
+            }));
+          })
+        )
+      ).addText(
+        (el) => el.setPlaceholder("Text").setValue(colorOverride.text).onChange((value) => {
+          this.settingsStore.update((previous) => ({
+            ...previous,
+            colorOverrides: previous.colorOverrides.map(
+              (editedOverride, editedIndex) => editedIndex === index ? { ...editedOverride, text: value } : editedOverride
+            )
+          }));
+        })
+      ).addExtraButton(
+        (el) => el.setIcon("trash").setTooltip("Delete color override").onClick(() => {
+          this.settingsStore.update((previous) => ({
+            ...previous,
+            colorOverrides: previous.colorOverrides.filter(
+              (editedOverride, editedIndex) => editedIndex !== index
+            )
+          }));
+          this.display();
+        })
+      )
+    );
+    new import_obsidian5.Setting(containerEl).addButton(
+      (el) => el.setButtonText("Add color override").onClick(() => {
+        const newOverride = {
+          text: "#important",
+          darkModeColor: "#6e3737",
+          color: "#ffa1a1"
+        };
+        this.settingsStore.update((previous) => ({
+          ...previous,
+          colorOverrides: [...previous.colorOverrides, newOverride]
+        }));
+        this.display();
+      })
+    );
+    containerEl.createEl("h2", { text: "Colorful Timeline" });
+    new import_obsidian5.Setting(containerEl).setName("Enable Colorful Timeline").setDesc(
       "If the planner timeline should be monochrome or color tasks based on time of day"
     ).addToggle((component) => {
       component.setValue(this.plugin.settings().timelineColored).onChange((value) => {
         this.update({ timelineColored: value });
       });
     });
-    new import_obsidian4.Setting(containerEl).setName("Colorful Timeline - Start Color").addColorPicker((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Colorful Timeline - Start Color").addColorPicker((component) => {
       component.setValue(this.plugin.settings().timelineStartColor).onChange((value) => {
         this.update({ timelineStartColor: value });
       });
     });
-    new import_obsidian4.Setting(containerEl).setName("Colorful Timeline - End Color").addColorPicker((component) => {
+    new import_obsidian5.Setting(containerEl).setName("Colorful Timeline - End Color").addColorPicker((component) => {
       component.setValue(this.plugin.settings().timelineEndColor).onChange((value) => {
         this.update({ timelineEndColor: value });
       });
@@ -36354,13 +36430,42 @@ var DayPlannerSettingsTab = class extends import_obsidian4.PluginSettingTab {
 };
 
 // src/ui/timeline-view.ts
+var import_obsidian8 = require("obsidian");
+
+// src/util/handle-active-leaf-change.ts
 var import_obsidian6 = require("obsidian");
+var import_obsidian_daily_notes_interface6 = __toESM(require_main());
+function handleActiveLeafChange(leaf, timelineDateRange) {
+  var _a;
+  if (!((leaf == null ? void 0 : leaf.view) instanceof import_obsidian6.FileView) || !(leaf == null ? void 0 : leaf.view.file)) {
+    return;
+  }
+  const dayUserSwitchedTo = (0, import_obsidian_daily_notes_interface6.getDateFromFile)(leaf.view.file, "day");
+  if ((dayUserSwitchedTo == null ? void 0 : dayUserSwitchedTo.isSame((_a = get_store_value(timelineDateRange)) == null ? void 0 : _a[0], "day")) || !dayUserSwitchedTo) {
+    return;
+  }
+  timelineDateRange.set([dayUserSwitchedTo]);
+}
 
 // src/ui/components/timeline-with-controls.svelte
-var import_moment10 = __toESM(require_moment());
+var import_moment13 = __toESM(require_moment());
 
-// src/global-store/visible-day-in-timeline.ts
-var visibleDayInTimeline = writable(window.moment());
+// src/global-store/derived-settings.ts
+function getHourSize(settings2) {
+  return settings2.zoomLevel * 60;
+}
+function getHiddenHoursSize(settings2) {
+  return settings2.startHour * getHourSize(settings2);
+}
+function getVisibleHours(settings2) {
+  return [...Array(24).keys()].slice(settings2.startHour);
+}
+function timeToTimelineOffset(minutes2, settings2) {
+  return minutes2 * settings2.zoomLevel - getHiddenHoursSize(settings2);
+}
+function snap(coords, { zoomLevel, snapStepMinutes }) {
+  return coords - coords % (snapStepMinutes * zoomLevel);
+}
 
 // src/ui/actions/styled-cursor.ts
 function styledCursor(el, cursor) {
@@ -36376,22 +36481,352 @@ function styledCursor(el, cursor) {
   };
 }
 
-// src/ui/hooks/use-edit/cursor.ts
-function useCursor({ editMode }) {
-  if (editMode === "CREATE" /* CREATE */ || editMode === "DRAG" /* DRAG */ || editMode === "DRAG_AND_SHIFT_OTHERS" /* DRAG_AND_SHIFT_OTHERS */) {
-    return {
-      bodyCursor: "grabbing",
-      gripCursor: "grabbing"
-    };
-  }
-  if (editMode === "RESIZE" /* RESIZE */ || editMode === "RESIZE_AND_SHIFT_OTHERS" /* RESIZE_AND_SHIFT_OTHERS */) {
-    return { bodyCursor: "row-resize", gripCursor: "grab" };
-  }
+// src/ui/components/global-handlers.svelte
+function create_fragment2(ctx) {
+  let styledCursor_action;
+  let t;
+  let mounted;
+  let dispose;
   return {
-    bodyCursor: "unset",
-    gripCursor: "grab"
+    c() {
+      t = space();
+    },
+    m(target, anchor) {
+      insert(target, t, anchor);
+      if (!mounted) {
+        dispose = [
+          listen(
+            window,
+            "blur",
+            /*cancelEdit*/
+            ctx[1]
+          ),
+          action_destroyer(styledCursor_action = styledCursor.call(
+            null,
+            document.body,
+            /*$cursor*/
+            ctx[0].bodyCursor
+          )),
+          listen(
+            document,
+            "mouseup",
+            /*cancelEdit*/
+            ctx[1]
+          )
+        ];
+        mounted = true;
+      }
+    },
+    p(ctx2, [dirty]) {
+      if (styledCursor_action && is_function(styledCursor_action.update) && dirty & /*$cursor*/
+      1)
+        styledCursor_action.update.call(
+          null,
+          /*$cursor*/
+          ctx2[0].bodyCursor
+        );
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (detaching)
+        detach(t);
+      mounted = false;
+      run_all(dispose);
+    }
   };
 }
+function instance2($$self, $$props, $$invalidate) {
+  let $cursor;
+  const { editContext: { cancelEdit, cursor } } = getContext(obsidianContext);
+  component_subscribe($$self, cursor, (value) => $$invalidate(0, $cursor = value));
+  return [$cursor, cancelEdit, cursor];
+}
+var Global_handlers = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance2, create_fragment2, safe_not_equal, {});
+  }
+};
+var global_handlers_default = Global_handlers;
+
+// src/ui/components/ruler.svelte
+function add_css2(target) {
+  append_styles(target, "svelte-9a769u", ".hours-container.svelte-9a769u{position:sticky;z-index:5;left:0;display:flex;flex:0 0 30px;flex-direction:column;background-color:var(--background-primary);border-right:1px solid var(--background-modifier-border);box-shadow:var(--ruler-box-shadow, none)\n  }.hour.svelte-9a769u{display:flex;flex:1 0 0;border-bottom:1px solid var(--background-modifier-border)}.hour-number-container.svelte-9a769u{display:flex;flex:0 0 30px;align-self:flex-start;justify-content:center;font-size:var(--nav-item-size);color:var(--text-muted)}");
+}
+function get_each_context(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[2] = list[i];
+  return child_ctx;
+}
+function create_each_block(ctx) {
+  let div1;
+  let div0;
+  let t0_value = hoursToMoment(
+    /*hour*/
+    ctx[2]
+  ).format(
+    /*$settings*/
+    ctx[1].hourFormat
+  ) + "";
+  let t0;
+  let t1;
+  let style_height = `${getHourSize(
+    /*$settings*/
+    ctx[1]
+  )}px`;
+  return {
+    c() {
+      div1 = element("div");
+      div0 = element("div");
+      t0 = text(t0_value);
+      t1 = space();
+      attr(div0, "class", "hour-number-container svelte-9a769u");
+      attr(div1, "class", "hour svelte-9a769u");
+      set_style(div1, "height", style_height);
+    },
+    m(target, anchor) {
+      insert(target, div1, anchor);
+      append(div1, div0);
+      append(div0, t0);
+      append(div1, t1);
+    },
+    p(ctx2, dirty) {
+      if (dirty & /*visibleHours, $settings*/
+      3 && t0_value !== (t0_value = hoursToMoment(
+        /*hour*/
+        ctx2[2]
+      ).format(
+        /*$settings*/
+        ctx2[1].hourFormat
+      ) + ""))
+        set_data(t0, t0_value);
+      if (dirty & /*$settings*/
+      2 && style_height !== (style_height = `${getHourSize(
+        /*$settings*/
+        ctx2[1]
+      )}px`)) {
+        set_style(div1, "height", style_height);
+      }
+    },
+    d(detaching) {
+      if (detaching)
+        detach(div1);
+    }
+  };
+}
+function create_fragment3(ctx) {
+  let div;
+  let each_value = (
+    /*visibleHours*/
+    ctx[0]
+  );
+  let each_blocks = [];
+  for (let i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+  }
+  return {
+    c() {
+      div = element("div");
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      attr(div, "class", "hours-container svelte-9a769u");
+    },
+    m(target, anchor) {
+      insert(target, div, anchor);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        if (each_blocks[i]) {
+          each_blocks[i].m(div, null);
+        }
+      }
+    },
+    p(ctx2, [dirty]) {
+      if (dirty & /*getHourSize, $settings, hoursToMoment, visibleHours*/
+      3) {
+        each_value = /*visibleHours*/
+        ctx2[0];
+        let i;
+        for (i = 0; i < each_value.length; i += 1) {
+          const child_ctx = get_each_context(ctx2, each_value, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+          } else {
+            each_blocks[i] = create_each_block(child_ctx);
+            each_blocks[i].c();
+            each_blocks[i].m(div, null);
+          }
+        }
+        for (; i < each_blocks.length; i += 1) {
+          each_blocks[i].d(1);
+        }
+        each_blocks.length = each_value.length;
+      }
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (detaching)
+        detach(div);
+      destroy_each(each_blocks, detaching);
+    }
+  };
+}
+function instance3($$self, $$props, $$invalidate) {
+  let $settings;
+  component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
+  let { visibleHours } = $$props;
+  $$self.$$set = ($$props2) => {
+    if ("visibleHours" in $$props2)
+      $$invalidate(0, visibleHours = $$props2.visibleHours);
+  };
+  return [visibleHours, $settings];
+}
+var Ruler = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance3, create_fragment3, safe_not_equal, { visibleHours: 0 }, add_css2);
+  }
+};
+var ruler_default = Ruler;
+
+// src/ui/components/scroller.svelte
+function add_css3(target) {
+  append_styles(target, "svelte-126njqy", ".scroller.svelte-126njqy{overflow:auto;flex:1 0 0;background-color:var(--background-secondary)}.stretcher.svelte-126njqy{display:flex}");
+}
+var get_default_slot_changes = (dirty) => ({ hovering: dirty & /*hovering*/
+1 });
+var get_default_slot_context = (ctx) => ({ hovering: (
+  /*hovering*/
+  ctx[0]
+) });
+function create_fragment4(ctx) {
+  let div1;
+  let div0;
+  let current2;
+  let mounted;
+  let dispose;
+  const default_slot_template = (
+    /*#slots*/
+    ctx[4].default
+  );
+  const default_slot = create_slot(
+    default_slot_template,
+    ctx,
+    /*$$scope*/
+    ctx[3],
+    get_default_slot_context
+  );
+  return {
+    c() {
+      div1 = element("div");
+      div0 = element("div");
+      if (default_slot)
+        default_slot.c();
+      attr(div0, "class", "stretcher svelte-126njqy");
+      attr(div1, "class", "scroller svelte-126njqy");
+    },
+    m(target, anchor) {
+      insert(target, div1, anchor);
+      append(div1, div0);
+      if (default_slot) {
+        default_slot.m(div0, null);
+      }
+      current2 = true;
+      if (!mounted) {
+        dispose = [
+          listen(
+            div1,
+            "mouseenter",
+            /*handleMouseEnter*/
+            ctx[1]
+          ),
+          listen(
+            div1,
+            "mouseleave",
+            /*handleMouseLeave*/
+            ctx[2]
+          ),
+          listen(
+            div1,
+            "scroll",
+            /*scroll_handler*/
+            ctx[5]
+          )
+        ];
+        mounted = true;
+      }
+    },
+    p(ctx2, [dirty]) {
+      if (default_slot) {
+        if (default_slot.p && (!current2 || dirty & /*$$scope, hovering*/
+        9)) {
+          update_slot_base(
+            default_slot,
+            default_slot_template,
+            ctx2,
+            /*$$scope*/
+            ctx2[3],
+            !current2 ? get_all_dirty_from_scope(
+              /*$$scope*/
+              ctx2[3]
+            ) : get_slot_changes(
+              default_slot_template,
+              /*$$scope*/
+              ctx2[3],
+              dirty,
+              get_default_slot_changes
+            ),
+            get_default_slot_context
+          );
+        }
+      }
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(default_slot, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(default_slot, local);
+      current2 = false;
+    },
+    d(detaching) {
+      if (detaching)
+        detach(div1);
+      if (default_slot)
+        default_slot.d(detaching);
+      mounted = false;
+      run_all(dispose);
+    }
+  };
+}
+function instance4($$self, $$props, $$invalidate) {
+  let { $$slots: slots = {}, $$scope } = $$props;
+  let hovering = false;
+  function handleMouseEnter() {
+    $$invalidate(0, hovering = true);
+  }
+  function handleMouseLeave() {
+    $$invalidate(0, hovering = false);
+  }
+  function scroll_handler(event) {
+    bubble.call(this, $$self, event);
+  }
+  $$self.$$set = ($$props2) => {
+    if ("$$scope" in $$props2)
+      $$invalidate(3, $$scope = $$props2.$$scope);
+  };
+  return [hovering, handleMouseEnter, handleMouseLeave, $$scope, slots, scroll_handler];
+}
+var Scroller = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance4, create_fragment4, safe_not_equal, {}, add_css3);
+  }
+};
+var scroller_default = Scroller;
 
 // node_modules/tslib/tslib.es6.mjs
 function __awaiter(thisArg, _arguments, P, generator) {
@@ -36439,7 +36874,7 @@ var defaultAttributes = {
 };
 
 // node_modules/lucide-svelte/dist/esm/Icon.svelte.js
-function get_each_context(ctx, list, i) {
+function get_each_context2(ctx, list, i) {
   const child_ctx = ctx.slice();
   child_ctx[10] = list[i][0];
   child_ctx[11] = list[i][1];
@@ -36491,7 +36926,7 @@ function create_dynamic_element(ctx) {
     }
   };
 }
-function create_each_block(ctx) {
+function create_each_block2(ctx) {
   let previous_tag = (
     /*tag*/
     ctx[10]
@@ -36553,7 +36988,7 @@ function create_each_block(ctx) {
     }
   };
 }
-function create_fragment2(ctx) {
+function create_fragment5(ctx) {
   var _a;
   let svg;
   let each_1_anchor;
@@ -36566,7 +37001,7 @@ function create_fragment2(ctx) {
   );
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
-    each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    each_blocks[i] = create_each_block2(get_each_context2(ctx, each_value, i));
   }
   const default_slot_template = (
     /*#slots*/
@@ -36669,11 +37104,11 @@ function create_fragment2(ctx) {
         ctx2[5];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
-          const child_ctx = get_each_context(ctx2, each_value, i);
+          const child_ctx = get_each_context2(ctx2, each_value, i);
           if (each_blocks[i]) {
             each_blocks[i].p(child_ctx, dirty);
           } else {
-            each_blocks[i] = create_each_block(child_ctx);
+            each_blocks[i] = create_each_block2(child_ctx);
             each_blocks[i].c();
             each_blocks[i].m(svg, each_1_anchor);
           }
@@ -36763,7 +37198,7 @@ function create_fragment2(ctx) {
     }
   };
 }
-function instance2($$self, $$props, $$invalidate) {
+function instance5($$self, $$props, $$invalidate) {
   const omit_props_names = ["name", "color", "size", "strokeWidth", "absoluteStrokeWidth", "iconNode"];
   let $$restProps = compute_rest_props($$props, omit_props_names);
   let { $$slots: slots = {}, $$scope } = $$props;
@@ -36808,7 +37243,7 @@ function instance2($$self, $$props, $$invalidate) {
 var Icon = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance2, create_fragment2, safe_not_equal, {
+    init(this, options, instance5, create_fragment5, safe_not_equal, {
       name: 0,
       color: 1,
       size: 2,
@@ -36890,7 +37325,7 @@ function create_default_slot(ctx) {
     }
   };
 }
-function create_fragment3(ctx) {
+function create_fragment6(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -36957,7 +37392,7 @@ function create_fragment3(ctx) {
     }
   };
 }
-function instance3($$self, $$props, $$invalidate) {
+function instance6($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     [
@@ -36980,7 +37415,7 @@ function instance3($$self, $$props, $$invalidate) {
 var Alert_triangle = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance3, create_fragment3, safe_not_equal, {});
+    init(this, options, instance6, create_fragment6, safe_not_equal, {});
   }
 };
 var Alert_triangle$1 = Alert_triangle;
@@ -37055,7 +37490,7 @@ function create_default_slot2(ctx) {
     }
   };
 }
-function create_fragment4(ctx) {
+function create_fragment7(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37122,7 +37557,7 @@ function create_fragment4(ctx) {
     }
   };
 }
-function instance4($$self, $$props, $$invalidate) {
+function instance7($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     ["path", { "d": "M3 19V5" }],
@@ -37140,7 +37575,7 @@ function instance4($$self, $$props, $$invalidate) {
 var Arrow_left_to_line = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance4, create_fragment4, safe_not_equal, {});
+    init(this, options, instance7, create_fragment7, safe_not_equal, {});
   }
 };
 var Arrow_left_to_line$1 = Arrow_left_to_line;
@@ -37215,7 +37650,7 @@ function create_default_slot3(ctx) {
     }
   };
 }
-function create_fragment5(ctx) {
+function create_fragment8(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37282,7 +37717,7 @@ function create_fragment5(ctx) {
     }
   };
 }
-function instance5($$self, $$props, $$invalidate) {
+function instance8($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [["path", { "d": "m12 19-7-7 7-7" }], ["path", { "d": "M19 12H5" }]];
   $$self.$$set = ($$new_props) => {
@@ -37296,7 +37731,7 @@ function instance5($$self, $$props, $$invalidate) {
 var Arrow_left = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance5, create_fragment5, safe_not_equal, {});
+    init(this, options, instance8, create_fragment8, safe_not_equal, {});
   }
 };
 var Arrow_left$1 = Arrow_left;
@@ -37371,7 +37806,7 @@ function create_default_slot4(ctx) {
     }
   };
 }
-function create_fragment6(ctx) {
+function create_fragment9(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37438,7 +37873,7 @@ function create_fragment6(ctx) {
     }
   };
 }
-function instance6($$self, $$props, $$invalidate) {
+function instance9($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     ["path", { "d": "M17 12H3" }],
@@ -37456,7 +37891,7 @@ function instance6($$self, $$props, $$invalidate) {
 var Arrow_right_to_line = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance6, create_fragment6, safe_not_equal, {});
+    init(this, options, instance9, create_fragment9, safe_not_equal, {});
   }
 };
 var Arrow_right_to_line$1 = Arrow_right_to_line;
@@ -37531,7 +37966,7 @@ function create_default_slot5(ctx) {
     }
   };
 }
-function create_fragment7(ctx) {
+function create_fragment10(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37598,7 +38033,7 @@ function create_fragment7(ctx) {
     }
   };
 }
-function instance7($$self, $$props, $$invalidate) {
+function instance10($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [["path", { "d": "M5 12h14" }], ["path", { "d": "m12 5 7 7-7 7" }]];
   $$self.$$set = ($$new_props) => {
@@ -37612,7 +38047,7 @@ function instance7($$self, $$props, $$invalidate) {
 var Arrow_right = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance7, create_fragment7, safe_not_equal, {});
+    init(this, options, instance10, create_fragment10, safe_not_equal, {});
   }
 };
 var Arrow_right$1 = Arrow_right;
@@ -37687,7 +38122,7 @@ function create_default_slot6(ctx) {
     }
   };
 }
-function create_fragment8(ctx) {
+function create_fragment11(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37754,7 +38189,7 @@ function create_fragment8(ctx) {
     }
   };
 }
-function instance8($$self, $$props, $$invalidate) {
+function instance11($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     ["circle", { "cx": "12", "cy": "12", "r": "10" }],
@@ -37771,7 +38206,7 @@ function instance8($$self, $$props, $$invalidate) {
 var Circle_dot = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance8, create_fragment8, safe_not_equal, {});
+    init(this, options, instance11, create_fragment11, safe_not_equal, {});
   }
 };
 var Circle_dot$1 = Circle_dot;
@@ -37846,7 +38281,7 @@ function create_default_slot7(ctx) {
     }
   };
 }
-function create_fragment9(ctx) {
+function create_fragment12(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -37913,7 +38348,7 @@ function create_fragment9(ctx) {
     }
   };
 }
-function instance9($$self, $$props, $$invalidate) {
+function instance12($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     [
@@ -37937,7 +38372,7 @@ function instance9($$self, $$props, $$invalidate) {
 var File_input = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance9, create_fragment9, safe_not_equal, {});
+    init(this, options, instance12, create_fragment12, safe_not_equal, {});
   }
 };
 var File_input$1 = File_input;
@@ -38012,7 +38447,7 @@ function create_default_slot8(ctx) {
     }
   };
 }
-function create_fragment10(ctx) {
+function create_fragment13(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -38079,7 +38514,7 @@ function create_fragment10(ctx) {
     }
   };
 }
-function instance10($$self, $$props, $$invalidate) {
+function instance13($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     [
@@ -38102,7 +38537,7 @@ function instance10($$self, $$props, $$invalidate) {
 var Filter_x = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance10, create_fragment10, safe_not_equal, {});
+    init(this, options, instance13, create_fragment13, safe_not_equal, {});
   }
 };
 var Filter_x$1 = Filter_x;
@@ -38177,7 +38612,7 @@ function create_default_slot9(ctx) {
     }
   };
 }
-function create_fragment11(ctx) {
+function create_fragment14(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -38244,7 +38679,7 @@ function create_fragment11(ctx) {
     }
   };
 }
-function instance11($$self, $$props, $$invalidate) {
+function instance14($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     [
@@ -38265,7 +38700,7 @@ function instance11($$self, $$props, $$invalidate) {
 var Filter = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance11, create_fragment11, safe_not_equal, {});
+    init(this, options, instance14, create_fragment14, safe_not_equal, {});
   }
 };
 var Filter$1 = Filter;
@@ -38340,7 +38775,7 @@ function create_default_slot10(ctx) {
     }
   };
 }
-function create_fragment12(ctx) {
+function create_fragment15(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
@@ -38407,7 +38842,7 @@ function create_fragment12(ctx) {
     }
   };
 }
-function instance12($$self, $$props, $$invalidate) {
+function instance15($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
     ["circle", { "cx": "9", "cy": "12", "r": "1" }],
@@ -38428,507 +38863,13 @@ function instance12($$self, $$props, $$invalidate) {
 var Grip_vertical = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance12, create_fragment12, safe_not_equal, {});
+    init(this, options, instance15, create_fragment15, safe_not_equal, {});
   }
 };
 var Grip_vertical$1 = Grip_vertical;
 
-// node_modules/lucide-svelte/dist/esm/icons/help-circle.svelte.js
-function create_default_slot11(ctx) {
-  let current2;
-  const default_slot_template = (
-    /*#slots*/
-    ctx[2].default
-  );
-  const default_slot = create_slot(
-    default_slot_template,
-    ctx,
-    /*$$scope*/
-    ctx[3],
-    null
-  );
-  return {
-    c() {
-      if (default_slot)
-        default_slot.c();
-    },
-    l(nodes) {
-      if (default_slot)
-        default_slot.l(nodes);
-    },
-    m(target, anchor) {
-      if (default_slot) {
-        default_slot.m(target, anchor);
-      }
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      if (default_slot) {
-        if (default_slot.p && (!current2 || dirty & /*$$scope*/
-        8)) {
-          update_slot_base(
-            default_slot,
-            default_slot_template,
-            ctx2,
-            /*$$scope*/
-            ctx2[3],
-            !current2 ? get_all_dirty_from_scope(
-              /*$$scope*/
-              ctx2[3]
-            ) : get_slot_changes(
-              default_slot_template,
-              /*$$scope*/
-              ctx2[3],
-              dirty,
-              null
-            ),
-            null
-          );
-        }
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(default_slot, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(default_slot, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (default_slot)
-        default_slot.d(detaching);
-    }
-  };
-}
-function create_fragment13(ctx) {
-  let icon;
-  let current2;
-  const icon_spread_levels = [
-    { name: "help-circle" },
-    /*$$props*/
-    ctx[1],
-    { iconNode: (
-      /*iconNode*/
-      ctx[0]
-    ) }
-  ];
-  let icon_props = {
-    $$slots: { default: [create_default_slot11] },
-    $$scope: { ctx }
-  };
-  for (let i = 0; i < icon_spread_levels.length; i += 1) {
-    icon_props = assign(icon_props, icon_spread_levels[i]);
-  }
-  icon = new Icon$1({ props: icon_props });
-  return {
-    c() {
-      create_component(icon.$$.fragment);
-    },
-    l(nodes) {
-      claim_component(icon.$$.fragment, nodes);
-    },
-    m(target, anchor) {
-      mount_component(icon, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, [dirty]) {
-      const icon_changes = dirty & /*$$props, iconNode*/
-      3 ? get_spread_update(icon_spread_levels, [
-        icon_spread_levels[0],
-        dirty & /*$$props*/
-        2 && get_spread_object(
-          /*$$props*/
-          ctx2[1]
-        ),
-        dirty & /*iconNode*/
-        1 && { iconNode: (
-          /*iconNode*/
-          ctx2[0]
-        ) }
-      ]) : {};
-      if (dirty & /*$$scope*/
-      8) {
-        icon_changes.$$scope = { dirty, ctx: ctx2 };
-      }
-      icon.$set(icon_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(icon.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(icon.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(icon, detaching);
-    }
-  };
-}
-function instance13($$self, $$props, $$invalidate) {
-  let { $$slots: slots = {}, $$scope } = $$props;
-  const iconNode = [
-    ["circle", { "cx": "12", "cy": "12", "r": "10" }],
-    [
-      "path",
-      {
-        "d": "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"
-      }
-    ],
-    ["path", { "d": "M12 17h.01" }]
-  ];
-  $$self.$$set = ($$new_props) => {
-    $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
-    if ("$$scope" in $$new_props)
-      $$invalidate(3, $$scope = $$new_props.$$scope);
-  };
-  $$props = exclude_internal_props($$props);
-  return [iconNode, $$props, slots, $$scope];
-}
-var Help_circle = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance13, create_fragment13, safe_not_equal, {});
-  }
-};
-var Help_circle$1 = Help_circle;
-
 // node_modules/lucide-svelte/dist/esm/icons/info.svelte.js
-function create_default_slot12(ctx) {
-  let current2;
-  const default_slot_template = (
-    /*#slots*/
-    ctx[2].default
-  );
-  const default_slot = create_slot(
-    default_slot_template,
-    ctx,
-    /*$$scope*/
-    ctx[3],
-    null
-  );
-  return {
-    c() {
-      if (default_slot)
-        default_slot.c();
-    },
-    l(nodes) {
-      if (default_slot)
-        default_slot.l(nodes);
-    },
-    m(target, anchor) {
-      if (default_slot) {
-        default_slot.m(target, anchor);
-      }
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      if (default_slot) {
-        if (default_slot.p && (!current2 || dirty & /*$$scope*/
-        8)) {
-          update_slot_base(
-            default_slot,
-            default_slot_template,
-            ctx2,
-            /*$$scope*/
-            ctx2[3],
-            !current2 ? get_all_dirty_from_scope(
-              /*$$scope*/
-              ctx2[3]
-            ) : get_slot_changes(
-              default_slot_template,
-              /*$$scope*/
-              ctx2[3],
-              dirty,
-              null
-            ),
-            null
-          );
-        }
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(default_slot, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(default_slot, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (default_slot)
-        default_slot.d(detaching);
-    }
-  };
-}
-function create_fragment14(ctx) {
-  let icon;
-  let current2;
-  const icon_spread_levels = [
-    { name: "info" },
-    /*$$props*/
-    ctx[1],
-    { iconNode: (
-      /*iconNode*/
-      ctx[0]
-    ) }
-  ];
-  let icon_props = {
-    $$slots: { default: [create_default_slot12] },
-    $$scope: { ctx }
-  };
-  for (let i = 0; i < icon_spread_levels.length; i += 1) {
-    icon_props = assign(icon_props, icon_spread_levels[i]);
-  }
-  icon = new Icon$1({ props: icon_props });
-  return {
-    c() {
-      create_component(icon.$$.fragment);
-    },
-    l(nodes) {
-      claim_component(icon.$$.fragment, nodes);
-    },
-    m(target, anchor) {
-      mount_component(icon, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, [dirty]) {
-      const icon_changes = dirty & /*$$props, iconNode*/
-      3 ? get_spread_update(icon_spread_levels, [
-        icon_spread_levels[0],
-        dirty & /*$$props*/
-        2 && get_spread_object(
-          /*$$props*/
-          ctx2[1]
-        ),
-        dirty & /*iconNode*/
-        1 && { iconNode: (
-          /*iconNode*/
-          ctx2[0]
-        ) }
-      ]) : {};
-      if (dirty & /*$$scope*/
-      8) {
-        icon_changes.$$scope = { dirty, ctx: ctx2 };
-      }
-      icon.$set(icon_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(icon.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(icon.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(icon, detaching);
-    }
-  };
-}
-function instance14($$self, $$props, $$invalidate) {
-  let { $$slots: slots = {}, $$scope } = $$props;
-  const iconNode = [
-    ["circle", { "cx": "12", "cy": "12", "r": "10" }],
-    ["path", { "d": "M12 16v-4" }],
-    ["path", { "d": "M12 8h.01" }]
-  ];
-  $$self.$$set = ($$new_props) => {
-    $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
-    if ("$$scope" in $$new_props)
-      $$invalidate(3, $$scope = $$new_props.$$scope);
-  };
-  $$props = exclude_internal_props($$props);
-  return [iconNode, $$props, slots, $$scope];
-}
-var Info = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance14, create_fragment14, safe_not_equal, {});
-  }
-};
-var Info$1 = Info;
-
-// node_modules/lucide-svelte/dist/esm/icons/lock.svelte.js
-function create_default_slot13(ctx) {
-  let current2;
-  const default_slot_template = (
-    /*#slots*/
-    ctx[2].default
-  );
-  const default_slot = create_slot(
-    default_slot_template,
-    ctx,
-    /*$$scope*/
-    ctx[3],
-    null
-  );
-  return {
-    c() {
-      if (default_slot)
-        default_slot.c();
-    },
-    l(nodes) {
-      if (default_slot)
-        default_slot.l(nodes);
-    },
-    m(target, anchor) {
-      if (default_slot) {
-        default_slot.m(target, anchor);
-      }
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      if (default_slot) {
-        if (default_slot.p && (!current2 || dirty & /*$$scope*/
-        8)) {
-          update_slot_base(
-            default_slot,
-            default_slot_template,
-            ctx2,
-            /*$$scope*/
-            ctx2[3],
-            !current2 ? get_all_dirty_from_scope(
-              /*$$scope*/
-              ctx2[3]
-            ) : get_slot_changes(
-              default_slot_template,
-              /*$$scope*/
-              ctx2[3],
-              dirty,
-              null
-            ),
-            null
-          );
-        }
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(default_slot, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(default_slot, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (default_slot)
-        default_slot.d(detaching);
-    }
-  };
-}
-function create_fragment15(ctx) {
-  let icon;
-  let current2;
-  const icon_spread_levels = [
-    { name: "lock" },
-    /*$$props*/
-    ctx[1],
-    { iconNode: (
-      /*iconNode*/
-      ctx[0]
-    ) }
-  ];
-  let icon_props = {
-    $$slots: { default: [create_default_slot13] },
-    $$scope: { ctx }
-  };
-  for (let i = 0; i < icon_spread_levels.length; i += 1) {
-    icon_props = assign(icon_props, icon_spread_levels[i]);
-  }
-  icon = new Icon$1({ props: icon_props });
-  return {
-    c() {
-      create_component(icon.$$.fragment);
-    },
-    l(nodes) {
-      claim_component(icon.$$.fragment, nodes);
-    },
-    m(target, anchor) {
-      mount_component(icon, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, [dirty]) {
-      const icon_changes = dirty & /*$$props, iconNode*/
-      3 ? get_spread_update(icon_spread_levels, [
-        icon_spread_levels[0],
-        dirty & /*$$props*/
-        2 && get_spread_object(
-          /*$$props*/
-          ctx2[1]
-        ),
-        dirty & /*iconNode*/
-        1 && { iconNode: (
-          /*iconNode*/
-          ctx2[0]
-        ) }
-      ]) : {};
-      if (dirty & /*$$scope*/
-      8) {
-        icon_changes.$$scope = { dirty, ctx: ctx2 };
-      }
-      icon.$set(icon_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(icon.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(icon.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(icon, detaching);
-    }
-  };
-}
-function instance15($$self, $$props, $$invalidate) {
-  let { $$slots: slots = {}, $$scope } = $$props;
-  const iconNode = [
-    [
-      "rect",
-      {
-        "width": "18",
-        "height": "11",
-        "x": "3",
-        "y": "11",
-        "rx": "2",
-        "ry": "2"
-      }
-    ],
-    ["path", { "d": "M7 11V7a5 5 0 0 1 10 0v4" }]
-  ];
-  $$self.$$set = ($$new_props) => {
-    $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
-    if ("$$scope" in $$new_props)
-      $$invalidate(3, $$scope = $$new_props.$$scope);
-  };
-  $$props = exclude_internal_props($$props);
-  return [iconNode, $$props, slots, $$scope];
-}
-var Lock = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance15, create_fragment15, safe_not_equal, {});
-  }
-};
-var Lock$1 = Lock;
-
-// node_modules/lucide-svelte/dist/esm/icons/refresh-cw-off.svelte.js
-function create_default_slot14(ctx) {
+function create_default_slot11(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -39001,7 +38942,7 @@ function create_fragment16(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
-    { name: "refresh-cw-off" },
+    { name: "info" },
     /*$$props*/
     ctx[1],
     { iconNode: (
@@ -39010,7 +38951,7 @@ function create_fragment16(ctx) {
     ) }
   ];
   let icon_props = {
-    $$slots: { default: [create_default_slot14] },
+    $$slots: { default: [create_default_slot11] },
     $$scope: { ctx }
   };
   for (let i = 0; i < icon_spread_levels.length; i += 1) {
@@ -39067,23 +39008,9 @@ function create_fragment16(ctx) {
 function instance16($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
-    [
-      "path",
-      {
-        "d": "M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47"
-      }
-    ],
-    ["path", { "d": "M8 16H3v5" }],
-    ["path", { "d": "M3 12C3 9.51 4 7.26 5.64 5.64" }],
-    [
-      "path",
-      {
-        "d": "m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64"
-      }
-    ],
-    ["path", { "d": "M21 12c0 1-.16 1.97-.47 2.87" }],
-    ["path", { "d": "M21 3v5h-5" }],
-    ["path", { "d": "M22 22 2 2" }]
+    ["circle", { "cx": "12", "cy": "12", "r": "10" }],
+    ["path", { "d": "M12 16v-4" }],
+    ["path", { "d": "M12 8h.01" }]
   ];
   $$self.$$set = ($$new_props) => {
     $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
@@ -39093,16 +39020,16 @@ function instance16($$self, $$props, $$invalidate) {
   $$props = exclude_internal_props($$props);
   return [iconNode, $$props, slots, $$scope];
 }
-var Refresh_cw_off = class extends SvelteComponent {
+var Info = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance16, create_fragment16, safe_not_equal, {});
   }
 };
-var Refresh_cw_off$1 = Refresh_cw_off;
+var Info$1 = Info;
 
-// node_modules/lucide-svelte/dist/esm/icons/refresh-cw.svelte.js
-function create_default_slot15(ctx) {
+// node_modules/lucide-svelte/dist/esm/icons/move.svelte.js
+function create_default_slot12(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -39175,7 +39102,7 @@ function create_fragment17(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
-    { name: "refresh-cw" },
+    { name: "move" },
     /*$$props*/
     ctx[1],
     { iconNode: (
@@ -39184,7 +39111,7 @@ function create_fragment17(ctx) {
     ) }
   ];
   let icon_props = {
-    $$slots: { default: [create_default_slot15] },
+    $$slots: { default: [create_default_slot12] },
     $$scope: { ctx }
   };
   for (let i = 0; i < icon_spread_levels.length; i += 1) {
@@ -39241,20 +39168,28 @@ function create_fragment17(ctx) {
 function instance17($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [
+    ["polyline", { "points": "5 9 2 12 5 15" }],
+    ["polyline", { "points": "9 5 12 2 15 5" }],
+    ["polyline", { "points": "15 19 12 22 9 19" }],
+    ["polyline", { "points": "19 9 22 12 19 15" }],
     [
-      "path",
+      "line",
       {
-        "d": "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+        "x1": "2",
+        "x2": "22",
+        "y1": "12",
+        "y2": "12"
       }
     ],
-    ["path", { "d": "M21 3v5h-5" }],
     [
-      "path",
+      "line",
       {
-        "d": "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+        "x1": "12",
+        "x2": "12",
+        "y1": "2",
+        "y2": "22"
       }
-    ],
-    ["path", { "d": "M8 16H3v5" }]
+    ]
   ];
   $$self.$$set = ($$new_props) => {
     $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
@@ -39264,16 +39199,16 @@ function instance17($$self, $$props, $$invalidate) {
   $$props = exclude_internal_props($$props);
   return [iconNode, $$props, slots, $$scope];
 }
-var Refresh_cw = class extends SvelteComponent {
+var Move = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance17, create_fragment17, safe_not_equal, {});
   }
 };
-var Refresh_cw$1 = Refresh_cw;
+var Move$1 = Move;
 
-// node_modules/lucide-svelte/dist/esm/icons/settings.svelte.js
-function create_default_slot16(ctx) {
+// node_modules/lucide-svelte/dist/esm/icons/refresh-cw-off.svelte.js
+function create_default_slot13(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -39346,7 +39281,7 @@ function create_fragment18(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
-    { name: "settings" },
+    { name: "refresh-cw-off" },
     /*$$props*/
     ctx[1],
     { iconNode: (
@@ -39355,7 +39290,7 @@ function create_fragment18(ctx) {
     ) }
   ];
   let icon_props = {
-    $$slots: { default: [create_default_slot16] },
+    $$slots: { default: [create_default_slot13] },
     $$scope: { ctx }
   };
   for (let i = 0; i < icon_spread_levels.length; i += 1) {
@@ -39415,10 +39350,20 @@ function instance18($$self, $$props, $$invalidate) {
     [
       "path",
       {
-        "d": "M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+        "d": "M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47"
       }
     ],
-    ["circle", { "cx": "12", "cy": "12", "r": "3" }]
+    ["path", { "d": "M8 16H3v5" }],
+    ["path", { "d": "M3 12C3 9.51 4 7.26 5.64 5.64" }],
+    [
+      "path",
+      {
+        "d": "m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64"
+      }
+    ],
+    ["path", { "d": "M21 12c0 1-.16 1.97-.47 2.87" }],
+    ["path", { "d": "M21 3v5h-5" }],
+    ["path", { "d": "M22 22 2 2" }]
   ];
   $$self.$$set = ($$new_props) => {
     $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
@@ -39428,16 +39373,16 @@ function instance18($$self, $$props, $$invalidate) {
   $$props = exclude_internal_props($$props);
   return [iconNode, $$props, slots, $$scope];
 }
-var Settings = class extends SvelteComponent {
+var Refresh_cw_off = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance18, create_fragment18, safe_not_equal, {});
   }
 };
-var Settings$1 = Settings;
+var Refresh_cw_off$1 = Refresh_cw_off;
 
-// node_modules/lucide-svelte/dist/esm/icons/table-2.svelte.js
-function create_default_slot17(ctx) {
+// node_modules/lucide-svelte/dist/esm/icons/refresh-cw.svelte.js
+function create_default_slot14(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -39510,7 +39455,7 @@ function create_fragment19(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
-    { name: "table-2" },
+    { name: "refresh-cw" },
     /*$$props*/
     ctx[1],
     { iconNode: (
@@ -39519,7 +39464,7 @@ function create_fragment19(ctx) {
     ) }
   ];
   let icon_props = {
-    $$slots: { default: [create_default_slot17] },
+    $$slots: { default: [create_default_slot14] },
     $$scope: { ctx }
   };
   for (let i = 0; i < icon_spread_levels.length; i += 1) {
@@ -39579,9 +39524,17 @@ function instance19($$self, $$props, $$invalidate) {
     [
       "path",
       {
-        "d": "M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"
+        "d": "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
       }
-    ]
+    ],
+    ["path", { "d": "M21 3v5h-5" }],
+    [
+      "path",
+      {
+        "d": "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+      }
+    ],
+    ["path", { "d": "M8 16H3v5" }]
   ];
   $$self.$$set = ($$new_props) => {
     $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
@@ -39591,16 +39544,16 @@ function instance19($$self, $$props, $$invalidate) {
   $$props = exclude_internal_props($$props);
   return [iconNode, $$props, slots, $$scope];
 }
-var Table_2 = class extends SvelteComponent {
+var Refresh_cw = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance19, create_fragment19, safe_not_equal, {});
   }
 };
-var Table_2$1 = Table_2;
+var Refresh_cw$1 = Refresh_cw;
 
-// node_modules/lucide-svelte/dist/esm/icons/x.svelte.js
-function create_default_slot18(ctx) {
+// node_modules/lucide-svelte/dist/esm/icons/settings.svelte.js
+function create_default_slot15(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -39673,7 +39626,7 @@ function create_fragment20(ctx) {
   let icon;
   let current2;
   const icon_spread_levels = [
-    { name: "x" },
+    { name: "settings" },
     /*$$props*/
     ctx[1],
     { iconNode: (
@@ -39682,7 +39635,7 @@ function create_fragment20(ctx) {
     ) }
   ];
   let icon_props = {
-    $$slots: { default: [create_default_slot18] },
+    $$slots: { default: [create_default_slot15] },
     $$scope: { ctx }
   };
   for (let i = 0; i < icon_spread_levels.length; i += 1) {
@@ -39738,6 +39691,333 @@ function create_fragment20(ctx) {
 }
 function instance20($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
+  const iconNode = [
+    [
+      "path",
+      {
+        "d": "M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+      }
+    ],
+    ["circle", { "cx": "12", "cy": "12", "r": "3" }]
+  ];
+  $$self.$$set = ($$new_props) => {
+    $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
+    if ("$$scope" in $$new_props)
+      $$invalidate(3, $$scope = $$new_props.$$scope);
+  };
+  $$props = exclude_internal_props($$props);
+  return [iconNode, $$props, slots, $$scope];
+}
+var Settings = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance20, create_fragment20, safe_not_equal, {});
+  }
+};
+var Settings$1 = Settings;
+
+// node_modules/lucide-svelte/dist/esm/icons/table-2.svelte.js
+function create_default_slot16(ctx) {
+  let current2;
+  const default_slot_template = (
+    /*#slots*/
+    ctx[2].default
+  );
+  const default_slot = create_slot(
+    default_slot_template,
+    ctx,
+    /*$$scope*/
+    ctx[3],
+    null
+  );
+  return {
+    c() {
+      if (default_slot)
+        default_slot.c();
+    },
+    l(nodes) {
+      if (default_slot)
+        default_slot.l(nodes);
+    },
+    m(target, anchor) {
+      if (default_slot) {
+        default_slot.m(target, anchor);
+      }
+      current2 = true;
+    },
+    p(ctx2, dirty) {
+      if (default_slot) {
+        if (default_slot.p && (!current2 || dirty & /*$$scope*/
+        8)) {
+          update_slot_base(
+            default_slot,
+            default_slot_template,
+            ctx2,
+            /*$$scope*/
+            ctx2[3],
+            !current2 ? get_all_dirty_from_scope(
+              /*$$scope*/
+              ctx2[3]
+            ) : get_slot_changes(
+              default_slot_template,
+              /*$$scope*/
+              ctx2[3],
+              dirty,
+              null
+            ),
+            null
+          );
+        }
+      }
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(default_slot, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(default_slot, local);
+      current2 = false;
+    },
+    d(detaching) {
+      if (default_slot)
+        default_slot.d(detaching);
+    }
+  };
+}
+function create_fragment21(ctx) {
+  let icon;
+  let current2;
+  const icon_spread_levels = [
+    { name: "table-2" },
+    /*$$props*/
+    ctx[1],
+    { iconNode: (
+      /*iconNode*/
+      ctx[0]
+    ) }
+  ];
+  let icon_props = {
+    $$slots: { default: [create_default_slot16] },
+    $$scope: { ctx }
+  };
+  for (let i = 0; i < icon_spread_levels.length; i += 1) {
+    icon_props = assign(icon_props, icon_spread_levels[i]);
+  }
+  icon = new Icon$1({ props: icon_props });
+  return {
+    c() {
+      create_component(icon.$$.fragment);
+    },
+    l(nodes) {
+      claim_component(icon.$$.fragment, nodes);
+    },
+    m(target, anchor) {
+      mount_component(icon, target, anchor);
+      current2 = true;
+    },
+    p(ctx2, [dirty]) {
+      const icon_changes = dirty & /*$$props, iconNode*/
+      3 ? get_spread_update(icon_spread_levels, [
+        icon_spread_levels[0],
+        dirty & /*$$props*/
+        2 && get_spread_object(
+          /*$$props*/
+          ctx2[1]
+        ),
+        dirty & /*iconNode*/
+        1 && { iconNode: (
+          /*iconNode*/
+          ctx2[0]
+        ) }
+      ]) : {};
+      if (dirty & /*$$scope*/
+      8) {
+        icon_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      icon.$set(icon_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(icon.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(icon.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(icon, detaching);
+    }
+  };
+}
+function instance21($$self, $$props, $$invalidate) {
+  let { $$slots: slots = {}, $$scope } = $$props;
+  const iconNode = [
+    [
+      "path",
+      {
+        "d": "M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"
+      }
+    ]
+  ];
+  $$self.$$set = ($$new_props) => {
+    $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
+    if ("$$scope" in $$new_props)
+      $$invalidate(3, $$scope = $$new_props.$$scope);
+  };
+  $$props = exclude_internal_props($$props);
+  return [iconNode, $$props, slots, $$scope];
+}
+var Table_2 = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance21, create_fragment21, safe_not_equal, {});
+  }
+};
+var Table_2$1 = Table_2;
+
+// node_modules/lucide-svelte/dist/esm/icons/x.svelte.js
+function create_default_slot17(ctx) {
+  let current2;
+  const default_slot_template = (
+    /*#slots*/
+    ctx[2].default
+  );
+  const default_slot = create_slot(
+    default_slot_template,
+    ctx,
+    /*$$scope*/
+    ctx[3],
+    null
+  );
+  return {
+    c() {
+      if (default_slot)
+        default_slot.c();
+    },
+    l(nodes) {
+      if (default_slot)
+        default_slot.l(nodes);
+    },
+    m(target, anchor) {
+      if (default_slot) {
+        default_slot.m(target, anchor);
+      }
+      current2 = true;
+    },
+    p(ctx2, dirty) {
+      if (default_slot) {
+        if (default_slot.p && (!current2 || dirty & /*$$scope*/
+        8)) {
+          update_slot_base(
+            default_slot,
+            default_slot_template,
+            ctx2,
+            /*$$scope*/
+            ctx2[3],
+            !current2 ? get_all_dirty_from_scope(
+              /*$$scope*/
+              ctx2[3]
+            ) : get_slot_changes(
+              default_slot_template,
+              /*$$scope*/
+              ctx2[3],
+              dirty,
+              null
+            ),
+            null
+          );
+        }
+      }
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(default_slot, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(default_slot, local);
+      current2 = false;
+    },
+    d(detaching) {
+      if (default_slot)
+        default_slot.d(detaching);
+    }
+  };
+}
+function create_fragment22(ctx) {
+  let icon;
+  let current2;
+  const icon_spread_levels = [
+    { name: "x" },
+    /*$$props*/
+    ctx[1],
+    { iconNode: (
+      /*iconNode*/
+      ctx[0]
+    ) }
+  ];
+  let icon_props = {
+    $$slots: { default: [create_default_slot17] },
+    $$scope: { ctx }
+  };
+  for (let i = 0; i < icon_spread_levels.length; i += 1) {
+    icon_props = assign(icon_props, icon_spread_levels[i]);
+  }
+  icon = new Icon$1({ props: icon_props });
+  return {
+    c() {
+      create_component(icon.$$.fragment);
+    },
+    l(nodes) {
+      claim_component(icon.$$.fragment, nodes);
+    },
+    m(target, anchor) {
+      mount_component(icon, target, anchor);
+      current2 = true;
+    },
+    p(ctx2, [dirty]) {
+      const icon_changes = dirty & /*$$props, iconNode*/
+      3 ? get_spread_update(icon_spread_levels, [
+        icon_spread_levels[0],
+        dirty & /*$$props*/
+        2 && get_spread_object(
+          /*$$props*/
+          ctx2[1]
+        ),
+        dirty & /*iconNode*/
+        1 && { iconNode: (
+          /*iconNode*/
+          ctx2[0]
+        ) }
+      ]) : {};
+      if (dirty & /*$$scope*/
+      8) {
+        icon_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      icon.$set(icon_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(icon.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(icon.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(icon, detaching);
+    }
+  };
+}
+function instance22($$self, $$props, $$invalidate) {
+  let { $$slots: slots = {}, $$scope } = $$props;
   const iconNode = [["path", { "d": "M18 6 6 18" }], ["path", { "d": "m6 6 12 12" }]];
   $$self.$$set = ($$new_props) => {
     $$invalidate(1, $$props = assign(assign({}, $$props), exclude_internal_props($$new_props)));
@@ -39750,13 +40030,16 @@ function instance20($$self, $$props, $$invalidate) {
 var X = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance20, create_fragment20, safe_not_equal, {});
+    init(this, options, instance22, create_fragment22, safe_not_equal, {});
   }
 };
 var X$1 = X;
 
+// src/ui/components/timeline-controls.svelte
+var import_moment6 = __toESM(require_moment());
+
 // src/ui/hooks/use-dataview-source.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 function useDataviewSource({ refreshTasks }) {
   const sourceIsEmpty = derived(
     settings,
@@ -39779,7 +40062,7 @@ function useDataviewSource({ refreshTasks }) {
       settings.update((previous) => ({ ...previous, dataviewSource: source }));
     }
   }
-  const debouncedUpdate = (0, import_obsidian5.debounce)(tryUpdateSettings, 1e3, true);
+  const debouncedUpdate = (0, import_obsidian7.debounce)(tryUpdateSettings, 1e3, true);
   const unsubscribe = dataviewSourceInput.subscribe((value) => {
     debouncedUpdate(value);
   });
@@ -39794,10 +40077,10 @@ function useDataviewSource({ refreshTasks }) {
 }
 
 // src/ui/components/control-button.svelte
-function add_css2(target) {
-  append_styles(target, "svelte-q3i8zw", ".clickable-icon.svelte-q3i8zw{grid-column-start:var(--grid-column-start, auto);flex-basis:var(--flex-basis, var(--input-height));align-self:var(--align-self, center);justify-content:var(--justify-content, center);justify-self:var(--justify-self, auto);color:var(--color, var(--icon-color));white-space:nowrap}");
+function add_css4(target) {
+  append_styles(target, "svelte-xud6aw", ".clickable-icon.svelte-xud6aw{grid-column-start:var(--grid-column-start, auto);flex-basis:var(--flex-basis, var(--input-height));align-self:var(--align-self, center);justify-content:var(--justify-content, center);justify-self:var(--justify-self, auto);color:var(--color, var(--icon-color));white-space:nowrap;border:var(--control-button-border, none)}");
 }
-function create_fragment21(ctx) {
+function create_fragment23(ctx) {
   let div;
   let div_class_value;
   let current2;
@@ -39820,7 +40103,7 @@ function create_fragment21(ctx) {
       if (default_slot)
         default_slot.c();
       attr(div, "class", div_class_value = "clickable-icon " + /*classes*/
-      ctx[3] + " svelte-q3i8zw");
+      ctx[3] + " svelte-xud6aw");
       attr(
         div,
         "aria-disabled",
@@ -39882,7 +40165,7 @@ function create_fragment21(ctx) {
       }
       if (!current2 || dirty & /*classes*/
       8 && div_class_value !== (div_class_value = "clickable-icon " + /*classes*/
-      ctx2[3] + " svelte-q3i8zw")) {
+      ctx2[3] + " svelte-xud6aw")) {
         attr(div, "class", div_class_value);
       }
       if (!current2 || dirty & /*disabled*/
@@ -39933,7 +40216,7 @@ function create_fragment21(ctx) {
     }
   };
 }
-function instance21($$self, $$props, $$invalidate) {
+function instance23($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   let { label = void 0 } = $$props;
   let { isActive = false } = $$props;
@@ -39962,8 +40245,8 @@ var Control_button = class extends SvelteComponent {
     init(
       this,
       options,
-      instance21,
-      create_fragment21,
+      instance23,
+      create_fragment23,
       safe_not_equal,
       {
         label: 0,
@@ -39971,7 +40254,7 @@ var Control_button = class extends SvelteComponent {
         disabled: 2,
         classes: 3
       },
-      add_css2
+      add_css4
     );
   }
 };
@@ -39997,7 +40280,7 @@ Other relevant details:
 }
 
 // src/ui/components/error-report.svelte
-function add_css3(target) {
+function add_css5(target) {
   append_styles(target, "svelte-47ifb9", ".container.svelte-47ifb9{display:grid;grid-template-columns:1fr auto}.error-message.svelte-47ifb9{overflow:auto;grid-column:1 / 3;max-height:400px;padding:var(--size-4-1);font-size:var(--font-ui-smaller);border:1px solid var(--text-error);border-radius:var(--radius-s)}");
 }
 function create_if_block2(ctx) {
@@ -40021,7 +40304,7 @@ function create_if_block2(ctx) {
     props: {
       classes: "dismiss-button",
       label: "Dismiss error",
-      $$slots: { default: [create_default_slot19] },
+      $$slots: { default: [create_default_slot18] },
       $$scope: { ctx }
     }
   });
@@ -40098,7 +40381,7 @@ function create_if_block2(ctx) {
     }
   };
 }
-function create_default_slot19(ctx) {
+function create_default_slot18(ctx) {
   let x;
   let current2;
   x = new X$1({ props: { class: "svg-icon" } });
@@ -40126,7 +40409,7 @@ function create_default_slot19(ctx) {
     }
   };
 }
-function create_fragment22(ctx) {
+function create_fragment24(ctx) {
   let if_block_anchor;
   let current2;
   let if_block = (
@@ -40188,7 +40471,7 @@ function create_fragment22(ctx) {
     }
   };
 }
-function instance22($$self, $$props, $$invalidate) {
+function instance24($$self, $$props, $$invalidate) {
   let $errorStore;
   const errorStore = getContext(errorContextKey);
   component_subscribe($$self, errorStore, (value) => $$invalidate(0, $errorStore = value));
@@ -40200,18 +40483,18 @@ function instance22($$self, $$props, $$invalidate) {
 var Error_report = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance22, create_fragment22, safe_not_equal, {}, add_css3);
+    init(this, options, instance24, create_fragment24, safe_not_equal, {}, add_css5);
   }
 };
 var error_report_default = Error_report;
 
 // src/ui/components/obsidian/dropdown.svelte
-function get_each_context2(ctx, list, i) {
+function get_each_context3(ctx, list, i) {
   const child_ctx = ctx.slice();
   child_ctx[1] = list[i];
   return child_ctx;
 }
-function create_each_block2(ctx) {
+function create_each_block3(ctx) {
   let option;
   let t_value = (
     /*value*/
@@ -40249,7 +40532,7 @@ function create_each_block2(ctx) {
     }
   };
 }
-function create_fragment23(ctx) {
+function create_fragment25(ctx) {
   let select;
   let mounted;
   let dispose;
@@ -40259,7 +40542,7 @@ function create_fragment23(ctx) {
   );
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
-    each_blocks[i] = create_each_block2(get_each_context2(ctx, each_value, i));
+    each_blocks[i] = create_each_block3(get_each_context3(ctx, each_value, i));
   }
   return {
     c() {
@@ -40298,11 +40581,11 @@ function create_fragment23(ctx) {
         ctx2[0];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
-          const child_ctx = get_each_context2(ctx2, each_value, i);
+          const child_ctx = get_each_context3(ctx2, each_value, i);
           if (each_blocks[i]) {
             each_blocks[i].p(child_ctx, dirty);
           } else {
-            each_blocks[i] = create_each_block2(child_ctx);
+            each_blocks[i] = create_each_block3(child_ctx);
             each_blocks[i].c();
             each_blocks[i].m(select, null);
           }
@@ -40332,7 +40615,7 @@ function create_fragment23(ctx) {
     }
   };
 }
-function instance23($$self, $$props, $$invalidate) {
+function instance25($$self, $$props, $$invalidate) {
   let { value } = $$props;
   let { values } = $$props;
   function input_handler(event) {
@@ -40349,20 +40632,20 @@ function instance23($$self, $$props, $$invalidate) {
 var Dropdown = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance23, create_fragment23, safe_not_equal, { value: 1, values: 0 });
+    init(this, options, instance25, create_fragment25, safe_not_equal, { value: 1, values: 0 });
   }
 };
 var dropdown_default = Dropdown;
 
 // src/ui/components/obsidian/setting-item.svelte
-function add_css4(target) {
+function add_css6(target) {
   append_styles(target, "svelte-ysxaf1", ".setting-item.svelte-ysxaf1{padding:var(--size-2-3) 0}.setting-item-name.svelte-ysxaf1{font-size:var(--font-ui-small)}");
 }
 var get_control_slot_changes = (dirty) => ({});
 var get_control_slot_context = (ctx) => ({});
 var get_name_slot_changes = (dirty) => ({});
 var get_name_slot_context = (ctx) => ({});
-function create_fragment24(ctx) {
+function create_fragment26(ctx) {
   let div3;
   let div1;
   let div0;
@@ -40491,7 +40774,7 @@ function create_fragment24(ctx) {
     }
   };
 }
-function instance24($$self, $$props, $$invalidate) {
+function instance26($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   $$self.$$set = ($$props2) => {
     if ("$$scope" in $$props2)
@@ -40502,16 +40785,130 @@ function instance24($$self, $$props, $$invalidate) {
 var Setting_item = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance24, create_fragment24, safe_not_equal, {}, add_css4);
+    init(this, options, instance26, create_fragment26, safe_not_equal, {}, add_css6);
   }
 };
 var setting_item_default = Setting_item;
 
-// src/ui/components/timeline-controls.svelte
-function add_css5(target) {
-  append_styles(target, "svelte-edzsos", ".active-filter{color:var(--text-success)}.stretcher.svelte-edzsos.svelte-edzsos{display:flex;flex-direction:column;gap:var(--size-4-2);font-size:var(--font-ui-small);color:var(--text-muted)}.mod-error{color:var(--text-error)}.stretcher.svelte-edzsos input.svelte-edzsos{font-family:var(--font-monospace)}.info-container.svelte-edzsos.svelte-edzsos{display:flex;gap:var(--size-4-1);margin:var(--size-4-2)}.info-container.svelte-edzsos .svg-icon{flex-shrink:0}.error-message.svelte-edzsos.svelte-edzsos{overflow-x:auto;padding:var(--size-4-1);border:1px solid var(--text-error);border-radius:var(--radius-s)}.controls-section.svelte-edzsos.svelte-edzsos{margin:var(--size-4-2) 0;font-size:var(--font-ui-small);font-weight:var(--font-medium)}.help-item.svelte-edzsos.svelte-edzsos{font-size:var(--font-ui-small);color:var(--text-muted)}.date.svelte-edzsos.svelte-edzsos{display:flex;align-items:center;justify-content:center;font-size:var(--font-ui-small);font-weight:var(--font-medium);color:var(--text-normal)}.settings.svelte-edzsos.svelte-edzsos{margin:var(--size-4-1) 0}.controls.svelte-edzsos.svelte-edzsos{overflow:hidden;display:flex;flex:0 0 auto;flex-direction:column;padding:var(--size-4-2);border-bottom:1px solid var(--background-modifier-border)}.header.svelte-edzsos.svelte-edzsos{display:grid;grid-template-columns:repeat(3, var(--size-4-8)) repeat(3, 1fr) repeat(\n        3,\n        var(--size-4-8)\n      )}.help.svelte-edzsos.svelte-edzsos{display:flex;flex-direction:column;margin:var(--size-2-3) 0}");
+// src/ui/components/pill.svelte
+function add_css7(target) {
+  append_styles(target, "svelte-1kszfgg", ".pill.svelte-1kszfgg{display:inline-flex;padding:var(--size-2-1) var(--size-4-1);font-size:var(--font-ui-smaller);color:var(--color-accent);white-space:nowrap;border:1px solid var(--color-accent);border-radius:var(--radius-m)}");
 }
-function create_default_slot_14(ctx) {
+function create_if_block3(ctx) {
+  let span;
+  let t0;
+  let t1;
+  let t2;
+  return {
+    c() {
+      span = element("span");
+      t0 = text(
+        /*key*/
+        ctx[0]
+      );
+      t1 = text(": ");
+      t2 = text(
+        /*value*/
+        ctx[1]
+      );
+      attr(span, "class", "pill svelte-1kszfgg");
+    },
+    m(target, anchor) {
+      insert(target, span, anchor);
+      append(span, t0);
+      append(span, t1);
+      append(span, t2);
+    },
+    p(ctx2, dirty) {
+      if (dirty & /*key*/
+      1)
+        set_data(
+          t0,
+          /*key*/
+          ctx2[0]
+        );
+      if (dirty & /*value*/
+      2)
+        set_data(
+          t2,
+          /*value*/
+          ctx2[1]
+        );
+    },
+    d(detaching) {
+      if (detaching)
+        detach(span);
+    }
+  };
+}
+function create_fragment27(ctx) {
+  let if_block_anchor;
+  let if_block = (
+    /*value*/
+    ctx[1] && create_if_block3(ctx)
+  );
+  return {
+    c() {
+      if (if_block)
+        if_block.c();
+      if_block_anchor = empty();
+    },
+    m(target, anchor) {
+      if (if_block)
+        if_block.m(target, anchor);
+      insert(target, if_block_anchor, anchor);
+    },
+    p(ctx2, [dirty]) {
+      if (
+        /*value*/
+        ctx2[1]
+      ) {
+        if (if_block) {
+          if_block.p(ctx2, dirty);
+        } else {
+          if_block = create_if_block3(ctx2);
+          if_block.c();
+          if_block.m(if_block_anchor.parentNode, if_block_anchor);
+        }
+      } else if (if_block) {
+        if_block.d(1);
+        if_block = null;
+      }
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (if_block)
+        if_block.d(detaching);
+      if (detaching)
+        detach(if_block_anchor);
+    }
+  };
+}
+function instance27($$self, $$props, $$invalidate) {
+  let { key } = $$props;
+  let { value } = $$props;
+  $$self.$$set = ($$props2) => {
+    if ("key" in $$props2)
+      $$invalidate(0, key = $$props2.key);
+    if ("value" in $$props2)
+      $$invalidate(1, value = $$props2.value);
+  };
+  return [key, value];
+}
+var Pill = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance27, create_fragment27, safe_not_equal, { key: 0, value: 1 }, add_css7);
+  }
+};
+var pill_default = Pill;
+
+// src/ui/components/timeline-controls.svelte
+function add_css8(target) {
+  append_styles(target, "svelte-1ua8hc1", ".active-filter{color:var(--text-success)}.stretcher.svelte-1ua8hc1.svelte-1ua8hc1{display:flex;flex-direction:column;gap:var(--size-4-2);font-size:var(--font-ui-small);color:var(--text-muted)}.mod-error{color:var(--text-error)}.button-box.svelte-1ua8hc1 .clickable-icon.is-active{color:var(--text-on-accent);background-color:var(--interactive-accent)}.button-box.svelte-1ua8hc1 .clickable-icon:not(.is-active){background-color:var(--background-primary)}.button-box.svelte-1ua8hc1.svelte-1ua8hc1{overflow:hidden;display:flex;font-size:var(--font-ui-small);border:1px solid var(--color-base-40);border-radius:var(--clickable-icon-radius)}.button-box.svelte-1ua8hc1>*{flex:1 0 0;border-radius:0}.stretcher.svelte-1ua8hc1 input.svelte-1ua8hc1{font-family:var(--font-monospace)}.info-container.svelte-1ua8hc1.svelte-1ua8hc1{display:flex;gap:var(--size-4-1);margin:var(--size-4-2)}.info-container.svelte-1ua8hc1 .svg-icon{flex-shrink:0}.error-message.svelte-1ua8hc1.svelte-1ua8hc1{overflow-x:auto;padding:var(--size-4-1);border:1px solid var(--text-error);border-radius:var(--radius-s)}.controls-section.svelte-1ua8hc1.svelte-1ua8hc1{margin:var(--size-4-2) 0;font-size:var(--font-ui-small);font-weight:var(--font-medium)}.date.svelte-1ua8hc1.svelte-1ua8hc1{display:flex;align-items:center;justify-content:center;font-size:var(--font-ui-small);font-weight:var(--font-medium);color:var(--text-normal)}.settings.svelte-1ua8hc1.svelte-1ua8hc1{margin:var(--size-4-1) 0}.controls.svelte-1ua8hc1.svelte-1ua8hc1{overflow:hidden;display:flex;flex:0 0 auto;flex-direction:column;gap:var(--size-4-1);padding:var(--size-4-2);font-size:var(--font-ui-small)}.header.svelte-1ua8hc1.svelte-1ua8hc1{display:grid;grid-template-columns:repeat(3, var(--size-4-8)) repeat(3, 1fr) repeat(\n        3,\n        var(--size-4-8)\n      )}");
+}
+function create_default_slot_18(ctx) {
   let fileinput;
   let current2;
   fileinput = new File_input$1({ props: { class: "svg-icon" } });
@@ -40539,7 +40936,7 @@ function create_default_slot_14(ctx) {
     }
   };
 }
-function create_default_slot_13(ctx) {
+function create_default_slot_17(ctx) {
   let table2;
   let current2;
   table2 = new Table_2$1({ props: { class: "svg-icon" } });
@@ -40574,7 +40971,7 @@ function create_else_block_1(ctx) {
     props: {
       disabled: true,
       label: "Can't sync, you're offline!",
-      $$slots: { default: [create_default_slot_12] },
+      $$slots: { default: [create_default_slot_16] },
       $$scope: { ctx }
     }
   });
@@ -40589,7 +40986,7 @@ function create_else_block_1(ctx) {
     p(ctx2, dirty) {
       const controlbutton_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton.$set(controlbutton_changes);
@@ -40615,7 +41012,7 @@ function create_if_block_8(ctx) {
   controlbutton = new control_button_default({
     props: {
       label: "Manually sync with all remote calendars",
-      $$slots: { default: [create_default_slot_11] },
+      $$slots: { default: [create_default_slot_15] },
       $$scope: { ctx }
     }
   });
@@ -40635,7 +41032,7 @@ function create_if_block_8(ctx) {
     p(ctx2, dirty) {
       const controlbutton_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton.$set(controlbutton_changes);
@@ -40655,7 +41052,7 @@ function create_if_block_8(ctx) {
     }
   };
 }
-function create_default_slot_12(ctx) {
+function create_default_slot_16(ctx) {
   let refreshcwoff;
   let current2;
   refreshcwoff = new Refresh_cw_off$1({ props: { class: "svg-icon" } });
@@ -40683,7 +41080,7 @@ function create_default_slot_12(ctx) {
     }
   };
 }
-function create_default_slot_11(ctx) {
+function create_default_slot_15(ctx) {
   let refreshcw;
   let current2;
   refreshcw = new Refresh_cw$1({ props: { class: "svg-icon" } });
@@ -40711,7 +41108,7 @@ function create_default_slot_11(ctx) {
     }
   };
 }
-function create_default_slot_10(ctx) {
+function create_default_slot_14(ctx) {
   let arrowleft;
   let current2;
   arrowleft = new Arrow_left$1({ props: { class: "svg-icon" } });
@@ -40739,11 +41136,11 @@ function create_default_slot_10(ctx) {
     }
   };
 }
-function create_default_slot_9(ctx) {
+function create_default_slot_13(ctx) {
   let span;
   let t_value = (
-    /*$visibleDayInTimeline*/
-    ctx[4].format(
+    /*$dateRange*/
+    ctx[4][0].format(
       /*$settings*/
       ctx[3].timelineDateFormat
     ) + ""
@@ -40753,16 +41150,16 @@ function create_default_slot_9(ctx) {
     c() {
       span = element("span");
       t = text(t_value);
-      attr(span, "class", "date svelte-edzsos");
+      attr(span, "class", "date svelte-1ua8hc1");
     },
     m(target, anchor) {
       insert(target, span, anchor);
       append(span, t);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & /*$visibleDayInTimeline, $settings*/
-      24 && t_value !== (t_value = /*$visibleDayInTimeline*/
-      ctx2[4].format(
+      if (dirty[0] & /*$dateRange, $settings*/
+      24 && t_value !== (t_value = /*$dateRange*/
+      ctx2[4][0].format(
         /*$settings*/
         ctx2[3].timelineDateFormat
       ) + ""))
@@ -40774,7 +41171,7 @@ function create_default_slot_9(ctx) {
     }
   };
 }
-function create_default_slot_8(ctx) {
+function create_default_slot_12(ctx) {
   let arrowright;
   let current2;
   arrowright = new Arrow_right$1({ props: { class: "svg-icon" } });
@@ -40799,6 +41196,34 @@ function create_default_slot_8(ctx) {
     },
     d(detaching) {
       destroy_component(arrowright, detaching);
+    }
+  };
+}
+function create_default_slot_11(ctx) {
+  let move;
+  let current2;
+  move = new Move$1({ props: { class: "svg-icon" } });
+  return {
+    c() {
+      create_component(move.$$.fragment);
+    },
+    m(target, anchor) {
+      mount_component(move, target, anchor);
+      current2 = true;
+    },
+    p: noop,
+    i(local) {
+      if (current2)
+        return;
+      transition_in(move.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(move.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(move, detaching);
     }
   };
 }
@@ -40858,7 +41283,7 @@ function create_if_block_7(ctx) {
     }
   };
 }
-function create_default_slot_7(ctx) {
+function create_default_slot_10(ctx) {
   let current_block_type_index;
   let if_block;
   let if_block_anchor;
@@ -40921,35 +41346,7 @@ function create_default_slot_7(ctx) {
     }
   };
 }
-function create_default_slot_6(ctx) {
-  let helpcircle;
-  let current2;
-  helpcircle = new Help_circle$1({ props: { class: "svg-icon" } });
-  return {
-    c() {
-      create_component(helpcircle.$$.fragment);
-    },
-    m(target, anchor) {
-      mount_component(helpcircle, target, anchor);
-      current2 = true;
-    },
-    p: noop,
-    i(local) {
-      if (current2)
-        return;
-      transition_in(helpcircle.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(helpcircle.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(helpcircle, detaching);
-    }
-  };
-}
-function create_default_slot_5(ctx) {
+function create_default_slot_9(ctx) {
   let settings_1;
   let current2;
   settings_1 = new Settings$1({ props: { class: "svg-icon" } });
@@ -40978,6 +41375,244 @@ function create_default_slot_5(ctx) {
   };
 }
 function create_if_block_6(ctx) {
+  let t0;
+  let div0;
+  let controlbutton0;
+  let t1;
+  let controlbutton1;
+  let t2;
+  let div1;
+  let controlbutton2;
+  let t3;
+  let controlbutton3;
+  let current2;
+  controlbutton0 = new control_button_default({
+    props: {
+      isActive: (
+        /*$settings*/
+        ctx[3].editMode === "simple"
+      ),
+      label: "Other time blocks will not be changed",
+      $$slots: { default: [create_default_slot_8] },
+      $$scope: { ctx }
+    }
+  });
+  controlbutton0.$on(
+    "click",
+    /*click_handler_1*/
+    ctx[31]
+  );
+  controlbutton1 = new control_button_default({
+    props: {
+      isActive: (
+        /*$settings*/
+        ctx[3].editMode === "push"
+      ),
+      label: "Other time blocks are going to shift as you move a block",
+      $$slots: { default: [create_default_slot_7] },
+      $$scope: { ctx }
+    }
+  });
+  controlbutton1.$on(
+    "click",
+    /*click_handler_2*/
+    ctx[32]
+  );
+  controlbutton2 = new control_button_default({
+    props: {
+      isActive: (
+        /*$settings*/
+        ctx[3].copyOnDrag === false
+      ),
+      label: "Move a task when dragging",
+      $$slots: { default: [create_default_slot_6] },
+      $$scope: { ctx }
+    }
+  });
+  controlbutton2.$on(
+    "click",
+    /*click_handler_3*/
+    ctx[33]
+  );
+  controlbutton3 = new control_button_default({
+    props: {
+      isActive: (
+        /*$settings*/
+        ctx[3].copyOnDrag
+      ),
+      label: "Copy a task when dragging",
+      $$slots: { default: [create_default_slot_5] },
+      $$scope: { ctx }
+    }
+  });
+  controlbutton3.$on(
+    "click",
+    /*click_handler_4*/
+    ctx[34]
+  );
+  return {
+    c() {
+      t0 = text("Drag mode:\n    ");
+      div0 = element("div");
+      create_component(controlbutton0.$$.fragment);
+      t1 = space();
+      create_component(controlbutton1.$$.fragment);
+      t2 = text("\n\n    Drag action:\n    ");
+      div1 = element("div");
+      create_component(controlbutton2.$$.fragment);
+      t3 = space();
+      create_component(controlbutton3.$$.fragment);
+      attr(div0, "class", "button-box svelte-1ua8hc1");
+      attr(div1, "class", "button-box svelte-1ua8hc1");
+    },
+    m(target, anchor) {
+      insert(target, t0, anchor);
+      insert(target, div0, anchor);
+      mount_component(controlbutton0, div0, null);
+      append(div0, t1);
+      mount_component(controlbutton1, div0, null);
+      insert(target, t2, anchor);
+      insert(target, div1, anchor);
+      mount_component(controlbutton2, div1, null);
+      append(div1, t3);
+      mount_component(controlbutton3, div1, null);
+      current2 = true;
+    },
+    p(ctx2, dirty) {
+      const controlbutton0_changes = {};
+      if (dirty[0] & /*$settings*/
+      8)
+        controlbutton0_changes.isActive = /*$settings*/
+        ctx2[3].editMode === "simple";
+      if (dirty[1] & /*$$scope*/
+      2048) {
+        controlbutton0_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      controlbutton0.$set(controlbutton0_changes);
+      const controlbutton1_changes = {};
+      if (dirty[0] & /*$settings*/
+      8)
+        controlbutton1_changes.isActive = /*$settings*/
+        ctx2[3].editMode === "push";
+      if (dirty[1] & /*$$scope*/
+      2048) {
+        controlbutton1_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      controlbutton1.$set(controlbutton1_changes);
+      const controlbutton2_changes = {};
+      if (dirty[0] & /*$settings*/
+      8)
+        controlbutton2_changes.isActive = /*$settings*/
+        ctx2[3].copyOnDrag === false;
+      if (dirty[1] & /*$$scope*/
+      2048) {
+        controlbutton2_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      controlbutton2.$set(controlbutton2_changes);
+      const controlbutton3_changes = {};
+      if (dirty[0] & /*$settings*/
+      8)
+        controlbutton3_changes.isActive = /*$settings*/
+        ctx2[3].copyOnDrag;
+      if (dirty[1] & /*$$scope*/
+      2048) {
+        controlbutton3_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      controlbutton3.$set(controlbutton3_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(controlbutton0.$$.fragment, local);
+      transition_in(controlbutton1.$$.fragment, local);
+      transition_in(controlbutton2.$$.fragment, local);
+      transition_in(controlbutton3.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(controlbutton0.$$.fragment, local);
+      transition_out(controlbutton1.$$.fragment, local);
+      transition_out(controlbutton2.$$.fragment, local);
+      transition_out(controlbutton3.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      if (detaching)
+        detach(t0);
+      if (detaching)
+        detach(div0);
+      destroy_component(controlbutton0);
+      destroy_component(controlbutton1);
+      if (detaching)
+        detach(t2);
+      if (detaching)
+        detach(div1);
+      destroy_component(controlbutton2);
+      destroy_component(controlbutton3);
+    }
+  };
+}
+function create_default_slot_8(ctx) {
+  let t;
+  return {
+    c() {
+      t = text("Simple edit");
+    },
+    m(target, anchor) {
+      insert(target, t, anchor);
+    },
+    d(detaching) {
+      if (detaching)
+        detach(t);
+    }
+  };
+}
+function create_default_slot_7(ctx) {
+  let t;
+  return {
+    c() {
+      t = text("Push other blocks");
+    },
+    m(target, anchor) {
+      insert(target, t, anchor);
+    },
+    d(detaching) {
+      if (detaching)
+        detach(t);
+    }
+  };
+}
+function create_default_slot_6(ctx) {
+  let t;
+  return {
+    c() {
+      t = text("Move on drag");
+    },
+    m(target, anchor) {
+      insert(target, t, anchor);
+    },
+    d(detaching) {
+      if (detaching)
+        detach(t);
+    }
+  };
+}
+function create_default_slot_5(ctx) {
+  let t;
+  return {
+    c() {
+      t = text("Copy on drag");
+    },
+    m(target, anchor) {
+      insert(target, t, anchor);
+    },
+    d(detaching) {
+      if (detaching)
+        detach(t);
+    }
+  };
+}
+function create_if_block_52(ctx) {
   let div;
   let alerttriangle;
   let t0;
@@ -40993,7 +41628,7 @@ function create_if_block_6(ctx) {
       span.innerHTML = `You need to install and enable
         <a href="https://github.com/blacksmithgu/obsidian-dataview">Dataview</a>
         for the day planner to work.`;
-      attr(div, "class", "info-container svelte-edzsos");
+      attr(div, "class", "info-container svelte-1ua8hc1");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -41019,7 +41654,7 @@ function create_if_block_6(ctx) {
     }
   };
 }
-function create_if_block_32(ctx) {
+function create_if_block_22(ctx) {
   let div1;
   let t0;
   let input;
@@ -41036,11 +41671,11 @@ function create_if_block_32(ctx) {
   let dispose;
   let if_block0 = (
     /*$sourceIsEmpty*/
-    ctx[6] && create_if_block_52(ctx)
+    ctx[6] && create_if_block_42(ctx)
   );
   let if_block1 = (
     /*$dataviewErrorMessage*/
-    ctx[9].length > 0 && create_if_block_42(ctx)
+    ctx[9].length > 0 && create_if_block_32(ctx)
   );
   info = new Info$1({ props: { class: "svg-icon" } });
   return {
@@ -41063,10 +41698,10 @@ function create_if_block_32(ctx) {
       attr(input, "placeholder", input_placeholder_value = `-#archived and -"notes/personal"`);
       attr(input, "spellcheck", "false");
       attr(input, "type", "text");
-      attr(input, "class", "svelte-edzsos");
+      attr(input, "class", "svelte-1ua8hc1");
       attr(a, "href", "https://blacksmithgu.github.io/obsidian-dataview/reference/sources/");
-      attr(div0, "class", "info-container svelte-edzsos");
-      attr(div1, "class", "stretcher svelte-edzsos");
+      attr(div0, "class", "info-container svelte-1ua8hc1");
+      attr(div1, "class", "stretcher svelte-1ua8hc1");
     },
     m(target, anchor) {
       insert(target, div1, anchor);
@@ -41094,7 +41729,7 @@ function create_if_block_32(ctx) {
           input,
           "input",
           /*input_input_handler*/
-          ctx[30]
+          ctx[35]
         );
         mounted = true;
       }
@@ -41119,7 +41754,7 @@ function create_if_block_32(ctx) {
             transition_in(if_block0, 1);
           }
         } else {
-          if_block0 = create_if_block_52(ctx2);
+          if_block0 = create_if_block_42(ctx2);
           if_block0.c();
           transition_in(if_block0, 1);
           if_block0.m(div1, t2);
@@ -41138,7 +41773,7 @@ function create_if_block_32(ctx) {
         if (if_block1) {
           if_block1.p(ctx2, dirty);
         } else {
-          if_block1 = create_if_block_42(ctx2);
+          if_block1 = create_if_block_32(ctx2);
           if_block1.c();
           if_block1.m(div1, t3);
         }
@@ -41172,7 +41807,7 @@ function create_if_block_32(ctx) {
     }
   };
 }
-function create_if_block_52(ctx) {
+function create_if_block_42(ctx) {
   let div;
   let alerttriangle;
   let t;
@@ -41183,7 +41818,7 @@ function create_if_block_52(ctx) {
       div = element("div");
       create_component(alerttriangle.$$.fragment);
       t = text("\n          Tasks are pulled only from daily notes");
-      attr(div, "class", "info-container svelte-edzsos");
+      attr(div, "class", "info-container svelte-1ua8hc1");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -41208,7 +41843,7 @@ function create_if_block_52(ctx) {
     }
   };
 }
-function create_if_block_42(ctx) {
+function create_if_block_32(ctx) {
   let div;
   let pre;
   let t;
@@ -41220,8 +41855,8 @@ function create_if_block_42(ctx) {
         /*$dataviewErrorMessage*/
         ctx[9]
       );
-      attr(pre, "class", "error-message svelte-edzsos");
-      attr(div, "class", "info-container svelte-edzsos");
+      attr(pre, "class", "error-message svelte-1ua8hc1");
+      attr(div, "class", "info-container svelte-1ua8hc1");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -41243,66 +41878,7 @@ function create_if_block_42(ctx) {
     }
   };
 }
-function create_if_block_22(ctx) {
-  let div;
-  let p0;
-  let t1;
-  let p1;
-  let t5;
-  let p2;
-  let t9;
-  let button;
-  let mounted;
-  let dispose;
-  return {
-    c() {
-      div = element("div");
-      p0 = element("p");
-      p0.innerHTML = `<strong>Advanced editing:</strong>`;
-      t1 = space();
-      p1 = element("p");
-      p1.innerHTML = `Hold <strong>Shift</strong> and drag to copy`;
-      t5 = space();
-      p2 = element("p");
-      p2.innerHTML = `Hold <strong>Control</strong> and drag/resize to push neighboring tasks`;
-      t9 = space();
-      button = element("button");
-      button.textContent = "Show release notes";
-      attr(p0, "class", "help-item svelte-edzsos");
-      attr(p1, "class", "help-item svelte-edzsos");
-      attr(p2, "class", "help-item svelte-edzsos");
-      attr(button, "class", "release-notes-button");
-      attr(div, "class", "help svelte-edzsos");
-    },
-    m(target, anchor) {
-      insert(target, div, anchor);
-      append(div, p0);
-      append(div, t1);
-      append(div, p1);
-      append(div, t5);
-      append(div, p2);
-      append(div, t9);
-      append(div, button);
-      if (!mounted) {
-        dispose = listen(
-          button,
-          "click",
-          /*showReleaseNotes*/
-          ctx[13]
-        );
-        mounted = true;
-      }
-    },
-    p: noop,
-    d(detaching) {
-      if (detaching)
-        detach(div);
-      mounted = false;
-      dispose();
-    }
-  };
-}
-function create_if_block3(ctx) {
+function create_if_block4(ctx) {
   let div1;
   let settingitem0;
   let t0;
@@ -41318,7 +41894,11 @@ function create_if_block3(ctx) {
   let t6;
   let settingitem5;
   let t7;
+  let t8;
+  let button;
   let current2;
+  let mounted;
+  let dispose;
   settingitem0 = new setting_item_default({
     props: {
       $$slots: {
@@ -41397,8 +41977,12 @@ function create_if_block3(ctx) {
       t7 = space();
       if (if_block)
         if_block.c();
-      attr(div0, "class", "controls-section svelte-edzsos");
-      attr(div1, "class", "settings svelte-edzsos");
+      t8 = space();
+      button = element("button");
+      button.textContent = "Show release notes";
+      attr(div0, "class", "controls-section svelte-1ua8hc1");
+      attr(div1, "class", "settings svelte-1ua8hc1");
+      attr(button, "class", "release-notes-button");
     },
     m(target, anchor) {
       insert(target, div1, anchor);
@@ -41418,48 +42002,59 @@ function create_if_block3(ctx) {
       append(div1, t7);
       if (if_block)
         if_block.m(div1, null);
+      insert(target, t8, anchor);
+      insert(target, button, anchor);
       current2 = true;
+      if (!mounted) {
+        dispose = listen(
+          button,
+          "click",
+          /*showReleaseNotes*/
+          ctx[13]
+        );
+        mounted = true;
+      }
     },
     p(ctx2, dirty) {
       const settingitem0_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem0_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem0.$set(settingitem0_changes);
       const settingitem1_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem1_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem1.$set(settingitem1_changes);
       const settingitem2_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem2_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem2.$set(settingitem2_changes);
       const settingitem3_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem3_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem3.$set(settingitem3_changes);
       const settingitem4_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem4_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem4.$set(settingitem4_changes);
       const settingitem5_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem5_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem5.$set(settingitem5_changes);
@@ -41520,6 +42115,12 @@ function create_if_block3(ctx) {
       destroy_component(settingitem5);
       if (if_block)
         if_block.d();
+      if (detaching)
+        detach(t8);
+      if (detaching)
+        detach(button);
+      mounted = false;
+      dispose();
     }
   };
 }
@@ -41550,14 +42151,14 @@ function create_control_slot_6(ctx) {
       ),
       values: (
         /*startHourOptions*/
-        ctx[19]
+        ctx[20]
       )
     }
   });
   dropdown.$on(
     "input",
     /*handleStartHourInput*/
-    ctx[27]
+    ctx[28]
   );
   return {
     c() {
@@ -41619,14 +42220,14 @@ function create_control_slot_5(ctx) {
       ),
       values: (
         /*zoomLevelOptions*/
-        ctx[20]
+        ctx[21]
       )
     }
   });
   dropdown.$on(
     "input",
     /*handleZoomLevelInput*/
-    ctx[28]
+    ctx[29]
   );
   return {
     c() {
@@ -41699,8 +42300,8 @@ function create_control_slot_4(ctx) {
         dispose = listen(
           div,
           "click",
-          /*click_handler_1*/
-          ctx[31]
+          /*click_handler_5*/
+          ctx[36]
         );
         mounted = true;
       }
@@ -41762,8 +42363,8 @@ function create_control_slot_3(ctx) {
         dispose = listen(
           div,
           "click",
-          /*click_handler_2*/
-          ctx[32]
+          /*click_handler_6*/
+          ctx[37]
         );
         mounted = true;
       }
@@ -41825,8 +42426,8 @@ function create_control_slot_2(ctx) {
         dispose = listen(
           div,
           "click",
-          /*click_handler_3*/
-          ctx[33]
+          /*click_handler_7*/
+          ctx[38]
         );
         mounted = true;
       }
@@ -41888,8 +42489,8 @@ function create_control_slot_1(ctx) {
         dispose = listen(
           div,
           "click",
-          /*click_handler_4*/
-          ctx[34]
+          /*click_handler_8*/
+          ctx[39]
         );
         mounted = true;
       }
@@ -41937,7 +42538,7 @@ function create_if_block_12(ctx) {
       const settingitem_changes = {};
       if (dirty[0] & /*$settings*/
       8 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         settingitem_changes.$$scope = { dirty, ctx: ctx2 };
       }
       settingitem.$set(settingitem_changes);
@@ -41995,8 +42596,8 @@ function create_control_slot(ctx) {
         dispose = listen(
           div,
           "click",
-          /*click_handler_5*/
-          ctx[35]
+          /*click_handler_9*/
+          ctx[40]
         );
         mounted = true;
       }
@@ -42020,8 +42621,8 @@ function create_control_slot(ctx) {
     }
   };
 }
-function create_fragment25(ctx) {
-  let div1;
+function create_fragment28(ctx) {
+  let div2;
   let errorreport;
   let t0;
   let div0;
@@ -42036,9 +42637,11 @@ function create_fragment25(ctx) {
   let div;
   let t4;
   let controlbutton3;
+  let div_1;
+  let __control_button_border_last;
   let t5;
   let controlbutton4;
-  let div_1;
+  let div_2;
   let t6;
   let controlbutton5;
   let t7;
@@ -42046,27 +42649,30 @@ function create_fragment25(ctx) {
   let t8;
   let controlbutton7;
   let t9;
+  let div1;
+  let pill;
   let t10;
   let t11;
   let t12;
+  let t13;
   let current2;
   errorreport = new error_report_default({});
   controlbutton0 = new control_button_default({
     props: {
       label: "Open today's daily note",
-      $$slots: { default: [create_default_slot_14] },
+      $$slots: { default: [create_default_slot_18] },
       $$scope: { ctx }
     }
   });
   controlbutton0.$on(
     "click",
     /*goToToday*/
-    ctx[26]
+    ctx[27]
   );
   controlbutton1 = new control_button_default({
     props: {
       label: "Open week planner",
-      $$slots: { default: [create_default_slot_13] },
+      $$slots: { default: [create_default_slot_17] },
       $$scope: { ctx }
     }
   });
@@ -42090,70 +42696,70 @@ function create_fragment25(ctx) {
   controlbutton2 = new control_button_default({
     props: {
       label: "Go to previous day",
-      $$slots: { default: [create_default_slot_10] },
+      $$slots: { default: [create_default_slot_14] },
       $$scope: { ctx }
     }
   });
   controlbutton2.$on(
     "click",
     /*goBack*/
-    ctx[24]
+    ctx[25]
   );
   controlbutton3 = new control_button_default({
     props: {
       label: "Go to file",
-      $$slots: { default: [create_default_slot_9] },
+      $$slots: { default: [create_default_slot_13] },
       $$scope: { ctx }
     }
   });
   controlbutton3.$on(
     "click",
     /*click_handler*/
-    ctx[29]
+    ctx[30]
   );
   controlbutton4 = new control_button_default({
     props: {
       label: "Go to next day",
-      $$slots: { default: [create_default_slot_8] },
+      $$slots: { default: [create_default_slot_12] },
       $$scope: { ctx }
     }
   });
   controlbutton4.$on(
     "click",
     /*goForward*/
-    ctx[25]
+    ctx[26]
   );
   controlbutton5 = new control_button_default({
     props: {
       isActive: (
-        /*filterVisible*/
+        /*editControlsVisible*/
         ctx[2]
       ),
-      label: "Dataview source",
-      $$slots: { default: [create_default_slot_7] },
+      label: "Show time block edit controls",
+      $$slots: { default: [create_default_slot_11] },
       $$scope: { ctx }
     }
   });
   controlbutton5.$on(
     "click",
-    /*toggleFilter*/
-    ctx[23]
+    /*toggleEditControls*/
+    ctx[24]
   );
   controlbutton6 = new control_button_default({
     props: {
       isActive: (
-        /*helpVisible*/
+        /*filterVisible*/
         ctx[1]
       ),
-      label: "Help",
-      $$slots: { default: [create_default_slot_6] },
+      label: "Dataview source",
+      $$slots: { default: [create_default_slot_10] },
       $$scope: { ctx }
     }
   });
   controlbutton6.$on(
     "click",
-    /*toggleHelp*/
-    ctx[22]
+    /*toggleFilter*/
+    ctx[23]
   );
   controlbutton7 = new control_button_default({
     props: {
@@ -42162,32 +42768,41 @@ function create_fragment25(ctx) {
         ctx[0]
       ),
       label: "Settings",
-      $$slots: { default: [create_default_slot_5] },
+      $$slots: { default: [create_default_slot_9] },
       $$scope: { ctx }
     }
   });
   controlbutton7.$on(
     "click",
     /*toggleSettings*/
-    ctx[21]
+    ctx[22]
   );
-  let if_block1 = !/*$dataviewLoaded*/
-  ctx[7] && create_if_block_6(ctx);
-  let if_block2 = (
-    /*filterVisible*/
-    ctx[2] && create_if_block_32(ctx)
+  pill = new pill_default({
+    props: {
+      key: "filter",
+      value: (
+        /*$settings*/
+        ctx[3].dataviewSource
+      )
+    }
+  });
+  let if_block1 = (
+    /*editControlsVisible*/
+    ctx[2] && create_if_block_6(ctx)
   );
+  let if_block2 = !/*$dataviewLoaded*/
+  ctx[7] && create_if_block_52(ctx);
   let if_block3 = (
-    /*helpVisible*/
+    /*filterVisible*/
     ctx[1] && create_if_block_22(ctx)
   );
   let if_block4 = (
     /*settingsVisible*/
-    ctx[0] && create_if_block3(ctx)
+    ctx[0] && create_if_block4(ctx)
   );
   return {
     c() {
-      div1 = element("div");
+      div2 = element("div");
       create_component(errorreport.$$.fragment);
       t0 = space();
       div0 = element("div");
@@ -42200,9 +42815,10 @@ function create_fragment25(ctx) {
       div = element("div");
       create_component(controlbutton2.$$.fragment);
       t4 = space();
+      div_1 = element("div");
       create_component(controlbutton3.$$.fragment);
       t5 = space();
-      div_1 = element("div");
+      div_2 = element("div");
       create_component(controlbutton4.$$.fragment);
       t6 = space();
       create_component(controlbutton5.$$.fragment);
@@ -42211,29 +42827,37 @@ function create_fragment25(ctx) {
       t8 = space();
       create_component(controlbutton7.$$.fragment);
       t9 = space();
+      div1 = element("div");
+      create_component(pill.$$.fragment);
+      t10 = space();
       if (if_block1)
         if_block1.c();
-      t10 = space();
+      t11 = space();
       if (if_block2)
         if_block2.c();
-      t11 = space();
+      t12 = space();
       if (if_block3)
         if_block3.c();
-      t12 = space();
+      t13 = space();
       if (if_block4)
         if_block4.c();
       set_style(div, "display", "contents");
       set_style(div, "--justify-self", "flex-end");
       set_style(div_1, "display", "contents");
-      set_style(div_1, "--justify-self", "flex-start");
-      attr(div0, "class", "header svelte-edzsos");
-      attr(div1, "class", "controls svelte-edzsos");
+      set_style(div_1, "--control-button-border", __control_button_border_last = isToday(
+        /*$dateRange*/
+        ctx[4][0]
+      ) ? "1px solid var(--color-accent)" : "none");
+      set_style(div_2, "display", "contents");
+      set_style(div_2, "--justify-self", "flex-start");
+      attr(div0, "class", "header svelte-1ua8hc1");
+      attr(div2, "class", "controls svelte-1ua8hc1");
     },
     m(target, anchor) {
-      insert(target, div1, anchor);
-      mount_component(errorreport, div1, null);
-      append(div1, t0);
-      append(div1, div0);
+      insert(target, div2, anchor);
+      mount_component(errorreport, div2, null);
+      append(div2, t0);
+      append(div2, div0);
       mount_component(controlbutton0, div0, null);
       append(div0, t1);
       mount_component(controlbutton1, div0, null);
@@ -42243,40 +42867,44 @@ function create_fragment25(ctx) {
       append(div0, div);
       mount_component(controlbutton2, div, null);
       append(div0, t4);
-      mount_component(controlbutton3, div0, null);
-      append(div0, t5);
       append(div0, div_1);
-      mount_component(controlbutton4, div_1, null);
+      mount_component(controlbutton3, div_1, null);
+      append(div0, t5);
+      append(div0, div_2);
+      mount_component(controlbutton4, div_2, null);
       append(div0, t6);
       mount_component(controlbutton5, div0, null);
       append(div0, t7);
       mount_component(controlbutton6, div0, null);
       append(div0, t8);
       mount_component(controlbutton7, div0, null);
-      append(div1, t9);
+      append(div2, t9);
+      append(div2, div1);
+      mount_component(pill, div1, null);
+      append(div2, t10);
       if (if_block1)
-        if_block1.m(div1, null);
-      append(div1, t10);
+        if_block1.m(div2, null);
+      append(div2, t11);
       if (if_block2)
-        if_block2.m(div1, null);
-      append(div1, t11);
+        if_block2.m(div2, null);
+      append(div2, t12);
       if (if_block3)
-        if_block3.m(div1, null);
-      append(div1, t12);
+        if_block3.m(div2, null);
+      append(div2, t13);
       if (if_block4)
-        if_block4.m(div1, null);
+        if_block4.m(div2, null);
       current2 = true;
     },
     p(ctx2, dirty) {
       const controlbutton0_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton0_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton0.$set(controlbutton0_changes);
       const controlbutton1_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton1_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton1.$set(controlbutton1_changes);
@@ -42302,41 +42930,48 @@ function create_fragment25(ctx) {
       }
       const controlbutton2_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton2_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton2.$set(controlbutton2_changes);
+      if (dirty[0] & /*$dateRange*/
+      16 && __control_button_border_last !== (__control_button_border_last = isToday(
+        /*$dateRange*/
+        ctx2[4][0]
+      ) ? "1px solid var(--color-accent)" : "none")) {
+        set_style(div_1, "--control-button-border", __control_button_border_last);
+      }
       const controlbutton3_changes = {};
-      if (dirty[0] & /*$visibleDayInTimeline, $settings*/
+      if (dirty[0] & /*$dateRange, $settings*/
       24 | dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton3_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton3.$set(controlbutton3_changes);
       const controlbutton4_changes = {};
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton4_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton4.$set(controlbutton4_changes);
       const controlbutton5_changes = {};
-      if (dirty[0] & /*filterVisible*/
+      if (dirty[0] & /*editControlsVisible*/
       4)
-        controlbutton5_changes.isActive = /*filterVisible*/
+        controlbutton5_changes.isActive = /*editControlsVisible*/
         ctx2[2];
-      if (dirty[0] & /*$sourceIsEmpty*/
-      64 | dirty[1] & /*$$scope*/
-      64) {
+      if (dirty[1] & /*$$scope*/
+      2048) {
         controlbutton5_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton5.$set(controlbutton5_changes);
       const controlbutton6_changes = {};
-      if (dirty[0] & /*helpVisible*/
+      if (dirty[0] & /*filterVisible*/
       2)
-        controlbutton6_changes.isActive = /*helpVisible*/
+        controlbutton6_changes.isActive = /*filterVisible*/
         ctx2[1];
-      if (dirty[1] & /*$$scope*/
-      64) {
+      if (dirty[0] & /*$sourceIsEmpty*/
+      64 | dirty[1] & /*$$scope*/
+      2048) {
         controlbutton6_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton6.$set(controlbutton6_changes);
@@ -42346,22 +42981,31 @@ function create_fragment25(ctx) {
         controlbutton7_changes.isActive = /*settingsVisible*/
         ctx2[0];
       if (dirty[1] & /*$$scope*/
-      64) {
+      2048) {
         controlbutton7_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton7.$set(controlbutton7_changes);
-      if (!/*$dataviewLoaded*/
-      ctx2[7]) {
+      const pill_changes = {};
+      if (dirty[0] & /*$settings*/
+      8)
+        pill_changes.value = /*$settings*/
+        ctx2[3].dataviewSource;
+      pill.$set(pill_changes);
+      if (
+        /*editControlsVisible*/
+        ctx2[2]
+      ) {
         if (if_block1) {
-          if (dirty[0] & /*$dataviewLoaded*/
-          128) {
+          if_block1.p(ctx2, dirty);
+          if (dirty[0] & /*editControlsVisible*/
+          4) {
             transition_in(if_block1, 1);
           }
         } else {
           if_block1 = create_if_block_6(ctx2);
           if_block1.c();
           transition_in(if_block1, 1);
-          if_block1.m(div1, t10);
+          if_block1.m(div2, t11);
         }
       } else if (if_block1) {
         group_outros();
@@ -42370,21 +43014,18 @@ function create_fragment25(ctx) {
         });
         check_outros();
       }
-      if (
-        /*filterVisible*/
-        ctx2[2]
-      ) {
+      if (!/*$dataviewLoaded*/
+      ctx2[7]) {
         if (if_block2) {
-          if_block2.p(ctx2, dirty);
-          if (dirty[0] & /*filterVisible*/
-          4) {
+          if (dirty[0] & /*$dataviewLoaded*/
+          128) {
             transition_in(if_block2, 1);
           }
         } else {
-          if_block2 = create_if_block_32(ctx2);
+          if_block2 = create_if_block_52(ctx2);
           if_block2.c();
           transition_in(if_block2, 1);
-          if_block2.m(div1, t11);
+          if_block2.m(div2, t12);
         }
       } else if (if_block2) {
         group_outros();
@@ -42394,19 +43035,27 @@ function create_fragment25(ctx) {
         check_outros();
       }
       if (
-        /*helpVisible*/
+        /*filterVisible*/
         ctx2[1]
       ) {
         if (if_block3) {
           if_block3.p(ctx2, dirty);
+          if (dirty[0] & /*filterVisible*/
+          2) {
+            transition_in(if_block3, 1);
+          }
         } else {
           if_block3 = create_if_block_22(ctx2);
           if_block3.c();
-          if_block3.m(div1, t12);
+          transition_in(if_block3, 1);
+          if_block3.m(div2, t13);
         }
       } else if (if_block3) {
-        if_block3.d(1);
-        if_block3 = null;
+        group_outros();
+        transition_out(if_block3, 1, 1, () => {
+          if_block3 = null;
+        });
+        check_outros();
       }
       if (
         /*settingsVisible*/
@@ -42419,10 +43068,10 @@ function create_fragment25(ctx) {
             transition_in(if_block4, 1);
           }
         } else {
-          if_block4 = create_if_block3(ctx2);
+          if_block4 = create_if_block4(ctx2);
           if_block4.c();
           transition_in(if_block4, 1);
-          if_block4.m(div1, null);
+          if_block4.m(div2, null);
         }
       } else if (if_block4) {
         group_outros();
@@ -42445,8 +43094,10 @@ function create_fragment25(ctx) {
       transition_in(controlbutton5.$$.fragment, local);
       transition_in(controlbutton6.$$.fragment, local);
       transition_in(controlbutton7.$$.fragment, local);
+      transition_in(pill.$$.fragment, local);
       transition_in(if_block1);
       transition_in(if_block2);
+      transition_in(if_block3);
       transition_in(if_block4);
       current2 = true;
     },
@@ -42461,14 +43112,16 @@ function create_fragment25(ctx) {
       transition_out(controlbutton5.$$.fragment, local);
       transition_out(controlbutton6.$$.fragment, local);
       transition_out(controlbutton7.$$.fragment, local);
+      transition_out(pill.$$.fragment, local);
       transition_out(if_block1);
       transition_out(if_block2);
+      transition_out(if_block3);
       transition_out(if_block4);
       current2 = false;
     },
     d(detaching) {
       if (detaching)
-        detach(div1);
+        detach(div2);
       destroy_component(errorreport);
       destroy_component(controlbutton0);
       destroy_component(controlbutton1);
@@ -42479,6 +43132,7 @@ function create_fragment25(ctx) {
       destroy_component(controlbutton5);
       destroy_component(controlbutton6);
       destroy_component(controlbutton7);
+      destroy_component(pill);
       if (if_block1)
         if_block1.d();
       if (if_block2)
@@ -42490,19 +43144,20 @@ function create_fragment25(ctx) {
     }
   };
 }
-function instance25($$self, $$props, $$invalidate) {
+function instance28($$self, $$props, $$invalidate) {
   let $settings;
-  let $visibleDayInTimeline;
+  let $dateRange;
   let $isOnline;
   let $sourceIsEmpty;
   let $dataviewLoaded;
   let $dataviewSourceInput;
   let $dataviewErrorMessage;
   component_subscribe($$self, settings, ($$value) => $$invalidate(3, $settings = $$value));
-  component_subscribe($$self, visibleDayInTimeline, ($$value) => $$invalidate(4, $visibleDayInTimeline = $$value));
   const { obsidianFacade, initWeeklyView, refreshTasks, dataviewLoaded, showReleaseNotes, reSync, isOnline } = getContext(obsidianContext);
   component_subscribe($$self, dataviewLoaded, (value) => $$invalidate(7, $dataviewLoaded = value));
   component_subscribe($$self, isOnline, (value) => $$invalidate(5, $isOnline = value));
+  const dateRange = getContext(dateRangeContextKey);
+  component_subscribe($$self, dateRange, (value) => $$invalidate(4, $dateRange = value));
   const { sourceIsEmpty, errorMessage: dataviewErrorMessage, dataviewSourceInput } = useDataviewSource({ refreshTasks });
   component_subscribe($$self, sourceIsEmpty, (value) => $$invalidate(6, $sourceIsEmpty = value));
   component_subscribe($$self, dataviewErrorMessage, (value) => $$invalidate(9, $dataviewErrorMessage = value));
@@ -42510,31 +43165,31 @@ function instance25($$self, $$props, $$invalidate) {
   const startHourOptions = (0, import_fp7.range)(0, 13).map(String);
   const zoomLevelOptions = (0, import_fp7.range)(1, 9).map(String);
   let settingsVisible = false;
-  let helpVisible = false;
   let filterVisible = false;
+  let editControlsVisible = false;
   function toggleSettings() {
     $$invalidate(0, settingsVisible = !settingsVisible);
   }
-  function toggleHelp() {
-    $$invalidate(1, helpVisible = !helpVisible);
-  }
   function toggleFilter() {
-    $$invalidate(2, filterVisible = !filterVisible);
+    $$invalidate(1, filterVisible = !filterVisible);
+  }
+  function toggleEditControls() {
+    $$invalidate(2, editControlsVisible = !editControlsVisible);
   }
   function goBack() {
     return __awaiter(this, void 0, void 0, function* () {
-      const previousDay = $visibleDayInTimeline.clone().subtract(1, "day");
+      const previousDay = $dateRange[0].clone().subtract(1, "day");
       const previousNote = yield createDailyNoteIfNeeded(previousDay);
       yield obsidianFacade.openFileInEditor(previousNote);
-      set_store_value(visibleDayInTimeline, $visibleDayInTimeline = previousDay, $visibleDayInTimeline);
+      set_store_value(dateRange, $dateRange = [previousDay], $dateRange);
     });
   }
   function goForward() {
     return __awaiter(this, void 0, void 0, function* () {
-      const nextDay = $visibleDayInTimeline.clone().add(1, "day");
+      const nextDay = $dateRange[0].clone().add(1, "day");
       const nextNote = yield createDailyNoteIfNeeded(nextDay);
       yield obsidianFacade.openFileInEditor(nextNote);
-      set_store_value(visibleDayInTimeline, $visibleDayInTimeline = nextDay, $visibleDayInTimeline);
+      set_store_value(dateRange, $dateRange = [nextDay], $dateRange);
     });
   }
   function goToToday() {
@@ -42550,37 +43205,49 @@ function instance25($$self, $$props, $$invalidate) {
     set_store_value(settings, $settings.zoomLevel = Number(event.currentTarget.value), $settings);
   }
   const click_handler = async () => {
-    const note = await createDailyNoteIfNeeded($visibleDayInTimeline);
+    const note = await createDailyNoteIfNeeded($dateRange[0]);
     await obsidianFacade.openFileInEditor(note);
+  };
+  const click_handler_1 = () => {
+    set_store_value(settings, $settings.editMode = "simple", $settings);
+  };
+  const click_handler_2 = () => {
+    set_store_value(settings, $settings.editMode = "push", $settings);
+  };
+  const click_handler_3 = () => {
+    set_store_value(settings, $settings.copyOnDrag = false, $settings);
+  };
+  const click_handler_4 = () => {
+    set_store_value(settings, $settings.copyOnDrag = true, $settings);
   };
   function input_input_handler() {
     $dataviewSourceInput = this.value;
     dataviewSourceInput.set($dataviewSourceInput);
   }
-  const click_handler_1 = () => {
+  const click_handler_5 = () => {
     set_store_value(settings, $settings.centerNeedle = !$settings.centerNeedle, $settings);
   };
-  const click_handler_2 = () => {
+  const click_handler_6 = () => {
     set_store_value(settings, $settings.showCompletedTasks = !$settings.showCompletedTasks, $settings);
   };
-  const click_handler_3 = () => {
+  const click_handler_7 = () => {
     settings.update((previous) => ({
       ...previous,
       showSubtasksInTaskBlocks: !previous.showSubtasksInTaskBlocks
     }));
   };
-  const click_handler_4 = () => {
+  const click_handler_8 = () => {
     set_store_value(settings, $settings.showUncheduledTasks = !$settings.showUncheduledTasks, $settings);
   };
-  const click_handler_5 = () => {
+  const click_handler_9 = () => {
     set_store_value(settings, $settings.showUnscheduledNestedTasks = !$settings.showUnscheduledNestedTasks, $settings);
   };
   return [
     settingsVisible,
-    helpVisible,
     filterVisible,
+    editControlsVisible,
     $settings,
-    $visibleDayInTimeline,
+    $dateRange,
     $isOnline,
     $sourceIsEmpty,
     $dataviewLoaded,
@@ -42592,66 +43259,54 @@ function instance25($$self, $$props, $$invalidate) {
     showReleaseNotes,
     reSync,
     isOnline,
+    dateRange,
     sourceIsEmpty,
     dataviewErrorMessage,
     dataviewSourceInput,
     startHourOptions,
     zoomLevelOptions,
     toggleSettings,
-    toggleHelp,
     toggleFilter,
+    toggleEditControls,
     goBack,
     goForward,
     goToToday,
     handleStartHourInput,
     handleZoomLevelInput,
     click_handler,
-    input_input_handler,
     click_handler_1,
     click_handler_2,
     click_handler_3,
     click_handler_4,
-    click_handler_5
+    input_input_handler,
+    click_handler_5,
+    click_handler_6,
+    click_handler_7,
+    click_handler_8,
+    click_handler_9
   ];
 }
 var Timeline_controls = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance25, create_fragment25, safe_not_equal, {}, add_css5, [-1, -1]);
+    init(this, options, instance28, create_fragment28, safe_not_equal, {}, add_css8, [-1, -1]);
   }
 };
 var timeline_controls_default = Timeline_controls;
 
 // src/ui/components/timeline.svelte
-var import_moment8 = __toESM(require_moment());
-
-// src/global-store/derived-settings.ts
-function getHourSize(settings2) {
-  return settings2.zoomLevel * 60;
-}
-function getHiddenHoursSize(settings2) {
-  return settings2.startHour * getHourSize(settings2);
-}
-function getVisibleHours(settings2) {
-  return [...Array(24).keys()].slice(settings2.startHour);
-}
-function timeToTimelineOffset(minutes2, settings2) {
-  return minutes2 * settings2.zoomLevel - getHiddenHoursSize(settings2);
-}
-function snap(coords, { zoomLevel, snapStepMinutes }) {
-  return coords - coords % (snapStepMinutes * zoomLevel);
-}
+var import_moment10 = __toESM(require_moment());
 
 // src/ui/components/column.svelte
-function add_css6(target) {
+function add_css9(target) {
   append_styles(target, "svelte-131kw4b", ".column.svelte-131kw4b{position:relative;flex:1 0 0}.hour-block.svelte-131kw4b{flex:1 0 0;border-bottom:1px solid var(--background-modifier-border)}.half-hour-separator.svelte-131kw4b{border-bottom:1px dashed var(--background-modifier-border)}");
 }
-function get_each_context3(ctx, list, i) {
+function get_each_context4(ctx, list, i) {
   const child_ctx = ctx.slice();
   child_ctx[4] = list[i];
   return child_ctx;
 }
-function create_each_block3(ctx) {
+function create_each_block4(ctx) {
   let div1;
   let div0;
   let style_height = `${getHourSize(
@@ -42700,7 +43355,7 @@ function create_each_block3(ctx) {
     }
   };
 }
-function create_fragment26(ctx) {
+function create_fragment29(ctx) {
   let div;
   let t;
   let current2;
@@ -42721,7 +43376,7 @@ function create_fragment26(ctx) {
   );
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
-    each_blocks[i] = create_each_block3(get_each_context3(ctx, each_value, i));
+    each_blocks[i] = create_each_block4(get_each_context4(ctx, each_value, i));
   }
   return {
     c() {
@@ -42777,11 +43432,11 @@ function create_fragment26(ctx) {
         ctx2[0];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
-          const child_ctx = get_each_context3(ctx2, each_value, i);
+          const child_ctx = get_each_context4(ctx2, each_value, i);
           if (each_blocks[i]) {
             each_blocks[i].p(child_ctx, dirty);
           } else {
-            each_blocks[i] = create_each_block3(child_ctx);
+            each_blocks[i] = create_each_block4(child_ctx);
             each_blocks[i].c();
             each_blocks[i].m(div, null);
           }
@@ -42811,7 +43466,7 @@ function create_fragment26(ctx) {
     }
   };
 }
-function instance26($$self, $$props, $$invalidate) {
+function instance29($$self, $$props, $$invalidate) {
   let $settings;
   component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
   let { $$slots: slots = {}, $$scope } = $$props;
@@ -42827,16 +43482,16 @@ function instance26($$self, $$props, $$invalidate) {
 var Column = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance26, create_fragment26, safe_not_equal, { visibleHours: 0 }, add_css6);
+    init(this, options, instance29, create_fragment29, safe_not_equal, { visibleHours: 0 }, add_css9);
   }
 };
 var column_default = Column;
 
 // src/ui/components/grip.svelte
-function add_css7(target) {
+function add_css10(target) {
   append_styles(target, "svelte-1aph89j", ".grip.svelte-1aph89j{position:relative;right:-4px;grid-column:2;align-self:flex-start;color:var(--text-faint)}.grip.svelte-1aph89j:hover{color:var(--text-muted)}");
 }
-function create_fragment27(ctx) {
+function create_fragment30(ctx) {
   let div;
   let gripvertical;
   let current2;
@@ -42897,7 +43552,7 @@ function create_fragment27(ctx) {
     }
   };
 }
-function instance27($$self, $$props, $$invalidate) {
+function instance30($$self, $$props, $$invalidate) {
   let { cursor } = $$props;
   function mousedown_handler2(event) {
     bubble.call(this, $$self, event);
@@ -42911,7 +43566,7 @@ function instance27($$self, $$props, $$invalidate) {
 var Grip = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance27, create_fragment27, safe_not_equal, { cursor: 0 }, add_css7);
+    init(this, options, instance30, create_fragment30, safe_not_equal, { cursor: 0 }, add_css10);
   }
 };
 var grip_default = Grip;
@@ -42950,10 +43605,10 @@ function hoverPreview(el, task) {
 }
 
 // src/ui/components/markdown-block-content.svelte
-function add_css8(target) {
-  append_styles(target, "svelte-bt9qm9", ".markdown-block-content.svelte-bt9qm9{display:flex;flex:1 0 0;padding:4px 6px 6px}");
+function add_css11(target) {
+  append_styles(target, "svelte-j1jhx3", ".markdown-block-content.svelte-j1jhx3{display:flex;flex:1 0 0;padding:var(--size-2-1) var(--size-4-1)}");
 }
-function create_fragment28(ctx) {
+function create_fragment31(ctx) {
   let div;
   let hoverPreview_action;
   let current2;
@@ -42975,7 +43630,7 @@ function create_fragment28(ctx) {
       div = element("div");
       if (default_slot)
         default_slot.c();
-      attr(div, "class", "markdown-block-content svelte-bt9qm9");
+      attr(div, "class", "markdown-block-content svelte-j1jhx3");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -43045,7 +43700,7 @@ function create_fragment28(ctx) {
     }
   };
 }
-function instance28($$self, $$props, $$invalidate) {
+function instance31($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
   let { task } = $$props;
   $$self.$$set = ($$props2) => {
@@ -43059,7 +43714,7 @@ function instance28($$self, $$props, $$invalidate) {
 var Markdown_block_content = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance28, create_fragment28, safe_not_equal, { task: 0 }, add_css8);
+    init(this, options, instance31, create_fragment31, safe_not_equal, { task: 0 }, add_css11);
   }
 };
 var markdown_block_content_default = Markdown_block_content;
@@ -43133,10 +43788,10 @@ function renderTaskMarkdown(el, initial) {
 }
 
 // src/ui/components/rendered-markdown.svelte
-function add_css9(target) {
+function add_css12(target) {
   append_styles(target, "svelte-9hk5bl", '.day-planner-task-decoration{margin:0 0.25em;padding:0.1em 0.25em;font-size:var(--tag-size);font-weight:var(--tag-weight);line-height:1;color:var(--tag-color);text-decoration:var(--tag-decoration);background-color:var(--tag-background);border-radius:var(--radius-s)}.rendered-markdown.svelte-9hk5bl{--checkbox-size:var(--font-ui-small);flex:1 0 0;color:var(--text-normal)}.rendered-markdown.svelte-9hk5bl p,.rendered-markdown.svelte-9hk5bl ul{margin-block-start:0;margin-block-end:0}.rendered-markdown.svelte-9hk5bl ul,.rendered-markdown.svelte-9hk5bl ol{padding-inline-start:20px}.rendered-markdown.svelte-9hk5bl input[type="checkbox"]{top:2px;margin-inline-end:4px;border-color:var(--text-muted)}.rendered-markdown.svelte-9hk5bl li{color:var(--text-normal)}.rendered-markdown.svelte-9hk5bl li.task-list-item[data-task="x"],.rendered-markdown.svelte-9hk5bl li.task-list-item[data-task="X"]{color:var(--text-muted)}');
 }
-function create_fragment29(ctx) {
+function create_fragment32(ctx) {
   let div;
   let renderTaskMarkdown_action;
   let mounted;
@@ -43194,7 +43849,7 @@ function create_fragment29(ctx) {
     }
   };
 }
-function instance29($$self, $$props, $$invalidate) {
+function instance32($$self, $$props, $$invalidate) {
   let $settings;
   component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
   let { task } = $$props;
@@ -43208,16 +43863,16 @@ function instance29($$self, $$props, $$invalidate) {
 var Rendered_markdown = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance29, create_fragment29, safe_not_equal, { task: 0 }, add_css9);
+    init(this, options, instance32, create_fragment32, safe_not_equal, { task: 0 }, add_css12);
   }
 };
 var rendered_markdown_default = Rendered_markdown;
 
 // src/ui/components/resize-handle.svelte
-function add_css10(target) {
+function add_css13(target) {
   append_styles(target, "svelte-1jq2bgm", ":not(#dummy).workspace-leaf-resize-handle.svelte-1jq2bgm{cursor:row-resize;right:0;bottom:0;left:0;height:calc(var(--divider-width-hover) * 2);border-bottom-width:var(--divider-width)}");
 }
-function create_fragment30(ctx) {
+function create_fragment33(ctx) {
   let hr;
   let mounted;
   let dispose;
@@ -43263,7 +43918,7 @@ function create_fragment30(ctx) {
     }
   };
 }
-function instance30($$self, $$props, $$invalidate) {
+function instance33($$self, $$props, $$invalidate) {
   let { visible = true } = $$props;
   function mousedown_handler2(event) {
     bubble.call(this, $$self, event);
@@ -43277,7 +43932,7 @@ function instance30($$self, $$props, $$invalidate) {
 var Resize_handle = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance30, create_fragment30, safe_not_equal, { visible: 0 }, add_css10);
+    init(this, options, instance33, create_fragment33, safe_not_equal, { visible: 0 }, add_css13);
   }
 };
 var resize_handle_default = Resize_handle;
@@ -43360,11 +44015,24 @@ function useTaskVisuals(task, { settings: settings2, currentTime: currentTime2 }
   };
 }
 
-// src/ui/components/time-block-base.svelte
-function add_css11(target) {
-  append_styles(target, "svelte-1hk97xw", ".padding.svelte-1hk97xw{position:var(--time-block-position, static);top:var(--time-block-top, 0);left:var(--time-block-left, 0);display:flex;width:var(--time-block-width, 100%);height:var(--time-block-height, auto);padding:0 1px 2px;transition:0.05s linear}.padding.svelte-1hk97xw svg.lock-icon{width:var(--icon-xs);height:var(--icon-xs)}.content.svelte-1hk97xw{position:relative;overflow:hidden;display:flex;flex:1 0 0;font-size:var(--font-ui-small);text-align:left;overflow-wrap:anywhere;white-space:normal;background-color:var(--time-block-bg-color, var(--background-primary));border:1px solid var(--time-block-border-color, var(--color-base-50));border-radius:var(--radius-s)}");
+// src/ui/hooks/use-color-override.ts
+function useColorOverride(task) {
+  const { isDarkMode } = getContext(obsidianContext);
+  return derived([settings, isDarkMode], ([$settings, $isDarkMode]) => {
+    const colorOverride = $settings.colorOverrides.find(
+      (override) => task.firstLineText.includes(override.text)
+    );
+    if (colorOverride) {
+      return $isDarkMode ? colorOverride == null ? void 0 : colorOverride.darkModeColor : colorOverride == null ? void 0 : colorOverride.color;
+    }
+  });
 }
-function create_fragment31(ctx) {
+
+// src/ui/components/time-block-base.svelte
+function add_css14(target) {
+  append_styles(target, "svelte-1u2oc4g", ".padding.svelte-1u2oc4g{position:var(--time-block-position, static);top:var(--time-block-top, 0);left:var(--time-block-left, 0);display:flex;width:var(--time-block-width, 100%);height:var(--time-block-height, auto);padding:0 1px 2px;transition:0.05s linear}.padding.svelte-1u2oc4g svg.lock-icon{width:var(--icon-xs);height:var(--icon-xs)}.content.svelte-1u2oc4g{position:relative;overflow:hidden;display:flex;flex:1 0 0;font-size:var(--font-ui-small);text-align:left;overflow-wrap:anywhere;white-space:normal;border:1px solid var(--time-block-border-color, var(--color-base-50));border-radius:var(--radius-s);box-shadow:1px 1px 2px 0 #0000001f}");
+}
+function create_fragment34(ctx) {
   let div1;
   let div0;
   let current2;
@@ -43372,13 +44040,13 @@ function create_fragment31(ctx) {
   let dispose;
   const default_slot_template = (
     /*#slots*/
-    ctx[1].default
+    ctx[5].default
   );
   const default_slot = create_slot(
     default_slot_template,
     ctx,
     /*$$scope*/
-    ctx[0],
+    ctx[4],
     null
   );
   return {
@@ -43387,8 +44055,14 @@ function create_fragment31(ctx) {
       div0 = element("div");
       if (default_slot)
         default_slot.c();
-      attr(div0, "class", "content svelte-1hk97xw");
-      attr(div1, "class", "padding svelte-1hk97xw");
+      attr(div0, "class", "content svelte-1u2oc4g");
+      set_style(
+        div0,
+        "background-color",
+        /*backgroundColor*/
+        ctx[0]
+      );
+      attr(div1, "class", "padding svelte-1u2oc4g");
     },
     m(target, anchor) {
       insert(target, div1, anchor);
@@ -43404,7 +44078,7 @@ function create_fragment31(ctx) {
             div0,
             "mouseup",
             /*mouseup_handler*/
-            ctx[2]
+            ctx[6]
           )
         ];
         mounted = true;
@@ -43413,26 +44087,35 @@ function create_fragment31(ctx) {
     p(ctx2, [dirty]) {
       if (default_slot) {
         if (default_slot.p && (!current2 || dirty & /*$$scope*/
-        1)) {
+        16)) {
           update_slot_base(
             default_slot,
             default_slot_template,
             ctx2,
             /*$$scope*/
-            ctx2[0],
+            ctx2[4],
             !current2 ? get_all_dirty_from_scope(
               /*$$scope*/
-              ctx2[0]
+              ctx2[4]
             ) : get_slot_changes(
               default_slot_template,
               /*$$scope*/
-              ctx2[0],
+              ctx2[4],
               dirty,
               null
             ),
             null
           );
         }
+      }
+      if (dirty & /*backgroundColor*/
+      1) {
+        set_style(
+          div0,
+          "background-color",
+          /*backgroundColor*/
+          ctx2[0]
+        );
       }
     },
     i(local) {
@@ -43456,27 +44139,46 @@ function create_fragment31(ctx) {
   };
 }
 var mousedown_handler = (event) => event.stopPropagation();
-function instance31($$self, $$props, $$invalidate) {
+function instance34($$self, $$props, $$invalidate) {
+  let override;
+  let backgroundColor;
+  let $override, $$unsubscribe_override = noop, $$subscribe_override = () => ($$unsubscribe_override(), $$unsubscribe_override = subscribe(override, ($$value) => $$invalidate(3, $override = $$value)), override);
+  $$self.$$.on_destroy.push(() => $$unsubscribe_override());
   let { $$slots: slots = {}, $$scope } = $$props;
+  let { task } = $$props;
   function mouseup_handler(event) {
     bubble.call(this, $$self, event);
   }
   $$self.$$set = ($$props2) => {
+    if ("task" in $$props2)
+      $$invalidate(2, task = $$props2.task);
     if ("$$scope" in $$props2)
-      $$invalidate(0, $$scope = $$props2.$$scope);
+      $$invalidate(4, $$scope = $$props2.$$scope);
   };
-  return [$$scope, slots, mouseup_handler];
+  $$self.$$.update = () => {
+    if ($$self.$$.dirty & /*task*/
+    4) {
+      $:
+        $$subscribe_override($$invalidate(1, override = useColorOverride(task)));
+    }
+    if ($$self.$$.dirty & /*$override*/
+    8) {
+      $:
+        $$invalidate(0, backgroundColor = $override || "var(--time-block-bg-color, var(--background-primary))");
+    }
+  };
+  return [backgroundColor, override, task, $override, $$scope, slots, mouseup_handler];
 }
 var Time_block_base = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance31, create_fragment31, safe_not_equal, {}, add_css11);
+    init(this, options, instance34, create_fragment34, safe_not_equal, { task: 2 }, add_css14);
   }
 };
 var time_block_base_default = Time_block_base;
 
 // src/ui/components/scheduled-time-block.svelte
-function create_default_slot20(ctx) {
+function create_default_slot19(ctx) {
   let current2;
   const default_slot_template = (
     /*#slots*/
@@ -43541,7 +44243,7 @@ function create_default_slot20(ctx) {
     }
   };
 }
-function create_fragment32(ctx) {
+function create_fragment35(ctx) {
   let timeblockbase;
   let div;
   let __text_faint_last;
@@ -43550,7 +44252,11 @@ function create_fragment32(ctx) {
   let current2;
   timeblockbase = new time_block_base_default({
     props: {
-      $$slots: { default: [create_default_slot20] },
+      task: (
+        /*task*/
+        ctx[0]
+      ),
+      $$slots: { default: [create_default_slot19] },
       $$scope: { ctx }
     }
   });
@@ -43565,47 +44271,47 @@ function create_fragment32(ctx) {
       create_component(timeblockbase.$$.fragment);
       set_style(div, "display", "contents");
       set_style(div, "--text-faint", __text_faint_last = /*$properContrastColors*/
-      ctx[7].faint);
+      ctx[8].faint);
       set_style(div, "--text-muted", __text_muted_last = /*$properContrastColors*/
-      ctx[7].muted);
+      ctx[8].muted);
       set_style(div, "--text-normal", __text_normal_last = /*$properContrastColors*/
-      ctx[7].normal);
+      ctx[8].normal);
       set_style(
         div,
         "--time-block-bg-color",
         /*$backgroundColor*/
-        ctx[8]
+        ctx[9]
       );
       set_style(
         div,
         "--time-block-border-color",
         /*$borderColor*/
-        ctx[9]
+        ctx[10]
       );
       set_style(
         div,
         "--time-block-height",
         /*$height*/
-        ctx[10]
+        ctx[11]
       );
       set_style(
         div,
         "--time-block-left",
         /*left*/
-        ctx[3]
+        ctx[4]
       );
       set_style(div, "--time-block-position", "absolute");
       set_style(
         div,
         "--time-block-top",
         /*$offset*/
-        ctx[11]
+        ctx[12]
       );
       set_style(
         div,
         "--time-block-width",
         /*width*/
-        ctx[4]
+        ctx[5]
       );
     },
     m(target, anchor) {
@@ -43615,75 +44321,79 @@ function create_fragment32(ctx) {
     },
     p(ctx2, [dirty]) {
       if (dirty & /*$properContrastColors*/
-      128 && __text_faint_last !== (__text_faint_last = /*$properContrastColors*/
-      ctx2[7].faint)) {
+      256 && __text_faint_last !== (__text_faint_last = /*$properContrastColors*/
+      ctx2[8].faint)) {
         set_style(div, "--text-faint", __text_faint_last);
       }
       if (dirty & /*$properContrastColors*/
-      128 && __text_muted_last !== (__text_muted_last = /*$properContrastColors*/
-      ctx2[7].muted)) {
+      256 && __text_muted_last !== (__text_muted_last = /*$properContrastColors*/
+      ctx2[8].muted)) {
         set_style(div, "--text-muted", __text_muted_last);
       }
       if (dirty & /*$properContrastColors*/
-      128 && __text_normal_last !== (__text_normal_last = /*$properContrastColors*/
-      ctx2[7].normal)) {
+      256 && __text_normal_last !== (__text_normal_last = /*$properContrastColors*/
+      ctx2[8].normal)) {
         set_style(div, "--text-normal", __text_normal_last);
       }
       if (dirty & /*$backgroundColor*/
-      256) {
+      512) {
         set_style(
           div,
           "--time-block-bg-color",
           /*$backgroundColor*/
-          ctx2[8]
+          ctx2[9]
         );
       }
       if (dirty & /*$borderColor*/
-      512) {
+      1024) {
         set_style(
           div,
           "--time-block-border-color",
           /*$borderColor*/
-          ctx2[9]
+          ctx2[10]
         );
       }
       if (dirty & /*$height*/
-      1024) {
+      2048) {
         set_style(
           div,
           "--time-block-height",
           /*$height*/
-          ctx2[10]
+          ctx2[11]
         );
       }
       if (dirty & /*left*/
-      8) {
+      16) {
         set_style(
           div,
           "--time-block-left",
           /*left*/
-          ctx2[3]
+          ctx2[4]
         );
       }
       if (dirty & /*$offset*/
-      2048) {
+      4096) {
         set_style(
           div,
           "--time-block-top",
           /*$offset*/
-          ctx2[11]
+          ctx2[12]
         );
       }
       if (dirty & /*width*/
-      16) {
+      32) {
         set_style(
           div,
           "--time-block-width",
           /*width*/
-          ctx2[4]
+          ctx2[5]
         );
       }
       const timeblockbase_changes = {};
+      if (dirty & /*task*/
+      1)
+        timeblockbase_changes.task = /*task*/
+        ctx2[0];
       if (dirty & /*$$scope*/
       32768) {
         timeblockbase_changes.$$scope = { dirty, ctx: ctx2 };
@@ -43707,7 +44417,7 @@ function create_fragment32(ctx) {
     }
   };
 }
-function instance32($$self, $$props, $$invalidate) {
+function instance35($$self, $$props, $$invalidate) {
   let height;
   let offset;
   let width;
@@ -43715,11 +44425,11 @@ function instance32($$self, $$props, $$invalidate) {
   let backgroundColor;
   let borderColor;
   let properContrastColors;
-  let $properContrastColors, $$unsubscribe_properContrastColors = noop, $$subscribe_properContrastColors = () => ($$unsubscribe_properContrastColors(), $$unsubscribe_properContrastColors = subscribe(properContrastColors, ($$value) => $$invalidate(7, $properContrastColors = $$value)), properContrastColors);
-  let $backgroundColor, $$unsubscribe_backgroundColor = noop, $$subscribe_backgroundColor = () => ($$unsubscribe_backgroundColor(), $$unsubscribe_backgroundColor = subscribe(backgroundColor, ($$value) => $$invalidate(8, $backgroundColor = $$value)), backgroundColor);
-  let $borderColor, $$unsubscribe_borderColor = noop, $$subscribe_borderColor = () => ($$unsubscribe_borderColor(), $$unsubscribe_borderColor = subscribe(borderColor, ($$value) => $$invalidate(9, $borderColor = $$value)), borderColor);
-  let $height, $$unsubscribe_height = noop, $$subscribe_height = () => ($$unsubscribe_height(), $$unsubscribe_height = subscribe(height, ($$value) => $$invalidate(10, $height = $$value)), height);
-  let $offset, $$unsubscribe_offset = noop, $$subscribe_offset = () => ($$unsubscribe_offset(), $$unsubscribe_offset = subscribe(offset, ($$value) => $$invalidate(11, $offset = $$value)), offset);
+  let $properContrastColors, $$unsubscribe_properContrastColors = noop, $$subscribe_properContrastColors = () => ($$unsubscribe_properContrastColors(), $$unsubscribe_properContrastColors = subscribe(properContrastColors, ($$value) => $$invalidate(8, $properContrastColors = $$value)), properContrastColors);
+  let $backgroundColor, $$unsubscribe_backgroundColor = noop, $$subscribe_backgroundColor = () => ($$unsubscribe_backgroundColor(), $$unsubscribe_backgroundColor = subscribe(backgroundColor, ($$value) => $$invalidate(9, $backgroundColor = $$value)), backgroundColor);
+  let $borderColor, $$unsubscribe_borderColor = noop, $$subscribe_borderColor = () => ($$unsubscribe_borderColor(), $$unsubscribe_borderColor = subscribe(borderColor, ($$value) => $$invalidate(10, $borderColor = $$value)), borderColor);
+  let $height, $$unsubscribe_height = noop, $$subscribe_height = () => ($$unsubscribe_height(), $$unsubscribe_height = subscribe(height, ($$value) => $$invalidate(11, $height = $$value)), height);
+  let $offset, $$unsubscribe_offset = noop, $$subscribe_offset = () => ($$unsubscribe_offset(), $$unsubscribe_offset = subscribe(offset, ($$value) => $$invalidate(12, $offset = $$value)), offset);
   $$self.$$.on_destroy.push(() => $$unsubscribe_properContrastColors());
   $$self.$$.on_destroy.push(() => $$unsubscribe_backgroundColor());
   $$self.$$.on_destroy.push(() => $$unsubscribe_borderColor());
@@ -43732,18 +44442,19 @@ function instance32($$self, $$props, $$invalidate) {
   }
   $$self.$$set = ($$props2) => {
     if ("task" in $$props2)
-      $$invalidate(12, task = $$props2.task);
+      $$invalidate(0, task = $$props2.task);
     if ("$$scope" in $$props2)
       $$invalidate(15, $$scope = $$props2.$$scope);
   };
   $$self.$$.update = () => {
     if ($$self.$$.dirty & /*task*/
-    4096) {
+    1) {
       $:
-        $$subscribe_height($$invalidate(6, { height, offset, width, left, backgroundColor, borderColor, properContrastColors } = useTaskVisuals(task, { settings, currentTime }), height, $$subscribe_offset($$invalidate(5, offset)), ($$invalidate(4, width), $$invalidate(12, task)), ($$invalidate(3, left), $$invalidate(12, task)), $$subscribe_backgroundColor($$invalidate(2, backgroundColor)), $$subscribe_borderColor($$invalidate(1, borderColor)), $$subscribe_properContrastColors($$invalidate(0, properContrastColors))));
+        $$subscribe_height($$invalidate(7, { height, offset, width, left, backgroundColor, borderColor, properContrastColors } = useTaskVisuals(task, { settings, currentTime }), height, $$subscribe_offset($$invalidate(6, offset)), ($$invalidate(5, width), $$invalidate(0, task)), ($$invalidate(4, left), $$invalidate(0, task)), $$subscribe_backgroundColor($$invalidate(3, backgroundColor)), $$subscribe_borderColor($$invalidate(2, borderColor)), $$subscribe_properContrastColors($$invalidate(1, properContrastColors))));
     }
   };
   return [
+    task,
     properContrastColors,
     borderColor,
     backgroundColor,
@@ -43756,7 +44467,6 @@ function instance32($$self, $$props, $$invalidate) {
     $borderColor,
     $height,
     $offset,
-    task,
     slots,
     mouseup_handler,
     $$scope
@@ -43765,7 +44475,7 @@ function instance32($$self, $$props, $$invalidate) {
 var Scheduled_time_block = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance32, create_fragment32, safe_not_equal, { task: 12 });
+    init(this, options, instance35, create_fragment35, safe_not_equal, { task: 0 });
   }
 };
 var scheduled_time_block_default = Scheduled_time_block;
@@ -43870,7 +44580,7 @@ function create_default_slot_1(ctx) {
     }
   };
 }
-function create_default_slot21(ctx) {
+function create_default_slot20(ctx) {
   let markdownblockcontent;
   let current2;
   markdownblockcontent = new markdown_block_content_default({
@@ -43918,7 +44628,7 @@ function create_default_slot21(ctx) {
     }
   };
 }
-function create_fragment33(ctx) {
+function create_fragment36(ctx) {
   let scheduledtimeblock;
   let current2;
   scheduledtimeblock = new scheduled_time_block_default({
@@ -43927,7 +44637,7 @@ function create_fragment33(ctx) {
         /*task*/
         ctx[0]
       ),
-      $$slots: { default: [create_default_slot21] },
+      $$slots: { default: [create_default_slot20] },
       $$scope: { ctx }
     }
   });
@@ -43971,7 +44681,7 @@ function create_fragment33(ctx) {
     }
   };
 }
-function instance33($$self, $$props, $$invalidate) {
+function instance36($$self, $$props, $$invalidate) {
   let { task } = $$props;
   let { gripCursor } = $$props;
   let { onGripMouseDown } = $$props;
@@ -44004,7 +44714,7 @@ function instance33($$self, $$props, $$invalidate) {
 var Local_time_block = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance33, create_fragment33, safe_not_equal, {
+    init(this, options, instance36, create_fragment36, safe_not_equal, {
       task: 0,
       gripCursor: 1,
       onGripMouseDown: 2,
@@ -44016,55 +44726,72 @@ var Local_time_block = class extends SvelteComponent {
 var local_time_block_default = Local_time_block;
 
 // src/ui/components/needle.svelte
-function add_css12(target) {
-  append_styles(target, "svelte-1rbwtw9", ".needle.svelte-1rbwtw9{height:2px;background-color:var(--color-accent)}");
+function add_css15(target) {
+  append_styles(target, "svelte-cgn4an", ".needle.svelte-cgn4an{height:2px;background-color:var(--color-accent)}.ball.svelte-cgn4an{position:absolute;z-index:1000;width:12px;height:12px;margin-top:-5px;margin-left:-6px;background:var(--color-accent);border-radius:50%}");
 }
-function create_fragment34(ctx) {
-  let div;
-  let style_transform = `translateY(${/*coords*/
-  ctx[1]}px)`;
+function create_fragment37(ctx) {
+  let div0;
+  let style_top = `${/*coords*/
+  ctx[1]}px`;
+  let t;
+  let div1;
+  let style_top_1 = `${/*coords*/
+  ctx[1]}px`;
   return {
     c() {
-      div = element("div");
-      attr(div, "class", "needle absolute-stretch-x svelte-1rbwtw9");
-      set_style(div, "transform", style_transform);
+      div0 = element("div");
+      t = space();
+      div1 = element("div");
+      attr(div0, "class", "needle absolute-stretch-x svelte-cgn4an");
+      set_style(div0, "top", style_top);
+      attr(div1, "class", "ball svelte-cgn4an");
+      set_style(div1, "top", style_top_1);
     },
     m(target, anchor) {
-      insert(target, div, anchor);
-      ctx[5](div);
+      insert(target, div0, anchor);
+      ctx[5](div0);
+      insert(target, t, anchor);
+      insert(target, div1, anchor);
     },
     p(ctx2, [dirty]) {
       if (dirty & /*coords*/
-      2 && style_transform !== (style_transform = `translateY(${/*coords*/
-      ctx2[1]}px)`)) {
-        set_style(div, "transform", style_transform);
+      2 && style_top !== (style_top = `${/*coords*/
+      ctx2[1]}px`)) {
+        set_style(div0, "top", style_top);
+      }
+      if (dirty & /*coords*/
+      2 && style_top_1 !== (style_top_1 = `${/*coords*/
+      ctx2[1]}px`)) {
+        set_style(div1, "top", style_top_1);
       }
     },
     i: noop,
     o: noop,
     d(detaching) {
       if (detaching)
-        detach(div);
+        detach(div0);
       ctx[5](null);
+      if (detaching)
+        detach(t);
+      if (detaching)
+        detach(div1);
     }
   };
 }
-function instance34($$self, $$props, $$invalidate) {
+function instance37($$self, $$props, $$invalidate) {
   let $settings;
   let $currentTime;
-  let $visibleDayInTimeline;
   component_subscribe($$self, settings, ($$value) => $$invalidate(3, $settings = $$value));
   component_subscribe($$self, currentTime, ($$value) => $$invalidate(4, $currentTime = $$value));
-  component_subscribe($$self, visibleDayInTimeline, ($$value) => $$invalidate(6, $visibleDayInTimeline = $$value));
   let { autoScrollBlocked = false } = $$props;
   let el;
   let coords = timeToTimelineOffset(getMinutesSinceMidnight($currentTime), $settings);
   function scrollIntoView() {
-    if ($settings.centerNeedle && !autoScrollBlocked && isToday($visibleDayInTimeline)) {
+    if ($settings.centerNeedle && !autoScrollBlocked) {
       el === null || el === void 0 ? void 0 : el.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }
-  function div_binding($$value) {
+  function div0_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"](() => {
       el = $$value;
       $$invalidate(0, el);
@@ -44083,72 +44810,71 @@ function instance34($$self, $$props, $$invalidate) {
       }
     }
   };
-  return [el, coords, autoScrollBlocked, $settings, $currentTime, div_binding];
+  return [el, coords, autoScrollBlocked, $settings, $currentTime, div0_binding];
 }
 var Needle = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance34, create_fragment34, safe_not_equal, { autoScrollBlocked: 2 }, add_css12);
+    init(this, options, instance37, create_fragment37, safe_not_equal, { autoScrollBlocked: 2 }, add_css15);
   }
 };
 var needle_default = Needle;
 
 // src/ui/components/remote-time-block.svelte
-function add_css13(target) {
-  append_styles(target, "svelte-1yyq6az", ".calendar.svelte-1yyq6az{display:flex;gap:var(--size-4-1);align-items:center;font-size:var(--font-ui-smaller);color:var(--text-muted)}.remote-task-content.svelte-1yyq6az{display:flex;flex:1 0 0;flex-direction:column;padding:4px 6px 6px;padding-left:calc(4px + var(--size-4-2));color:var(--text-normal)}.ribbon.svelte-1yyq6az{position:absolute;top:0;bottom:0;left:0;width:var(--size-4-2)}");
+function add_css16(target) {
+  append_styles(target, "svelte-slenq7", ".calendar-name.svelte-slenq7{color:var(--text-muted)}.remote-task-content.svelte-slenq7{display:flex;flex:1 0 0;flex-direction:column;padding:var(--size-2-1) var(--size-4-1);padding-left:calc(4px + var(--size-4-2));color:var(--text-normal)}.ribbon.svelte-slenq7{position:absolute;top:0;bottom:0;left:0;width:var(--size-4-2)}");
 }
-function create_default_slot22(ctx) {
+function create_default_slot21(ctx) {
   let div2;
   let div0;
   let t0;
   let div1;
-  let lock;
-  let t1;
-  let t2_value = (
+  let span0;
+  let t1_value = (
     /*task*/
     ctx[0].calendar.name + ""
   );
+  let t1;
   let t2;
-  let t3;
-  let t4_value = (
+  let span1;
+  let t3_value = (
     /*task*/
     ctx[0].text + ""
   );
-  let t4;
-  let current2;
-  lock = new Lock$1({ props: { class: "svg-icon lock-icon" } });
+  let t3;
   return {
     c() {
       div2 = element("div");
       div0 = element("div");
       t0 = space();
       div1 = element("div");
-      create_component(lock.$$.fragment);
-      t1 = space();
-      t2 = text(t2_value);
-      t3 = space();
-      t4 = text(t4_value);
-      attr(div0, "class", "ribbon svelte-1yyq6az");
+      span0 = element("span");
+      t1 = text(t1_value);
+      t2 = space();
+      span1 = element("span");
+      t3 = text(t3_value);
+      attr(div0, "class", "ribbon svelte-slenq7");
       set_style(
         div0,
         "background-color",
         /*task*/
         ctx[0].calendar.color
       );
-      attr(div1, "class", "calendar svelte-1yyq6az");
-      attr(div2, "class", "remote-task-content svelte-1yyq6az");
+      attr(span0, "class", "calendar-name svelte-slenq7");
+      attr(span1, "class", "summary");
+      attr(div1, "class", "text");
+      attr(div2, "class", "remote-task-content svelte-slenq7");
     },
     m(target, anchor) {
       insert(target, div2, anchor);
       append(div2, div0);
       append(div2, t0);
       append(div2, div1);
-      mount_component(lock, div1, null);
-      append(div1, t1);
+      append(div1, span0);
+      append(span0, t1);
       append(div1, t2);
-      append(div2, t3);
-      append(div2, t4);
-      current2 = true;
+      append(div1, span1);
+      append(span1, t3);
     },
     p(ctx2, dirty) {
       if (dirty & /*task*/
@@ -44160,33 +44886,22 @@ function create_default_slot22(ctx) {
           ctx2[0].calendar.color
         );
       }
-      if ((!current2 || dirty & /*task*/
-      1) && t2_value !== (t2_value = /*task*/
+      if (dirty & /*task*/
+      1 && t1_value !== (t1_value = /*task*/
       ctx2[0].calendar.name + ""))
-        set_data(t2, t2_value);
-      if ((!current2 || dirty & /*task*/
-      1) && t4_value !== (t4_value = /*task*/
+        set_data(t1, t1_value);
+      if (dirty & /*task*/
+      1 && t3_value !== (t3_value = /*task*/
       ctx2[0].text + ""))
-        set_data(t4, t4_value);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(lock.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(lock.$$.fragment, local);
-      current2 = false;
+        set_data(t3, t3_value);
     },
     d(detaching) {
       if (detaching)
         detach(div2);
-      destroy_component(lock);
     }
   };
 }
-function create_fragment35(ctx) {
+function create_fragment38(ctx) {
   let scheduledtimeblock;
   let current2;
   scheduledtimeblock = new scheduled_time_block_default({
@@ -44195,7 +44910,7 @@ function create_fragment35(ctx) {
         /*task*/
         ctx[0]
       ),
-      $$slots: { default: [create_default_slot22] },
+      $$slots: { default: [create_default_slot21] },
       $$scope: { ctx }
     }
   });
@@ -44234,7 +44949,7 @@ function create_fragment35(ctx) {
     }
   };
 }
-function instance35($$self, $$props, $$invalidate) {
+function instance38($$self, $$props, $$invalidate) {
   let { task } = $$props;
   $$self.$$set = ($$props2) => {
     if ("task" in $$props2)
@@ -44245,156 +44960,16 @@ function instance35($$self, $$props, $$invalidate) {
 var Remote_time_block = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance35, create_fragment35, safe_not_equal, { task: 0 }, add_css13);
+    init(this, options, instance38, create_fragment38, safe_not_equal, { task: 0 }, add_css16);
   }
 };
 var remote_time_block_default = Remote_time_block;
 
-// src/ui/components/ruler.svelte
-function add_css14(target) {
-  append_styles(target, "svelte-y3mmrv", ".hours-container.svelte-y3mmrv{position:sticky;z-index:5;left:0;display:flex;flex:0 0 30px;flex-direction:column;background-color:var(--background-primary);border-right:1px solid var(--background-modifier-border)}.hour.svelte-y3mmrv{display:flex;flex:1 0 0;border-bottom:1px solid var(--background-modifier-border)}.hour-number-container.svelte-y3mmrv{display:flex;flex:0 0 30px;align-self:flex-start;justify-content:center;font-size:var(--nav-item-size);color:var(--text-muted)}");
-}
-function get_each_context4(ctx, list, i) {
-  const child_ctx = ctx.slice();
-  child_ctx[2] = list[i];
-  return child_ctx;
-}
-function create_each_block4(ctx) {
-  let div1;
-  let div0;
-  let t0_value = hoursToMoment(
-    /*hour*/
-    ctx[2]
-  ).format(
-    /*$settings*/
-    ctx[1].hourFormat
-  ) + "";
-  let t0;
-  let t1;
-  let style_height = `${getHourSize(
-    /*$settings*/
-    ctx[1]
-  )}px`;
-  return {
-    c() {
-      div1 = element("div");
-      div0 = element("div");
-      t0 = text(t0_value);
-      t1 = space();
-      attr(div0, "class", "hour-number-container svelte-y3mmrv");
-      attr(div1, "class", "hour svelte-y3mmrv");
-      set_style(div1, "height", style_height);
-    },
-    m(target, anchor) {
-      insert(target, div1, anchor);
-      append(div1, div0);
-      append(div0, t0);
-      append(div1, t1);
-    },
-    p(ctx2, dirty) {
-      if (dirty & /*visibleHours, $settings*/
-      3 && t0_value !== (t0_value = hoursToMoment(
-        /*hour*/
-        ctx2[2]
-      ).format(
-        /*$settings*/
-        ctx2[1].hourFormat
-      ) + ""))
-        set_data(t0, t0_value);
-      if (dirty & /*$settings*/
-      2 && style_height !== (style_height = `${getHourSize(
-        /*$settings*/
-        ctx2[1]
-      )}px`)) {
-        set_style(div1, "height", style_height);
-      }
-    },
-    d(detaching) {
-      if (detaching)
-        detach(div1);
-    }
-  };
-}
-function create_fragment36(ctx) {
-  let div;
-  let each_value = (
-    /*visibleHours*/
-    ctx[0]
-  );
-  let each_blocks = [];
-  for (let i = 0; i < each_value.length; i += 1) {
-    each_blocks[i] = create_each_block4(get_each_context4(ctx, each_value, i));
-  }
-  return {
-    c() {
-      div = element("div");
-      for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].c();
-      }
-      attr(div, "class", "hours-container svelte-y3mmrv");
-    },
-    m(target, anchor) {
-      insert(target, div, anchor);
-      for (let i = 0; i < each_blocks.length; i += 1) {
-        if (each_blocks[i]) {
-          each_blocks[i].m(div, null);
-        }
-      }
-    },
-    p(ctx2, [dirty]) {
-      if (dirty & /*getHourSize, $settings, hoursToMoment, visibleHours*/
-      3) {
-        each_value = /*visibleHours*/
-        ctx2[0];
-        let i;
-        for (i = 0; i < each_value.length; i += 1) {
-          const child_ctx = get_each_context4(ctx2, each_value, i);
-          if (each_blocks[i]) {
-            each_blocks[i].p(child_ctx, dirty);
-          } else {
-            each_blocks[i] = create_each_block4(child_ctx);
-            each_blocks[i].c();
-            each_blocks[i].m(div, null);
-          }
-        }
-        for (; i < each_blocks.length; i += 1) {
-          each_blocks[i].d(1);
-        }
-        each_blocks.length = each_value.length;
-      }
-    },
-    i: noop,
-    o: noop,
-    d(detaching) {
-      if (detaching)
-        detach(div);
-      destroy_each(each_blocks, detaching);
-    }
-  };
-}
-function instance36($$self, $$props, $$invalidate) {
-  let $settings;
-  component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
-  let { visibleHours } = $$props;
-  $$self.$$set = ($$props2) => {
-    if ("visibleHours" in $$props2)
-      $$invalidate(0, visibleHours = $$props2.visibleHours);
-  };
-  return [visibleHours, $settings];
-}
-var Ruler = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance36, create_fragment36, safe_not_equal, { visibleHours: 0 }, add_css14);
-  }
-};
-var ruler_default = Ruler;
-
 // src/ui/components/scheduled-task-container.svelte
-function add_css15(target) {
+function add_css17(target) {
   append_styles(target, "svelte-wfuxso", ".tasks.svelte-wfuxso{top:0;bottom:0;display:flex;flex-direction:column;margin-right:10px;margin-left:10px}");
 }
-function create_fragment37(ctx) {
+function create_fragment39(ctx) {
   let div;
   let current2;
   let mounted;
@@ -44498,7 +45073,7 @@ function create_fragment37(ctx) {
     }
   };
 }
-function instance37($$self, $$props, $$invalidate) {
+function instance39($$self, $$props, $$invalidate) {
   let $settings;
   component_subscribe($$self, settings, ($$value) => $$invalidate(2, $settings = $$value));
   let { $$slots: slots = {}, $$scope } = $$props;
@@ -44546,189 +45121,16 @@ function instance37($$self, $$props, $$invalidate) {
 var Scheduled_task_container = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance37, create_fragment37, safe_not_equal, { pointerOffsetY: 0 }, add_css15);
+    init(this, options, instance39, create_fragment39, safe_not_equal, { pointerOffsetY: 0 }, add_css17);
   }
 };
 var scheduled_task_container_default = Scheduled_task_container;
 
-// src/ui/components/scroller.svelte
-function add_css16(target) {
-  append_styles(target, "svelte-15i1dha", ".scroller.svelte-15i1dha{overflow:auto;flex:1 0 0}.stretcher.svelte-15i1dha{display:flex}");
-}
-var get_default_slot_changes = (dirty) => ({ hovering: dirty & /*hovering*/
-1 });
-var get_default_slot_context = (ctx) => ({ hovering: (
-  /*hovering*/
-  ctx[0]
-) });
-function create_fragment38(ctx) {
-  let div1;
-  let div0;
-  let current2;
-  let mounted;
-  let dispose;
-  const default_slot_template = (
-    /*#slots*/
-    ctx[4].default
-  );
-  const default_slot = create_slot(
-    default_slot_template,
-    ctx,
-    /*$$scope*/
-    ctx[3],
-    get_default_slot_context
-  );
-  return {
-    c() {
-      div1 = element("div");
-      div0 = element("div");
-      if (default_slot)
-        default_slot.c();
-      attr(div0, "class", "stretcher svelte-15i1dha");
-      attr(div1, "class", "scroller svelte-15i1dha");
-    },
-    m(target, anchor) {
-      insert(target, div1, anchor);
-      append(div1, div0);
-      if (default_slot) {
-        default_slot.m(div0, null);
-      }
-      current2 = true;
-      if (!mounted) {
-        dispose = [
-          listen(
-            div1,
-            "mouseenter",
-            /*handleMouseEnter*/
-            ctx[1]
-          ),
-          listen(
-            div1,
-            "mouseleave",
-            /*handleMouseLeave*/
-            ctx[2]
-          )
-        ];
-        mounted = true;
-      }
-    },
-    p(ctx2, [dirty]) {
-      if (default_slot) {
-        if (default_slot.p && (!current2 || dirty & /*$$scope, hovering*/
-        9)) {
-          update_slot_base(
-            default_slot,
-            default_slot_template,
-            ctx2,
-            /*$$scope*/
-            ctx2[3],
-            !current2 ? get_all_dirty_from_scope(
-              /*$$scope*/
-              ctx2[3]
-            ) : get_slot_changes(
-              default_slot_template,
-              /*$$scope*/
-              ctx2[3],
-              dirty,
-              get_default_slot_changes
-            ),
-            get_default_slot_context
-          );
-        }
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(default_slot, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(default_slot, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (detaching)
-        detach(div1);
-      if (default_slot)
-        default_slot.d(detaching);
-      mounted = false;
-      run_all(dispose);
-    }
-  };
-}
-function instance38($$self, $$props, $$invalidate) {
-  let { $$slots: slots = {}, $$scope } = $$props;
-  let hovering = false;
-  function handleMouseEnter() {
-    $$invalidate(0, hovering = true);
-  }
-  function handleMouseLeave() {
-    $$invalidate(0, hovering = false);
-  }
-  $$self.$$set = ($$props2) => {
-    if ("$$scope" in $$props2)
-      $$invalidate(3, $$scope = $$props2.$$scope);
-  };
-  return [hovering, handleMouseEnter, handleMouseLeave, $$scope, slots];
-}
-var Scroller = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance38, create_fragment38, safe_not_equal, {}, add_css16);
-  }
-};
-var scroller_default = Scroller;
-
 // src/ui/components/timeline.svelte
 function get_each_context5(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[26] = list[i];
+  child_ctx[24] = list[i];
   return child_ctx;
-}
-function create_if_block_23(ctx) {
-  let ruler;
-  let current2;
-  ruler = new ruler_default({
-    props: {
-      visibleHours: getVisibleHours(
-        /*$settings*/
-        ctx[15]
-      )
-    }
-  });
-  return {
-    c() {
-      create_component(ruler.$$.fragment);
-    },
-    m(target, anchor) {
-      mount_component(ruler, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      const ruler_changes = {};
-      if (dirty & /*$settings*/
-      32768)
-        ruler_changes.visibleHours = getVisibleHours(
-          /*$settings*/
-          ctx2[15]
-        );
-      ruler.$set(ruler_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(ruler.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(ruler.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(ruler, detaching);
-    }
-  };
 }
 function create_if_block_13(ctx) {
   let needle;
@@ -44736,8 +45138,8 @@ function create_if_block_13(ctx) {
   needle = new needle_default({
     props: {
       autoScrollBlocked: (
-        /*autoScrollBlocked*/
-        ctx[25]
+        /*isUnderCursor*/
+        ctx[0]
       )
     }
   });
@@ -44751,10 +45153,10 @@ function create_if_block_13(ctx) {
     },
     p(ctx2, dirty) {
       const needle_changes = {};
-      if (dirty & /*autoScrollBlocked*/
-      33554432)
-        needle_changes.autoScrollBlocked = /*autoScrollBlocked*/
-        ctx2[25];
+      if (dirty & /*isUnderCursor*/
+      1)
+        needle_changes.autoScrollBlocked = /*isUnderCursor*/
+        ctx2[0];
       needle.$set(needle_changes);
     },
     i(local) {
@@ -44775,48 +45177,46 @@ function create_if_block_13(ctx) {
 function create_else_block3(ctx) {
   let localtimeblock;
   let current2;
-  function func(...args) {
+  function func() {
     return (
       /*func*/
-      ctx[22](
+      ctx[20](
         /*task*/
-        ctx[26],
-        ...args
+        ctx[24]
       )
     );
   }
-  function func_1(...args) {
+  function func_1() {
     return (
       /*func_1*/
-      ctx[23](
+      ctx[21](
         /*task*/
-        ctx[26],
-        ...args
+        ctx[24]
       )
     );
   }
   function mouseup_handler() {
     return (
       /*mouseup_handler*/
-      ctx[24](
+      ctx[22](
         /*task*/
-        ctx[26]
+        ctx[24]
       )
     );
   }
   localtimeblock = new local_time_block_default({
     props: {
       gripCursor: (
-        /*gripCursor*/
-        ctx[3]
+        /*$cursor*/
+        ctx[11].gripCursor
       ),
       isResizeHandleVisible: !/*$editOperation*/
-      ctx[2],
+      ctx[14],
       onGripMouseDown: func,
       onResizerMouseDown: func_1,
       task: (
         /*task*/
-        ctx[26]
+        ctx[24]
       )
     }
   });
@@ -44832,24 +45232,24 @@ function create_else_block3(ctx) {
     p(new_ctx, dirty) {
       ctx = new_ctx;
       const localtimeblock_changes = {};
-      if (dirty & /*gripCursor*/
-      8)
-        localtimeblock_changes.gripCursor = /*gripCursor*/
-        ctx[3];
+      if (dirty & /*$cursor*/
+      2048)
+        localtimeblock_changes.gripCursor = /*$cursor*/
+        ctx[11].gripCursor;
       if (dirty & /*$editOperation*/
-      4)
+      16384)
         localtimeblock_changes.isResizeHandleVisible = !/*$editOperation*/
-        ctx[2];
+        ctx[14];
       if (dirty & /*handleGripMouseDown, $displayedTasks*/
-      65664)
+      8224)
         localtimeblock_changes.onGripMouseDown = func;
       if (dirty & /*handleResizerMouseDown, $displayedTasks*/
-      66048)
+      8320)
         localtimeblock_changes.onResizerMouseDown = func_1;
       if (dirty & /*$displayedTasks*/
-      65536)
+      8192)
         localtimeblock_changes.task = /*task*/
-        ctx[26];
+        ctx[24];
       localtimeblock.$set(localtimeblock_changes);
     },
     i(local) {
@@ -44867,12 +45267,12 @@ function create_else_block3(ctx) {
     }
   };
 }
-function create_if_block4(ctx) {
+function create_if_block5(ctx) {
   let remotetimeblock;
   let current2;
   remotetimeblock = new remote_time_block_default({ props: { task: (
     /*task*/
-    ctx[26]
+    ctx[24]
   ) } });
   return {
     c() {
@@ -44885,9 +45285,9 @@ function create_if_block4(ctx) {
     p(ctx2, dirty) {
       const remotetimeblock_changes = {};
       if (dirty & /*$displayedTasks*/
-      65536)
+      8192)
         remotetimeblock_changes.task = /*task*/
-        ctx2[26];
+        ctx2[24];
       remotetimeblock.$set(remotetimeblock_changes);
     },
     i(local) {
@@ -44911,12 +45311,12 @@ function create_each_block5(key_1, ctx) {
   let if_block;
   let if_block_anchor;
   let current2;
-  const if_block_creators = [create_if_block4, create_else_block3];
+  const if_block_creators = [create_if_block5, create_else_block3];
   const if_blocks = [];
   function select_block_type(ctx2, dirty) {
     if (
       /*task*/
-      ctx2[26].calendar
+      ctx2[24].calendar
     )
       return 0;
     return 1;
@@ -44980,18 +45380,18 @@ function create_each_block5(key_1, ctx) {
     }
   };
 }
-function create_default_slot_2(ctx) {
+function create_default_slot_19(ctx) {
   let each_blocks = [];
   let each_1_lookup = /* @__PURE__ */ new Map();
   let each_1_anchor;
   let current2;
   let each_value = (
     /*$displayedTasks*/
-    ctx[16].withTime
+    ctx[13].withTime
   );
   const get_key = (ctx2) => getRenderKey(
     /*task*/
-    ctx2[26]
+    ctx2[24]
   );
   for (let i = 0; i < each_value.length; i += 1) {
     let child_ctx = get_each_context5(ctx, each_value, i);
@@ -45015,10 +45415,10 @@ function create_default_slot_2(ctx) {
       current2 = true;
     },
     p(ctx2, dirty) {
-      if (dirty & /*$displayedTasks, gripCursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp*/
-      66444) {
+      if (dirty & /*$displayedTasks, $cursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp*/
+      26848) {
         each_value = /*$displayedTasks*/
-        ctx2[16].withTime;
+        ctx2[13].withTime;
         group_outros();
         each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx2, each_value, each_1_lookup, each_1_anchor.parentNode, outro_and_destroy_block, create_each_block5, each_1_anchor, get_each_context5);
         check_outros();
@@ -45047,7 +45447,7 @@ function create_default_slot_2(ctx) {
     }
   };
 }
-function create_default_slot_15(ctx) {
+function create_default_slot22(ctx) {
   let show_if = isToday(
     /*actualDay*/
     ctx[1]
@@ -45060,33 +45460,31 @@ function create_default_slot_15(ctx) {
     props: {
       pointerOffsetY: (
         /*pointerOffsetY*/
-        ctx[5]
+        ctx[3]
       ),
-      $$slots: { default: [create_default_slot_2] },
+      $$slots: { default: [create_default_slot_19] },
       $$scope: { ctx }
     }
   });
   scheduledtaskcontainer.$on("mousedown", function() {
     if (is_function(
       /*handleContainerMouseDown*/
-      ctx[10]
+      ctx[8]
     ))
-      ctx[10].apply(this, arguments);
+      ctx[8].apply(this, arguments);
   });
   scheduledtaskcontainer.$on("mouseenter", function() {
     if (is_function(
       /*handleMouseEnter*/
-      ctx[6]
+      ctx[4]
     ))
-      ctx[6].apply(this, arguments);
+      ctx[4].apply(this, arguments);
   });
-  scheduledtaskcontainer.$on("mouseup", function() {
-    if (is_function(
-      /*confirmEdit*/
-      ctx[14]
-    ))
-      ctx[14].apply(this, arguments);
-  });
+  scheduledtaskcontainer.$on(
+    "mouseup",
+    /*confirmEdit*/
+    ctx[15]
+  );
   return {
     c() {
       if (if_block)
@@ -45131,11 +45529,11 @@ function create_default_slot_15(ctx) {
       }
       const scheduledtaskcontainer_changes = {};
       if (dirty & /*pointerOffsetY*/
-      32)
+      8)
         scheduledtaskcontainer_changes.pointerOffsetY = /*pointerOffsetY*/
-        ctx[5];
-      if (dirty & /*$$scope, $displayedTasks, gripCursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp*/
-      536937356) {
+        ctx[3];
+      if (dirty & /*$$scope, $displayedTasks, $cursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp*/
+      134244576) {
         scheduledtaskcontainer_changes.$$scope = { dirty, ctx };
       }
       scheduledtaskcontainer.$set(scheduledtaskcontainer_changes);
@@ -45161,109 +45559,21 @@ function create_default_slot_15(ctx) {
     }
   };
 }
-function create_default_slot23(ctx) {
-  let t;
+function create_fragment40(ctx) {
+  let styledCursor_action;
+  let t0;
+  let t1;
   let column;
   let current2;
-  let if_block = !/*hideControls*/
-  ctx[0] && create_if_block_23(ctx);
+  let mounted;
+  let dispose;
   column = new column_default({
     props: {
       visibleHours: getVisibleHours(
         /*$settings*/
-        ctx[15]
+        ctx[12]
       ),
-      $$slots: { default: [create_default_slot_15] },
-      $$scope: { ctx }
-    }
-  });
-  return {
-    c() {
-      if (if_block)
-        if_block.c();
-      t = space();
-      create_component(column.$$.fragment);
-    },
-    m(target, anchor) {
-      if (if_block)
-        if_block.m(target, anchor);
-      insert(target, t, anchor);
-      mount_component(column, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      if (!/*hideControls*/
-      ctx2[0]) {
-        if (if_block) {
-          if_block.p(ctx2, dirty);
-          if (dirty & /*hideControls*/
-          1) {
-            transition_in(if_block, 1);
-          }
-        } else {
-          if_block = create_if_block_23(ctx2);
-          if_block.c();
-          transition_in(if_block, 1);
-          if_block.m(t.parentNode, t);
-        }
-      } else if (if_block) {
-        group_outros();
-        transition_out(if_block, 1, 1, () => {
-          if_block = null;
-        });
-        check_outros();
-      }
-      const column_changes = {};
-      if (dirty & /*$settings*/
-      32768)
-        column_changes.visibleHours = getVisibleHours(
-          /*$settings*/
-          ctx2[15]
-        );
-      if (dirty & /*$$scope, pointerOffsetY, handleContainerMouseDown, handleMouseEnter, confirmEdit, $displayedTasks, gripCursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp, autoScrollBlocked, actualDay*/
-      570509294) {
-        column_changes.$$scope = { dirty, ctx: ctx2 };
-      }
-      column.$set(column_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(if_block);
-      transition_in(column.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(if_block);
-      transition_out(column.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (if_block)
-        if_block.d(detaching);
-      if (detaching)
-        detach(t);
-      destroy_component(column, detaching);
-    }
-  };
-}
-function create_fragment39(ctx) {
-  let styledCursor_action;
-  let t0;
-  let t1;
-  let scroller;
-  let current2;
-  let mounted;
-  let dispose;
-  scroller = new scroller_default({
-    props: {
-      $$slots: {
-        default: [
-          create_default_slot23,
-          ({ hovering: autoScrollBlocked }) => ({ 25: autoScrollBlocked }),
-          ({ hovering: autoScrollBlocked }) => autoScrollBlocked ? 33554432 : 0
-        ]
-      },
+      $$slots: { default: [create_default_slot22] },
       $$scope: { ctx }
     }
   });
@@ -45271,34 +45581,34 @@ function create_fragment39(ctx) {
     c() {
       t0 = space();
       t1 = space();
-      create_component(scroller.$$.fragment);
+      create_component(column.$$.fragment);
     },
     m(target, anchor) {
       insert(target, t0, anchor);
       insert(target, t1, anchor);
-      mount_component(scroller, target, anchor);
+      mount_component(column, target, anchor);
       current2 = true;
       if (!mounted) {
         dispose = [
           listen(window, "blur", function() {
             if (is_function(
               /*cancelEdit*/
-              ctx[11]
+              ctx[9]
             ))
-              ctx[11].apply(this, arguments);
+              ctx[9].apply(this, arguments);
           }),
           action_destroyer(styledCursor_action = styledCursor.call(
             null,
             document.body,
-            /*bodyCursor*/
-            ctx[4]
+            /*$cursor*/
+            ctx[11].bodyCursor
           )),
           listen(document, "mouseup", function() {
             if (is_function(
               /*cancelEdit*/
-              ctx[11]
+              ctx[9]
             ))
-              ctx[11].apply(this, arguments);
+              ctx[9].apply(this, arguments);
           })
         ];
         mounted = true;
@@ -45306,28 +45616,34 @@ function create_fragment39(ctx) {
     },
     p(new_ctx, [dirty]) {
       ctx = new_ctx;
-      if (styledCursor_action && is_function(styledCursor_action.update) && dirty & /*bodyCursor*/
-      16)
+      if (styledCursor_action && is_function(styledCursor_action.update) && dirty & /*$cursor*/
+      2048)
         styledCursor_action.update.call(
           null,
-          /*bodyCursor*/
-          ctx[4]
+          /*$cursor*/
+          ctx[11].bodyCursor
         );
-      const scroller_changes = {};
-      if (dirty & /*$$scope, $settings, pointerOffsetY, handleContainerMouseDown, handleMouseEnter, confirmEdit, $displayedTasks, gripCursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp, autoScrollBlocked, actualDay, hideControls*/
-      570542063) {
-        scroller_changes.$$scope = { dirty, ctx };
+      const column_changes = {};
+      if (dirty & /*$settings*/
+      4096)
+        column_changes.visibleHours = getVisibleHours(
+          /*$settings*/
+          ctx[12]
+        );
+      if (dirty & /*$$scope, pointerOffsetY, handleContainerMouseDown, handleMouseEnter, $displayedTasks, $cursor, $editOperation, handleGripMouseDown, handleResizerMouseDown, handleTaskMouseUp, isUnderCursor, actualDay*/
+      134244859) {
+        column_changes.$$scope = { dirty, ctx };
       }
-      scroller.$set(scroller_changes);
+      column.$set(column_changes);
     },
     i(local) {
       if (current2)
         return;
-      transition_in(scroller.$$.fragment, local);
+      transition_in(column.$$.fragment, local);
       current2 = true;
     },
     o(local) {
-      transition_out(scroller.$$.fragment, local);
+      transition_out(column.$$.fragment, local);
       current2 = false;
     },
     d(detaching) {
@@ -45335,17 +45651,14 @@ function create_fragment39(ctx) {
         detach(t0);
       if (detaching)
         detach(t1);
-      destroy_component(scroller, detaching);
+      destroy_component(column, detaching);
       mounted = false;
       run_all(dispose);
     }
   };
 }
-function instance39($$self, $$props, $$invalidate) {
+function instance40($$self, $$props, $$invalidate) {
   let actualDay;
-  let confirmEdit;
-  let editOperation;
-  let getEditHandlers;
   let displayedTasks;
   let cancelEdit;
   let handleContainerMouseDown;
@@ -45354,65 +45667,46 @@ function instance39($$self, $$props, $$invalidate) {
   let handleGripMouseDown;
   let handleMouseEnter;
   let pointerOffsetY;
-  let bodyCursor;
-  let gripCursor;
-  let $editOperation, $$unsubscribe_editOperation = noop, $$subscribe_editOperation = () => ($$unsubscribe_editOperation(), $$unsubscribe_editOperation = subscribe(editOperation, ($$value) => $$invalidate(2, $editOperation = $$value)), editOperation);
-  let $editContext;
-  let $visibleDayInTimeline;
+  let cursor;
+  let $dateRange;
+  let $cursor, $$unsubscribe_cursor = noop, $$subscribe_cursor = () => ($$unsubscribe_cursor(), $$unsubscribe_cursor = subscribe(cursor, ($$value) => $$invalidate(11, $cursor = $$value)), cursor);
   let $settings;
-  let $displayedTasks, $$unsubscribe_displayedTasks = noop, $$subscribe_displayedTasks = () => ($$unsubscribe_displayedTasks(), $$unsubscribe_displayedTasks = subscribe(displayedTasks, ($$value) => $$invalidate(16, $displayedTasks = $$value)), displayedTasks);
-  component_subscribe($$self, visibleDayInTimeline, ($$value) => $$invalidate(21, $visibleDayInTimeline = $$value));
-  component_subscribe($$self, settings, ($$value) => $$invalidate(15, $settings = $$value));
-  $$self.$$.on_destroy.push(() => $$unsubscribe_editOperation());
+  let $displayedTasks, $$unsubscribe_displayedTasks = noop, $$subscribe_displayedTasks = () => ($$unsubscribe_displayedTasks(), $$unsubscribe_displayedTasks = subscribe(displayedTasks, ($$value) => $$invalidate(13, $displayedTasks = $$value)), displayedTasks);
+  let $editOperation;
+  component_subscribe($$self, settings, ($$value) => $$invalidate(12, $settings = $$value));
+  $$self.$$.on_destroy.push(() => $$unsubscribe_cursor());
   $$self.$$.on_destroy.push(() => $$unsubscribe_displayedTasks());
-  let { hideControls = false } = $$props;
   let { day = void 0 } = $$props;
-  const { editContext } = getContext(editContextKey);
-  component_subscribe($$self, editContext, (value) => $$invalidate(20, $editContext = value));
-  const func = (task, event) => handleGripMouseDown(event, task);
-  const func_1 = (task, event) => handleResizerMouseDown(event, task);
+  let { isUnderCursor = false } = $$props;
+  const { editContext: { confirmEdit, editOperation, getEditHandlers } } = getContext(obsidianContext);
+  component_subscribe($$self, editOperation, (value) => $$invalidate(14, $editOperation = value));
+  const dateRange = getContext(dateRangeContextKey);
+  component_subscribe($$self, dateRange, (value) => $$invalidate(19, $dateRange = value));
+  const func = (task) => handleGripMouseDown(task);
+  const func_1 = (task) => handleResizerMouseDown(task);
   const mouseup_handler = (task) => handleTaskMouseUp(task);
   $$self.$$set = ($$props2) => {
-    if ("hideControls" in $$props2)
-      $$invalidate(0, hideControls = $$props2.hideControls);
     if ("day" in $$props2)
       $$invalidate(18, day = $$props2.day);
+    if ("isUnderCursor" in $$props2)
+      $$invalidate(0, isUnderCursor = $$props2.isUnderCursor);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty & /*day, $visibleDayInTimeline*/
-    2359296) {
+    if ($$self.$$.dirty & /*day, $dateRange*/
+    786432) {
       $:
-        $$invalidate(1, actualDay = day || $visibleDayInTimeline);
+        $$invalidate(1, actualDay = day || $dateRange[0]);
     }
-    if ($$self.$$.dirty & /*$editContext*/
-    1048576) {
+    if ($$self.$$.dirty & /*actualDay*/
+    2) {
       $:
-        $$invalidate(14, { confirmEdit, editOperation, getEditHandlers } = $editContext, confirmEdit, $$subscribe_editOperation($$invalidate(13, editOperation)), ($$invalidate(19, getEditHandlers), $$invalidate(20, $editContext)));
-    }
-    if ($$self.$$.dirty & /*getEditHandlers, actualDay*/
-    524290) {
-      $:
-        $$subscribe_displayedTasks($$invalidate(12, { displayedTasks, cancelEdit, handleContainerMouseDown, handleResizerMouseDown, handleTaskMouseUp, handleGripMouseDown, handleMouseEnter, pointerOffsetY } = getEditHandlers(actualDay), displayedTasks, ($$invalidate(11, cancelEdit), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(10, handleContainerMouseDown), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(9, handleResizerMouseDown), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(8, handleTaskMouseUp), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(7, handleGripMouseDown), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(6, handleMouseEnter), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline)), ($$invalidate(5, pointerOffsetY), $$invalidate(19, getEditHandlers), $$invalidate(1, actualDay), $$invalidate(20, $editContext), $$invalidate(18, day), $$invalidate(21, $visibleDayInTimeline))));
-    }
-    if ($$self.$$.dirty & /*$editOperation*/
-    4) {
-      $:
-        $$invalidate(
-          4,
-          { bodyCursor, gripCursor } = useCursor({
-            editMode: $editOperation === null || $editOperation === void 0 ? void 0 : $editOperation.mode
-          }),
-          bodyCursor,
-          ($$invalidate(3, gripCursor), $$invalidate(2, $editOperation))
-        );
+        $$subscribe_displayedTasks($$invalidate(10, { displayedTasks, cancelEdit, handleContainerMouseDown, handleResizerMouseDown, handleTaskMouseUp, handleGripMouseDown, handleMouseEnter, pointerOffsetY, cursor } = getEditHandlers(actualDay), displayedTasks, ($$invalidate(9, cancelEdit), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(8, handleContainerMouseDown), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(7, handleResizerMouseDown), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(6, handleTaskMouseUp), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(5, handleGripMouseDown), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(4, handleMouseEnter), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), ($$invalidate(3, pointerOffsetY), $$invalidate(1, actualDay), $$invalidate(18, day), $$invalidate(19, $dateRange)), $$subscribe_cursor($$invalidate(2, cursor))));
     }
   };
   return [
-    hideControls,
+    isUnderCursor,
     actualDay,
-    $editOperation,
-    gripCursor,
-    bodyCursor,
+    cursor,
     pointerOffsetY,
     handleMouseEnter,
     handleGripMouseDown,
@@ -45421,15 +45715,15 @@ function instance39($$self, $$props, $$invalidate) {
     handleContainerMouseDown,
     cancelEdit,
     displayedTasks,
-    editOperation,
-    confirmEdit,
+    $cursor,
     $settings,
     $displayedTasks,
-    editContext,
+    $editOperation,
+    confirmEdit,
+    editOperation,
+    dateRange,
     day,
-    getEditHandlers,
-    $editContext,
-    $visibleDayInTimeline,
+    $dateRange,
     func,
     func_1,
     mouseup_handler
@@ -45438,108 +45732,16 @@ function instance39($$self, $$props, $$invalidate) {
 var Timeline = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance39, create_fragment39, safe_not_equal, { hideControls: 0, day: 18 });
+    init(this, options, instance40, create_fragment40, safe_not_equal, { day: 18, isUnderCursor: 0 });
   }
 };
 var timeline_default = Timeline;
 
 // src/ui/components/unscheduled-task-container.svelte
-function add_css17(target) {
-  append_styles(target, "svelte-18ypcdk", ".unscheduled-task-container.svelte-18ypcdk{overflow:auto;display:flex;gap:var(--size-4-1);max-height:25%;padding:var(--size-4-1);border-bottom:1px solid var(--background-modifier-border)}.tasks.svelte-18ypcdk{flex:1 0 0}");
-}
-function create_fragment40(ctx) {
-  let div1;
-  let div0;
-  let current2;
-  const default_slot_template = (
-    /*#slots*/
-    ctx[1].default
-  );
-  const default_slot = create_slot(
-    default_slot_template,
-    ctx,
-    /*$$scope*/
-    ctx[0],
-    null
-  );
-  return {
-    c() {
-      div1 = element("div");
-      div0 = element("div");
-      if (default_slot)
-        default_slot.c();
-      attr(div0, "class", "tasks svelte-18ypcdk");
-      attr(div1, "class", "unscheduled-task-container svelte-18ypcdk");
-    },
-    m(target, anchor) {
-      insert(target, div1, anchor);
-      append(div1, div0);
-      if (default_slot) {
-        default_slot.m(div0, null);
-      }
-      current2 = true;
-    },
-    p(ctx2, [dirty]) {
-      if (default_slot) {
-        if (default_slot.p && (!current2 || dirty & /*$$scope*/
-        1)) {
-          update_slot_base(
-            default_slot,
-            default_slot_template,
-            ctx2,
-            /*$$scope*/
-            ctx2[0],
-            !current2 ? get_all_dirty_from_scope(
-              /*$$scope*/
-              ctx2[0]
-            ) : get_slot_changes(
-              default_slot_template,
-              /*$$scope*/
-              ctx2[0],
-              dirty,
-              null
-            ),
-            null
-          );
-        }
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(default_slot, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(default_slot, local);
-      current2 = false;
-    },
-    d(detaching) {
-      if (detaching)
-        detach(div1);
-      if (default_slot)
-        default_slot.d(detaching);
-    }
-  };
-}
-function instance40($$self, $$props, $$invalidate) {
-  let { $$slots: slots = {}, $$scope } = $$props;
-  $$self.$$set = ($$props2) => {
-    if ("$$scope" in $$props2)
-      $$invalidate(0, $$scope = $$props2.$$scope);
-  };
-  return [$$scope, slots];
-}
-var Unscheduled_task_container = class extends SvelteComponent {
-  constructor(options) {
-    super();
-    init(this, options, instance40, create_fragment40, safe_not_equal, {}, add_css17);
-  }
-};
-var unscheduled_task_container_default = Unscheduled_task_container;
+var import_moment12 = __toESM(require_moment());
 
 // src/ui/components/unscheduled-time-block.svelte
-function create_default_slot_16(ctx) {
+function create_default_slot_110(ctx) {
   let renderedmarkdown;
   let t;
   let grip;
@@ -45606,7 +45808,7 @@ function create_default_slot_16(ctx) {
     }
   };
 }
-function create_default_slot24(ctx) {
+function create_default_slot23(ctx) {
   let markdownblockcontent;
   let current2;
   markdownblockcontent = new markdown_block_content_default({
@@ -45615,7 +45817,7 @@ function create_default_slot24(ctx) {
         /*task*/
         ctx[0]
       ),
-      $$slots: { default: [create_default_slot_16] },
+      $$slots: { default: [create_default_slot_110] },
       $$scope: { ctx }
     }
   });
@@ -45659,7 +45861,11 @@ function create_fragment41(ctx) {
   let current2;
   timeblockbase = new time_block_base_default({
     props: {
-      $$slots: { default: [create_default_slot24] },
+      task: (
+        /*task*/
+        ctx[0]
+      ),
+      $$slots: { default: [create_default_slot23] },
       $$scope: { ctx }
     }
   });
@@ -45678,6 +45884,10 @@ function create_fragment41(ctx) {
     },
     p(ctx2, [dirty]) {
       const timeblockbase_changes = {};
+      if (dirty & /*task*/
+      1)
+        timeblockbase_changes.task = /*task*/
+        ctx2[0];
       if (dirty & /*$$scope, task, gripCursor, onGripMouseDown*/
       23) {
         timeblockbase_changes.$$scope = { dirty, ctx: ctx2 };
@@ -45728,208 +45938,21 @@ var Unscheduled_time_block = class extends SvelteComponent {
 };
 var unscheduled_time_block_default = Unscheduled_time_block;
 
-// src/ui/components/timeline-with-controls.svelte
+// src/ui/components/unscheduled-task-container.svelte
+function add_css18(target) {
+  append_styles(target, "svelte-tnuc1q", ".unscheduled-task-container.svelte-tnuc1q{overflow:auto;display:flex;flex-direction:column;max-height:20vh;padding:var(--size-2-1) var(--size-4-1)}");
+}
 function get_each_context6(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[19] = list[i];
+  child_ctx[11] = list[i];
   return child_ctx;
 }
-function create_if_block5(ctx) {
-  let timelinecontrols;
-  let t;
-  let if_block_anchor;
-  let current2;
-  timelinecontrols = new timeline_controls_default({});
-  let if_block = (
-    /*$displayedTasks*/
-    ctx[9].noTime.length > 0 && /*$settings*/
-    ctx[10].showUncheduledTasks && create_if_block_14(ctx)
-  );
-  return {
-    c() {
-      create_component(timelinecontrols.$$.fragment);
-      t = space();
-      if (if_block)
-        if_block.c();
-      if_block_anchor = empty();
-    },
-    m(target, anchor) {
-      mount_component(timelinecontrols, target, anchor);
-      insert(target, t, anchor);
-      if (if_block)
-        if_block.m(target, anchor);
-      insert(target, if_block_anchor, anchor);
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      if (
-        /*$displayedTasks*/
-        ctx2[9].noTime.length > 0 && /*$settings*/
-        ctx2[10].showUncheduledTasks
-      ) {
-        if (if_block) {
-          if_block.p(ctx2, dirty);
-          if (dirty & /*$displayedTasks, $settings*/
-          1536) {
-            transition_in(if_block, 1);
-          }
-        } else {
-          if_block = create_if_block_14(ctx2);
-          if_block.c();
-          transition_in(if_block, 1);
-          if_block.m(if_block_anchor.parentNode, if_block_anchor);
-        }
-      } else if (if_block) {
-        group_outros();
-        transition_out(if_block, 1, 1, () => {
-          if_block = null;
-        });
-        check_outros();
-      }
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(timelinecontrols.$$.fragment, local);
-      transition_in(if_block);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(timelinecontrols.$$.fragment, local);
-      transition_out(if_block);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(timelinecontrols, detaching);
-      if (detaching)
-        detach(t);
-      if (if_block)
-        if_block.d(detaching);
-      if (detaching)
-        detach(if_block_anchor);
-    }
-  };
-}
-function create_if_block_14(ctx) {
-  let unscheduledtaskcontainer;
-  let current2;
-  unscheduledtaskcontainer = new unscheduled_task_container_default({
-    props: {
-      $$slots: { default: [create_default_slot25] },
-      $$scope: { ctx }
-    }
-  });
-  return {
-    c() {
-      create_component(unscheduledtaskcontainer.$$.fragment);
-    },
-    m(target, anchor) {
-      mount_component(unscheduledtaskcontainer, target, anchor);
-      current2 = true;
-    },
-    p(ctx2, dirty) {
-      const unscheduledtaskcontainer_changes = {};
-      if (dirty & /*$$scope, $displayedTasks, gripCursor, handleUnscheduledTaskGripMouseDown, handleTaskMouseUp*/
-      4194868) {
-        unscheduledtaskcontainer_changes.$$scope = { dirty, ctx: ctx2 };
-      }
-      unscheduledtaskcontainer.$set(unscheduledtaskcontainer_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(unscheduledtaskcontainer.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(unscheduledtaskcontainer.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(unscheduledtaskcontainer, detaching);
-    }
-  };
-}
-function create_each_block6(ctx) {
-  let unscheduledtimeblock;
-  let current2;
-  function func() {
-    return (
-      /*func*/
-      ctx[17](
-        /*task*/
-        ctx[19]
-      )
-    );
-  }
-  function mouseup_handler() {
-    return (
-      /*mouseup_handler*/
-      ctx[18](
-        /*task*/
-        ctx[19]
-      )
-    );
-  }
-  unscheduledtimeblock = new unscheduled_time_block_default({
-    props: {
-      gripCursor: (
-        /*gripCursor*/
-        ctx[2]
-      ),
-      onGripMouseDown: func,
-      task: (
-        /*task*/
-        ctx[19]
-      )
-    }
-  });
-  unscheduledtimeblock.$on("mouseup", mouseup_handler);
-  return {
-    c() {
-      create_component(unscheduledtimeblock.$$.fragment);
-    },
-    m(target, anchor) {
-      mount_component(unscheduledtimeblock, target, anchor);
-      current2 = true;
-    },
-    p(new_ctx, dirty) {
-      ctx = new_ctx;
-      const unscheduledtimeblock_changes = {};
-      if (dirty & /*gripCursor*/
-      4)
-        unscheduledtimeblock_changes.gripCursor = /*gripCursor*/
-        ctx[2];
-      if (dirty & /*handleUnscheduledTaskGripMouseDown, $displayedTasks*/
-      528)
-        unscheduledtimeblock_changes.onGripMouseDown = func;
-      if (dirty & /*$displayedTasks*/
-      512)
-        unscheduledtimeblock_changes.task = /*task*/
-        ctx[19];
-      unscheduledtimeblock.$set(unscheduledtimeblock_changes);
-    },
-    i(local) {
-      if (current2)
-        return;
-      transition_in(unscheduledtimeblock.$$.fragment, local);
-      current2 = true;
-    },
-    o(local) {
-      transition_out(unscheduledtimeblock.$$.fragment, local);
-      current2 = false;
-    },
-    d(detaching) {
-      destroy_component(unscheduledtimeblock, detaching);
-    }
-  };
-}
-function create_default_slot25(ctx) {
-  let each_1_anchor;
+function create_if_block6(ctx) {
+  let div;
   let current2;
   let each_value = (
     /*$displayedTasks*/
-    ctx[9].noTime
+    ctx[4].noTime
   );
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
@@ -45940,25 +45963,26 @@ function create_default_slot25(ctx) {
   });
   return {
     c() {
+      div = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      each_1_anchor = empty();
+      attr(div, "class", "unscheduled-task-container svelte-tnuc1q");
     },
     m(target, anchor) {
+      insert(target, div, anchor);
       for (let i = 0; i < each_blocks.length; i += 1) {
         if (each_blocks[i]) {
-          each_blocks[i].m(target, anchor);
+          each_blocks[i].m(div, null);
         }
       }
-      insert(target, each_1_anchor, anchor);
       current2 = true;
     },
     p(ctx2, dirty) {
-      if (dirty & /*gripCursor, handleUnscheduledTaskGripMouseDown, $displayedTasks, handleTaskMouseUp*/
-      564) {
+      if (dirty & /*$cursor, handleUnscheduledTaskGripMouseDown, $displayedTasks, handleTaskMouseUp*/
+      83) {
         each_value = /*$displayedTasks*/
-        ctx2[9].noTime;
+        ctx2[4].noTime;
         let i;
         for (i = 0; i < each_value.length; i += 1) {
           const child_ctx = get_each_context6(ctx2, each_value, i);
@@ -45969,7 +45993,7 @@ function create_default_slot25(ctx) {
             each_blocks[i] = create_each_block6(child_ctx);
             each_blocks[i].c();
             transition_in(each_blocks[i], 1);
-            each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
+            each_blocks[i].m(div, null);
           }
         }
         group_outros();
@@ -45995,100 +46019,123 @@ function create_default_slot25(ctx) {
       current2 = false;
     },
     d(detaching) {
-      destroy_each(each_blocks, detaching);
       if (detaching)
-        detach(each_1_anchor);
+        detach(div);
+      destroy_each(each_blocks, detaching);
+    }
+  };
+}
+function create_each_block6(ctx) {
+  let unscheduledtimeblock;
+  let current2;
+  function func() {
+    return (
+      /*func*/
+      ctx[8](
+        /*task*/
+        ctx[11]
+      )
+    );
+  }
+  function mouseup_handler() {
+    return (
+      /*mouseup_handler*/
+      ctx[9](
+        /*task*/
+        ctx[11]
+      )
+    );
+  }
+  unscheduledtimeblock = new unscheduled_time_block_default({
+    props: {
+      gripCursor: (
+        /*$cursor*/
+        ctx[6].gripCursor
+      ),
+      onGripMouseDown: func,
+      task: (
+        /*task*/
+        ctx[11]
+      )
+    }
+  });
+  unscheduledtimeblock.$on("mouseup", mouseup_handler);
+  return {
+    c() {
+      create_component(unscheduledtimeblock.$$.fragment);
+    },
+    m(target, anchor) {
+      mount_component(unscheduledtimeblock, target, anchor);
+      current2 = true;
+    },
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      const unscheduledtimeblock_changes = {};
+      if (dirty & /*$cursor*/
+      64)
+        unscheduledtimeblock_changes.gripCursor = /*$cursor*/
+        ctx[6].gripCursor;
+      if (dirty & /*handleUnscheduledTaskGripMouseDown, $displayedTasks*/
+      17)
+        unscheduledtimeblock_changes.onGripMouseDown = func;
+      if (dirty & /*$displayedTasks*/
+      16)
+        unscheduledtimeblock_changes.task = /*task*/
+        ctx[11];
+      unscheduledtimeblock.$set(unscheduledtimeblock_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(unscheduledtimeblock.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(unscheduledtimeblock.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(unscheduledtimeblock, detaching);
     }
   };
 }
 function create_fragment42(ctx) {
-  let styledCursor_action;
-  let t0;
-  let t1;
-  let t2;
-  let timeline;
+  let if_block_anchor;
   let current2;
-  let mounted;
-  let dispose;
-  let if_block = !/*hideControls*/
-  ctx[0] && create_if_block5(ctx);
-  timeline = new timeline_default({
-    props: {
-      day: (
-        /*day*/
-        ctx[1]
-      ),
-      hideControls: (
-        /*hideControls*/
-        ctx[0]
-      )
-    }
-  });
+  let if_block = (
+    /*$displayedTasks*/
+    ctx[4].noTime.length > 0 && /*$settings*/
+    ctx[5].showUncheduledTasks && create_if_block6(ctx)
+  );
   return {
     c() {
-      t0 = space();
-      t1 = space();
       if (if_block)
         if_block.c();
-      t2 = space();
-      create_component(timeline.$$.fragment);
+      if_block_anchor = empty();
     },
     m(target, anchor) {
-      insert(target, t0, anchor);
-      insert(target, t1, anchor);
       if (if_block)
         if_block.m(target, anchor);
-      insert(target, t2, anchor);
-      mount_component(timeline, target, anchor);
+      insert(target, if_block_anchor, anchor);
       current2 = true;
-      if (!mounted) {
-        dispose = [
-          listen(window, "blur", function() {
-            if (is_function(
-              /*cancelEdit*/
-              ctx[6]
-            ))
-              ctx[6].apply(this, arguments);
-          }),
-          action_destroyer(styledCursor_action = styledCursor.call(
-            null,
-            document.body,
-            /*bodyCursor*/
-            ctx[3]
-          )),
-          listen(document, "mouseup", function() {
-            if (is_function(
-              /*cancelEdit*/
-              ctx[6]
-            ))
-              ctx[6].apply(this, arguments);
-          })
-        ];
-        mounted = true;
-      }
     },
-    p(new_ctx, [dirty]) {
-      ctx = new_ctx;
-      if (styledCursor_action && is_function(styledCursor_action.update) && dirty & /*bodyCursor*/
-      8)
-        styledCursor_action.update.call(
-          null,
-          /*bodyCursor*/
-          ctx[3]
-        );
-      if (!/*hideControls*/
-      ctx[0]) {
+    p(ctx2, [dirty]) {
+      if (
+        /*$displayedTasks*/
+        ctx2[4].noTime.length > 0 && /*$settings*/
+        ctx2[5].showUncheduledTasks
+      ) {
         if (if_block) {
-          if_block.p(ctx, dirty);
-          if (dirty & /*hideControls*/
-          1) {
+          if_block.p(ctx2, dirty);
+          if (dirty & /*$displayedTasks, $settings*/
+          48) {
             transition_in(if_block, 1);
           }
         } else {
-          if_block = create_if_block5(ctx);
+          if_block = create_if_block6(ctx2);
           if_block.c();
           transition_in(if_block, 1);
-          if_block.m(t2.parentNode, t2);
+          if_block.m(if_block_anchor.parentNode, if_block_anchor);
         }
       } else if (if_block) {
         group_outros();
@@ -46097,140 +46144,284 @@ function create_fragment42(ctx) {
         });
         check_outros();
       }
-      const timeline_changes = {};
-      if (dirty & /*day*/
-      2)
-        timeline_changes.day = /*day*/
-        ctx[1];
-      if (dirty & /*hideControls*/
-      1)
-        timeline_changes.hideControls = /*hideControls*/
-        ctx[0];
-      timeline.$set(timeline_changes);
     },
     i(local) {
       if (current2)
         return;
       transition_in(if_block);
-      transition_in(timeline.$$.fragment, local);
       current2 = true;
     },
     o(local) {
       transition_out(if_block);
-      transition_out(timeline.$$.fragment, local);
       current2 = false;
     },
     d(detaching) {
-      if (detaching)
-        detach(t0);
-      if (detaching)
-        detach(t1);
       if (if_block)
         if_block.d(detaching);
       if (detaching)
-        detach(t2);
-      destroy_component(timeline, detaching);
-      mounted = false;
-      run_all(dispose);
+        detach(if_block_anchor);
     }
   };
 }
 function instance42($$self, $$props, $$invalidate) {
-  let actualDay;
-  let editOperation;
-  let getEditHandlers;
   let displayedTasks;
-  let cancelEdit;
+  let cursor;
   let handleTaskMouseUp;
   let handleUnscheduledTaskGripMouseDown;
-  let bodyCursor;
-  let gripCursor;
-  let $editOperation, $$unsubscribe_editOperation = noop, $$subscribe_editOperation = () => ($$unsubscribe_editOperation(), $$unsubscribe_editOperation = subscribe(editOperation, ($$value) => $$invalidate(14, $editOperation = $$value)), editOperation);
-  let $editContext;
-  let $visibleDayInTimeline;
-  let $displayedTasks, $$unsubscribe_displayedTasks = noop, $$subscribe_displayedTasks = () => ($$unsubscribe_displayedTasks(), $$unsubscribe_displayedTasks = subscribe(displayedTasks, ($$value) => $$invalidate(9, $displayedTasks = $$value)), displayedTasks);
+  let $displayedTasks, $$unsubscribe_displayedTasks = noop, $$subscribe_displayedTasks = () => ($$unsubscribe_displayedTasks(), $$unsubscribe_displayedTasks = subscribe(displayedTasks, ($$value) => $$invalidate(4, $displayedTasks = $$value)), displayedTasks);
   let $settings;
-  component_subscribe($$self, visibleDayInTimeline, ($$value) => $$invalidate(16, $visibleDayInTimeline = $$value));
-  component_subscribe($$self, settings, ($$value) => $$invalidate(10, $settings = $$value));
-  $$self.$$.on_destroy.push(() => $$unsubscribe_editOperation());
+  let $cursor, $$unsubscribe_cursor = noop, $$subscribe_cursor = () => ($$unsubscribe_cursor(), $$unsubscribe_cursor = subscribe(cursor, ($$value) => $$invalidate(6, $cursor = $$value)), cursor);
+  component_subscribe($$self, settings, ($$value) => $$invalidate(5, $settings = $$value));
   $$self.$$.on_destroy.push(() => $$unsubscribe_displayedTasks());
-  let { hideControls = false } = $$props;
-  let { day = void 0 } = $$props;
-  const { editContext } = getContext(obsidianContext);
-  component_subscribe($$self, editContext, (value) => $$invalidate(15, $editContext = value));
+  $$self.$$.on_destroy.push(() => $$unsubscribe_cursor());
+  let { day } = $$props;
+  const { editContext: { getEditHandlers } } = getContext(obsidianContext);
   const func = (task) => handleUnscheduledTaskGripMouseDown(task);
   const mouseup_handler = (task) => handleTaskMouseUp(task);
   $$self.$$set = ($$props2) => {
-    if ("hideControls" in $$props2)
-      $$invalidate(0, hideControls = $$props2.hideControls);
     if ("day" in $$props2)
-      $$invalidate(1, day = $$props2.day);
+      $$invalidate(7, day = $$props2.day);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty & /*day, $visibleDayInTimeline*/
-    65538) {
+    if ($$self.$$.dirty & /*day*/
+    128) {
       $:
-        $$invalidate(12, actualDay = day || $visibleDayInTimeline);
-    }
-    if ($$self.$$.dirty & /*$editContext*/
-    32768) {
-      $:
-        $$subscribe_editOperation($$invalidate(8, { editOperation, getEditHandlers } = $editContext, editOperation, ($$invalidate(13, getEditHandlers), $$invalidate(15, $editContext))));
-    }
-    if ($$self.$$.dirty & /*getEditHandlers, actualDay*/
-    12288) {
-      $:
-        $$subscribe_displayedTasks($$invalidate(7, { displayedTasks, cancelEdit, handleTaskMouseUp, handleUnscheduledTaskGripMouseDown } = getEditHandlers(actualDay), displayedTasks, ($$invalidate(6, cancelEdit), $$invalidate(13, getEditHandlers), $$invalidate(12, actualDay), $$invalidate(15, $editContext), $$invalidate(1, day), $$invalidate(16, $visibleDayInTimeline)), ($$invalidate(5, handleTaskMouseUp), $$invalidate(13, getEditHandlers), $$invalidate(12, actualDay), $$invalidate(15, $editContext), $$invalidate(1, day), $$invalidate(16, $visibleDayInTimeline)), ($$invalidate(4, handleUnscheduledTaskGripMouseDown), $$invalidate(13, getEditHandlers), $$invalidate(12, actualDay), $$invalidate(15, $editContext), $$invalidate(1, day), $$invalidate(16, $visibleDayInTimeline))));
-    }
-    if ($$self.$$.dirty & /*$editOperation*/
-    16384) {
-      $:
-        $$invalidate(
-          3,
-          { bodyCursor, gripCursor } = useCursor({
-            editMode: $editOperation === null || $editOperation === void 0 ? void 0 : $editOperation.mode
-          }),
-          bodyCursor,
-          ($$invalidate(2, gripCursor), $$invalidate(14, $editOperation))
-        );
+        $$subscribe_displayedTasks($$invalidate(3, { displayedTasks, cursor, handleTaskMouseUp, handleUnscheduledTaskGripMouseDown } = getEditHandlers(day), displayedTasks, $$subscribe_cursor($$invalidate(2, cursor)), ($$invalidate(1, handleTaskMouseUp), $$invalidate(7, day)), ($$invalidate(0, handleUnscheduledTaskGripMouseDown), $$invalidate(7, day))));
     }
   };
   return [
-    hideControls,
-    day,
-    gripCursor,
-    bodyCursor,
     handleUnscheduledTaskGripMouseDown,
     handleTaskMouseUp,
-    cancelEdit,
+    cursor,
     displayedTasks,
-    editOperation,
     $displayedTasks,
     $settings,
-    editContext,
-    actualDay,
-    getEditHandlers,
-    $editOperation,
-    $editContext,
-    $visibleDayInTimeline,
+    $cursor,
+    day,
     func,
     mouseup_handler
   ];
 }
+var Unscheduled_task_container = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance42, create_fragment42, safe_not_equal, { day: 7 }, add_css18);
+  }
+};
+var unscheduled_task_container_default = Unscheduled_task_container;
+
+// src/ui/components/timeline-with-controls.svelte
+function add_css19(target) {
+  append_styles(target, "svelte-l5vkb3", ".controls.svelte-l5vkb3{position:relative;z-index:1000;box-shadow:var(--shadow-bottom)}.controls.svelte-l5vkb3>*{border-bottom:1px solid var(--background-modifier-border)}");
+}
+function create_default_slot24(ctx) {
+  let ruler;
+  let t;
+  let timeline;
+  let current2;
+  ruler = new ruler_default({
+    props: {
+      visibleHours: getVisibleHours(
+        /*$settings*/
+        ctx[1]
+      )
+    }
+  });
+  timeline = new timeline_default({
+    props: {
+      day: (
+        /*actualDay*/
+        ctx[0]
+      ),
+      isUnderCursor: (
+        /*autoScrollBlocked*/
+        ctx[5]
+      )
+    }
+  });
+  return {
+    c() {
+      create_component(ruler.$$.fragment);
+      t = space();
+      create_component(timeline.$$.fragment);
+    },
+    m(target, anchor) {
+      mount_component(ruler, target, anchor);
+      insert(target, t, anchor);
+      mount_component(timeline, target, anchor);
+      current2 = true;
+    },
+    p(ctx2, dirty) {
+      const ruler_changes = {};
+      if (dirty & /*$settings*/
+      2)
+        ruler_changes.visibleHours = getVisibleHours(
+          /*$settings*/
+          ctx2[1]
+        );
+      ruler.$set(ruler_changes);
+      const timeline_changes = {};
+      if (dirty & /*actualDay*/
+      1)
+        timeline_changes.day = /*actualDay*/
+        ctx2[0];
+      if (dirty & /*autoScrollBlocked*/
+      32)
+        timeline_changes.isUnderCursor = /*autoScrollBlocked*/
+        ctx2[5];
+      timeline.$set(timeline_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(ruler.$$.fragment, local);
+      transition_in(timeline.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(ruler.$$.fragment, local);
+      transition_out(timeline.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(ruler, detaching);
+      if (detaching)
+        detach(t);
+      destroy_component(timeline, detaching);
+    }
+  };
+}
+function create_fragment43(ctx) {
+  let globalhandlers;
+  let t0;
+  let div;
+  let timelinecontrols;
+  let t1;
+  let unscheduledtaskcontainer;
+  let t2;
+  let scroller;
+  let current2;
+  globalhandlers = new global_handlers_default({});
+  timelinecontrols = new timeline_controls_default({});
+  unscheduledtaskcontainer = new unscheduled_task_container_default({ props: { day: (
+    /*actualDay*/
+    ctx[0]
+  ) } });
+  scroller = new scroller_default({
+    props: {
+      $$slots: {
+        default: [
+          create_default_slot24,
+          ({ hovering: autoScrollBlocked }) => ({ 5: autoScrollBlocked }),
+          ({ hovering: autoScrollBlocked }) => autoScrollBlocked ? 32 : 0
+        ]
+      },
+      $$scope: { ctx }
+    }
+  });
+  return {
+    c() {
+      create_component(globalhandlers.$$.fragment);
+      t0 = space();
+      div = element("div");
+      create_component(timelinecontrols.$$.fragment);
+      t1 = space();
+      create_component(unscheduledtaskcontainer.$$.fragment);
+      t2 = space();
+      create_component(scroller.$$.fragment);
+      attr(div, "class", "controls svelte-l5vkb3");
+    },
+    m(target, anchor) {
+      mount_component(globalhandlers, target, anchor);
+      insert(target, t0, anchor);
+      insert(target, div, anchor);
+      mount_component(timelinecontrols, div, null);
+      append(div, t1);
+      mount_component(unscheduledtaskcontainer, div, null);
+      insert(target, t2, anchor);
+      mount_component(scroller, target, anchor);
+      current2 = true;
+    },
+    p(ctx2, [dirty]) {
+      const unscheduledtaskcontainer_changes = {};
+      if (dirty & /*actualDay*/
+      1)
+        unscheduledtaskcontainer_changes.day = /*actualDay*/
+        ctx2[0];
+      unscheduledtaskcontainer.$set(unscheduledtaskcontainer_changes);
+      const scroller_changes = {};
+      if (dirty & /*$$scope, actualDay, autoScrollBlocked, $settings*/
+      99) {
+        scroller_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      scroller.$set(scroller_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(globalhandlers.$$.fragment, local);
+      transition_in(timelinecontrols.$$.fragment, local);
+      transition_in(unscheduledtaskcontainer.$$.fragment, local);
+      transition_in(scroller.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(globalhandlers.$$.fragment, local);
+      transition_out(timelinecontrols.$$.fragment, local);
+      transition_out(unscheduledtaskcontainer.$$.fragment, local);
+      transition_out(scroller.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(globalhandlers, detaching);
+      if (detaching)
+        detach(t0);
+      if (detaching)
+        detach(div);
+      destroy_component(timelinecontrols);
+      destroy_component(unscheduledtaskcontainer);
+      if (detaching)
+        detach(t2);
+      destroy_component(scroller, detaching);
+    }
+  };
+}
+function instance43($$self, $$props, $$invalidate) {
+  let actualDay;
+  let $dateRange;
+  let $settings;
+  component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
+  let { day = void 0 } = $$props;
+  const dateRange = getContext(dateRangeContextKey);
+  component_subscribe($$self, dateRange, (value) => $$invalidate(4, $dateRange = value));
+  $$self.$$set = ($$props2) => {
+    if ("day" in $$props2)
+      $$invalidate(3, day = $$props2.day);
+  };
+  $$self.$$.update = () => {
+    if ($$self.$$.dirty & /*day, $dateRange*/
+    24) {
+      $:
+        $$invalidate(0, actualDay = day || $dateRange[0]);
+    }
+  };
+  return [actualDay, $settings, dateRange, day, $dateRange];
+}
 var Timeline_with_controls = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance42, create_fragment42, safe_not_equal, { hideControls: 0, day: 1 });
+    init(this, options, instance43, create_fragment43, safe_not_equal, { day: 3 }, add_css19);
   }
 };
 var timeline_with_controls_default = Timeline_with_controls;
 
 // src/ui/timeline-view.ts
-var TimelineView = class extends import_obsidian6.ItemView {
-  constructor(leaf, settings2, componentContext) {
+var TimelineView = class extends import_obsidian8.ItemView {
+  constructor(leaf, settings2, componentContext, dateRanges) {
     super(leaf);
     this.settings = settings2;
     this.componentContext = componentContext;
+    this.dateRanges = dateRanges;
   }
   getViewType() {
     return viewTypeTimeline;
@@ -46243,28 +46434,38 @@ var TimelineView = class extends import_obsidian6.ItemView {
   }
   async onOpen() {
     const contentEl = this.containerEl.children[1];
+    this.dateRange = this.dateRanges.trackRange([window.moment()]);
+    this.registerEvent(
+      this.app.workspace.on(
+        "active-leaf-change",
+        (leaf) => handleActiveLeafChange(leaf, this.dateRange)
+      )
+    );
+    const context = new Map([
+      ...this.componentContext,
+      [dateRangeContextKey, this.dateRange]
+    ]);
     this.timeline = new timeline_with_controls_default({
       target: contentEl,
-      context: this.componentContext
+      context
     });
   }
   async onClose() {
     var _a;
+    this.dateRange.untrack();
     (_a = this.timeline) == null ? void 0 : _a.$destroy();
   }
 };
 
 // src/ui/weekly-view.ts
-var import_obsidian7 = require("obsidian");
-
-// src/global-store/visible-date-range.ts
-var visibleDateRange = writable(getDaysOfCurrentWeek());
+var import_obsidian9 = require("obsidian");
 
 // src/ui/components/week/header-actions.svelte
-function add_css18(target) {
-  append_styles(target, "svelte-vfradk", ".range.svelte-vfradk{flex:1 0 0;margin-right:10px;white-space:nowrap}");
+var import_moment14 = __toESM(require_moment());
+function add_css20(target) {
+  append_styles(target, "svelte-1qypoka", ".view-header-nav-buttons.svelte-1qypoka{display:flex;gap:var(--size-4-1)}.range.svelte-1qypoka{flex:1 0 0;margin-right:10px;white-space:nowrap}");
 }
-function create_default_slot_22(ctx) {
+function create_default_slot_2(ctx) {
   let arrowlefttoline;
   let current2;
   arrowlefttoline = new Arrow_left_to_line$1({ props: { class: "svg-icon" } });
@@ -46292,7 +46493,7 @@ function create_default_slot_22(ctx) {
     }
   };
 }
-function create_default_slot_17(ctx) {
+function create_default_slot_111(ctx) {
   let circledoticon;
   let current2;
   circledoticon = new Circle_dot$1({ props: { class: "svg-icon" } });
@@ -46320,7 +46521,7 @@ function create_default_slot_17(ctx) {
     }
   };
 }
-function create_default_slot26(ctx) {
+function create_default_slot25(ctx) {
   let arrowrighttoline;
   let current2;
   arrowrighttoline = new Arrow_right_to_line$1({ props: { class: "svg-icon" } });
@@ -46348,121 +46549,142 @@ function create_default_slot26(ctx) {
     }
   };
 }
-function create_fragment43(ctx) {
+function create_fragment44(ctx) {
   let div1;
-  let div0;
+  let pill;
   let t0;
+  let div0;
   let t1;
   let t2;
   let t3;
-  let controlbutton0;
   let t4;
-  let controlbutton1;
+  let controlbutton0;
   let t5;
+  let controlbutton1;
+  let t6;
   let controlbutton2;
   let current2;
+  pill = new pill_default({
+    props: {
+      key: "filter",
+      value: (
+        /*$settings*/
+        ctx[2].dataviewSource
+      )
+    }
+  });
   controlbutton0 = new control_button_default({
     props: {
       label: "Show previous week",
-      $$slots: { default: [create_default_slot_22] },
+      $$slots: { default: [create_default_slot_2] },
       $$scope: { ctx }
     }
   });
   controlbutton0.$on(
     "click",
     /*handleShowPrevious*/
-    ctx[2]
+    ctx[4]
   );
   controlbutton1 = new control_button_default({
     props: {
       label: "Show current week",
-      $$slots: { default: [create_default_slot_17] },
+      $$slots: { default: [create_default_slot_111] },
       $$scope: { ctx }
     }
   });
   controlbutton1.$on(
     "click",
     /*handleShowCurrent*/
-    ctx[3]
+    ctx[5]
   );
   controlbutton2 = new control_button_default({
     props: {
       label: "Show next week",
-      $$slots: { default: [create_default_slot26] },
+      $$slots: { default: [create_default_slot25] },
       $$scope: { ctx }
     }
   });
   controlbutton2.$on(
     "click",
     /*handleShowNext*/
-    ctx[4]
+    ctx[6]
   );
   return {
     c() {
       div1 = element("div");
+      create_component(pill.$$.fragment);
+      t0 = space();
       div0 = element("div");
-      t0 = text(
+      t1 = text(
         /*startOfRange*/
         ctx[1]
       );
-      t1 = text(" - ");
-      t2 = text(
+      t2 = text(" - ");
+      t3 = text(
         /*endOfRange*/
         ctx[0]
       );
-      t3 = space();
-      create_component(controlbutton0.$$.fragment);
       t4 = space();
-      create_component(controlbutton1.$$.fragment);
+      create_component(controlbutton0.$$.fragment);
       t5 = space();
+      create_component(controlbutton1.$$.fragment);
+      t6 = space();
       create_component(controlbutton2.$$.fragment);
-      attr(div0, "class", "range svelte-vfradk");
-      attr(div1, "class", "view-header-nav-buttons");
+      attr(div0, "class", "range svelte-1qypoka");
+      attr(div1, "class", "view-header-nav-buttons svelte-1qypoka");
     },
     m(target, anchor) {
       insert(target, div1, anchor);
+      mount_component(pill, div1, null);
+      append(div1, t0);
       append(div1, div0);
-      append(div0, t0);
       append(div0, t1);
       append(div0, t2);
-      append(div1, t3);
-      mount_component(controlbutton0, div1, null);
+      append(div0, t3);
       append(div1, t4);
-      mount_component(controlbutton1, div1, null);
+      mount_component(controlbutton0, div1, null);
       append(div1, t5);
+      mount_component(controlbutton1, div1, null);
+      append(div1, t6);
       mount_component(controlbutton2, div1, null);
       current2 = true;
     },
     p(ctx2, [dirty]) {
+      const pill_changes = {};
+      if (dirty & /*$settings*/
+      4)
+        pill_changes.value = /*$settings*/
+        ctx2[2].dataviewSource;
+      pill.$set(pill_changes);
       if (!current2 || dirty & /*startOfRange*/
       2)
         set_data(
-          t0,
+          t1,
           /*startOfRange*/
           ctx2[1]
         );
       if (!current2 || dirty & /*endOfRange*/
       1)
         set_data(
-          t2,
+          t3,
           /*endOfRange*/
           ctx2[0]
         );
       const controlbutton0_changes = {};
       if (dirty & /*$$scope*/
-      128) {
+      512) {
         controlbutton0_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton0.$set(controlbutton0_changes);
       const controlbutton1_changes = {};
       if (dirty & /*$$scope*/
-      128) {
+      512) {
         controlbutton1_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton1.$set(controlbutton1_changes);
       const controlbutton2_changes = {};
       if (dirty & /*$$scope*/
-      128) {
+      512) {
         controlbutton2_changes.$$scope = { dirty, ctx: ctx2 };
       }
       controlbutton2.$set(controlbutton2_changes);
@@ -46470,12 +46692,14 @@ function create_fragment43(ctx) {
     i(local) {
       if (current2)
         return;
+      transition_in(pill.$$.fragment, local);
       transition_in(controlbutton0.$$.fragment, local);
       transition_in(controlbutton1.$$.fragment, local);
       transition_in(controlbutton2.$$.fragment, local);
       current2 = true;
     },
     o(local) {
+      transition_out(pill.$$.fragment, local);
       transition_out(controlbutton0.$$.fragment, local);
       transition_out(controlbutton1.$$.fragment, local);
       transition_out(controlbutton2.$$.fragment, local);
@@ -46484,86 +46708,98 @@ function create_fragment43(ctx) {
     d(detaching) {
       if (detaching)
         detach(div1);
+      destroy_component(pill);
       destroy_component(controlbutton0);
       destroy_component(controlbutton1);
       destroy_component(controlbutton2);
     }
   };
 }
-function instance43($$self, $$props, $$invalidate) {
+function instance44($$self, $$props, $$invalidate) {
   let firstDayOfShownWeek;
   let startOfRange;
   let endOfRange;
-  let $visibleDateRange;
-  component_subscribe($$self, visibleDateRange, ($$value) => $$invalidate(6, $visibleDateRange = $$value));
+  let $dateRange;
+  let $settings;
+  component_subscribe($$self, settings, ($$value) => $$invalidate(2, $settings = $$value));
+  const dateRange = getContext(dateRangeContextKey);
+  component_subscribe($$self, dateRange, (value) => $$invalidate(8, $dateRange = value));
   function handleShowPrevious() {
     const firstDayOfPreviousWeek = firstDayOfShownWeek.clone().subtract(1, "week");
     const daysOfPreviousWeek = getDaysOfWeek(firstDayOfPreviousWeek);
-    visibleDateRange.set(daysOfPreviousWeek);
+    dateRange.set(daysOfPreviousWeek);
   }
   function handleShowCurrent() {
-    visibleDateRange.set(getDaysOfCurrentWeek());
+    dateRange.set(getDaysOfCurrentWeek());
   }
   function handleShowNext() {
     const firstDayOfNextWeek = firstDayOfShownWeek.clone().add(1, "week");
     const daysOfNextWeek = getDaysOfWeek(firstDayOfNextWeek);
-    visibleDateRange.set(daysOfNextWeek);
+    dateRange.set(daysOfNextWeek);
   }
   $$self.$$.update = () => {
-    if ($$self.$$.dirty & /*$visibleDateRange*/
-    64) {
+    if ($$self.$$.dirty & /*$dateRange*/
+    256) {
       $:
-        $$invalidate(5, firstDayOfShownWeek = $visibleDateRange[0]);
+        $$invalidate(7, firstDayOfShownWeek = $dateRange[0]);
     }
     if ($$self.$$.dirty & /*firstDayOfShownWeek*/
-    32) {
+    128) {
       $:
         $$invalidate(1, startOfRange = firstDayOfShownWeek.format("MMM, D"));
     }
-    if ($$self.$$.dirty & /*$visibleDateRange*/
-    64) {
+    if ($$self.$$.dirty & /*$dateRange*/
+    256) {
       $:
-        $$invalidate(0, endOfRange = $visibleDateRange.at(-1).format("MMM, D"));
+        $$invalidate(0, endOfRange = $dateRange.at(-1).format("MMM, D"));
     }
   };
   return [
     endOfRange,
     startOfRange,
+    $settings,
+    dateRange,
     handleShowPrevious,
     handleShowCurrent,
     handleShowNext,
     firstDayOfShownWeek,
-    $visibleDateRange
+    $dateRange
   ];
 }
 var Header_actions = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance43, create_fragment43, safe_not_equal, {}, add_css18);
+    init(this, options, instance44, create_fragment44, safe_not_equal, {}, add_css20);
   }
 };
 var header_actions_default = Header_actions;
 
 // src/ui/components/week/week.svelte
-function add_css19(target) {
-  append_styles(target, "svelte-gkof0t", ".corner.svelte-gkof0t{position:sticky;z-index:100;top:0;left:0;flex:0 0 var(--time-ruler-width);background-color:var(--background-primary);border:1px solid var(--background-modifier-border);border-top:none;border-left:none}.day-columns.svelte-gkof0t{display:flex}.day-column.svelte-gkof0t{display:flex;flex:1 0 150px;flex-direction:column;background-color:var(--background-secondary);border-right:1px solid var(--background-modifier-border)}.week-header.svelte-gkof0t{position:sticky;z-index:10;top:0;display:flex}.day-header.svelte-gkof0t{overflow-x:hidden;flex:1 0 150px;background-color:var(--background-primary);border-right:1px solid var(--background-modifier-border);border-bottom:1px solid var(--background-modifier-border)}.today.svelte-gkof0t{color:white;background-color:var(--color-accent)}.stretcher.svelte-gkof0t{display:flex}");
+var import_moment16 = __toESM(require_moment());
+function add_css21(target) {
+  append_styles(target, "svelte-1rxm5", ".header-row.svelte-1rxm5{display:flex}.day-buttons.svelte-1rxm5{font-size:var(--font-ui-small)}.corner.svelte-1rxm5{position:sticky;z-index:100;top:0;left:0;flex:0 0 var(--time-ruler-width);background-color:var(--background-primary);border:1px solid var(--background-modifier-border);border-top:none;border-left:none}.day-column.svelte-1rxm5{display:flex;flex:1 0 200px;flex-direction:column;background-color:var(--background-secondary);border-right:1px solid var(--background-modifier-border)}.day-column.svelte-1rxm5:last-child{border-right:none}.week-header.svelte-1rxm5{position:relative;z-index:1000;overflow-x:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-bottom)}.header-cell.svelte-1rxm5{overflow-x:hidden;flex:1 0 200px;background-color:var(--background-primary);border-right:1px solid var(--background-modifier-border);border-bottom:1px solid var(--background-modifier-border)}.header-cell.svelte-1rxm5:last-child{flex:1 0 calc(200px + var(--scrollbar-width));border-right:none}.today.svelte-1rxm5{color:white;background-color:var(--color-accent)}");
 }
 function get_each_context7(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[4] = list[i];
+  child_ctx[8] = list[i];
   return child_ctx;
 }
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[4] = list[i];
+  child_ctx[8] = list[i];
   return child_ctx;
 }
-function create_default_slot27(ctx) {
+function get_each_context_2(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[8] = list[i];
+  return child_ctx;
+}
+function create_default_slot_112(ctx) {
   let t_value = (
     /*day*/
-    ctx[4].format(
+    ctx[8].format(
       /*$settings*/
-      ctx[1].timelineDateFormat
+      ctx[2].timelineDateFormat
     ) + ""
   );
   let t;
@@ -46575,11 +46811,11 @@ function create_default_slot27(ctx) {
       insert(target, t, anchor);
     },
     p(ctx2, dirty) {
-      if (dirty & /*$visibleDateRange, $settings*/
-      3 && t_value !== (t_value = /*day*/
-      ctx2[4].format(
+      if (dirty & /*$dateRange, $settings*/
+      6 && t_value !== (t_value = /*day*/
+      ctx2[8].format(
         /*$settings*/
-        ctx2[1].timelineDateFormat
+        ctx2[2].timelineDateFormat
       ) + ""))
         set_data(t, t_value);
     },
@@ -46589,7 +46825,7 @@ function create_default_slot27(ctx) {
     }
   };
 }
-function create_each_block_1(ctx) {
+function create_each_block_2(ctx) {
   let div;
   let controlbutton;
   let div_1;
@@ -46599,16 +46835,16 @@ function create_each_block_1(ctx) {
   function click_handler() {
     return (
       /*click_handler*/
-      ctx[3](
+      ctx[6](
         /*day*/
-        ctx[4]
+        ctx[8]
       )
     );
   }
   controlbutton = new control_button_default({
     props: {
       label: "Open note for day",
-      $$slots: { default: [create_default_slot27] },
+      $$slots: { default: [create_default_slot_112] },
       $$scope: { ctx }
     }
   });
@@ -46622,12 +46858,12 @@ function create_each_block_1(ctx) {
       set_style(div_1, "display", "contents");
       set_style(div_1, "--color", __color_last = isToday(
         /*day*/
-        ctx[4]
+        ctx[8]
       ) ? "white" : "var(--icon-color)");
-      attr(div, "class", "day-header svelte-gkof0t");
+      attr(div, "class", "header-cell svelte-1rxm5");
       toggle_class(div, "today", isToday(
         /*day*/
-        ctx[4]
+        ctx[8]
       ));
     },
     m(target, anchor) {
@@ -46639,24 +46875,24 @@ function create_each_block_1(ctx) {
     },
     p(new_ctx, dirty) {
       ctx = new_ctx;
-      if (dirty & /*$visibleDateRange*/
-      1 && __color_last !== (__color_last = isToday(
+      if (dirty & /*$dateRange*/
+      2 && __color_last !== (__color_last = isToday(
         /*day*/
-        ctx[4]
+        ctx[8]
       ) ? "white" : "var(--icon-color)")) {
         set_style(div_1, "--color", __color_last);
       }
       const controlbutton_changes = {};
-      if (dirty & /*$$scope, $visibleDateRange, $settings*/
-      515) {
+      if (dirty & /*$$scope, $dateRange, $settings*/
+      32774) {
         controlbutton_changes.$$scope = { dirty, ctx };
       }
       controlbutton.$set(controlbutton_changes);
-      if (!current2 || dirty & /*isToday, $visibleDateRange*/
-      1) {
+      if (!current2 || dirty & /*isToday, $dateRange*/
+      2) {
         toggle_class(div, "today", isToday(
           /*day*/
-          ctx[4]
+          ctx[8]
         ));
       }
     },
@@ -46677,173 +46913,164 @@ function create_each_block_1(ctx) {
     }
   };
 }
-function create_each_block7(ctx) {
-  let div1;
-  let div0;
-  let timelinewithcontrols;
+function create_each_block_1(ctx) {
+  let div;
+  let unscheduledtaskcontainer;
   let t;
   let current2;
-  timelinewithcontrols = new timeline_with_controls_default({
-    props: { day: (
-      /*day*/
-      ctx[4]
-    ), hideControls: true }
-  });
+  unscheduledtaskcontainer = new unscheduled_task_container_default({ props: { day: (
+    /*day*/
+    ctx[8]
+  ) } });
   return {
     c() {
-      div1 = element("div");
-      div0 = element("div");
-      create_component(timelinewithcontrols.$$.fragment);
+      div = element("div");
+      create_component(unscheduledtaskcontainer.$$.fragment);
       t = space();
-      attr(div0, "class", "stretcher svelte-gkof0t");
-      attr(div1, "class", "day-column svelte-gkof0t");
+      attr(div, "class", "header-cell svelte-1rxm5");
     },
     m(target, anchor) {
-      insert(target, div1, anchor);
-      append(div1, div0);
-      mount_component(timelinewithcontrols, div0, null);
-      append(div1, t);
+      insert(target, div, anchor);
+      mount_component(unscheduledtaskcontainer, div, null);
+      append(div, t);
       current2 = true;
     },
     p(ctx2, dirty) {
-      const timelinewithcontrols_changes = {};
-      if (dirty & /*$visibleDateRange*/
-      1)
-        timelinewithcontrols_changes.day = /*day*/
-        ctx2[4];
-      timelinewithcontrols.$set(timelinewithcontrols_changes);
+      const unscheduledtaskcontainer_changes = {};
+      if (dirty & /*$dateRange*/
+      2)
+        unscheduledtaskcontainer_changes.day = /*day*/
+        ctx2[8];
+      unscheduledtaskcontainer.$set(unscheduledtaskcontainer_changes);
     },
     i(local) {
       if (current2)
         return;
-      transition_in(timelinewithcontrols.$$.fragment, local);
+      transition_in(unscheduledtaskcontainer.$$.fragment, local);
       current2 = true;
     },
     o(local) {
-      transition_out(timelinewithcontrols.$$.fragment, local);
+      transition_out(unscheduledtaskcontainer.$$.fragment, local);
       current2 = false;
     },
     d(detaching) {
       if (detaching)
-        detach(div1);
-      destroy_component(timelinewithcontrols);
+        detach(div);
+      destroy_component(unscheduledtaskcontainer);
     }
   };
 }
-function create_fragment44(ctx) {
-  let div1;
-  let div0;
-  let t0;
-  let t1;
-  let div2;
-  let ruler;
-  let t2;
+function create_each_block7(ctx) {
+  let div;
+  let timeline;
+  let t;
   let current2;
-  let each_value_1 = (
-    /*$visibleDateRange*/
-    ctx[0]
-  );
-  let each_blocks_1 = [];
-  for (let i = 0; i < each_value_1.length; i += 1) {
-    each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
-  }
-  const out = (i) => transition_out(each_blocks_1[i], 1, 1, () => {
-    each_blocks_1[i] = null;
+  timeline = new timeline_default({
+    props: { day: (
+      /*day*/
+      ctx[8]
+    ), isUnderCursor: true }
   });
+  return {
+    c() {
+      div = element("div");
+      create_component(timeline.$$.fragment);
+      t = space();
+      attr(div, "class", "day-column svelte-1rxm5");
+    },
+    m(target, anchor) {
+      insert(target, div, anchor);
+      mount_component(timeline, div, null);
+      append(div, t);
+      current2 = true;
+    },
+    p(ctx2, dirty) {
+      const timeline_changes = {};
+      if (dirty & /*$dateRange*/
+      2)
+        timeline_changes.day = /*day*/
+        ctx2[8];
+      timeline.$set(timeline_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(timeline.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(timeline.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      if (detaching)
+        detach(div);
+      destroy_component(timeline);
+    }
+  };
+}
+function create_default_slot26(ctx) {
+  let ruler;
+  let div;
+  let t;
+  let each_1_anchor;
+  let current2;
   ruler = new ruler_default({
     props: {
       visibleHours: getVisibleHours(
         /*$settings*/
-        ctx[1]
+        ctx[2]
       )
     }
   });
   let each_value = (
-    /*$visibleDateRange*/
-    ctx[0]
+    /*$dateRange*/
+    ctx[1]
   );
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
     each_blocks[i] = create_each_block7(get_each_context7(ctx, each_value, i));
   }
-  const out_1 = (i) => transition_out(each_blocks[i], 1, 1, () => {
+  const out = (i) => transition_out(each_blocks[i], 1, 1, () => {
     each_blocks[i] = null;
   });
   return {
     c() {
-      div1 = element("div");
-      div0 = element("div");
-      t0 = space();
-      for (let i = 0; i < each_blocks_1.length; i += 1) {
-        each_blocks_1[i].c();
-      }
-      t1 = space();
-      div2 = element("div");
+      div = element("div");
       create_component(ruler.$$.fragment);
-      t2 = space();
+      t = space();
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div0, "class", "corner svelte-gkof0t");
-      attr(div1, "class", "week-header svelte-gkof0t");
-      attr(div2, "class", "day-columns svelte-gkof0t");
+      each_1_anchor = empty();
+      set_style(div, "display", "contents");
+      set_style(div, "--ruler-box-shadow", "var(--shadow-right)");
     },
     m(target, anchor) {
-      insert(target, div1, anchor);
-      append(div1, div0);
-      append(div1, t0);
-      for (let i = 0; i < each_blocks_1.length; i += 1) {
-        if (each_blocks_1[i]) {
-          each_blocks_1[i].m(div1, null);
-        }
-      }
-      insert(target, t1, anchor);
-      insert(target, div2, anchor);
-      mount_component(ruler, div2, null);
-      append(div2, t2);
+      insert(target, div, anchor);
+      mount_component(ruler, div, null);
+      insert(target, t, anchor);
       for (let i = 0; i < each_blocks.length; i += 1) {
         if (each_blocks[i]) {
-          each_blocks[i].m(div2, null);
+          each_blocks[i].m(target, anchor);
         }
       }
+      insert(target, each_1_anchor, anchor);
       current2 = true;
     },
-    p(ctx2, [dirty]) {
-      if (dirty & /*isToday, $visibleDateRange, obsidianFacade, $settings*/
-      7) {
-        each_value_1 = /*$visibleDateRange*/
-        ctx2[0];
-        let i;
-        for (i = 0; i < each_value_1.length; i += 1) {
-          const child_ctx = get_each_context_1(ctx2, each_value_1, i);
-          if (each_blocks_1[i]) {
-            each_blocks_1[i].p(child_ctx, dirty);
-            transition_in(each_blocks_1[i], 1);
-          } else {
-            each_blocks_1[i] = create_each_block_1(child_ctx);
-            each_blocks_1[i].c();
-            transition_in(each_blocks_1[i], 1);
-            each_blocks_1[i].m(div1, null);
-          }
-        }
-        group_outros();
-        for (i = each_value_1.length; i < each_blocks_1.length; i += 1) {
-          out(i);
-        }
-        check_outros();
-      }
+    p(ctx2, dirty) {
       const ruler_changes = {};
       if (dirty & /*$settings*/
-      2)
+      4)
         ruler_changes.visibleHours = getVisibleHours(
           /*$settings*/
-          ctx2[1]
+          ctx2[2]
         );
       ruler.$set(ruler_changes);
-      if (dirty & /*$visibleDateRange*/
-      1) {
-        each_value = /*$visibleDateRange*/
-        ctx2[0];
+      if (dirty & /*$dateRange*/
+      2) {
+        each_value = /*$dateRange*/
+        ctx2[1];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
           const child_ctx = get_each_context7(ctx2, each_value, i);
@@ -46854,12 +47081,12 @@ function create_fragment44(ctx) {
             each_blocks[i] = create_each_block7(child_ctx);
             each_blocks[i].c();
             transition_in(each_blocks[i], 1);
-            each_blocks[i].m(div2, null);
+            each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
           }
         }
         group_outros();
         for (i = each_value.length; i < each_blocks.length; i += 1) {
-          out_1(i);
+          out(i);
         }
         check_outros();
       }
@@ -46867,9 +47094,6 @@ function create_fragment44(ctx) {
     i(local) {
       if (current2)
         return;
-      for (let i = 0; i < each_value_1.length; i += 1) {
-        transition_in(each_blocks_1[i]);
-      }
       transition_in(ruler.$$.fragment, local);
       for (let i = 0; i < each_value.length; i += 1) {
         transition_in(each_blocks[i]);
@@ -46877,10 +47101,6 @@ function create_fragment44(ctx) {
       current2 = true;
     },
     o(local) {
-      each_blocks_1 = each_blocks_1.filter(Boolean);
-      for (let i = 0; i < each_blocks_1.length; i += 1) {
-        transition_out(each_blocks_1[i]);
-      }
       transition_out(ruler.$$.fragment, local);
       each_blocks = each_blocks.filter(Boolean);
       for (let i = 0; i < each_blocks.length; i += 1) {
@@ -46889,41 +47109,263 @@ function create_fragment44(ctx) {
       current2 = false;
     },
     d(detaching) {
+      if (detaching && ruler)
+        detach(div);
+      destroy_component(ruler, detaching);
       if (detaching)
-        detach(div1);
-      destroy_each(each_blocks_1, detaching);
-      if (detaching)
-        detach(t1);
-      if (detaching)
-        detach(div2);
-      destroy_component(ruler);
+        detach(t);
       destroy_each(each_blocks, detaching);
+      if (detaching)
+        detach(each_1_anchor);
     }
   };
 }
-function instance44($$self, $$props, $$invalidate) {
-  let $visibleDateRange;
+function create_fragment45(ctx) {
+  let globalhandlers;
+  let t0;
+  let div4;
+  let div1;
+  let div0;
+  let t1;
+  let t2;
+  let div3;
+  let div2;
+  let t3;
+  let t4;
+  let scroller;
+  let current2;
+  globalhandlers = new global_handlers_default({});
+  let each_value_2 = (
+    /*$dateRange*/
+    ctx[1]
+  );
+  let each_blocks_1 = [];
+  for (let i = 0; i < each_value_2.length; i += 1) {
+    each_blocks_1[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+  }
+  const out = (i) => transition_out(each_blocks_1[i], 1, 1, () => {
+    each_blocks_1[i] = null;
+  });
+  let each_value_1 = (
+    /*$dateRange*/
+    ctx[1]
+  );
+  let each_blocks = [];
+  for (let i = 0; i < each_value_1.length; i += 1) {
+    each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+  }
+  const out_1 = (i) => transition_out(each_blocks[i], 1, 1, () => {
+    each_blocks[i] = null;
+  });
+  scroller = new scroller_default({
+    props: {
+      $$slots: { default: [create_default_slot26] },
+      $$scope: { ctx }
+    }
+  });
+  scroller.$on(
+    "scroll",
+    /*handleScroll*/
+    ctx[5]
+  );
+  return {
+    c() {
+      create_component(globalhandlers.$$.fragment);
+      t0 = space();
+      div4 = element("div");
+      div1 = element("div");
+      div0 = element("div");
+      t1 = space();
+      for (let i = 0; i < each_blocks_1.length; i += 1) {
+        each_blocks_1[i].c();
+      }
+      t2 = space();
+      div3 = element("div");
+      div2 = element("div");
+      t3 = space();
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      t4 = space();
+      create_component(scroller.$$.fragment);
+      attr(div0, "class", "corner svelte-1rxm5");
+      attr(div1, "class", "header-row day-buttons svelte-1rxm5");
+      attr(div2, "class", "corner svelte-1rxm5");
+      attr(div3, "class", "header-row svelte-1rxm5");
+      attr(div4, "class", "week-header svelte-1rxm5");
+    },
+    m(target, anchor) {
+      mount_component(globalhandlers, target, anchor);
+      insert(target, t0, anchor);
+      insert(target, div4, anchor);
+      append(div4, div1);
+      append(div1, div0);
+      append(div1, t1);
+      for (let i = 0; i < each_blocks_1.length; i += 1) {
+        if (each_blocks_1[i]) {
+          each_blocks_1[i].m(div1, null);
+        }
+      }
+      append(div4, t2);
+      append(div4, div3);
+      append(div3, div2);
+      append(div3, t3);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        if (each_blocks[i]) {
+          each_blocks[i].m(div3, null);
+        }
+      }
+      ctx[7](div4);
+      insert(target, t4, anchor);
+      mount_component(scroller, target, anchor);
+      current2 = true;
+    },
+    p(ctx2, [dirty]) {
+      if (dirty & /*isToday, $dateRange, obsidianFacade, $settings*/
+      14) {
+        each_value_2 = /*$dateRange*/
+        ctx2[1];
+        let i;
+        for (i = 0; i < each_value_2.length; i += 1) {
+          const child_ctx = get_each_context_2(ctx2, each_value_2, i);
+          if (each_blocks_1[i]) {
+            each_blocks_1[i].p(child_ctx, dirty);
+            transition_in(each_blocks_1[i], 1);
+          } else {
+            each_blocks_1[i] = create_each_block_2(child_ctx);
+            each_blocks_1[i].c();
+            transition_in(each_blocks_1[i], 1);
+            each_blocks_1[i].m(div1, null);
+          }
+        }
+        group_outros();
+        for (i = each_value_2.length; i < each_blocks_1.length; i += 1) {
+          out(i);
+        }
+        check_outros();
+      }
+      if (dirty & /*$dateRange*/
+      2) {
+        each_value_1 = /*$dateRange*/
+        ctx2[1];
+        let i;
+        for (i = 0; i < each_value_1.length; i += 1) {
+          const child_ctx = get_each_context_1(ctx2, each_value_1, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+            transition_in(each_blocks[i], 1);
+          } else {
+            each_blocks[i] = create_each_block_1(child_ctx);
+            each_blocks[i].c();
+            transition_in(each_blocks[i], 1);
+            each_blocks[i].m(div3, null);
+          }
+        }
+        group_outros();
+        for (i = each_value_1.length; i < each_blocks.length; i += 1) {
+          out_1(i);
+        }
+        check_outros();
+      }
+      const scroller_changes = {};
+      if (dirty & /*$$scope, $dateRange, $settings*/
+      32774) {
+        scroller_changes.$$scope = { dirty, ctx: ctx2 };
+      }
+      scroller.$set(scroller_changes);
+    },
+    i(local) {
+      if (current2)
+        return;
+      transition_in(globalhandlers.$$.fragment, local);
+      for (let i = 0; i < each_value_2.length; i += 1) {
+        transition_in(each_blocks_1[i]);
+      }
+      for (let i = 0; i < each_value_1.length; i += 1) {
+        transition_in(each_blocks[i]);
+      }
+      transition_in(scroller.$$.fragment, local);
+      current2 = true;
+    },
+    o(local) {
+      transition_out(globalhandlers.$$.fragment, local);
+      each_blocks_1 = each_blocks_1.filter(Boolean);
+      for (let i = 0; i < each_blocks_1.length; i += 1) {
+        transition_out(each_blocks_1[i]);
+      }
+      each_blocks = each_blocks.filter(Boolean);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        transition_out(each_blocks[i]);
+      }
+      transition_out(scroller.$$.fragment, local);
+      current2 = false;
+    },
+    d(detaching) {
+      destroy_component(globalhandlers, detaching);
+      if (detaching)
+        detach(t0);
+      if (detaching)
+        detach(div4);
+      destroy_each(each_blocks_1, detaching);
+      destroy_each(each_blocks, detaching);
+      ctx[7](null);
+      if (detaching)
+        detach(t4);
+      destroy_component(scroller, detaching);
+    }
+  };
+}
+function instance45($$self, $$props, $$invalidate) {
+  let $dateRange;
   let $settings;
-  component_subscribe($$self, visibleDateRange, ($$value) => $$invalidate(0, $visibleDateRange = $$value));
-  component_subscribe($$self, settings, ($$value) => $$invalidate(1, $settings = $$value));
+  component_subscribe($$self, settings, ($$value) => $$invalidate(2, $settings = $$value));
   const { obsidianFacade } = getContext(obsidianContext);
+  const dateRange = getContext(dateRangeContextKey);
+  component_subscribe($$self, dateRange, (value) => $$invalidate(1, $dateRange = value));
+  let weekHeaderRef;
+  function handleScroll(event) {
+    var _a;
+    if (weekHeaderRef) {
+      $$invalidate(
+        0,
+        weekHeaderRef.scrollLeft = (_a = event.target) === null || _a === void 0 ? void 0 : _a.scrollLeft,
+        weekHeaderRef
+      );
+    }
+  }
   const click_handler = async (day) => await obsidianFacade.openFileForDay(day);
-  return [$visibleDateRange, $settings, obsidianFacade, click_handler];
+  function div4_binding($$value) {
+    binding_callbacks[$$value ? "unshift" : "push"](() => {
+      weekHeaderRef = $$value;
+      $$invalidate(0, weekHeaderRef);
+    });
+  }
+  return [
+    weekHeaderRef,
+    $dateRange,
+    $settings,
+    obsidianFacade,
+    dateRange,
+    handleScroll,
+    click_handler,
+    div4_binding
+  ];
 }
 var Week = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance44, create_fragment44, safe_not_equal, {}, add_css19);
+    init(this, options, instance45, create_fragment45, safe_not_equal, {}, add_css21);
   }
 };
 var week_default = Week;
 
 // src/ui/weekly-view.ts
-var WeeklyView = class extends import_obsidian7.ItemView {
-  constructor(leaf, settings2, componentContext) {
+var WeeklyView = class extends import_obsidian9.ItemView {
+  constructor(leaf, settings2, componentContext, dateRanges) {
     super(leaf);
     this.settings = settings2;
     this.componentContext = componentContext;
+    this.dateRanges = dateRanges;
   }
   getViewType() {
     return viewTypeWeekly;
@@ -46940,157 +47382,30 @@ var WeeklyView = class extends import_obsidian7.ItemView {
     const viewActionsEl = headerEl.querySelector(".view-actions");
     const customActionsEl = createDiv();
     viewActionsEl.prepend(customActionsEl);
+    this.dateRange = this.dateRanges.trackRange(getDaysOfCurrentWeek());
+    const context = new Map([
+      ...this.componentContext,
+      [dateRangeContextKey, this.dateRange]
+    ]);
     this.headerActionsComponent = new header_actions_default({
-      target: customActionsEl
+      target: customActionsEl,
+      context
     });
     this.weekComponent = new week_default({
       target: contentEl,
-      context: this.componentContext
+      context
     });
   }
   async onClose() {
     var _a, _b;
+    this.dateRange.untrack();
     (_a = this.weekComponent) == null ? void 0 : _a.$destroy();
     (_b = this.headerActionsComponent) == null ? void 0 : _b.$destroy();
   }
 };
 
 // src/util/create-hooks.ts
-var import_fp17 = __toESM(require_fp());
-
-// src/global-store/visible-days.ts
-var import_fp10 = __toESM(require_fp());
-
-// src/util/tasks-utils.ts
-var import_fp9 = __toESM(require_fp());
-var import_obsidian_daily_notes_interface6 = __toESM(require_main());
-function getEmptyRecordsForDay() {
-  return { withTime: [], noTime: [] };
-}
-function getTasksWithTime(tasks) {
-  return Object.values(tasks).flatMap(({ withTime }) => withTime);
-}
-function getFlatTasks(tasks) {
-  return Object.values(tasks).flatMap(({ withTime, noTime }) => [
-    ...withTime,
-    ...noTime
-  ]);
-}
-function removeTask(task, tasks) {
-  return {
-    ...tasks,
-    noTime: tasks.noTime.filter((t) => t.id !== task.id),
-    withTime: tasks.withTime.filter((t) => t.id !== task.id)
-  };
-}
-function addTaskWithTime(task, tasks) {
-  return {
-    ...tasks,
-    withTime: [...tasks.withTime, task]
-  };
-}
-function moveToTimed(task, tasks) {
-  const withRemoved = removeTask(task, tasks);
-  return { ...withRemoved, withTime: [...withRemoved.withTime, task] };
-}
-function getDayKey(day) {
-  return day.format(import_obsidian_daily_notes_interface6.DEFAULT_DAILY_NOTE_FORMAT);
-}
-function moveTaskToDay(baseline, task, day) {
-  const sourceKey = getDayKey(task.startTime);
-  const destKey = getDayKey(day);
-  const source = baseline[sourceKey];
-  const dest = baseline[destKey];
-  return {
-    ...baseline,
-    [sourceKey]: removeTask(task, source),
-    [destKey]: addTaskWithTime(task, dest)
-  };
-}
-function moveTaskToColumn(day, task, baseline) {
-  if (day.isSame(task.startTime, "day")) {
-    const key = getDayKey(task.startTime);
-    return {
-      ...baseline,
-      [key]: moveToTimed(task, baseline[key])
-    };
-  }
-  return moveTaskToDay(baseline, task, day);
-}
-function getTasksWithUpdatedDay(tasks) {
-  return Object.entries(tasks).flatMap(
-    ([dayKey, tasks2]) => tasks2.withTime.map((task) => ({ dayKey, task }))
-  ).filter(({ dayKey, task }) => {
-    var _a, _b;
-    const dateFromPath = ((_a = task.location) == null ? void 0 : _a.path) ? (0, import_obsidian_daily_notes_interface6.getDateFromPath)((_b = task.location) == null ? void 0 : _b.path, "day") : null;
-    return !task.isGhost && dayKey !== getDayKey(task.startTime) && !dateFromPath;
-  });
-}
-function getTasksInDailyNotesWithUpdatedDay(tasks) {
-  return Object.entries(tasks).flatMap(
-    ([dayKey, tasks2]) => tasks2.withTime.map((task) => ({ dayKey, task }))
-  ).filter(({ dayKey, task }) => {
-    var _a, _b;
-    const dateFromPath = ((_a = task.location) == null ? void 0 : _a.path) ? (0, import_obsidian_daily_notes_interface6.getDateFromPath)((_b = task.location) == null ? void 0 : _b.path, "day") : null;
-    return !task.isGhost && dayKey !== getDayKey(task.startTime) && dateFromPath;
-  });
-}
-function getPristine(flatBaseline, flatNext) {
-  return flatNext.filter(
-    (task) => flatBaseline.find((baselineTask) => isEqualTask(task, baselineTask))
-  );
-}
-function getCreatedTasks(base, next) {
-  return (0, import_fp9.differenceBy)((task) => task.id, next, base);
-}
-function getTasksWithUpdatedTime(base, next) {
-  const pristine = getPristine(base, next);
-  return (0, import_fp9.difference)(next, pristine).filter((task) => !task.isGhost);
-}
-function getDiff(base, next) {
-  return {
-    updatedTime: getTasksWithUpdatedTime(
-      getTasksWithTime(base),
-      getTasksWithTime(next)
-    ),
-    updatedDay: getTasksWithUpdatedDay(next),
-    moved: getTasksInDailyNotesWithUpdatedDay(next),
-    created: getCreatedTasks(getFlatTasks(base), getFlatTasks(next))
-  };
-}
-function updateText(diff) {
-  return {
-    created: diff.created.map(updateTaskText),
-    updated: [
-      ...diff.updatedTime.map(updateTaskText),
-      ...diff.updatedDay.map(
-        ({ dayKey, task }) => updateTaskText(updateTaskScheduledDay(task, dayKey))
-      )
-    ]
-  };
-}
-var mergeTasks = (0, import_fp9.mergeWith)((value, sourceValue) => {
-  return Array.isArray(value) ? value.concat(sourceValue) : void 0;
-});
-
-// src/global-store/visible-days.ts
-function useVisibleDays() {
-  let previousDayKeys;
-  return derived(
-    [visibleDayInTimeline, visibleDateRange, currentTime],
-    ([$visibleDayInTimeline, $visibleDateRange, $currentTime], set2) => {
-      const days = [$currentTime, $visibleDayInTimeline, ...$visibleDateRange];
-      const uniqDays = (0, import_fp10.uniqBy)(getDayKey, days);
-      const dayKeys = uniqDays.map(getDayKey).sort();
-      const areDaysSame = previousDayKeys && (0, import_fp10.isEqual)(dayKeys, previousDayKeys);
-      if (!areDaysSame) {
-        previousDayKeys = dayKeys;
-        set2(uniqDays);
-      }
-    }
-  );
-}
-var visibleDays = useVisibleDays();
+var import_fp18 = __toESM(require_fp());
 
 // src/ui/hooks/use-dataview-change.ts
 function useDataviewChange(metadataCache) {
@@ -47126,16 +47441,51 @@ function useDataviewTasks({
   return derived(
     [listsFromVisibleDailyNotes, tasksFromExtraSources, settingsStore],
     ([$listsFromVisibleDailyNotes, $tasksFromExtraSources, $settingsStore]) => {
-      const allTasks = $tasksFromExtraSources.length > 0 ? (
-        // todo: this looks silly
-        $listsFromVisibleDailyNotes.concat($tasksFromExtraSources)
-      ) : $listsFromVisibleDailyNotes;
-      if ($settingsStore.showCompletedTasks) {
-        return allTasks;
-      }
-      return allTasks.filter((sTask) => !sTask.completed);
+      const allTasks = [
+        ...$listsFromVisibleDailyNotes,
+        ...$tasksFromExtraSources
+      ];
+      return $settingsStore.showCompletedTasks ? allTasks : allTasks.filter((sTask) => !sTask.completed);
     }
   );
+}
+
+// src/ui/hooks/use-date-ranges.ts
+var import_fp9 = __toESM(require_fp());
+function useDateRanges() {
+  const ranges = writable({});
+  function trackRange(range3) {
+    const rangeKey = getId();
+    ranges.update((previous) => ({ ...previous, [rangeKey]: range3 }));
+    function untrack() {
+      ranges.update((0, import_fp9.omit)([rangeKey]));
+    }
+    function update2(fn) {
+      ranges.update((previous) => ({
+        ...previous,
+        [rangeKey]: fn(previous[rangeKey])
+      }));
+    }
+    function set2(value) {
+      ranges.update((previous) => ({
+        ...previous,
+        [rangeKey]: value
+      }));
+    }
+    function subscribe2(fn) {
+      return ranges.subscribe((next) => fn(next[rangeKey]));
+    }
+    return {
+      subscribe: subscribe2,
+      update: update2,
+      set: set2,
+      untrack
+    };
+  }
+  return {
+    trackRange,
+    ranges
+  };
 }
 
 // src/util/debounce-with-delay.ts
@@ -47184,11 +47534,99 @@ function useDebounceWithDelay(updater, delayer, timeout) {
   });
 }
 
+// src/ui/hooks/use-edit/create-edit-handlers.ts
+var import_obsidian_daily_notes_interface7 = __toESM(require_main());
+function createEditHandlers({
+  day,
+  obsidianFacade,
+  startEdit,
+  cursorMinutes,
+  editOperation,
+  settings: settings2
+}) {
+  function handleContainerMouseDown() {
+    const newTask = createTask2(day, get_store_value(cursorMinutes));
+    startEdit({
+      task: { ...newTask, isGhost: true },
+      mode: "CREATE" /* CREATE */,
+      day
+    });
+  }
+  function handleResizerMouseDown(task) {
+    const mode = get_store_value(settings2).editMode === "push" ? "RESIZE_AND_SHIFT_OTHERS" /* RESIZE_AND_SHIFT_OTHERS */ : "RESIZE" /* RESIZE */;
+    startEdit({ task, mode, day });
+  }
+  async function handleTaskMouseUp(task) {
+    if (get_store_value(editOperation)) {
+      return;
+    }
+    const { path, line } = task.location;
+    await obsidianFacade.revealLineInFile(path, line);
+  }
+  function handleGripMouseDown(task) {
+    const { copyOnDrag, editMode } = get_store_value(settings2);
+    const taskOrCopy = copyOnDrag ? copy(task) : task;
+    if (editMode === "push") {
+      startEdit({
+        task: taskOrCopy,
+        mode: "DRAG_AND_SHIFT_OTHERS" /* DRAG_AND_SHIFT_OTHERS */,
+        day
+      });
+    } else {
+      startEdit({ task: taskOrCopy, mode: "DRAG" /* DRAG */, day });
+    }
+  }
+  function handleUnscheduledTaskGripMouseDown(task) {
+    const withAddedTime = {
+      ...task,
+      startMinutes: get_store_value(cursorMinutes),
+      // todo: add a proper fix
+      startTime: task.location ? (0, import_obsidian_daily_notes_interface7.getDateFromPath)(task.location.path, "day") || window.moment() : window.moment()
+    };
+    startEdit({ task: withAddedTime, mode: "DRAG" /* DRAG */, day });
+  }
+  function handleMouseEnter() {
+    editOperation.update(
+      (previous) => previous && {
+        ...previous,
+        day
+      }
+    );
+  }
+  return {
+    handleMouseEnter,
+    handleGripMouseDown,
+    handleContainerMouseDown,
+    handleResizerMouseDown,
+    handleTaskMouseUp,
+    handleUnscheduledTaskGripMouseDown
+  };
+}
+
+// src/ui/hooks/use-edit/cursor.ts
+function useCursor(editOperation) {
+  return derived(editOperation, ($editOperation) => {
+    if (($editOperation == null ? void 0 : $editOperation.mode) === "CREATE" /* CREATE */ || ($editOperation == null ? void 0 : $editOperation.mode) === "DRAG" /* DRAG */ || ($editOperation == null ? void 0 : $editOperation.mode) === "DRAG_AND_SHIFT_OTHERS" /* DRAG_AND_SHIFT_OTHERS */) {
+      return {
+        bodyCursor: "grabbing",
+        gripCursor: "grabbing"
+      };
+    }
+    if (($editOperation == null ? void 0 : $editOperation.mode) === "RESIZE" /* RESIZE */ || ($editOperation == null ? void 0 : $editOperation.mode) === "RESIZE_AND_SHIFT_OTHERS" /* RESIZE_AND_SHIFT_OTHERS */) {
+      return { bodyCursor: "row-resize", gripCursor: "grab" };
+    }
+    return {
+      bodyCursor: "unset",
+      gripCursor: "grab"
+    };
+  });
+}
+
 // src/ui/hooks/use-edit/use-cursor-minutes.ts
 function useCursorMinutes(pointerOffsetY, settings2) {
   return derived(
-    pointerOffsetY,
-    ($pointerOffsetY) => offsetYToMinutes($pointerOffsetY, settings2.zoomLevel, settings2.startHour)
+    [pointerOffsetY, settings2],
+    ([$pointerOffsetY, $settings]) => offsetYToMinutes($pointerOffsetY, $settings.zoomLevel, $settings.startHour)
   );
 }
 
@@ -47866,6 +48304,118 @@ var finishDraft = immer.finishDraft.bind(immer);
 var import_fp11 = __toESM(require_fp());
 var import_typed_assert3 = __toESM(require_build());
 
+// src/util/tasks-utils.ts
+var import_fp10 = __toESM(require_fp());
+var import_obsidian_daily_notes_interface8 = __toESM(require_main());
+function getEmptyRecordsForDay() {
+  return { withTime: [], noTime: [] };
+}
+function getTasksWithTime(tasks) {
+  return Object.values(tasks).flatMap(({ withTime }) => withTime);
+}
+function getFlatTasks(tasks) {
+  return Object.values(tasks).flatMap(({ withTime, noTime }) => [
+    ...withTime,
+    ...noTime
+  ]);
+}
+function removeTask(task, tasks) {
+  return {
+    ...tasks,
+    noTime: tasks.noTime.filter((t) => t.id !== task.id),
+    withTime: tasks.withTime.filter((t) => t.id !== task.id)
+  };
+}
+function addTaskWithTime(task, tasks) {
+  return {
+    ...tasks,
+    withTime: [...tasks.withTime, task]
+  };
+}
+function moveToTimed(task, tasks) {
+  const withRemoved = removeTask(task, tasks);
+  return { ...withRemoved, withTime: [...withRemoved.withTime, task] };
+}
+function getDayKey(day) {
+  return day.format(import_obsidian_daily_notes_interface8.DEFAULT_DAILY_NOTE_FORMAT);
+}
+function moveTaskToDay(baseline, task, day) {
+  const sourceKey = getDayKey(task.startTime);
+  const destKey = getDayKey(day);
+  const source = baseline[sourceKey];
+  const dest = baseline[destKey];
+  return {
+    ...baseline,
+    [sourceKey]: removeTask(task, source),
+    [destKey]: addTaskWithTime(task, dest)
+  };
+}
+function moveTaskToColumn(day, task, baseline) {
+  if (day.isSame(task.startTime, "day")) {
+    const key = getDayKey(task.startTime);
+    return {
+      ...baseline,
+      [key]: moveToTimed(task, baseline[key])
+    };
+  }
+  return moveTaskToDay(baseline, task, day);
+}
+function getTasksWithUpdatedDay(tasks) {
+  return Object.entries(tasks).flatMap(
+    ([dayKey, tasks2]) => tasks2.withTime.map((task) => ({ dayKey, task }))
+  ).filter(({ dayKey, task }) => {
+    var _a, _b;
+    const dateFromPath = ((_a = task.location) == null ? void 0 : _a.path) ? (0, import_obsidian_daily_notes_interface8.getDateFromPath)((_b = task.location) == null ? void 0 : _b.path, "day") : null;
+    return !task.isGhost && dayKey !== getDayKey(task.startTime) && !dateFromPath;
+  });
+}
+function getTasksInDailyNotesWithUpdatedDay(tasks) {
+  return Object.entries(tasks).flatMap(
+    ([dayKey, tasks2]) => tasks2.withTime.map((task) => ({ dayKey, task }))
+  ).filter(({ dayKey, task }) => {
+    var _a, _b;
+    const dateFromPath = ((_a = task.location) == null ? void 0 : _a.path) ? (0, import_obsidian_daily_notes_interface8.getDateFromPath)((_b = task.location) == null ? void 0 : _b.path, "day") : null;
+    return !task.isGhost && dayKey !== getDayKey(task.startTime) && dateFromPath;
+  });
+}
+function getPristine(flatBaseline, flatNext) {
+  return flatNext.filter(
+    (task) => flatBaseline.find((baselineTask) => isEqualTask(task, baselineTask))
+  );
+}
+function getCreatedTasks(base, next) {
+  return (0, import_fp10.differenceBy)((task) => task.id, next, base);
+}
+function getTasksWithUpdatedTime(base, next) {
+  const pristine = getPristine(base, next);
+  return (0, import_fp10.difference)(next, pristine).filter((task) => !task.isGhost);
+}
+function getDiff(base, next) {
+  return {
+    updatedTime: getTasksWithUpdatedTime(
+      getTasksWithTime(base),
+      getTasksWithTime(next)
+    ),
+    updatedDay: getTasksWithUpdatedDay(next),
+    moved: getTasksInDailyNotesWithUpdatedDay(next),
+    created: getCreatedTasks(getFlatTasks(base), getFlatTasks(next))
+  };
+}
+function updateText(diff) {
+  return {
+    created: diff.created.map(updateTaskText),
+    updated: [
+      ...diff.updatedTime.map(updateTaskText),
+      ...diff.updatedDay.map(
+        ({ dayKey, task }) => updateTaskText(updateTaskScheduledDay(task, dayKey))
+      )
+    ]
+  };
+}
+var mergeTasks = (0, import_fp10.mergeWith)((value, sourceValue) => {
+  return Array.isArray(value) ? value.concat(sourceValue) : void 0;
+});
+
 // src/ui/hooks/use-edit/transform/create.ts
 function create(baseline, editTarget, cursorTime) {
   return baseline.map((task) => {
@@ -48208,59 +48758,6 @@ function useEditActions({
   };
 }
 
-// src/ui/hooks/use-edit/use-edit-handlers.ts
-function useEditHandlers({
-  day,
-  obsidianFacade,
-  startEdit,
-  cursorMinutes,
-  editOperation
-}) {
-  function handleContainerMouseDown() {
-    const newTask = createTask2(day, get_store_value(cursorMinutes));
-    startEdit({
-      task: { ...newTask, isGhost: true },
-      mode: "CREATE" /* CREATE */,
-      day
-    });
-  }
-  function handleResizerMouseDown(event, task) {
-    const mode = event.ctrlKey ? "RESIZE_AND_SHIFT_OTHERS" /* RESIZE_AND_SHIFT_OTHERS */ : "RESIZE" /* RESIZE */;
-    startEdit({ task, mode, day });
-  }
-  async function handleTaskMouseUp(task) {
-    if (get_store_value(editOperation)) {
-      return;
-    }
-    const { path, line } = task.location;
-    await obsidianFacade.revealLineInFile(path, line);
-  }
-  function handleGripMouseDown(event, task) {
-    if (event.ctrlKey) {
-      startEdit({ task, mode: "DRAG_AND_SHIFT_OTHERS" /* DRAG_AND_SHIFT_OTHERS */, day });
-    } else if (event.shiftKey) {
-      startEdit({ task: copy(task), mode: "CREATE" /* CREATE */, day });
-    } else {
-      startEdit({ task, mode: "DRAG" /* DRAG */, day });
-    }
-  }
-  function handleUnscheduledTaskGripMouseDown(task) {
-    const withAddedTime = {
-      ...task,
-      startMinutes: get_store_value(cursorMinutes),
-      startTime: window.moment()
-    };
-    startEdit({ task: withAddedTime, mode: "DRAG" /* DRAG */, day });
-  }
-  return {
-    handleGripMouseDown,
-    handleContainerMouseDown,
-    handleResizerMouseDown,
-    handleTaskMouseUp,
-    handleUnscheduledTaskGripMouseDown
-  };
-}
-
 // src/ui/hooks/use-edit/use-edit-context.ts
 function useEditContext({
   obsidianFacade,
@@ -48269,9 +48766,12 @@ function useEditContext({
   visibleTasks
 }) {
   const editOperation = writable();
+  const cursor = useCursor(editOperation);
   const pointerOffsetY = writable(0);
   const cursorMinutes = useCursorMinutes(pointerOffsetY, settings2);
-  const baselineTasks = writable(visibleTasks);
+  const baselineTasks = writable({}, (set2) => {
+    return visibleTasks.subscribe(set2);
+  });
   const displayedTasks = useDisplayedTasks({
     baselineTasks,
     editOperation,
@@ -48284,32 +48784,27 @@ function useEditContext({
     onUpdate
   });
   function getEditHandlers(day) {
-    const handlers = useEditHandlers({
+    const handlers = createEditHandlers({
       day,
       obsidianFacade,
       startEdit,
       cursorMinutes,
-      editOperation
+      editOperation,
+      settings: settings2
     });
-    function handleMouseEnter() {
-      editOperation.update(
-        (previous) => previous && {
-          ...previous,
-          day
-        }
-      );
-    }
     return {
       ...handlers,
-      handleMouseEnter,
+      cursor,
       cancelEdit,
       pointerOffsetY,
       displayedTasks: useDisplayedTasksForDay(displayedTasks, day)
     };
   }
   return {
+    cursor,
     displayedTasks,
     confirmEdit,
+    cancelEdit,
     getEditHandlers,
     editOperation
   };
@@ -48367,16 +48862,16 @@ function useListsFromVisibleDailyNotes(visibleDailyNotes, debouncedTaskUpdateTri
 }
 
 // src/ui/hooks/use-mod-pressed.ts
-var import_obsidian8 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 function useModPressed() {
   return readable(false, (set2) => {
     const handleKeyDown = (event) => {
-      if (import_obsidian8.Keymap.isModifier(event, "Mod")) {
+      if (import_obsidian10.Keymap.isModifier(event, "Mod")) {
         set2(true);
       }
     };
     const handleKeyUp = (event) => {
-      if (!import_obsidian8.Keymap.isModifier(event, "Mod")) {
+      if (!import_obsidian10.Keymap.isModifier(event, "Mod")) {
         set2(false);
       }
     };
@@ -48437,16 +48932,16 @@ function useTasksFromExtraSources({
 }
 
 // src/ui/hooks/use-visible-daily-notes.ts
-var import_obsidian_daily_notes_interface7 = __toESM(require_main());
-function useVisibleDailyNotes(layoutReady, debouncedTaskUpdateTrigger) {
+var import_obsidian_daily_notes_interface9 = __toESM(require_main());
+function useVisibleDailyNotes(layoutReady, debouncedTaskUpdateTrigger, visibleDays) {
   return derived(
     [layoutReady, visibleDays, debouncedTaskUpdateTrigger],
     ([$layoutReady, $visibleDays]) => {
       if (!$layoutReady) {
         return [];
       }
-      const allDailyNotes = (0, import_obsidian_daily_notes_interface7.getAllDailyNotes)();
-      return $visibleDays.map((day) => (0, import_obsidian_daily_notes_interface7.getDailyNote)(day, allDailyNotes)).filter(Boolean);
+      const allDailyNotes = (0, import_obsidian_daily_notes_interface9.getAllDailyNotes)();
+      return $visibleDays.map((day) => (0, import_obsidian_daily_notes_interface9.getDailyNote)(day, allDailyNotes)).filter(Boolean);
     }
   );
 }
@@ -48508,7 +49003,7 @@ function mapToTasksForDay(day, tasksForDay, settings2) {
 }
 
 // src/ui/hooks/use-visible-dataview-tasks.ts
-function useVisibleDataviewTasks(dataviewTasks) {
+function useVisibleDataviewTasks(dataviewTasks, visibleDays) {
   return derived(
     [visibleDays, dataviewTasks, settings],
     ([$visibleDays, $dataviewTasks, $settings]) => {
@@ -48532,8 +49027,24 @@ function useVisibleDataviewTasks(dataviewTasks) {
   );
 }
 
+// src/ui/hooks/use-visible-days.ts
+var import_fp17 = __toESM(require_fp());
+function useVisibleDays(ranges) {
+  let previousDayKeys;
+  return derived(ranges, ($ranges, set2) => {
+    const days = Object.values($ranges).flat();
+    const uniqDays = (0, import_fp17.uniqBy)(getDayKey, days);
+    const dayKeys = uniqDays.map(getDayKey).sort();
+    const areDaysSame = previousDayKeys && (0, import_fp17.isEqual)(dayKeys, previousDayKeys);
+    if (!areDaysSame) {
+      previousDayKeys = dayKeys;
+      set2(uniqDays);
+    }
+  });
+}
+
 // src/util/ical.ts
-var import_moment14 = __toESM(require_moment());
+var import_moment19 = __toESM(require_moment());
 var import_moment_timezone = __toESM(require_moment_timezone2());
 function canHappenAfter(icalEvent, date2) {
   if (!icalEvent.rrule) {
@@ -48545,7 +49056,7 @@ function hasRecurrenceOverride(icalEvent, date2) {
   if (!icalEvent.recurrences) {
     return false;
   }
-  const dateKey = (0, import_moment14.default)(date2).format(originalRecurrenceDayKeyFormat);
+  const dateKey = (0, import_moment19.default)(date2).format(originalRecurrenceDayKeyFormat);
   return Object.hasOwn(icalEvent.recurrences, dateKey);
 }
 function icalEventToTasks(icalEvent, day) {
@@ -48601,23 +49112,23 @@ function icalEventToTask(icalEvent, date2) {
 function adjustForOtherZones(tzid, currentDate) {
   const localTzid = import_moment_timezone.tz.guess();
   if (tzid === localTzid) {
-    return (0, import_moment14.default)(currentDate);
+    return (0, import_moment19.default)(currentDate);
   }
   const localTimezone = import_moment_timezone.tz.zone(localTzid);
   const originalTimezone = import_moment_timezone.tz.zone(tzid);
   if (!localTimezone || !originalTimezone) {
-    return (0, import_moment14.default)(currentDate);
+    return (0, import_moment19.default)(currentDate);
   }
   const offset = localTimezone.utcOffset(currentDate.getTime()) - originalTimezone.utcOffset(currentDate.getTime());
-  return (0, import_moment14.default)(currentDate).add(offset, "minutes");
+  return (0, import_moment19.default)(currentDate).add(offset, "minutes");
 }
 function adjustForDst(tzid, originalDate, currentDate) {
   const timezone = import_moment_timezone.tz.zone(tzid);
   if (!timezone) {
-    return (0, import_moment14.default)(currentDate);
+    return (0, import_moment19.default)(currentDate);
   }
   const offset = timezone.utcOffset(currentDate.getTime()) - timezone.utcOffset(originalDate.getTime());
-  return (0, import_moment14.default)(currentDate).add(offset, "minutes");
+  return (0, import_moment19.default)(currentDate).add(offset, "minutes");
 }
 
 // src/util/scheduler.ts
@@ -48675,37 +49186,35 @@ function createBackgroundBatchScheduler(onFinish) {
 
 // src/util/use-ical-events.ts
 var import_node_ical = __toESM(require_node_ical());
-var import_obsidian9 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 function isVEvent(event) {
   return event.type === "VEVENT";
 }
 function useIcalEvents(settings2, syncTrigger, isOnline) {
+  const previousFetches = /* @__PURE__ */ new Map();
   return derived(
     [settings2, isOnline, syncTrigger],
     ([$settings, $isOnline], set2) => {
       if (!$isOnline) {
         return;
       }
-      const allCalendarsParsed = Promise.all(
-        $settings.icals.filter((ical2) => ical2.url.trim().length > 0).map(
-          (calendar) => (0, import_obsidian9.request)({
-            url: calendar.url
-          }).then((response) => {
-            const parsed = import_node_ical.default.parseICS(response);
-            return Object.values(parsed).filter(isVEvent).map((icalEvent) => ({
-              ...icalEvent,
-              calendar
-            }));
-          }).catch((error) => {
-            new import_obsidian9.Notice(
-              `See console for details. Could not fetch calendar from ${calendar.url}`
-            );
-            console.error(error);
-            return [];
-          })
-        )
+      const calendarPromises = $settings.icals.filter((ical2) => ical2.url.trim().length > 0).map(
+        (calendar) => (0, import_obsidian11.request)({
+          url: calendar.url
+        }).then((response) => {
+          const parsed = import_node_ical.default.parseICS(response);
+          const veventsWithCalendar = Object.values(parsed).filter(isVEvent).map((icalEvent) => ({
+            ...icalEvent,
+            calendar
+          }));
+          previousFetches.set(calendar.url, veventsWithCalendar);
+          return veventsWithCalendar;
+        }).catch((error) => {
+          console.error(error);
+          return previousFetches.get(calendar.url) || [];
+        })
       );
-      allCalendarsParsed.then((calendars) => {
+      Promise.all(calendarPromises).then((calendars) => {
         const allEvents = calendars.flat();
         set2(allEvents);
       });
@@ -48714,6 +49223,9 @@ function useIcalEvents(settings2, syncTrigger, isOnline) {
 }
 
 // src/util/create-hooks.ts
+function getDarkModeFlag() {
+  return document.body.hasClass("theme-dark");
+}
 function createHooks({
   app,
   dataviewFacade,
@@ -48726,6 +49238,14 @@ function createHooks({
   });
   const layoutReady = readable(false, (set2) => {
     app.workspace.onLayoutReady(() => set2(true));
+  });
+  const isDarkMode = readable(getDarkModeFlag(), (set2) => {
+    const eventRef = app.workspace.on("css-change", () => {
+      set2(getDarkModeFlag());
+    });
+    return () => {
+      app.workspace.offref(eventRef);
+    };
   });
   const keyDown = useKeyDown();
   const isModPressed = useModPressed();
@@ -48750,10 +49270,12 @@ function createHooks({
     combinedIcalSyncTrigger,
     isOnline
   );
+  const dateRanges = useDateRanges();
+  const visibleDays = useVisibleDays(dateRanges.ranges);
   const schedulerQueue = derived(
     [icalEvents, visibleDays],
     ([$icalEvents, $visibleDays]) => {
-      if (!$icalEvents) {
+      if ((0, import_fp18.isEmpty)($icalEvents) || (0, import_fp18.isEmpty)($visibleDays)) {
         return [];
       }
       const earliestDay = getEarliestMoment($visibleDays);
@@ -48780,12 +49302,12 @@ function createHooks({
   const visibleDayToEventOccurences = derived(
     tasksFromEvents,
     // todo: move out
-    (0, import_fp17.flow)(
-      (0, import_fp17.filter)(Boolean),
-      import_fp17.flatten,
-      (0, import_fp17.groupBy)((task) => getDayKey(task.startTime)),
-      (0, import_fp17.mapValues)((tasks) => {
-        const [withTime, noTime] = (0, import_fp17.partition)(
+    (0, import_fp18.flow)(
+      (0, import_fp18.filter)(Boolean),
+      import_fp18.flatten,
+      (0, import_fp18.groupBy)((task) => getDayKey(task.startTime)),
+      (0, import_fp18.mapValues)((tasks) => {
+        const [withTime, noTime] = (0, import_fp18.partition)(
           (task) => task.startMinutes !== void 0,
           tasks
         );
@@ -48804,7 +49326,8 @@ function createHooks({
   );
   const visibleDailyNotes = useVisibleDailyNotes(
     layoutReady,
-    debouncedTaskUpdateTrigger
+    debouncedTaskUpdateTrigger,
+    visibleDays
   );
   const listsFromVisibleDailyNotes = useListsFromVisibleDailyNotes(
     visibleDailyNotes,
@@ -48822,29 +49345,26 @@ function createHooks({
     tasksFromExtraSources,
     settingsStore
   });
-  const visibleDataviewTasks = useVisibleDataviewTasks(dataviewTasks);
+  const visibleDataviewTasks = useVisibleDataviewTasks(
+    dataviewTasks,
+    visibleDays
+  );
   const visibleTasks = derived(
     [visibleDataviewTasks, visibleDayToEventOccurences],
     ([$visibleDataviewTasks, $visibleDayToEventOccurences]) => mergeTasks($visibleDataviewTasks, $visibleDayToEventOccurences)
   );
-  visibleTasks.subscribe(console.log);
   const tasksForToday = derived(
     [visibleTasks, currentTime],
     ([$visibleTasks, $currentTime]) => {
-      return $visibleTasks[getDayKey($currentTime)];
+      return $visibleTasks[getDayKey($currentTime)] || getEmptyRecordsForDay();
     }
   );
-  const editContext = derived(
-    [settingsStore, visibleTasks],
-    ([$settings, $visibleTasks]) => {
-      return useEditContext({
-        obsidianFacade,
-        onUpdate: planEditor.syncTasksWithFile,
-        settings: $settings,
-        visibleTasks: $visibleTasks
-      });
-    }
-  );
+  const editContext = useEditContext({
+    obsidianFacade,
+    onUpdate: planEditor.syncTasksWithFile,
+    settings: settingsStore,
+    visibleTasks
+  });
   const newlyStartedTasks = useNewlyStartedTasks({
     settings: settingsStore,
     tasksForToday,
@@ -48858,16 +49378,18 @@ function createHooks({
     newlyStartedTasks,
     isModPressed,
     icalSyncTrigger,
-    isOnline
+    isOnline,
+    isDarkMode,
+    dateRanges
   };
 }
 
 // src/util/create-render-markdown.ts
-var import_obsidian10 = require("obsidian");
+var import_obsidian12 = require("obsidian");
 var createRenderMarkdown = (app) => (el, markdown) => {
-  const loader = new import_obsidian10.Component();
+  const loader = new import_obsidian12.Component();
   el.empty();
-  import_obsidian10.MarkdownRenderer.render(app, markdown, el, "", loader);
+  import_obsidian12.MarkdownRenderer.render(app, markdown, el, "", loader);
   loader.load();
   return () => loader.unload();
 };
@@ -48883,26 +49405,6 @@ var createShowPreview = (app) => (el, path, line = 0) => {
   app.workspace.trigger("link-hover", {}, el, path, "", previewLocation);
 };
 
-// src/util/handle-active-leaf-change.ts
-var import_obsidian11 = require("obsidian");
-var import_obsidian_daily_notes_interface8 = __toESM(require_main());
-function handleActiveLeafChange({ view }) {
-  if (!(view instanceof import_obsidian11.FileView) || !view.file) {
-    return;
-  }
-  const dayUserSwitchedTo = (0, import_obsidian_daily_notes_interface8.getDateFromFile)(view.file, "day");
-  if (dayUserSwitchedTo == null ? void 0 : dayUserSwitchedTo.isSame(get_store_value(visibleDayInTimeline), "day")) {
-    return;
-  }
-  if (!dayUserSwitchedTo) {
-    if (isToday(get_store_value(visibleDayInTimeline))) {
-      visibleDayInTimeline.set(window.moment());
-    }
-    return;
-  }
-  visibleDayInTimeline.set(dayUserSwitchedTo);
-}
-
 // src/util/notify-about-started-tasks.ts
 function notifyAboutStartedTasks(tasks) {
   if (tasks.length === 0) {
@@ -48912,12 +49414,11 @@ function notifyAboutStartedTasks(tasks) {
 }
 
 // src/main.ts
-var DayPlanner = class extends import_obsidian12.Plugin {
+var DayPlanner = class extends import_obsidian13.Plugin {
   constructor() {
     super(...arguments);
     this.initWeeklyLeaf = async () => {
-      await this.detachLeavesOfType(viewTypeWeekly);
-      await this.app.workspace.getLeaf(false).setViewState({
+      await this.app.workspace.getLeaf("tab").setViewState({
         type: viewTypeWeekly,
         active: true
       });
@@ -48929,6 +49430,11 @@ var DayPlanner = class extends import_obsidian12.Plugin {
       });
     };
     this.initTimelineLeaf = async () => {
+      const [firstExistingTimeline] = this.app.workspace.getLeavesOfType(viewTypeTimeline);
+      if (firstExistingTimeline) {
+        this.app.workspace.revealLeaf(firstExistingTimeline);
+        return;
+      }
       await this.detachLeavesOfType(viewTypeTimeline);
       await this.app.workspace.getRightLeaf(false).setViewState({
         type: viewTypeTimeline,
@@ -48954,9 +49460,6 @@ var DayPlanner = class extends import_obsidian12.Plugin {
     this.registerCommands();
     this.addRibbonIcon("calendar-range", "Timeline", this.initTimelineLeaf);
     this.addSettingTab(new DayPlannerSettingsTab(this, this.settingsStore));
-    this.registerEvent(
-      this.app.workspace.on("active-leaf-change", handleActiveLeafChange)
-    );
     this.handleNewPluginVersion();
     await this.initTimelineLeafSilently();
   }
@@ -48967,14 +49470,16 @@ var DayPlanner = class extends import_obsidian12.Plugin {
     ]);
   }
   handleNewPluginVersion() {
-    if (this.settings().pluginVersion === "0.19.6") {
+    if (this.settings().pluginVersion === "0.20.4") {
       return;
     }
     this.settingsStore.update((previous) => ({
       ...previous,
-      pluginVersion: "0.19.6"
+      pluginVersion: "0.20.4"
     }));
-    this.showReleaseNotes();
+    if (this.settings().releaseNotes) {
+      this.showReleaseNotes();
+    }
   }
   registerCommands() {
     this.addCommand({
@@ -49025,7 +49530,9 @@ var DayPlanner = class extends import_obsidian12.Plugin {
       // todo: this doesn't fit method name, move out
       newlyStartedTasks,
       icalSyncTrigger,
-      isOnline
+      isOnline,
+      isDarkMode,
+      dateRanges
     } = createHooks({
       app: this.app,
       dataviewFacade: this.dataviewFacade,
@@ -49046,7 +49553,6 @@ var DayPlanner = class extends import_obsidian12.Plugin {
     this.addCommand({
       id: "re-sync",
       name: "Re-sync tasks",
-      // todo: hide inside store
       callback: async () => {
         icalSyncTrigger.set(getUpdateTrigger());
       }
@@ -49060,30 +49566,26 @@ var DayPlanner = class extends import_obsidian12.Plugin {
       showReleaseNotes: this.showReleaseNotes,
       editContext,
       visibleTasks,
-      // TODO: just pass the damn sTaskEditor
-      clockOut: this.sTaskEditor.clockOut,
-      cancelClock: this.sTaskEditor.cancelClock,
-      clockOutUnderCursor: this.sTaskEditor.clockOutUnderCursor,
-      clockInUnderCursor: this.sTaskEditor.clockInUnderCursor,
-      cancelClockUnderCursor: this.sTaskEditor.cancelClockUnderCursor,
-      // ---
       showPreview: createShowPreview(this.app),
       isModPressed,
       reSync: () => icalSyncTrigger.set(getUpdateTrigger()),
-      isOnline
+      isOnline,
+      isDarkMode,
+      showConfirmationModal: (props) => {
+        new ConfirmationModal(this.app, props).open();
+      }
     };
     const componentContext = /* @__PURE__ */ new Map([
       [obsidianContext, defaultObsidianContext],
-      [editContextKey, { editContext }],
       [errorContextKey, errorStore]
     ]);
     this.registerView(
       viewTypeTimeline,
-      (leaf) => new TimelineView(leaf, this.settings, componentContext)
+      (leaf) => new TimelineView(leaf, this.settings, componentContext, dateRanges)
     );
     this.registerView(
       viewTypeWeekly,
-      (leaf) => new WeeklyView(leaf, this.settings, componentContext)
+      (leaf) => new WeeklyView(leaf, this.settings, componentContext, dateRanges)
     );
   }
 };

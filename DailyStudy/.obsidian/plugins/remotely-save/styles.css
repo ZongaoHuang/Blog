@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.encryptionmethod-second-confirm {
+  font-weight: bold;
+}
+
 .settings-auth-related {
   border-top: 1px solid var(--background-modifier-border);
   padding-top: 18px;
@@ -57,6 +61,13 @@
   display: none;
 }
 
+.webdis-disclaimer {
+  font-weight: bold;
+}
+.webdis-hide {
+  display: none;
+}
+
 .qrcode-img {
   width: 350px;
   height: 350px;
@@ -69,4 +80,8 @@
 .logtohttpserver-warning {
   color: red;
   font-weight: bolder;
+}
+
+.setting-need-wrapping-mobile .setting-item-control {
+  flex-wrap: wrap;
 }
