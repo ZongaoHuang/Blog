@@ -1,7 +1,7 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
+  "autoSaveInterval": 5,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
@@ -30,7 +30,7 @@
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
   "lineAuthor": {
-    "show": false,
+    "show": true,
     "followMovement": "inactive",
     "authorDisplay": "initials",
     "showCommitHash": false,

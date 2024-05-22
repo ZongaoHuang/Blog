@@ -17,7 +17,7 @@
   "showIndentGuide": true,
   "autoConvertHtml": true,
   "livePreview": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "foldIndent": true,
   "useTab": true,
   "rightToLeft": false,
