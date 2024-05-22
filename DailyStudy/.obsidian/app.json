@@ -15,5 +15,6 @@
   "focusNewTab": true,
   "readableLineLength": true,
   "showIndentGuide": true,
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "livePreview": false
 }

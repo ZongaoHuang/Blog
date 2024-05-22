@@ -15,7 +15,19 @@
               "state": {
                 "file": "Daliy/Diary/2024-05-22.md",
                 "mode": "source",
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "09c59693df9a83e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -191,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -219,12 +231,13 @@
   },
   "active": "4da30b819b523103",
   "lastOpenFiles": [
+    "Home.md",
+    "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-04-15.md",
     "Daliy/Diary/2024-05-15.md",
     "未命名.canvas",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Language/GO/Basic/Study1.md",
-    "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-09.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Daliy/Diary/2024-04-12.md",
