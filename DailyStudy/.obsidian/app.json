@@ -16,5 +16,10 @@
   "readableLineLength": true,
   "showIndentGuide": true,
   "autoConvertHtml": true,
-  "livePreview": false
+  "livePreview": true,
+  "showLineNumber": true,
+  "foldIndent": true,
+  "useTab": true,
+  "rightToLeft": false,
+  "vimMode": false
 }
