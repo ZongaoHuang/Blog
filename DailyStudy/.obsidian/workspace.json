@@ -18,18 +18,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "09c59693df9a83e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -159,22 +147,6 @@
             }
           },
           {
-            "id": "edc57c3b8a5ce235",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "74469690520a7a67",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "bf88ba9705466e8a",
             "type": "leaf",
             "state": {
@@ -195,7 +167,23 @@
             }
           },
           {
-            "id": "4357f5e7c574a1f3",
+            "id": "5640f90d4067a50d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "919aad05d2fd5da1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "3755118535443460",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -203,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -217,28 +205,28 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "dbfolder:创建一个新数据库表": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-day-planner:Timeline": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "dbfolder:创建一个新数据库表": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4da30b819b523103",
+  "active": "919aad05d2fd5da1",
   "lastOpenFiles": [
-    "未命名.canvas",
     "Home.md",
+    "Daliy/Diary/2024-05-22.md",
+    "未命名.canvas",
     "Tools/attachments/Pasted image 20240228151938.png",
     "Daliy/Diary/2024-05-15.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Language/GO/Basic/Study1.md",
     "Daliy/Diary/2024-04-15.md",
-    "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-09.md",
     "Daliy/Diary/2024-04-12.md",
     "Daliy/Diary/2024-05-07.md",
