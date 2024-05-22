@@ -14,7 +14,7 @@
   "showInlineTitle": true,
   "focusNewTab": true,
   "readableLineLength": true,
-  "showIndentGuide": true,
+  "showIndentGuide": false,
   "autoConvertHtml": true,
   "livePreview": true,
   "showLineNumber": true,
