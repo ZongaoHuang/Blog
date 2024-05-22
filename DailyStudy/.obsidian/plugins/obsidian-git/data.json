@@ -27,14 +27,14 @@
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
+  "authorInHistoryView": "initials",
   "dateInHistoryView": false,
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
-    "authorDisplay": "initials",
+    "authorDisplay": "full",
     "showCommitHash": false,
-    "dateTimeFormatOptions": "date",
+    "dateTimeFormatOptions": "custom",
     "dateTimeFormatCustomString": "YYYY-MM-DD HH:mm",
     "dateTimeTimezone": "viewer-local",
     "coloringMaxAge": "1y",
@@ -49,10 +49,10 @@
       "b": 255
     },
     "textColorCss": "var(--text-muted)",
-    "ignoreWhitespace": false,
+    "ignoreWhitespace": true,
     "gutterSpacingFallbackLength": 5,
-    "lastShownAuthorDisplay": "initials",
-    "lastShownDateTimeFormatOptions": "date"
+    "lastShownAuthorDisplay": "full",
+    "lastShownDateTimeFormatOptions": "custom"
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }
