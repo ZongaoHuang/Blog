@@ -15,7 +15,7 @@
               "state": {
                 "file": "Daliy/Diary/2024-05-22.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -190,8 +190,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,7 +216,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "919aad05d2fd5da1",
+  "active": "4da30b819b523103",
   "lastOpenFiles": [
     "Home.md",
     "Daliy/Diary/2024-05-22.md",

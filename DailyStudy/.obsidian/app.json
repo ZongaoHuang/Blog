@@ -13,7 +13,7 @@
   },
   "showInlineTitle": true,
   "focusNewTab": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showIndentGuide": true,
   "autoConvertHtml": true,
   "livePreview": false,
@@ -24,5 +24,5 @@
   "vimMode": false,
   "foldHeading": true,
   "defaultViewMode": "preview",
-  "strictLineBreaks": false
+  "strictLineBreaks": true
 }
