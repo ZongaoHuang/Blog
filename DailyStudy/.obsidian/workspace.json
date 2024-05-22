@@ -15,7 +15,7 @@
               "state": {
                 "file": "Daliy/Diary/2024-05-22.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -231,15 +231,15 @@
   },
   "active": "4da30b819b523103",
   "lastOpenFiles": [
-    "Home.md",
-    "Daliy/Diary/2024-05-22.md",
-    "Daliy/Diary/2024-04-15.md",
-    "Daliy/Diary/2024-05-15.md",
     "未命名.canvas",
+    "Home.md",
     "Tools/attachments/Pasted image 20240228151938.png",
-    "Language/GO/Basic/Study1.md",
-    "Daliy/Diary/2024-05-09.md",
+    "Daliy/Diary/2024-05-15.md",
     "Tools/中国软件著作权代码自动提取工具.md",
+    "Language/GO/Basic/Study1.md",
+    "Daliy/Diary/2024-04-15.md",
+    "Daliy/Diary/2024-05-22.md",
+    "Daliy/Diary/2024-05-09.md",
     "Daliy/Diary/2024-04-12.md",
     "Daliy/Diary/2024-05-07.md",
     "Daliy/Diary/2024-04-22.md",
@@ -267,7 +267,6 @@
     "Daliy/Diary/2024-04-11.md",
     "Daliy/Diary/2024-04-10.md",
     "Daliy/Diary/2024-04-09.md",
-    "Daliy/Diary/2024-04-08.md",
     "Language/C++",
     "Excalidraw",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
