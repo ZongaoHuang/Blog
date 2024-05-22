@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,7 +214,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "34ad7b272f31fc1d",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "Daliy/Diary/2024-05-21.md",
     "Daliy/Diary/2024-05-22.md",
