@@ -190,7 +190,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -209,26 +210,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
       "obsidian-day-planner:Timeline": false,
+      "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "remotely-save:Remotely Save": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-kanban:创建新看板": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "4da30b819b523103",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-04-15.md",
+    "Daliy/Diary/2024-05-15.md",
     "未命名.canvas",
+    "Tools/attachments/Pasted image 20240228151938.png",
+    "Language/GO/Basic/Study1.md",
+    "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-09.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Daliy/Diary/2024-04-12.md",
-    "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-07.md",
-    "Tools/attachments/Pasted image 20240228151938.png",
     "Daliy/Diary/2024-04-22.md",
     "Daliy/Diary/2024-04-29.md",
     "Daliy/Diary/2024-05-20.md",
     "Daliy/Diary/2024-04-30.md",
-    "Daliy/Diary/2024-05-15.md",
     "Daliy/Diary/2024-04-16.md",
     "Security/Web安全/关键词.md",
     "Tools/手机作电脑摄像头.md",
@@ -245,9 +249,7 @@
     "Daliy/Diary/2024-04-23.md",
     "Tools/统计项目总代码量.md",
     "Daliy/Diary/2024-04-20.md",
-    "Language/GO/Basic/Study1.md",
     "Daliy/Diary/2024-04-18.md",
-    "Daliy/Diary/2024-04-15.md",
     "Daliy/Diary/2024-04-14.md",
     "Daliy/Diary/2024-04-11.md",
     "Daliy/Diary/2024-04-10.md",

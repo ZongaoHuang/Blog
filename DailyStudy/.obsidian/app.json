@@ -11,5 +11,9 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "focusNewTab": true,
+  "readableLineLength": true,
+  "showIndentGuide": true,
+  "autoConvertHtml": true
 }
