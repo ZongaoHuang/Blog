@@ -1,6 +1,6 @@
 # Daily Plan
 #todo
-- [ ] 每日任务
+- [ ] 
 - [ ] 
 # Daily Study
 
