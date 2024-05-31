@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/Diary/2024-05-30.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/Diary/2024-05-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Daliy/Diary/2024-05-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Dairy Template.md"
+                "file": "Daliy/Diary/2024-05-30.md"
               }
             }
           },
@@ -219,6 +220,7 @@
   "active": "4da30b819b523103",
   "lastOpenFiles": [
     "Daliy/Diary/2024-05-31.md",
+    "Template/Dairy Template.md",
     "Daliy/Diary/2024-05-30.md",
     "Daliy/Diary/2024-05-29.md",
     "Daliy/Diary/2024-05-28.md",
@@ -229,7 +231,6 @@
     "Daliy/Diary/attachments/db2583f6c6259515f00f2833ea3b2cc.jpg",
     "Daliy/Diary/attachments/Pasted image 20240528214235.png",
     "Daliy/Diary/attachments/5c9ef85e527605eb5ec6a3f00885b38.jpg",
-    "Template/Dairy Template.md",
     "Daliy/Diary/attachments/Pasted image 20240528104537.png",
     "Daliy/Diary/attachments/Pasted image 20240528104114.png",
     "Daliy/Diary/attachments/Pasted image 20240528104022.png",
