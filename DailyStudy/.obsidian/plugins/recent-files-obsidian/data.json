@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-06-04",
+      "path": "Daliy/Diary/2024-06-04.md"
+    },
+    {
       "basename": "2024-06-03",
       "path": "Daliy/Diary/2024-06-03.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "web-pentest-study-plan",
       "path": "Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md"
-    },
-    {
-      "basename": "common-skills-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
     }
   ],
   "omittedPaths": [],
