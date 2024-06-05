@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-05-31",
-      "path": "Daliy/Diary/2024-05-31.md"
+      "basename": "2024-06-05",
+      "path": "Daliy/Diary/2024-06-05.md"
     },
     {
       "basename": "2024-06-04",
       "path": "Daliy/Diary/2024-06-04.md"
+    },
+    {
+      "basename": "2024-05-31",
+      "path": "Daliy/Diary/2024-05-31.md"
     },
     {
       "basename": "2024-06-03",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-03-13",
       "path": "Daliy/Diary/2024-03-13.md"
-    },
-    {
-      "basename": "web-pentest-study-plan",
-      "path": "Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md"
     }
   ],
   "omittedPaths": [],
