@@ -36,5 +36,7 @@
   "obsidian-textgenerator-plugin",
   "obsidian-advanced-uri",
   "highlightr-plugin",
-  "make-md"
+  "make-md",
+  "obsidian-minimal-settings",
+  "obsidian-projects"
 ]

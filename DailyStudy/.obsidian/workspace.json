@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "2dd1be7f3772bbed",
-            "type": "leaf",
-            "state": {
-              "type": "mk-uri-view",
-              "state": {
-                "path": "https://www.make.md/static/latest.md"
-              }
-            }
-          },
-          {
             "id": "1eb23bbc2fdfd18c",
             "type": "leaf",
             "state": {
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             }
           },
           {
-            "id": "73e8095af45322f1",
+            "id": "e4e37ad20b315a55",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -134,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daliy/Diary/2024-06-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daliy/Diary/2024-06-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daliy/Diary/2024-06-07.md"
+              }
             }
           },
           {
@@ -236,18 +229,19 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:创建新看板": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "dbfolder:创建一个新数据库表": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-projects:Open projects": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "2dd1be7f3772bbed",
+  "active": "4da30b819b523103",
   "lastOpenFiles": [
     "Tags",
     "Daliy/Diary/2024-06-07.md",
