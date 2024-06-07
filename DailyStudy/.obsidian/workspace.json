@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-06.md",
+                "file": "Daliy/Diary/2024-06-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-06.md",
+                "file": "Daliy/Diary/2024-06-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-06.md",
+                "file": "Daliy/Diary/2024-06-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-06.md"
+                "file": "Daliy/Diary/2024-06-07.md"
               }
             }
           },
@@ -222,8 +222,9 @@
   },
   "active": "4da30b819b523103",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-06-05.md",
     "Daliy/Diary/2024-06-06.md",
+    "Daliy/Diary/2024-06-07.md",
+    "Daliy/Diary/2024-06-05.md",
     "Daliy/Diary/attachments/Pasted image 20240605094722.png",
     "Daliy/Diary/2024-06-04.md",
     "Daliy/Diary/2024-05-31.md",
@@ -262,7 +263,6 @@
     "Daliy/Diary/2024-05-07.md",
     "Daliy/Diary/2024-04-22.md",
     "Daliy/Diary/2024-04-29.md",
-    "Daliy/Diary/2024-05-20.md",
     "Language/C++",
     "Excalidraw",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
