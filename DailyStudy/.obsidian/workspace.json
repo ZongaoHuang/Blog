@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1eb23bbc2fdfd18c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/Diary/2024-06-05.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -138,16 +150,6 @@
             }
           },
           {
-            "id": "ea75a4b8e02cce7f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Daliy/Diary/2024-06-07.md"
-              }
-            }
-          },
-          {
             "id": "bf88ba9705466e8a",
             "type": "leaf",
             "state": {
@@ -176,6 +178,16 @@
             }
           },
           {
+            "id": "ea75a4b8e02cce7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daliy/Diary/2024-06-07.md"
+              }
+            }
+          },
+          {
             "id": "919aad05d2fd5da1",
             "type": "leaf",
             "state": {
@@ -192,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -222,10 +234,10 @@
   },
   "active": "4da30b819b523103",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-06-05.md",
+    "Daliy/Diary/2024-06-07.md",
     "Daliy/Diary/attachments/Pasted image 20240607144806.png",
     "Daliy/Diary/2024-06-06.md",
-    "Daliy/Diary/2024-06-07.md",
-    "Daliy/Diary/2024-06-05.md",
     "Daliy/Diary/attachments/Pasted image 20240605094722.png",
     "Daliy/Diary/2024-06-04.md",
     "Daliy/Diary/2024-05-31.md",
@@ -248,7 +260,6 @@
     "Daliy/Diary/attachments/Pasted image 20240528214235.png",
     "Daliy/Diary/attachments/5c9ef85e527605eb5ec6a3f00885b38.jpg",
     "Daliy/Diary/attachments/Pasted image 20240528104537.png",
-    "Daliy/Diary/attachments/Pasted image 20240528104114.png",
     "Daliy/Diary/2024-05-21.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
