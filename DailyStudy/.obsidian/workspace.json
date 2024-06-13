@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-05-23.md",
+                "file": "Daliy/Diary/2024-06-13.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-05-23.md",
+                "file": "Daliy/Diary/2024-06-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-05-23.md",
+                "file": "Daliy/Diary/2024-06-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-05-23.md"
+                "file": "Daliy/Diary/2024-06-13.md"
               }
             }
           },
@@ -230,6 +230,8 @@
   },
   "active": "db86499665236a0c",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-05-23.md",
+    "Daliy/Diary/2024-06-13.md",
     "Daliy/Diary/2024-06-12.md",
     "chenSmartContractFuzzing2024.md",
     "Daliy/Diary/2024-06-07.md",
@@ -263,7 +265,6 @@
     "Tools/统计项目总代码量.md",
     "Home.md",
     "未命名.canvas",
-    "Daliy/Diary/2024-05-23.md",
     "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-15.md",
     "Language/GO/Basic/Study1.md",
@@ -271,7 +272,6 @@
     "Daliy/Diary/2024-05-09.md",
     "Daliy/Diary/2024-04-12.md",
     "Daliy/Diary/2024-05-07.md",
-    "Daliy/Diary/2024-04-22.md",
     "Language/C++",
     "Excalidraw",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
