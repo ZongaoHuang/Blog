@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
-                "mode": "source",
+                "file": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
+                "file": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
+                "file": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md"
+                "file": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md"
               }
             }
           },
@@ -230,8 +230,10 @@
   },
   "active": "db86499665236a0c",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-05-23.md",
+    "Language/Python/YouTube Python Tutorial.md",
+    "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Daliy/Diary/2024-06-13.md",
+    "Daliy/Diary/2024-05-23.md",
     "Daliy/Diary/2024-06-12.md",
     "chenSmartContractFuzzing2024.md",
     "Daliy/Diary/2024-06-07.md",
@@ -270,8 +272,6 @@
     "Language/GO/Basic/Study1.md",
     "Daliy/Diary/2024-04-15.md",
     "Daliy/Diary/2024-05-09.md",
-    "Daliy/Diary/2024-04-12.md",
-    "Daliy/Diary/2024-05-07.md",
     "Language/C++",
     "Excalidraw",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
