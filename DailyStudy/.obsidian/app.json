@@ -24,5 +24,6 @@
   "vimMode": false,
   "foldHeading": true,
   "defaultViewMode": "preview",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "newLinkFormat": "relative"
 }

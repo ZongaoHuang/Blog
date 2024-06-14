@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-14.md",
+                "file": "Template/test.md",
                 "mode": "source",
                 "source": true
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "e4e37ad20b315a55",
+            "id": "baa451f5cc73795d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-14.md",
+                "file": "Template/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-14.md",
+                "file": "Template/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-14.md"
+                "file": "Template/test.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,15 +221,19 @@
       "obsidian-day-planner:Timeline": false,
       "dbfolder:创建一个新数据库表": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "remotely-save:Remotely Save": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db86499665236a0c",
+  "active": "e699d424e794e53a",
   "lastOpenFiles": [
+    "Template/attachments/Pasted image 20240614132606.png",
+    "Template/attachments",
+    "Template/test.md",
+    "Daliy/Diary/2024-06-14.md",
     "Daliy/Diary/attachments/Pasted image 20240614111517.png",
     "Daliy/Diary/attachments/Pasted image 20240614111446.png",
     "Daliy/Diary/attachments/Pasted image 20240614111416.png",
@@ -239,7 +243,6 @@
     "Daliy/Diary/attachments/Pasted image 20240614110117.png",
     "Daliy/Diary/attachments/Pasted image 20240614110045.png",
     "Daliy/Diary/2024-06-13.md",
-    "Daliy/Diary/2024-06-14.md",
     "Daliy/Diary/attachments/Pasted image 20240613155000.png",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Language/Python/YouTube Python Tutorial.md",
@@ -250,7 +253,6 @@
     "Daliy/Diary/attachments/Pasted image 20240607155434.png",
     "Tags",
     "Daliy/Diary/2024-06-05.md",
-    "Daliy/Diary/attachments/Pasted image 20240607144806.png",
     "Daliy/Diary/2024-06-06.md",
     "Daliy/Diary/2024-06-04.md",
     "Daliy/Diary/2024-05-31.md",
@@ -271,11 +273,9 @@
     "未命名.canvas",
     "Daliy/Diary/2024-05-22.md",
     "Daliy/Diary/2024-05-15.md",
-    "Language/GO/Basic/Study1.md",
     "Language/C++",
     "Excalidraw",
     "Tools/attachments/droidcam.setup.6.5.2_1.exe",
-    "Tools/attachments/droidcamx611.apk",
-    "Tools/attachments"
+    "Tools/attachments/droidcamx611.apk"
   ]
 }
