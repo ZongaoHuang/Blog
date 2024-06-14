@@ -26,5 +26,5 @@
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": false
 }

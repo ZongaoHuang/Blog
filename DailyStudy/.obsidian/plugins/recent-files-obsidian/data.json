@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "test",
+      "path": "Template/test.md"
+    },
+    {
+      "basename": "2024-06-14",
+      "path": "Daliy/Diary/2024-06-14.md"
+    },
+    {
       "basename": "Python3菜鸟学习",
       "path": "Language/Python/Python3菜鸟学习.md"
     },
     {
       "basename": "YouTube Python Tutorial",
       "path": "Language/Python/YouTube Python Tutorial.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
+      "basename": "Tools Template",
+      "path": "Template/Tools Template.md"
     },
     {
       "basename": "第一部分 基础知识",
@@ -23,10 +39,6 @@
     {
       "basename": "2024-06-12",
       "path": "Daliy/Diary/2024-06-12.md"
-    },
-    {
-      "basename": "2024-06-14",
-      "path": "Daliy/Diary/2024-06-14.md"
     },
     {
       "basename": "2024-05-23",
@@ -71,10 +83,6 @@
     {
       "basename": "2024-05-29",
       "path": "Daliy/Diary/2024-05-29.md"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "2024-05-21",
@@ -191,14 +199,6 @@
     {
       "basename": "2024-04-03",
       "path": "Daliy/Diary/2024-04-03.md"
-    },
-    {
-      "basename": "2024-04-02",
-      "path": "Daliy/Diary/2024-04-02.md"
-    },
-    {
-      "basename": "2024-03-31",
-      "path": "Daliy/Diary/2024-03-31.md"
     }
   ],
   "omittedPaths": [],
