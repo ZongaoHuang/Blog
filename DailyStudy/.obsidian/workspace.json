@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "78693039830824ac",
+        "id": "92279a7f8eaf7e7f",
         "type": "tabs",
         "children": [
           {
-            "id": "db86499665236a0c",
+            "id": "07bd8f8c8c3ea553",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Template/test.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -228,11 +228,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e699d424e794e53a",
+  "active": "07bd8f8c8c3ea553",
   "lastOpenFiles": [
+    "Template/attachments/Pasted image 20240614132958.png",
+    "Template/test.md",
+    "Template/attachments/Pasted image 20240614133020.png",
+    "Template/attachments/Pasted image 20240614132955.png",
     "Template/attachments/Pasted image 20240614132606.png",
     "Template/attachments",
-    "Template/test.md",
     "Daliy/Diary/2024-06-14.md",
     "Daliy/Diary/attachments/Pasted image 20240614111517.png",
     "Daliy/Diary/attachments/Pasted image 20240614111446.png",
@@ -240,17 +243,13 @@
     "Daliy/Diary/attachments/Pasted image 20240614111344.png",
     "Daliy/Diary/attachments/Pasted image 20240614111313.png",
     "Daliy/Diary/attachments/Pasted image 20240614110221.png",
-    "Daliy/Diary/attachments/Pasted image 20240614110117.png",
-    "Daliy/Diary/attachments/Pasted image 20240614110045.png",
     "Daliy/Diary/2024-06-13.md",
-    "Daliy/Diary/attachments/Pasted image 20240613155000.png",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Language/Python/YouTube Python Tutorial.md",
     "Daliy/Diary/2024-05-23.md",
     "Daliy/Diary/2024-06-12.md",
     "chenSmartContractFuzzing2024.md",
     "Daliy/Diary/2024-06-07.md",
-    "Daliy/Diary/attachments/Pasted image 20240607155434.png",
     "Tags",
     "Daliy/Diary/2024-06-05.md",
     "Daliy/Diary/2024-06-06.md",

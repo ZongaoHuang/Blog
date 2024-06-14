@@ -5,6 +5,10 @@
       "path": "Template/test.md"
     },
     {
+      "basename": "Pasted image 20240614132958",
+      "path": "Template/attachments/Pasted image 20240614132958.png"
+    },
+    {
       "basename": "2024-06-14",
       "path": "Daliy/Diary/2024-06-14.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-03-31",
       "path": "Daliy/Diary/2024-03-31.md"
-    },
-    {
-      "basename": "2024-03-26",
-      "path": "Daliy/Diary/2024-03-26.md"
     }
   ],
   "omittedPaths": [],
