@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
+                "file": "Daliy/Diary/2024-06-14.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
+                "file": "Daliy/Diary/2024-06-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md",
+                "file": "Daliy/Diary/2024-06-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-13.md"
+                "file": "Daliy/Diary/2024-06-14.md"
               }
             }
           },
@@ -230,10 +230,11 @@
   },
   "active": "db86499665236a0c",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-06-13.md",
+    "Daliy/Diary/2024-06-14.md",
     "Daliy/Diary/attachments/Pasted image 20240613155000.png",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Language/Python/YouTube Python Tutorial.md",
-    "Daliy/Diary/2024-06-13.md",
     "Daliy/Diary/2024-05-23.md",
     "Daliy/Diary/2024-06-12.md",
     "chenSmartContractFuzzing2024.md",
@@ -262,7 +263,6 @@
     "Daliy/Diary/attachments/ddf5f2674919164bbd496e53e346e35.jpg",
     "Daliy/Diary/attachments/db2583f6c6259515f00f2833ea3b2cc.jpg",
     "Daliy/Diary/attachments/Pasted image 20240528214235.png",
-    "Daliy/Diary/attachments/5c9ef85e527605eb5ec6a3f00885b38.jpg",
     "Daliy/Diary/2024-05-21.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
