@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/test.md",
+                "file": "Daliy/Diary/2024-06-16.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/test.md",
+                "file": "Daliy/Diary/2024-06-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/test.md",
+                "file": "Daliy/Diary/2024-06-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/test.md"
+                "file": "Daliy/Diary/2024-06-16.md"
               }
             }
           },
@@ -229,9 +230,10 @@
   },
   "active": "07bd8f8c8c3ea553",
   "lastOpenFiles": [
+    "Template/test.md",
+    "Daliy/Diary/2024-06-16.md",
     "Template/attachments/Pasted image 20240614194825.png",
     "Daliy/Diary/2024-06-14.md",
-    "Template/test.md",
     "Language/Python/Python3菜鸟学习.md",
     "Language/VUE",
     "Language/Python/YouTube Python Tutorial.md",
@@ -239,7 +241,6 @@
     "Template/Tools Template.md",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Daliy/Diary/2024-06-13.md",
-    "Template/test.md",
     "Daliy/Diary/attachments/Pasted image 20240614155233.png",
     "Template/attachments/Pasted image 20240614132958.png",
     "Daliy/Diary/2024-06-12.md",
@@ -251,7 +252,6 @@
     "Daliy/Diary/attachments/Pasted image 20240614111446.png",
     "Daliy/Diary/attachments/Pasted image 20240614111416.png",
     "Daliy/Diary/attachments/Pasted image 20240614111344.png",
-    "Daliy/Diary/attachments/Pasted image 20240614111313.png",
     "Daliy/Diary/2024-05-23.md",
     "chenSmartContractFuzzing2024.md",
     "Daliy/Diary/2024-06-07.md",
