@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-18.md",
+                "file": "Daliy/Diary/2024-06-20.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-18.md",
+                "file": "Daliy/Diary/2024-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-18.md",
+                "file": "Daliy/Diary/2024-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-18.md"
+                "file": "Daliy/Diary/2024-06-20.md"
               }
             }
           },
@@ -230,8 +230,9 @@
   },
   "active": "07bd8f8c8c3ea553",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-06-17.md",
     "Daliy/Diary/2024-06-18.md",
+    "Daliy/Diary/2024-06-20.md",
+    "Daliy/Diary/2024-06-17.md",
     "Daliy/Diary/2024-06-16.md",
     "Template/test.md",
     "Template/attachments/Pasted image 20240614194825.png",
@@ -272,7 +273,6 @@
     "Daliy/Diary/attachments/Smart Contract Security 1.pdf",
     "Daliy/Diary/attachments/Smart Contract Security.pdf",
     "Daliy/Diary/2024-05-21.md",
-    "Tools/中国软件著作权代码自动提取工具.md",
     "未命名.canvas",
     "Language/C++",
     "Excalidraw",
