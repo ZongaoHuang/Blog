@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-20.md",
+                "file": "Daliy/Diary/2024-06-21.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-20.md",
+                "file": "Daliy/Diary/2024-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-20.md",
+                "file": "Daliy/Diary/2024-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-20.md"
+                "file": "Daliy/Diary/2024-06-21.md"
               }
             }
           },
@@ -228,8 +228,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "919aad05d2fd5da1",
+  "active": "07bd8f8c8c3ea553",
   "lastOpenFiles": [
+    "Daliy/Diary/2024-06-20.md",
+    "Daliy/Diary/2024-06-21.md",
     "Daliy/Diary/attachments/Pasted image 20240620161239.png",
     "Daliy/Diary/attachments/Pasted image 20240620161201.png",
     "Daliy/Diary/attachments/Pasted image 20240620161052.png",
@@ -241,7 +243,6 @@
     "Daliy/Diary/attachments/Pasted image 20240620155407.png",
     "Daliy/Diary/2024-06-18.md",
     "Daliy/Diary/2024-06-16.md",
-    "Daliy/Diary/2024-06-20.md",
     "Daliy/Diary/2024-06-17.md",
     "Template/test.md",
     "Template/attachments/Pasted image 20240614194825.png",
@@ -253,7 +254,6 @@
     "Template/Tools Template.md",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Daliy/Diary/2024-06-13.md",
-    "Daliy/Diary/attachments/Pasted image 20240614155233.png",
     "Daliy/Diary/2024-06-12.md",
     "Template/attachments",
     "Daliy/Diary/2024-05-23.md",
