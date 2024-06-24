@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-06-24.md",
-                "mode": "source",
+                "file": "Daliy/Diary/2024-06-13.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-06-24.md",
+                "file": "Daliy/Diary/2024-06-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-06-24.md",
+                "file": "Daliy/Diary/2024-06-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-06-24.md"
+                "file": "Daliy/Diary/2024-06-13.md"
               }
             }
           },
@@ -230,8 +230,9 @@
   },
   "active": "07bd8f8c8c3ea553",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-06-21.md",
+    "Language/Python/Python3菜鸟学习.md",
     "Daliy/Diary/2024-06-24.md",
+    "Daliy/Diary/2024-06-21.md",
     "Daliy/Diary/2024-06-20.md",
     "Daliy/Diary/attachments/Pasted image 20240620161239.png",
     "Daliy/Diary/attachments/Pasted image 20240620161201.png",
@@ -248,7 +249,6 @@
     "Template/test.md",
     "Template/attachments/Pasted image 20240614194825.png",
     "Daliy/Diary/2024-06-14.md",
-    "Language/Python/Python3菜鸟学习.md",
     "Language/VUE",
     "Language/Python/YouTube Python Tutorial.md",
     "Template/Dairy Template.md",
