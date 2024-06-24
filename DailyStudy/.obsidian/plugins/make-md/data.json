@@ -45,7 +45,8 @@
     "//Language",
     "//Language/Language/Python",
     "//Language/Language/Python/Language/Python/Python编程：从入门到实践",
-    "//Template/Template/attachments"
+    "//Template/Template/attachments",
+    "//Language/Language/VUE"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
