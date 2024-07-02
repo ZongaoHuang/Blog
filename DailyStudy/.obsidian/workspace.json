@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2024-07-01.md",
+                "file": "Daliy/Diary/2024-07-02.md",
                 "mode": "source",
                 "source": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2024-07-01.md",
+                "file": "Daliy/Diary/2024-07-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2024-07-01.md",
+                "file": "Daliy/Diary/2024-07-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2024-07-01.md"
+                "file": "Daliy/Diary/2024-07-02.md"
               }
             }
           },
@@ -243,8 +243,9 @@
   },
   "active": "01e8eb9da0e7a7ca",
   "lastOpenFiles": [
-    "Daliy/Diary/2024-06-28.md",
     "Daliy/Diary/2024-07-01.md",
+    "Daliy/Diary/2024-07-02.md",
+    "Daliy/Diary/2024-06-28.md",
     "Daliy/Diary/attachments/Pasted image 20240628112051.png",
     "Daliy/Diary/attachments/Pasted image 20240628111010.png",
     "Daliy/Diary/attachments/Pasted image 20240628110532.png",
@@ -281,7 +282,6 @@
     "Tags",
     "Daliy/Diary/2024-06-05.md",
     "Daliy/Diary/2024-06-06.md",
-    "Daliy/Diary/2024-06-04.md",
     "Daliy/Diary/attachments/~$jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/Smart Contract Security 1.pdf",

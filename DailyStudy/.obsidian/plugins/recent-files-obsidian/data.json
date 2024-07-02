@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-07-02",
+      "path": "Daliy/Diary/2024-07-02.md"
+    },
+    {
       "basename": "2024-07-01",
       "path": "Daliy/Diary/2024-07-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "关键词",
       "path": "Security/Web安全/关键词.md"
-    },
-    {
-      "basename": "手机作电脑摄像头",
-      "path": "Tools/手机作电脑摄像头.md"
     }
   ],
   "omittedPaths": [],
