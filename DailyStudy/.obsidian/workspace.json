@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "Daliy/Diary/2025-03-09.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
