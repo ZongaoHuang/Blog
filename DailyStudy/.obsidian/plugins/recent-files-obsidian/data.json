@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-03-10",
+      "path": "Daliy/Diary/2025-03-10.md"
+    },
+    {
+      "basename": "中国软件著作权代码自动提取工具",
+      "path": "Tools/中国软件著作权代码自动提取工具.md"
+    },
+    {
       "basename": "2025-03-09",
       "path": "Daliy/Diary/2025-03-09.md"
     },
@@ -191,18 +199,11 @@
     {
       "basename": "2025-02-18",
       "path": "Daliy/Diary/2025-02-18.md"
-    },
-    {
-      "basename": "2025-02-19",
-      "path": "Daliy/Diary/2025-02-19.md"
-    },
-    {
-      "basename": "2025-02-21",
-      "path": "Daliy/Diary/2025-02-21.md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
+  "updateOn": "file-open",
   "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
