@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-11.md",
+                "file": "Daliy/Diary/2025-03-12.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-11"
+              "title": "2025-03-12"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "45df0f70c06fb87a",
+            "id": "49d65852fdc6d635",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -337,9 +337,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "cd584438ecc34e28",
+  "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
     "Daliy/Diary/2025-03-10.md",
+    "Daliy/Diary/2025-03-12.md",
     "Daliy/Diary/2025-03-11.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Daliy/Diary/2025-03-09.md",
@@ -365,7 +366,6 @@
     "Daliy/Diary/2024-04-08.md",
     "Daliy/Diary/2024-04-29.md",
     "Daliy/Diary/2024-05-28.md",
-    "Daliy/Diary/2024-06-20.md",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
