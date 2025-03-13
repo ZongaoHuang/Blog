@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-02.md",
+                "file": "Daliy/Diary/2025-03-13.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-02"
+              "title": "2025-03-13"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "49d65852fdc6d635",
+            "id": "b5d42993abfaebce",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -339,6 +339,8 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
+    "Daliy/Diary/2025-03-02.md",
+    "Daliy/Diary/2025-03-13.md",
     "Daliy/Diary/2023-09-25.md",
     "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
@@ -364,8 +366,6 @@
     "Daliy/Diary/2024-05-09.md",
     "Daliy/Diary/2024-04-16.md",
     "Daliy/Diary/2024-10-17.md",
-    "Daliy/Diary/2025-01-17.md",
-    "Daliy/Diary/2023-11-19.md",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
