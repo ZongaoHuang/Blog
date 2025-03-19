@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-18.md",
+                "file": "Daliy/Diary/2025-03-19.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-18"
+              "title": "2025-03-19"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "dafe8700ccf263a8",
+            "id": "904746b19a5ba17d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -339,8 +339,9 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-03-17.md",
     "Daliy/Diary/2025-03-18.md",
+    "Daliy/Diary/2025-03-19.md",
+    "Daliy/Diary/2025-03-17.md",
     "Daliy/Diary/2025-03-16.md",
     "Daliy/Diary/2025-03-15.md",
     "Security/项目/1.2 数据库审计.md",
@@ -365,7 +366,6 @@
     "Daliy/Diary/2023-11-13.md",
     "Daliy/Diary/2023-11-15.md",
     "Daliy/Diary/2023-11-17.md",
-    "Linux/常用指令/Oracle_Audit.md",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
