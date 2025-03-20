@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-09.md",
+                "file": "Daliy/Diary/2025-03-20.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-09"
+              "title": "2025-03-20"
             }
           }
         ],
@@ -156,20 +156,17 @@
             }
           },
           {
-            "id": "904746b19a5ba17d",
+            "id": "72610768f2ce5821",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -342,8 +339,9 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-03-14.md",
     "Daliy/Diary/2025-03-09.md",
+    "Daliy/Diary/2025-03-20.md",
+    "Daliy/Diary/2025-03-14.md",
     "Daliy/Diary/2024-06-17.md",
     "Daliy/Diary/2025-03-19.md",
     "Daliy/Diary/2025-03-18.md",
@@ -368,7 +366,6 @@
     "Tools/中国软件著作权代码自动提取工具.md",
     "Daliy/Diary/attachments/Pasted image 20250309210651.png",
     "Daliy/Diary/2023-11-13.md",
-    "Daliy/Diary/2023-11-15.md",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
