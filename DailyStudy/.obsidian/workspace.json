@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-19.md",
+                "file": "Daliy/Diary/2025-03-09.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-19"
+              "title": "2025-03-09"
             }
           }
         ],
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "审计",
+                "query": "笔试",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,14 +159,17 @@
             "id": "904746b19a5ba17d",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -339,8 +342,11 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-03-18.md",
+    "Daliy/Diary/2025-03-14.md",
+    "Daliy/Diary/2025-03-09.md",
+    "Daliy/Diary/2024-06-17.md",
     "Daliy/Diary/2025-03-19.md",
+    "Daliy/Diary/2025-03-18.md",
     "Daliy/Diary/2025-03-17.md",
     "Daliy/Diary/2025-03-16.md",
     "Daliy/Diary/2025-03-15.md",
@@ -350,14 +356,12 @@
     "Daliy/Diary/2023-10-17.md",
     "Daliy/Diary/2023-10-12.md",
     "Daliy/Diary/2023-09-27.md",
-    "Daliy/Diary/2025-03-14.md",
     "Daliy/Diary/2025-03-13.md",
     "Daliy/Diary/2025-03-02.md",
     "Daliy/Diary/2023-09-25.md",
     "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Security/security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
     "Daliy/Diary/2025-03-08.md",
-    "Daliy/Diary/2025-03-09.md",
     "Daliy/Diary/2025-03-11.md",
     "Daliy/Diary/2025-03-12.md",
     "Daliy/Diary/2025-03-10.md",
@@ -365,7 +369,6 @@
     "Daliy/Diary/attachments/Pasted image 20250309210651.png",
     "Daliy/Diary/2023-11-13.md",
     "Daliy/Diary/2023-11-15.md",
-    "Daliy/Diary/2023-11-17.md",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
