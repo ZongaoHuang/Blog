@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-03-25",
+      "path": "Daliy/Diary/2025-03-25.md"
+    },
+    {
       "basename": "2025-03-23",
       "path": "Daliy/Diary/2025-03-23.md"
+    },
+    {
+      "basename": "FinalSearch",
+      "path": "FinalSearch/FinalSearch.md"
     },
     {
       "basename": "2025-03-21",
@@ -191,14 +199,6 @@
     {
       "basename": "2025-01-19",
       "path": "Daliy/Diary/2025-01-19.md"
-    },
-    {
-      "basename": "2025-01-14",
-      "path": "Daliy/Diary/2025-01-14.md"
-    },
-    {
-      "basename": "2023-12-18",
-      "path": "Daliy/Diary/2023-12-18.md"
     }
   ],
   "omittedPaths": [],

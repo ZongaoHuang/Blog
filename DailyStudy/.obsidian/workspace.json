@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-03-23.md",
+                "file": "Daliy/Diary/2025-03-25.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-23"
+              "title": "2025-03-25"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "81523553ac2f0d99",
+            "id": "89795643782432b0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -339,8 +339,10 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-03-21.md",
     "Daliy/Diary/2025-03-23.md",
+    "Daliy/Diary/2025-03-25.md",
+    "FinalSearch/FinalSearch.md",
+    "Daliy/Diary/2025-03-21.md",
     "Daliy/Diary/2025-03-20.md",
     "Daliy/Diary/2025-03-09.md",
     "Daliy/Diary/2025-03-14.md",
@@ -363,8 +365,6 @@
     "Security/security-study-plan-main/security-study-plan-main/api-security-study-plan.md",
     "Daliy/Diary/2025-03-08.md",
     "Daliy/Diary/2025-03-11.md",
-    "Daliy/Diary/2025-03-12.md",
-    "Daliy/Diary/2025-03-10.md",
     "Daliy/Diary/attachments/Pasted image 20250309210651.png",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
