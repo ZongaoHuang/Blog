@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-02.md",
+                "file": "Daliy/Diary/2025-04-03.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-02"
+              "title": "2025-04-03"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "25b4c1f532ffbbc2",
+            "id": "913f11dc65578377",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2025-04-02.md",
+                "file": "Daliy/Diary/2025-04-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-02 的大纲"
+              "title": "2025-04-03 的大纲"
             }
           },
           {
@@ -339,8 +339,9 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-03-31.md",
     "Daliy/Diary/2025-04-02.md",
+    "Daliy/Diary/2025-04-03.md",
+    "Daliy/Diary/2025-03-31.md",
     "Daliy/Diary/2025-03-27.md",
     "Daliy/Diary/2025-03-19.md",
     "Daliy/Diary/2025-03-18.md",
@@ -364,7 +365,6 @@
     "Daliy/Diary/2025-03-13.md",
     "Daliy/Diary/2025-03-02.md",
     "Daliy/Diary/2023-09-25.md",
-    "Security/security-study-plan-main/security-study-plan-main/README.md",
     "Daliy/Diary/attachments/Pasted image 20250309210651.png",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
