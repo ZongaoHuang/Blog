@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-03.md",
+                "file": "Daliy/Diary/2025-04-07.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-03"
+              "title": "2025-04-07"
             }
           }
         ],
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "913f11dc65578377",
+            "id": "ea6168d0dbc03cbe",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2025-04-03.md",
+                "file": "Daliy/Diary/2025-04-07.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-03 的大纲"
+              "title": "2025-04-07 的大纲"
             }
           },
           {
@@ -339,35 +339,35 @@
   },
   "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
+    "Language/GO/Basic/Study1.md",
+    "Daliy/Diary/2025-04-07.md",
+    "Linux/常用指令/Oracle_Audit.md",
+    "Tools/手机作电脑摄像头.md",
+    "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
+    "Daliy/Diary/2023-10-16.md",
+    "Daliy/Diary/2025-03-15.md",
+    "Daliy/Diary/2025-03-16.md",
+    "Daliy/Diary/2025-03-09.md",
+    "Daliy/Diary/2024-06-17.md",
+    "FinalSearch/FinalSearch.md",
+    "Daliy/Diary/2025-03-14.md",
+    "Daliy/Diary/2025-03-21.md",
+    "Daliy/Diary/2025-03-23.md",
+    "Daliy/Diary/2025-03-25.md",
+    "Daliy/Diary/2025-03-18.md",
+    "Daliy/Diary/2025-03-19.md",
+    "Daliy/Diary/2025-03-27.md",
+    "Daliy/Diary/2025-03-31.md",
+    "Daliy/Diary/2025-04-02.md",
+    "Daliy/Diary/2025-03-20.md",
+    "Daliy/Diary/2025-01-14.md",
     "Daliy/Diary/2025-04-03.md",
+    "Daliy/Diary/2025-01-09.md",
+    "Daliy/Diary/2024-09-27.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
-    "Daliy/Diary/2025-04-02.md",
-    "Daliy/Diary/2025-03-31.md",
-    "Daliy/Diary/2025-03-27.md",
-    "Daliy/Diary/2025-03-19.md",
-    "Daliy/Diary/2025-03-18.md",
-    "Daliy/Diary/2025-03-20.md",
-    "Daliy/Diary/2025-03-25.md",
-    "Daliy/Diary/2025-03-23.md",
-    "FinalSearch/FinalSearch.md",
-    "Daliy/Diary/2025-03-21.md",
-    "Daliy/Diary/2025-03-09.md",
-    "Daliy/Diary/2025-03-14.md",
-    "Daliy/Diary/2024-06-17.md",
-    "Daliy/Diary/2025-03-17.md",
-    "Daliy/Diary/2025-03-16.md",
-    "Daliy/Diary/2025-03-15.md",
-    "Security/项目/1.2 数据库审计.md",
-    "Security/项目/1.3 OpenRASP.md",
-    "Daliy/Diary/2023-10-16.md",
-    "Daliy/Diary/2023-10-17.md",
-    "Daliy/Diary/2023-10-12.md",
-    "Daliy/Diary/2023-09-27.md",
-    "Daliy/Diary/2025-03-13.md",
-    "Daliy/Diary/2025-03-02.md",
     "Daliy/Diary/attachments/Pasted image 20250309210651.png",
     "Daliy/Diary/attachments/Pasted image 20250113192839.png",
     "FinalSearch/attachments/Pasted image 20250109130638.png",
