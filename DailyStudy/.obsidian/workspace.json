@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "2025-04-10"
             }
+          },
+          {
+            "id": "356526f8e9ee21dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daliy/Diary/2025-04-10.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-10"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -337,10 +351,11 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "fb23740ffae01f0e",
+  "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
-    "FinalSearch/开题答辩PPT第二版.md",
+    "Home.md",
     "Daliy/Diary/2025-04-10.md",
+    "FinalSearch/开题答辩PPT第二版.md",
     "FinalSearch/FinalSearch.md",
     "Daliy/Diary/2025-04-07.md",
     "Language/GO/Basic/Study1.md",
@@ -364,7 +379,6 @@
     "Daliy/Diary/2025-04-02.md",
     "Daliy/Diary/2025-03-20.md",
     "Daliy/Diary/2025-01-14.md",
-    "Daliy/Diary/2025-04-03.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
