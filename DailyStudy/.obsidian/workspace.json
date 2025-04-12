@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-10.md",
+                "file": "Daliy/Diary/2025-04-12.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-10"
+              "title": "2025-04-12"
             }
           }
         ],
@@ -170,20 +170,17 @@
             }
           },
           {
-            "id": "cefdc130945c6192",
+            "id": "4df1c6685175d01b",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -295,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2025-04-10.md",
+                "file": "Daliy/Diary/2025-04-12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-10 的大纲"
+              "title": "2025-04-12 的大纲"
             }
           },
           {
@@ -356,9 +353,10 @@
   },
   "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
+    "Daliy/Diary/2025-04-10.md",
+    "Daliy/Diary/2025-04-12.md",
     "Daliy/Diary/2025-04-07.md",
     "Daliy/Diary/2025-04-11.md",
-    "Daliy/Diary/2025-04-10.md",
     "Home.md",
     "FinalSearch/开题答辩PPT第二版.md",
     "FinalSearch/FinalSearch.md",
@@ -381,7 +379,6 @@
     "Daliy/Diary/2025-03-27.md",
     "Daliy/Diary/2025-03-31.md",
     "Daliy/Diary/2025-04-02.md",
-    "Daliy/Diary/2025-03-20.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
