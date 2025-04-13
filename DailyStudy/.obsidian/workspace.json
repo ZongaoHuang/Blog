@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-12.md",
+                "file": "Daliy/Diary/2025-04-13.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-12"
+              "title": "2025-04-13"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "4df1c6685175d01b",
+            "id": "58af8937a434e190",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2025-04-12.md",
+                "file": "Daliy/Diary/2025-04-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-12 的大纲"
+              "title": "2025-04-13 的大纲"
             }
           },
           {
@@ -353,8 +353,9 @@
   },
   "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-04-10.md",
     "Daliy/Diary/2025-04-12.md",
+    "Daliy/Diary/2025-04-13.md",
+    "Daliy/Diary/2025-04-10.md",
     "Daliy/Diary/2025-04-07.md",
     "Daliy/Diary/2025-04-11.md",
     "Home.md",
@@ -378,7 +379,6 @@
     "Daliy/Diary/2025-03-19.md",
     "Daliy/Diary/2025-03-27.md",
     "Daliy/Diary/2025-03-31.md",
-    "Daliy/Diary/2025-04-02.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
