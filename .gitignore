@@ -1,3 +1,4 @@
 node_modules
 DailyStudy/.vitepress/dist
 DailyStudy/.vitepress/cache
+.history

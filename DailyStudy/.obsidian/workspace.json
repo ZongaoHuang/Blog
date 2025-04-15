@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-14.md",
+                "file": "Daliy/Diary/2025-04-15.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-14"
+              "title": "2025-04-15"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "310f1006e4e1285b",
+            "id": "4db03693cb65159b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -353,9 +353,14 @@
   },
   "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
+    "Daliy/Diary/2025-04-15.md",
+    "Linux/常用指令/Oracle_Audit.md",
+    "markdown-examples.md",
+    "api-examples.md",
+    "index.md",
+    "Daliy/Diary/2025-04-14.md",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/2025-04-13.md",
-    "Daliy/Diary/2025-04-14.md",
     "Daliy/Diary/2025-04-12.md",
     "Daliy/Diary/2025-04-10.md",
     "Daliy/Diary/2025-04-07.md",
@@ -364,7 +369,6 @@
     "FinalSearch/开题答辩PPT第二版.md",
     "FinalSearch/FinalSearch.md",
     "Language/GO/Basic/Study1.md",
-    "Linux/常用指令/Oracle_Audit.md",
     "Tools/手机作电脑摄像头.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Tools/统计项目总代码量.md",
@@ -376,9 +380,6 @@
     "Daliy/Diary/2025-03-14.md",
     "Daliy/Diary/2025-03-21.md",
     "Daliy/Diary/2025-03-23.md",
-    "Daliy/Diary/2025-03-25.md",
-    "Daliy/Diary/2025-03-18.md",
-    "Daliy/Diary/2025-03-19.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
@@ -388,7 +389,6 @@
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
     "Daliy/Diary/attachments/Pasted image 20241212163751.png",
     "Daliy/Diary/attachments/Pasted image 20241212163743.png",
-    "Daliy/Diary/attachments/Pasted image 20241212163625.png",
     "FinalSearch/attachments",
     "FinalSearch",
     "Language/VUE",

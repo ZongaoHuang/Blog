@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-15",
+      "path": "Daliy/Diary/2025-04-15.md"
+    },
+    {
+      "basename": "Oracle_Audit",
+      "path": "Linux/常用指令/Oracle_Audit.md"
+    },
+    {
+      "basename": "markdown-examples",
+      "path": "markdown-examples.md"
+    },
+    {
+      "basename": "api-examples",
+      "path": "api-examples.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "2025-04-14",
       "path": "Daliy/Diary/2025-04-14.md"
     },
@@ -39,10 +59,6 @@
     {
       "basename": "Study1",
       "path": "Language/GO/Basic/Study1.md"
-    },
-    {
-      "basename": "Oracle_Audit",
-      "path": "Linux/常用指令/Oracle_Audit.md"
     },
     {
       "basename": "手机作电脑摄像头",
@@ -183,22 +199,6 @@
     {
       "basename": "2025-03-08",
       "path": "Daliy/Diary/2025-03-08.md"
-    },
-    {
-      "basename": "2025-03-11",
-      "path": "Daliy/Diary/2025-03-11.md"
-    },
-    {
-      "basename": "2025-03-12",
-      "path": "Daliy/Diary/2025-03-12.md"
-    },
-    {
-      "basename": "2025-03-10",
-      "path": "Daliy/Diary/2025-03-10.md"
-    },
-    {
-      "basename": "2023-11-13",
-      "path": "Daliy/Diary/2023-11-13.md"
     }
   ],
   "omittedPaths": [],
