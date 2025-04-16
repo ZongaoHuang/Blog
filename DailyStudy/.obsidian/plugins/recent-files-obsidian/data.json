@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-16",
+      "path": "Daliy/Diary/2025-04-16.md"
+    },
+    {
       "basename": "2025-04-15",
       "path": "Daliy/Diary/2025-04-15.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "api-security-study-plan",
       "path": "Security/security-study-plan-main/security-study-plan-main/api-security-study-plan.md"
-    },
-    {
-      "basename": "2025-03-08",
-      "path": "Daliy/Diary/2025-03-08.md"
     }
   ],
   "omittedPaths": [],

@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-15.md",
+                "file": "Daliy/Diary/2025-04-16.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-15"
+              "title": "2025-04-16"
             }
           }
         ],
@@ -173,10 +173,13 @@
             "id": "4db03693cb65159b",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -353,8 +356,9 @@
   },
   "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
-    "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Daliy/Diary/2025-04-15.md",
+    "Daliy/Diary/2025-04-16.md",
+    "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Linux/常用指令/Oracle_Audit.md",
     "markdown-examples.md",
     "api-examples.md",
@@ -388,7 +392,6 @@
     "FinalSearch/attachments/Pasted image 20250109130638.png",
     "Daliy/Diary/attachments/Pasted image 20241212164449.png",
     "Daliy/Diary/attachments/Pasted image 20241212163751.png",
-    "Daliy/Diary/attachments/Pasted image 20241212163743.png",
     "FinalSearch/attachments",
     "FinalSearch",
     "Language/VUE",
