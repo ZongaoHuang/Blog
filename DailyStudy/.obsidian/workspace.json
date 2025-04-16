@@ -170,16 +170,13 @@
             }
           },
           {
-            "id": "4db03693cb65159b",
+            "id": "9cb2f67085eb04aa",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
