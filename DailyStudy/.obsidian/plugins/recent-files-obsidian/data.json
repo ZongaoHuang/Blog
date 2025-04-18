@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Ollama学习",
+      "path": "AI/Ollama学习.md"
+    },
+    {
+      "basename": "资料",
+      "path": "FinalSearch/资料/资料.md"
+    },
+    {
       "basename": "Google Agents 白皮书",
-      "path": "FinalSearch/学习资料/Google Agents 白皮书.md"
+      "path": "FinalSearch/资料/Google Agents 白皮书.md"
     },
     {
       "basename": "2025-04-10",
@@ -11,10 +19,6 @@
     {
       "basename": "FinalSearch",
       "path": "FinalSearch/FinalSearch.md"
-    },
-    {
-      "basename": "学习资料",
-      "path": "FinalSearch/学习资料/学习资料.md"
     },
     {
       "basename": "开题答辩",
@@ -55,10 +59,6 @@
     {
       "basename": "讨论过程",
       "path": "FinalSearch/开题报告/讨论过程.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "AI/通往AGI之路/10篇从0到1的文章/未命名.md"
     },
     {
       "basename": "决策",
