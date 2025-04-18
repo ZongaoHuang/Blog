@@ -83,20 +83,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-10.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-10"
-            }
-          },
-          {
-            "id": "356526f8e9ee21dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "FinalSearch/学习资料/Google Agents 白皮书.md",
                 "mode": "source",
                 "source": true
@@ -106,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -351,12 +337,13 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "356526f8e9ee21dc",
+  "active": "fb23740ffae01f0e",
   "lastOpenFiles": [
-    "FinalSearch/学习资料/学习资料.md",
+    "Daliy/Diary/2025-04-10.md",
     "FinalSearch/学习资料/Google Agents 白皮书.md",
-    "FinalSearch/学习资料",
     "FinalSearch/FinalSearch.md",
+    "FinalSearch/学习资料/学习资料.md",
+    "FinalSearch/学习资料",
     "FinalSearch/未命名.md",
     "api-examples.md",
     "index.md",
@@ -382,7 +369,6 @@
     "Daliy/Diary/2025-04-14.md",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/2025-04-13.md",
-    "Daliy/Diary/2025-04-12.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
