@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Google Agents 白皮书",
+      "path": "FinalSearch/学习资料/Google Agents 白皮书.md"
+    },
+    {
+      "basename": "学习资料",
+      "path": "FinalSearch/学习资料/学习资料.md"
+    },
+    {
+      "basename": "FinalSearch",
+      "path": "FinalSearch/FinalSearch.md"
+    },
+    {
+      "basename": "开题答辩",
+      "path": "FinalSearch/开题报告/开题答辩.md"
+    },
+    {
+      "basename": "开题答辩PPT第二版",
+      "path": "FinalSearch/开题报告/开题答辩PPT第二版.md"
+    },
+    {
+      "basename": "开题答辩PPT第一版",
+      "path": "FinalSearch/开题报告/开题答辩PPT第一版.md"
+    },
+    {
       "basename": "YouTube Python Tutorial",
       "path": "Language/Python/YouTube Python Tutorial.md"
     },
@@ -17,20 +41,8 @@
       "path": "Language/GO/Basic/Study1.md"
     },
     {
-      "basename": "FinalSearch",
-      "path": "FinalSearch/FinalSearch.md"
-    },
-    {
-      "basename": "开题答辩PPT第一版",
-      "path": "FinalSearch/开题报告/开题答辩PPT第一版.md"
-    },
-    {
       "basename": "开题报告第一版",
       "path": "FinalSearch/开题报告/开题报告第一版.md"
-    },
-    {
-      "basename": "开题答辩PPT第二版",
-      "path": "FinalSearch/开题报告/开题答辩PPT第二版.md"
     },
     {
       "basename": "开题报告第二版",
@@ -39,10 +51,6 @@
     {
       "basename": "讨论过程",
       "path": "FinalSearch/开题报告/讨论过程.md"
-    },
-    {
-      "basename": "开题答辩",
-      "path": "FinalSearch/开题报告/开题答辩.md"
     },
     {
       "basename": "未命名",
@@ -67,18 +75,6 @@
     {
       "basename": "Oracle_Audit",
       "path": "Linux/常用指令/Oracle_Audit.md"
-    },
-    {
-      "basename": "markdown-examples",
-      "path": "markdown-examples.md"
-    },
-    {
-      "basename": "api-examples",
-      "path": "api-examples.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
     },
     {
       "basename": "2025-04-14",

@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Python/YouTube Python Tutorial.md",
+                "file": "FinalSearch/学习资料/Google Agents 白皮书.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "YouTube Python Tutorial"
+              "title": "Google Agents 白皮书"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "9cb2f67085eb04aa",
+            "id": "b417a0329368141e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -179,7 +179,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -350,19 +351,27 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "4104d0f23ae4c276",
+  "active": "356526f8e9ee21dc",
   "lastOpenFiles": [
+    "FinalSearch/学习资料/学习资料.md",
+    "FinalSearch/学习资料/Google Agents 白皮书.md",
+    "FinalSearch/学习资料",
+    "FinalSearch/FinalSearch.md",
+    "FinalSearch/未命名.md",
+    "api-examples.md",
+    "index.md",
+    "FinalSearch/开题报告/开题答辩.md",
+    "FinalSearch/开题报告/开题答辩PPT第二版.md",
+    "FinalSearch/开题报告/开题答辩PPT第一版.md",
+    "markdown-examples.md",
+    "Language/Python/YouTube Python Tutorial.md",
     "FinalSearch/开题报告",
     "Language/Python/Python3菜鸟学习.md",
     "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
     "Language/GO/Basic/Study1.md",
-    "FinalSearch/FinalSearch.md",
-    "FinalSearch/开题报告/开题答辩PPT第一版.md",
     "FinalSearch/开题报告/开题报告第一版.md",
-    "FinalSearch/开题报告/开题答辩PPT第二版.md",
     "FinalSearch/开题报告/开题报告第二版.md",
     "FinalSearch/开题报告/讨论过程.md",
-    "FinalSearch/开题报告/开题答辩.md",
     "AI/通往AGI之路/10篇从0到1的文章/未命名.md",
     "Daliy/Social Skills/决策.md",
     "Daliy/Diary/2025-04-16.md",
@@ -370,16 +379,10 @@
     "Daliy/Diary/2025-04-15.md",
     "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Linux/常用指令/Oracle_Audit.md",
-    "markdown-examples.md",
-    "api-examples.md",
-    "index.md",
     "Daliy/Diary/2025-04-14.md",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/2025-04-13.md",
     "Daliy/Diary/2025-04-12.md",
-    "Daliy/Diary/2025-04-10.md",
-    "Daliy/Diary/2025-04-07.md",
-    "Daliy/Diary/2025-04-11.md",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
     "Daliy/Diary/attachments/Pasted image 20250404162309.png",
@@ -396,8 +399,6 @@
     "Daliy/Diary/attachments/~$jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/Smart Contract Security 1.pdf",
-    "Daliy/Diary/attachments/Smart Contract Security.pdf",
-    "未命名.canvas",
-    "Language/C++"
+    "未命名.canvas"
   ]
 }
