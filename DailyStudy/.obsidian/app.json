@@ -25,6 +25,6 @@
   "foldHeading": true,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": false
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }
