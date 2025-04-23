@@ -83,16 +83,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Ollama学习.md",
+                "file": "Daliy/Diary/2025-04-23.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ollama学习"
+              "title": "2025-04-23"
+            }
+          },
+          {
+            "id": "8cf9584983364f67",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -156,7 +168,7 @@
             }
           },
           {
-            "id": "b417a0329368141e",
+            "id": "5381fa75c294de0e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -337,8 +349,9 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "fb23740ffae01f0e",
+  "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "Daliy/Diary/2025-04-23.md",
     "AI/Ollama学习.md",
     "AI/通往AGI之路/10篇从0到1的文章/未命名.md",
     "FinalSearch/资料/资料.md",
@@ -367,7 +380,6 @@
     "Daliy/Diary/2025-04-15.md",
     "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Linux/常用指令/Oracle_Audit.md",
-    "Daliy/Diary/2025-04-14.md",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/attachments/1743756593141_d.png",
     "Daliy/Diary/attachments/Pasted image 20250404164320.png",
