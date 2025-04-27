@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-26.md",
+                "file": "FinalSearch/集成的Agent.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-26"
+              "title": "集成的Agent"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "70810a7919c7fc3f",
+            "id": "8261022b60fe9ef4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -353,17 +353,18 @@
   },
   "active": "8cf9584983364f67",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-04-25.md",
+    "FinalSearch/集成的Agent.md",
+    "FinalSearch/资料/资料.md",
+    "FinalSearch/FinalSearch.md",
+    "Daliy/Diary/2025-04-27.md",
     "Daliy/Diary/2025-04-26.md",
+    "Daliy/Diary/2025-04-25.md",
     "Daliy/Diary/2025-04-23.md",
     "AI/Ollama学习.md",
     "AI/通往AGI之路/10篇从0到1的文章/未命名.md",
-    "FinalSearch/资料/资料.md",
     "FinalSearch/资料/Google Agents 白皮书.md",
     "Daliy/Diary/2025-04-10.md",
-    "FinalSearch/FinalSearch.md",
     "FinalSearch/资料",
-    "FinalSearch/未命名.md",
     "api-examples.md",
     "index.md",
     "FinalSearch/开题报告/开题答辩.md",
@@ -380,7 +381,6 @@
     "FinalSearch/开题报告/讨论过程.md",
     "Daliy/Social Skills/决策.md",
     "Daliy/Diary/2025-04-16.md",
-    "Daliy/Diary/2024-01-23.md",
     "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/attachments/1743756593141_d.png",
