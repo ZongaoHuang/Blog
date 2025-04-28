@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-04-28.md",
+                "file": "Daliy/Diary/2025-04-27.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-28"
+              "title": "2025-04-27"
             }
           }
         ],
@@ -180,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -353,8 +353,8 @@
   },
   "active": "8cf9584983364f67",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-04-27.md",
     "Daliy/Diary/2025-04-28.md",
+    "Daliy/Diary/2025-04-27.md",
     "FinalSearch/集成的Agent.md",
     "FinalSearch/资料/资料.md",
     "FinalSearch/FinalSearch.md",
