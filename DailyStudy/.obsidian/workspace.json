@@ -95,12 +95,14 @@
             "id": "8cf9584983364f67",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "FinalSearch"
+                "file": "Daliy/Diary/2025-05-01.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "FinalSearch"
+              "title": "2025-05-01"
             }
           }
         ],
@@ -178,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -349,15 +351,15 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e5b52fbd6c6d1d7e",
+  "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "FinalSearch/FinalSearch.md",
     "FinalSearch/集成的Agent.md",
     "Daliy/Diary/2025-05-01.md",
     "Daliy/Diary/2025-04-30.md",
     "Daliy/Diary/2025-04-27.md",
     "Daliy/Diary/2025-04-28.md",
     "FinalSearch/资料/资料.md",
-    "FinalSearch/FinalSearch.md",
     "Daliy/Diary/2025-04-26.md",
     "Daliy/Diary/2025-04-25.md",
     "Daliy/Diary/2025-04-23.md",
