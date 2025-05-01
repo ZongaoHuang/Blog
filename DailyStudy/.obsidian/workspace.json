@@ -95,14 +95,12 @@
             "id": "8cf9584983364f67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Daliy/Diary/2025-04-30.md",
-                "mode": "source",
-                "source": true
+                "path": "FinalSearch"
               },
               "icon": "lucide-file",
-              "title": "2025-04-30"
+              "title": "FinalSearch"
             }
           }
         ],
@@ -170,7 +168,7 @@
             }
           },
           {
-            "id": "0a7b92fa38490dee",
+            "id": "2f62cb48cbde37cb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -322,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -351,12 +349,13 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "a28add42e3c7f178",
+  "active": "e5b52fbd6c6d1d7e",
   "lastOpenFiles": [
-    "Daliy/Diary/2025-04-27.md",
-    "Daliy/Diary/2025-04-30.md",
-    "Daliy/Diary/2025-04-28.md",
     "FinalSearch/集成的Agent.md",
+    "Daliy/Diary/2025-05-01.md",
+    "Daliy/Diary/2025-04-30.md",
+    "Daliy/Diary/2025-04-27.md",
+    "Daliy/Diary/2025-04-28.md",
     "FinalSearch/资料/资料.md",
     "FinalSearch/FinalSearch.md",
     "Daliy/Diary/2025-04-26.md",
@@ -380,7 +379,6 @@
     "Language/GO/Basic/Study1.md",
     "FinalSearch/开题报告/开题报告第一版.md",
     "FinalSearch/开题报告/开题报告第二版.md",
-    "FinalSearch/开题报告/讨论过程.md",
     "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/attachments/1743756593141_d.png",
