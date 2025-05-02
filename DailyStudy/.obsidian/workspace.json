@@ -179,8 +179,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -350,7 +349,7 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e699d424e794e53a",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "FinalSearch/FinalSearch.md",
     "FinalSearch/集成的Agent.md",
