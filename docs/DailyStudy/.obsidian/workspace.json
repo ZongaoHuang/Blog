@@ -95,12 +95,14 @@
             "id": "8cf9584983364f67",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Misc"
+                "file": "Diary/2025-05-02.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "2025-05-02"
             }
           }
         ],
@@ -168,7 +170,7 @@
             }
           },
           {
-            "id": "8ba0dbb4e840179a",
+            "id": "7ee1f0fce6809f42",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -393,8 +395,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "45bb2c6c62c0e04a",
+  "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "Tags",
+    "SourceCode",
+    "Workflow",
+    "Npm",
     "Misc/Misc.md",
     "Diary/Diary.md",
     "Diary/2025-05-02.md",
@@ -436,11 +442,7 @@
     "Diary/2025-04-07.md",
     "Diary/2025-04-05.md",
     "Diary/2025-04-03.md",
-    "Diary/2025-04-02.md",
     "Diary",
-    "Language/Linux",
-    "Misc",
-    "FinalSearch/资料",
     "未命名.canvas"
   ]
 }

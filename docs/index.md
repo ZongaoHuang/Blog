@@ -30,12 +30,12 @@ features:
   - icon: 📘
     title: 源码阅读
     details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: /analysis/utils/only-allow
+    link: /DailyStudy/SourceCode
     linkText: 源码阅读
   - icon: 💡
     title: Workflow
     details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
-    link: /workflow/utils/library
+    link: /DailyStudy/Workflow
     linkText: 常用工具库
   - icon: 🧰
     title: 提效工具
@@ -45,7 +45,7 @@ features:
   - icon: 🐞
     title: 踩坑记录
     details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
-    link: /DailyStudy/npm
+    link: /DailyStudy/Npm
     linkText: 踩坑记录
   - icon: 📝
     title: 杂

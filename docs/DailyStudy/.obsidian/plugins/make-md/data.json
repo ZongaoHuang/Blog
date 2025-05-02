@@ -47,7 +47,8 @@
     "//Language/Language/GO/Language/GO/Basic",
     "//misc/misc/常用指令",
     "//Daliy",
-    "//misc"
+    "//misc",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
