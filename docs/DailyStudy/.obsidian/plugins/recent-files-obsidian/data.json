@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Misc",
+      "path": "Misc/Misc.md"
+    },
+    {
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
+    },
+    {
       "basename": "2025-05-02",
       "path": "Diary/2025-05-02.md"
     },
@@ -10,15 +18,11 @@
     },
     {
       "basename": "English Prenstation",
-      "path": "misc/Course/English Prenstation.md"
-    },
-    {
-      "basename": "misc",
-      "path": "misc/misc.md"
+      "path": "Misc/Course/English Prenstation.md"
     },
     {
       "basename": "常用指令",
-      "path": "misc/常用指令/常用指令.md"
+      "path": "Misc/常用指令/常用指令.md"
     },
     {
       "basename": "Oracle_Audit",
@@ -138,7 +142,7 @@
     },
     {
       "basename": "决策",
-      "path": "misc/Social Skills/决策.md"
+      "path": "Misc/Social Skills/决策.md"
     },
     {
       "basename": "2025-04-16",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-03-16",
       "path": "Daliy/Diary/2025-03-16.md"
-    },
-    {
-      "basename": "2025-03-09",
-      "path": "Daliy/Diary/2025-03-09.md"
     }
   ],
   "omittedPaths": [],

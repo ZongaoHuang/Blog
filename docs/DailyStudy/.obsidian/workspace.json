@@ -95,14 +95,12 @@
             "id": "8cf9584983364f67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Diary/2025-05-02.md",
-                "mode": "source",
-                "source": true
+                "path": "Misc"
               },
               "icon": "lucide-file",
-              "title": "2025-05-02"
+              "title": "Misc"
             }
           }
         ],
@@ -170,7 +168,7 @@
             }
           },
           {
-            "id": "dec500b325b3b6ce",
+            "id": "8ba0dbb4e840179a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -395,8 +393,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8cf9584983364f67",
+  "active": "45bb2c6c62c0e04a",
   "lastOpenFiles": [
+    "Misc/Misc.md",
+    "Diary/Diary.md",
+    "Diary/2025-05-02.md",
+    "Daliy/Daliy.md",
     "Diary/attachments/attachments/Pasted image 20231008221842.png",
     "Diary/attachments/attachments/Pasted image 20231008221842 1.png",
     "Diary/attachments/attachments/Pasted image 20231008221818.png",
@@ -411,14 +413,12 @@
     "Diary/attachments/Pasted image 20250404162309.png",
     "Diary/attachments/Pasted image 20250309210651.png",
     "Diary/attachments/Pasted image 20250113192839.png",
-    "Diary/attachments/Pasted image 20241212164449.png",
     "Diary/attachments/Pasted image 20231008221842.png.md",
     "Diary/attachments/Pasted image 20231008191904.png.md",
     "Diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
     "Diary/attachments/jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Diary/attachments/attachments",
     "Diary/attachments",
-    "Diary/2025-05-02.md",
     "Diary/2025-05-01.md",
     "Diary/2025-04-30.md",
     "Diary/2025-04-28.md",
@@ -437,11 +437,9 @@
     "Diary/2025-04-05.md",
     "Diary/2025-04-03.md",
     "Diary/2025-04-02.md",
-    "Diary/2025-03-31.md",
-    "Diary/2025-03-27.md",
     "Diary",
     "Language/Linux",
-    "misc",
+    "Misc",
     "FinalSearch/资料",
     "未命名.canvas"
   ]

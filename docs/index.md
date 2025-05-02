@@ -25,7 +25,7 @@ features:
   - icon: 📖
     title: 日常笔记
     details: 记录日常学习和工作中的一些知识点<br />包括一些常用的命令和技巧
-    link: /DailyStudy/Daliy/Diary
+    link: /DailyStudy/Diary
     linkText: 日常笔记
   - icon: 📘
     title: 源码阅读
@@ -40,17 +40,17 @@ features:
   - icon: 🧰
     title: 提效工具
     details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
-    link: /efficiency/online-tools
+    link: /DailyStudy/Tools
     linkText: 提效工具
   - icon: 🐞
     title: 踩坑记录
     details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
-    link: /pit/npm
+    link: /DailyStudy/npm
     linkText: 踩坑记录
   - icon: 📝
     title: 杂
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
-    link: /mao
+    details: 一些杂七杂八的东西<br />包括一些有趣的项目和文章
+    link: /DailyStudy/Misc
 ---
 
 <HomeUnderline />
