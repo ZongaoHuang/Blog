@@ -2,19 +2,71 @@
   "recentFiles": [
     {
       "basename": "2025-05-02",
-      "path": "Daliy/Diary/2025-05-02.md"
+      "path": "Diary/2025-05-02.md"
+    },
+    {
+      "basename": "Daliy",
+      "path": "Daliy/Daliy.md"
+    },
+    {
+      "basename": "English Prenstation",
+      "path": "misc/Course/English Prenstation.md"
     },
     {
       "basename": "misc",
       "path": "misc/misc.md"
     },
     {
+      "basename": "常用指令",
+      "path": "misc/常用指令/常用指令.md"
+    },
+    {
       "basename": "Oracle_Audit",
-      "path": "Linux/常用指令/Oracle_Audit.md"
+      "path": "Language/Linux/Oracle_Audit.md"
+    },
+    {
+      "basename": "LeetCode 笔记",
+      "path": "Language/C++/LeetCode 笔记.md"
+    },
+    {
+      "basename": "Study1",
+      "path": "Language/GO/Basic/Study1.md"
+    },
+    {
+      "basename": "YouTube Python Tutorial",
+      "path": "Language/Python/YouTube Python Tutorial.md"
+    },
+    {
+      "basename": "第一部分 基础知识",
+      "path": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md"
+    },
+    {
+      "basename": "Python3菜鸟学习",
+      "path": "Language/Python/Python3菜鸟学习.md"
+    },
+    {
+      "basename": "Ollama学习",
+      "path": "AI/Ollama学习.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
+      "basename": "Tools Template",
+      "path": "Template/Tools Template.md"
     },
     {
       "basename": "FinalSearch",
       "path": "FinalSearch/FinalSearch.md"
+    },
+    {
+      "basename": "2025-05-02",
+      "path": "Daliy/Diary/2025-05-02.md"
+    },
+    {
+      "basename": "Oracle_Audit",
+      "path": "Linux/常用指令/Oracle_Audit.md"
     },
     {
       "basename": "2025-05-01",
@@ -53,10 +105,6 @@
       "path": "Daliy/Diary/2025-04-23.md"
     },
     {
-      "basename": "Ollama学习",
-      "path": "AI/Ollama学习.md"
-    },
-    {
       "basename": "Google Agents 白皮书",
       "path": "FinalSearch/资料/Google Agents 白皮书.md"
     },
@@ -77,22 +125,6 @@
       "path": "FinalSearch/开题报告/开题答辩PPT第一版.md"
     },
     {
-      "basename": "YouTube Python Tutorial",
-      "path": "Language/Python/YouTube Python Tutorial.md"
-    },
-    {
-      "basename": "Python3菜鸟学习",
-      "path": "Language/Python/Python3菜鸟学习.md"
-    },
-    {
-      "basename": "第一部分 基础知识",
-      "path": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md"
-    },
-    {
-      "basename": "Study1",
-      "path": "Language/GO/Basic/Study1.md"
-    },
-    {
       "basename": "开题报告第一版",
       "path": "FinalSearch/开题报告/开题报告第一版.md"
     },
@@ -106,7 +138,7 @@
     },
     {
       "basename": "决策",
-      "path": "Daliy/Social Skills/决策.md"
+      "path": "misc/Social Skills/决策.md"
     },
     {
       "basename": "2025-04-16",
@@ -167,38 +199,6 @@
     {
       "basename": "2025-03-09",
       "path": "Daliy/Diary/2025-03-09.md"
-    },
-    {
-      "basename": "2024-06-17",
-      "path": "Daliy/Diary/2024-06-17.md"
-    },
-    {
-      "basename": "2025-03-14",
-      "path": "Daliy/Diary/2025-03-14.md"
-    },
-    {
-      "basename": "2025-03-21",
-      "path": "Daliy/Diary/2025-03-21.md"
-    },
-    {
-      "basename": "2025-03-23",
-      "path": "Daliy/Diary/2025-03-23.md"
-    },
-    {
-      "basename": "2025-03-25",
-      "path": "Daliy/Diary/2025-03-25.md"
-    },
-    {
-      "basename": "2025-03-18",
-      "path": "Daliy/Diary/2025-03-18.md"
-    },
-    {
-      "basename": "2025-03-19",
-      "path": "Daliy/Diary/2025-03-19.md"
-    },
-    {
-      "basename": "2025-03-27",
-      "path": "Daliy/Diary/2025-03-27.md"
     }
   ],
   "omittedPaths": [],
