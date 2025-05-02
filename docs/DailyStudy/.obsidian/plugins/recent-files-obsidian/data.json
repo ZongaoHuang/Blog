@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "杂项记录",
-      "path": "杂项记录.md"
+      "basename": "2025-05-02",
+      "path": "Daliy/Diary/2025-05-02.md"
     },
     {
-      "basename": "2025-05-01",
-      "path": "Daliy/Diary/2025-05-01.md"
+      "basename": "misc",
+      "path": "misc/misc.md"
+    },
+    {
+      "basename": "Oracle_Audit",
+      "path": "Linux/常用指令/Oracle_Audit.md"
     },
     {
       "basename": "FinalSearch",
       "path": "FinalSearch/FinalSearch.md"
+    },
+    {
+      "basename": "2025-05-01",
+      "path": "Daliy/Diary/2025-05-01.md"
     },
     {
       "basename": "集成的Agent",
@@ -113,10 +121,6 @@
       "path": "Daliy/Diary/2025-04-15.md"
     },
     {
-      "basename": "Oracle_Audit",
-      "path": "Linux/常用指令/Oracle_Audit.md"
-    },
-    {
       "basename": "2025-04-14",
       "path": "Daliy/Diary/2025-04-14.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-03-27",
       "path": "Daliy/Diary/2025-03-27.md"
-    },
-    {
-      "basename": "2025-03-31",
-      "path": "Daliy/Diary/2025-03-31.md"
     }
   ],
   "omittedPaths": [],

@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项记录.md",
-                "mode": "preview",
+                "file": "Daliy/Diary/2025-05-02.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "杂项记录"
+              "title": "2025-05-02"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "72333cc3b7ce4d52",
+            "id": "950b320084910514",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -395,12 +395,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "72333cc3b7ce4d52",
+  "active": "8cf9584983364f67",
   "lastOpenFiles": [
-    "杂项记录.md",
+    "misc/misc.md",
     "Daliy/Diary/2025-05-02.md",
-    "Daliy/Diary/2025-05-01.md",
+    "misc",
+    "misc.md",
+    "Linux/常用指令/Oracle_Audit.md",
+    "Vault.md",
     "FinalSearch/FinalSearch.md",
+    "Daliy/Diary/2025-05-01.md",
     "FinalSearch/集成的Agent.md",
     "Daliy/Diary/2025-04-30.md",
     "Daliy/Diary/2025-04-27.md",
@@ -422,9 +426,6 @@
     "markdown-examples.md",
     "Language/Python/YouTube Python Tutorial.md",
     "FinalSearch/开题报告",
-    "Language/Python/Python3菜鸟学习.md",
-    "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md",
-    "Language/GO/Basic/Study1.md",
     "Daliy/Diary/attachments/Pasted image 20250415164927.png",
     "Daliy/Diary/attachments/1744619690874_d.png",
     "Daliy/Diary/attachments/1743756593141_d.png",
@@ -442,7 +443,6 @@
     "Tags",
     "Daliy/Diary/attachments/~$jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
-    "Daliy/Diary/attachments/Smart Contract Security 1.pdf",
     "未命名.canvas"
   ]
 }
