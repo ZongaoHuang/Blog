@@ -48,7 +48,7 @@ features:
     link: /pit/npm
     linkText: 踩坑记录
   - icon: 📝
-    title: 杂项记录。
+    title: 杂
     details: '<small class="bottom-small">一个想躺平的小开发</small>'
     link: /mao
 ---

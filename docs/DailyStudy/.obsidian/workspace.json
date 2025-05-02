@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "杂项记录.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "杂项记录"
             }
           }
         ],
@@ -395,9 +395,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8cf9584983364f67",
+  "active": "72333cc3b7ce4d52",
   "lastOpenFiles": [
-    "未命名.md",
+    "杂项记录.md",
     "Daliy/Diary/2025-05-02.md",
     "Daliy/Diary/2025-05-01.md",
     "FinalSearch/FinalSearch.md",
@@ -442,4 +442,7 @@
     "Tags",
     "Daliy/Diary/attachments/~$jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
     "Daliy/Diary/attachments/jiayi-LLM-based Code Deobfuscation for JavaScript.pptx",
-    "Daliy/Diary/attachments/Smart Contract Secur
+    "Daliy/Diary/attachments/Smart Contract Security 1.pdf",
+    "未命名.canvas"
+  ]
+}
