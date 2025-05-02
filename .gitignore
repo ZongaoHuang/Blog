@@ -1,4 +1,4 @@
 node_modules
-DailyStudy/.vitepress/dist
-DailyStudy/.vitepress/cache
+.vitepress/dist
+.vitepress/cache
 .history

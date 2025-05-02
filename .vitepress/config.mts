@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "DailyStudy",
-  description: "DailyStudy",
+  title: "Blob",
+  description: "AoSnow Blob",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,8 +24,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-    
-  },
-
-  base: '/DailyStudy/' 
+  }
 })
