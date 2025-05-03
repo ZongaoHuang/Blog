@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Dairy Template.md",
+                "file": "Diary/2025-05-03.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dairy Template"
+              "title": "2025-05-03"
             }
           }
         ],
@@ -173,10 +173,13 @@
             "id": "52f7f06d4946baa8",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -292,13 +295,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Dairy Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dairy Template 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -392,8 +394,8 @@
   },
   "active": "8cf9584983364f67",
   "lastOpenFiles": [
-    "Template/Tools Template.md",
     "Template/Dairy Template.md",
+    "Template/Tools Template.md",
     "Diary/2025-05-03.md",
     "SourceCode/SourceCode.md",
     "Workflow/Workflow.md",
