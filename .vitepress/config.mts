@@ -130,45 +130,6 @@ export default defineConfig({
     //导航栏
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '🍉指南',
-        items: [
-          {
-            // 分组标题1
-            text: '介绍',
-            items: [
-              { text: '前言', link: '/preface' },
-            ],
-          },
-          {
-            // 分组标题2
-            text: '基础设置',
-            items: [
-              { text: '快速上手', link: '/getting-started' },
-              { text: '配置', link: '/configuration' },
-              { text: '页面', link: '/page' },
-              { text: 'Frontmatter', link: '/frontmatter' },
-            ],
-          },
-          {
-            // 分组标题3
-            text: '进阶玩法',
-            items: [
-              { text: 'Markdown', link: '/markdown' },
-              { text: '团队', link: '/team' },
-              { text: '多语言', link: '/multi-language' },
-              { text: 'DocSearch', link: '/docsearch' },
-              { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '布局插槽', link: '/layout' },
-              { text: '插件', link: '/plugin' },
-              { text: '更新及卸载', link: '/update' },
-              { text: '搭建导航', link: '/nav/' },
-            ],
-          },
-        ],
-      },
     ],
 
 
@@ -176,46 +137,46 @@ export default defineConfig({
     sidebar: generateSidebar([
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/Misc',
-        resolvePath: '/DailyStudy/Misc/',
+        scanStartPath: 'Misc',
+        resolvePath: '/Misc/',
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/Diary',
-        resolvePath: '/DailyStudy/Diary/',
+        scanStartPath: 'Diary',
+        resolvePath: '/Diary/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/Npm',
-        resolvePath: '/DailyStudy/Npm/',
+        scanStartPath: 'Npm',
+        resolvePath: '/Npm/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/Tools',
-        resolvePath: '/DailyStudy/Tools/',
+        scanStartPath: 'Tools',
+        resolvePath: '/Tools/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/Workflow',
-        resolvePath: '/DailyStudy/Workflow/',
+        scanStartPath: 'Workflow',
+        resolvePath: '/Workflow/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/SourceCode',
-        resolvePath: '/DailyStudy/SourceCode/',
+        scanStartPath: 'SourceCode',
+        resolvePath: '/SourceCode/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],

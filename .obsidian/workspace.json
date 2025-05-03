@@ -165,12 +165,12 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
-            "id": "9351a1cbc19774e6",
+            "id": "83daf5620b4078b0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -344,10 +344,14 @@
             "id": "949d127c27a644f3",
             "type": "leaf",
             "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2025-05-03.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-03"
             }
           },
           {
@@ -366,12 +370,32 @@
             "state": {
               "type": "todo",
               "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "db27c58394828f2a",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "eddf9075631133b5",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
           },
           {
-            "id": "db27c58394828f2a",
+            "id": "16f908340455c2af",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -409,7 +433,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "949d127c27a644f3",
+  "active": "eddf9075631133b5",
   "lastOpenFiles": [
     "Diary/attachments/Pasted image 20250503201142.png",
     "public/Pasted image 20250503201055.png",
