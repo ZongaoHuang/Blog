@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "83daf5620b4078b0",
+            "id": "9579fd84f8386e59",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -179,8 +179,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -435,13 +434,16 @@
   },
   "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "Diary/attachments/Pasted image 20250503204340.png",
+    "Diary/attachments/Smart Contract Security.pdf",
+    "Diary/2025-05-03.md",
+    "Diary/Diary.md",
     "Diary/attachments/Pasted image 20250503203718.png",
     "Diary/attachments/Pasted image 20250503201142.png",
     "public/Pasted image 20250503201055.png",
     "public/Pasted image 20250503165255.png",
     "public",
     "Diary/attachments/Pasted image 20250503154505.png",
-    "Diary/2025-05-03.md",
     "Template/Dairy Template.md",
     "Template/Tools Template.md",
     "SourceCode/SourceCode.md",
@@ -454,7 +456,6 @@
     "SourceCode",
     "Workflow",
     "Npm",
-    "Diary/Diary.md",
     "Daliy/Daliy.md",
     "Diary/attachments/attachments/Pasted image 20231008221842.png",
     "Diary/attachments/attachments/Pasted image 20231008221842 1.png",
@@ -463,9 +464,7 @@
     "Diary/attachments/attachments/Pasted image 20231008191904.png",
     "Diary/attachments/三级头招新.md",
     "Diary/attachments/三级头招新 1.md",
-    "Diary/attachments/Smart Contract Security.pdf",
     "Diary/attachments/Smart Contract Security 1.pdf",
-    "Diary/attachments/Pasted image 20250415164927.png",
     "Diary/attachments/Pasted image 20231008221842.png.md",
     "Diary/attachments/Pasted image 20231008191904.png.md",
     "Diary/attachments/OCA_OCP Oracle Database 11g All-in-One Exam Guide with CD-ROM_ Exams 1Z0-051, 1Z0-052, 1Z0-053 (Osborne ORACLE Press Series) - PDF Room.pdf",
