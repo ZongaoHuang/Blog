@@ -5,7 +5,7 @@ import {
 import {
   getRegisteredLayoutAlgorithm,
   render
-} from "./chunk-SLNQXFL7.js";
+} from "./chunk-AERK5EPU.js";
 import {
   getEdgeId,
   utils_default
@@ -1937,4 +1937,4 @@ export {
   styles_default,
   classRenderer_v3_unified_default
 };
-//# sourceMappingURL=chunk-26QOKAT5.js.map
+//# sourceMappingURL=chunk-SSKI4EIG.js.map

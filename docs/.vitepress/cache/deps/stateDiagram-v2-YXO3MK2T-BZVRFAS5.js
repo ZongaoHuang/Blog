@@ -1,11 +1,11 @@
 import {
-  ClassDB,
-  classDiagram_default,
-  classRenderer_v3_unified_default,
+  StateDB,
+  stateDiagram_default,
+  stateRenderer_v3_unified_default,
   styles_default
-} from "./chunk-26QOKAT5.js";
+} from "./chunk-6PVNUCK4.js";
 import "./chunk-OQUMAJZT.js";
-import "./chunk-SLNQXFL7.js";
+import "./chunk-AERK5EPU.js";
 import "./chunk-YRFN2NMJ.js";
 import "./chunk-23GUOSIF.js";
 import "./chunk-BXNWIJHD.js";
@@ -20,22 +20,22 @@ import {
 import "./chunk-5WV6JA3U.js";
 import "./chunk-FDBJFBLO.js";
 
-// node_modules/.pnpm/mermaid@11.6.0/node_modules/mermaid/dist/chunks/mermaid.core/classDiagram-v2-COTLJTTW.mjs
+// node_modules/.pnpm/mermaid@11.6.0/node_modules/mermaid/dist/chunks/mermaid.core/stateDiagram-v2-YXO3MK2T.mjs
 var diagram = {
-  parser: classDiagram_default,
+  parser: stateDiagram_default,
   get db() {
-    return new ClassDB();
+    return new StateDB(2);
   },
-  renderer: classRenderer_v3_unified_default,
+  renderer: stateRenderer_v3_unified_default,
   styles: styles_default,
   init: __name((cnf) => {
-    if (!cnf.class) {
-      cnf.class = {};
+    if (!cnf.state) {
+      cnf.state = {};
     }
-    cnf.class.arrowMarkerAbsolute = cnf.arrowMarkerAbsolute;
+    cnf.state.arrowMarkerAbsolute = cnf.arrowMarkerAbsolute;
   }, "init")
 };
 export {
   diagram
 };
-//# sourceMappingURL=classDiagram-v2-COTLJTTW-GTI7H2V3.js.map
+//# sourceMappingURL=stateDiagram-v2-YXO3MK2T-BZVRFAS5.js.map

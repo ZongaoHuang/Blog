@@ -48,7 +48,9 @@
     "//misc/misc/常用指令",
     "//Daliy",
     "//misc",
-    "//Tags"
+    "//Tags",
+    "//Workflow",
+    "//Npm"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

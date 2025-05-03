@@ -9,7 +9,6 @@ import {
   isUndefined_default,
   map_default
 } from "./chunk-46Y37KHS.js";
-import "./chunk-SVROXNIC.js";
 import {
   clear as clear3,
   insertEdge,
@@ -39,6 +38,7 @@ import {
   getConfig2,
   log
 } from "./chunk-57ANFVGG.js";
+import "./chunk-SVROXNIC.js";
 import "./chunk-5WV6JA3U.js";
 import "./chunk-FDBJFBLO.js";
 
@@ -736,4 +736,4 @@ var render = __name(async (data4Layout, svg) => {
 export {
   render
 };
-//# sourceMappingURL=dagre-OKDRZEBW-ZREFZMP5.js.map
+//# sourceMappingURL=dagre-OKDRZEBW-G4GUJXJR.js.map

@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-02.md",
+                "file": "Diary/2025-05-03.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-02"
+              "title": "2025-05-03"
             }
           }
         ],
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "7ee1f0fce6809f42",
+            "id": "a563686a30edf94e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -397,13 +397,14 @@
   },
   "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "Diary/2025-05-03.md",
+    "Misc/Misc.md",
+    "Diary/2025-05-02.md",
     "Tags",
     "SourceCode",
     "Workflow",
     "Npm",
-    "Misc/Misc.md",
     "Diary/Diary.md",
-    "Diary/2025-05-02.md",
     "Daliy/Daliy.md",
     "Diary/attachments/attachments/Pasted image 20231008221842.png",
     "Diary/attachments/attachments/Pasted image 20231008221842 1.png",
@@ -442,7 +443,6 @@
     "Diary/2025-04-07.md",
     "Diary/2025-04-05.md",
     "Diary/2025-04-03.md",
-    "Diary",
     "未命名.canvas"
   ]
 }

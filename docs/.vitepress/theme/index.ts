@@ -33,7 +33,7 @@ import MouseFollower from "./components/MouseFollower.vue"
 
 // 不蒜子
 import { inBrowser } from 'vitepress'
-import busuanzi from 'busuanzi.pure.js'
+// import busuanzi from 'busuanzi.pure.js'
 import bsz from "./components/bsz.vue"
 
 // 彩虹背景动画样式
@@ -56,22 +56,28 @@ export default {
     app.component('MouseFollower', MouseFollower) //鼠标跟随组件
 
     // 不蒜子
-    if (inBrowser) {
-      NProgress.configure({ showSpinner: false })
-      router.onBeforeRouteChange = () => {
-        NProgress.start() // 开始进度条
-      }
-      router.onAfterRouteChange = () => {
-         busuanzi.fetch()
-         NProgress.done() // 停止进度条
-       }
-    }
+    // if (inBrowser) {
+    //   NProgress.configure({ showSpinner: false })
+    //   router.onBeforeRouteChange = () => {
+    //     NProgress.start() // 开始进度条
+    //   }
+    //   router.onAfterRouteChange = () => {
+    //      busuanzi.fetch()
+    //      NProgress.done() // 停止进度条
+    //    }
+    // }
 
     // 彩虹背景动画样式
     if (typeof window !== 'undefined') {
       watch(
-        () => router.route.data.relativePath,
-        () => updateHomePageStyle(location.pathname === '/'),
+        // 监听路由对象的 path 变化更可靠
+        () => router.route.path, // [!code focus]
+        (newPath) => { // [!code focus]
+          // console.log('Current route path:', newPath); // 添加日志方便调试
+          // console.log('Current location.pathname:', location.pathname); // 添加日志方便调试
+          // console.log('Current relativePath:', router.route.data.relativePath); // 添加日志方便调试
+          updateHomePageStyle(newPath === '/Blog/'); // 使用 router.route.path 判断 [!code focus]
+        },
         { immediate: true },
       )
     }

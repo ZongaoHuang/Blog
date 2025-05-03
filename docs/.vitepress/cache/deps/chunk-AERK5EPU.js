@@ -43,7 +43,7 @@ var registerDefaultLayoutLoaders = __name(() => {
   registerLayoutLoaders([
     {
       name: "dagre",
-      loader: __name(async () => await import("./dagre-OKDRZEBW-ZREFZMP5.js"), "loader")
+      loader: __name(async () => await import("./dagre-OKDRZEBW-G4GUJXJR.js"), "loader")
     }
   ]);
 }, "registerDefaultLayoutLoaders");
@@ -74,4 +74,4 @@ export {
   render,
   getRegisteredLayoutAlgorithm
 };
-//# sourceMappingURL=chunk-SLNQXFL7.js.map
+//# sourceMappingURL=chunk-AERK5EPU.js.map

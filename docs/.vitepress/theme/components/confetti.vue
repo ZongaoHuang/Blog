@@ -48,3 +48,6 @@ function randomInRange(min, max) {
 
 }
 </script>
+<template>
+    
+</template>

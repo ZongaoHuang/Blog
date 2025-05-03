@@ -5,7 +5,7 @@ import {
 import {
   getRegisteredLayoutAlgorithm,
   render
-} from "./chunk-SLNQXFL7.js";
+} from "./chunk-AERK5EPU.js";
 import "./chunk-YRFN2NMJ.js";
 import "./chunk-23GUOSIF.js";
 import "./chunk-BXNWIJHD.js";
@@ -1269,4 +1269,4 @@ var diagram = {
 export {
   diagram
 };
-//# sourceMappingURL=erDiagram-Q7BY3M3F-X3MMQBYL.js.map
+//# sourceMappingURL=erDiagram-Q7BY3M3F-M5O6FUHL.js.map

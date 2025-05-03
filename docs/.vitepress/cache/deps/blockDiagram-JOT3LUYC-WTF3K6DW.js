@@ -4,7 +4,6 @@ import {
 import {
   clone_default
 } from "./chunk-46Y37KHS.js";
-import "./chunk-SVROXNIC.js";
 import {
   getLineFunctionsWithOffset
 } from "./chunk-23GUOSIF.js";
@@ -37,6 +36,7 @@ import {
   sanitizeText,
   select_default
 } from "./chunk-57ANFVGG.js";
+import "./chunk-SVROXNIC.js";
 import "./chunk-5WV6JA3U.js";
 import "./chunk-FDBJFBLO.js";
 
@@ -3722,4 +3722,4 @@ var diagram = {
 export {
   diagram
 };
-//# sourceMappingURL=blockDiagram-JOT3LUYC-E4HTMBO6.js.map
+//# sourceMappingURL=blockDiagram-JOT3LUYC-WTF3K6DW.js.map
