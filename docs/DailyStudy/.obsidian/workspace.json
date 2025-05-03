@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-03.md",
+                "file": "Template/Dairy Template.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-03"
+              "title": "Dairy Template"
             }
           }
         ],
@@ -292,12 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Template/Dairy Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Dairy Template 的大纲"
             }
           },
           {
@@ -389,8 +390,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "bf88ba9705466e8a",
+  "active": "8cf9584983364f67",
   "lastOpenFiles": [
+    "Template/Tools Template.md",
+    "Template/Dairy Template.md",
     "Diary/2025-05-03.md",
     "SourceCode/SourceCode.md",
     "Workflow/Workflow.md",
@@ -435,8 +438,6 @@
     "Diary/2025-04-15.md",
     "Diary/2025-04-14.md",
     "Diary/2025-04-13.md",
-    "Diary/2025-04-12.md",
-    "Diary/2025-04-11.md",
     "未命名.canvas"
   ]
 }

@@ -1,7 +1,8 @@
-# Daily Plan
+# Daily
+## Daily Plan
 #todo
 - [ ] 
 - [ ] 
-# Daily Study
+## Daily Study
 
-# Daily Problem
+## Daily Problem
