@@ -175,46 +175,46 @@ export default defineConfig({
     //侧边栏,，参照插件：https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar([
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/Misc/Misc',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/Misc',
         resolvePath: '/DailyStudy/Misc/',
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/Diary/Diary',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/Diary',
         resolvePath: '/DailyStudy/Diary/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/Npm/Npm',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/Npm',
         resolvePath: '/DailyStudy/Npm/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/Tools/Tools',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/Tools',
         resolvePath: '/DailyStudy/Tools/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/Workflow/Workflow',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/Workflow',
         resolvePath: '/DailyStudy/Workflow/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/Blog', //文档根目录
-        scanStartPath: 'DailyStudy/SourceCode/SourceCode',
+        documentRootPath: '/docs', //文档根目录
+        scanStartPath: 'DailyStudy/SourceCode',
         resolvePath: '/DailyStudy/SourceCode/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
