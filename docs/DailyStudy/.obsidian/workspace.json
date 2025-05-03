@@ -170,16 +170,13 @@
             }
           },
           {
-            "id": "52f7f06d4946baa8",
+            "id": "dcad03cfd59d5659",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -363,7 +360,8 @@
               "title": "Timeline"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -392,11 +390,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8cf9584983364f67",
+  "active": "949d127c27a644f3",
   "lastOpenFiles": [
+    "Diary/2025-05-03.md",
     "Template/Dairy Template.md",
     "Template/Tools Template.md",
-    "Diary/2025-05-03.md",
     "SourceCode/SourceCode.md",
     "Workflow/Workflow.md",
     "Tools/Tools.md",
