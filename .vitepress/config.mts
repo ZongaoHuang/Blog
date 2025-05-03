@@ -176,8 +176,8 @@ export default defineConfig({
     sidebar: generateSidebar([
       {
         documentRootPath: '/', //文档根目录
-        scanStartPath: 'DailyStudy/misc',
-        resolvePath: '/DailyStudy/misc/',
+        scanStartPath: 'DailyStudy/Misc',
+        resolvePath: '/DailyStudy/Misc/',
         excludePattern: ['attachments/'],
       },
       {
