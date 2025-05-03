@@ -76,7 +76,7 @@ export default {
           // console.log('Current route path:', newPath); // 添加日志方便调试
           // console.log('Current location.pathname:', location.pathname); // 添加日志方便调试
           // console.log('Current relativePath:', router.route.data.relativePath); // 添加日志方便调试
-          updateHomePageStyle(newPath === '/'); // 使用 router.route.path 判断 [!code focus]
+          updateHomePageStyle(newPath === '/Blog/'); // 使用 router.route.path 判断 [!code focus]
         },
         { immediate: true },
       )
