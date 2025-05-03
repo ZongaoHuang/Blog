@@ -179,8 +179,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -390,7 +389,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "949d127c27a644f3",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "Diary/2025-05-03.md",
     "Template/Dairy Template.md",
