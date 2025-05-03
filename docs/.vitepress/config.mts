@@ -176,13 +176,13 @@ export default defineConfig({
     sidebar: generateSidebar([
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/Misc',
+        scanStartPath: 'DailyStudy/Misc/Misc',
         resolvePath: '/DailyStudy/Misc/',
         excludePattern: ['attachments/'],
       },
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/Diary',
+        scanStartPath: 'DailyStudy/Diary/Diary',
         resolvePath: '/DailyStudy/Diary/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
@@ -190,7 +190,7 @@ export default defineConfig({
       },
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/Npm',
+        scanStartPath: 'DailyStudy/Npm/Npm',
         resolvePath: '/DailyStudy/Npm/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
@@ -198,7 +198,7 @@ export default defineConfig({
       },
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/Tools',
+        scanStartPath: 'DailyStudy/Tools/Tools',
         resolvePath: '/DailyStudy/Tools/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
@@ -206,7 +206,7 @@ export default defineConfig({
       },
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/Workflow',
+        scanStartPath: 'DailyStudy/Workflow/Workflow',
         resolvePath: '/DailyStudy/Workflow/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
@@ -214,7 +214,7 @@ export default defineConfig({
       },
       {
         documentRootPath: '/docs', //文档根目录
-        scanStartPath: 'DailyStudy/SourceCode',
+        scanStartPath: 'DailyStudy/SourceCode/SourceCode',
         resolvePath: '/DailyStudy/SourceCode/',
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,

@@ -200,8 +200,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -272,8 +272,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -282,8 +282,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -292,13 +292,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daliy/Diary/2025-04-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-04-14 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -307,8 +306,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           },
           {
@@ -325,14 +324,10 @@
             "id": "fce1abaa6677f5de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2025-05-02.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-05-02"
+              "title": "新标签页"
             }
           },
           {
@@ -365,8 +360,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "horizontal",
@@ -395,9 +389,13 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8cf9584983364f67",
+  "active": "bf88ba9705466e8a",
   "lastOpenFiles": [
     "Diary/2025-05-03.md",
+    "SourceCode/SourceCode.md",
+    "Workflow/Workflow.md",
+    "Tools/Tools.md",
+    "Npm/Npm.md",
     "Misc/Misc.md",
     "Diary/2025-05-02.md",
     "Tags",
@@ -439,10 +437,6 @@
     "Diary/2025-04-13.md",
     "Diary/2025-04-12.md",
     "Diary/2025-04-11.md",
-    "Diary/2025-04-10.md",
-    "Diary/2025-04-07.md",
-    "Diary/2025-04-05.md",
-    "Diary/2025-04-03.md",
     "未命名.canvas"
   ]
 }
