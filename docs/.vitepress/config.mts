@@ -175,13 +175,13 @@ export default defineConfig({
     //侧边栏,，参照插件：https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar([
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/Misc/Misc',
         resolvePath: '/DailyStudy/Misc/',
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/Diary/Diary',
         resolvePath: '/DailyStudy/Diary/',
         sortMenusByFrontmatterDate: true,
@@ -189,7 +189,7 @@ export default defineConfig({
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/Npm/Npm',
         resolvePath: '/DailyStudy/Npm/',
         sortMenusByFrontmatterDate: true,
@@ -197,7 +197,7 @@ export default defineConfig({
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/Tools/Tools',
         resolvePath: '/DailyStudy/Tools/',
         sortMenusByFrontmatterDate: true,
@@ -205,7 +205,7 @@ export default defineConfig({
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/Workflow/Workflow',
         resolvePath: '/DailyStudy/Workflow/',
         sortMenusByFrontmatterDate: true,
@@ -213,7 +213,7 @@ export default defineConfig({
         excludePattern: ['attachments/'],
       },
       {
-        documentRootPath: '/docs', //文档根目录
+        documentRootPath: '/Blog', //文档根目录
         scanStartPath: 'DailyStudy/SourceCode/SourceCode',
         resolvePath: '/DailyStudy/SourceCode/',
         sortMenusByFrontmatterDate: true,
