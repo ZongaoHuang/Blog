@@ -16,7 +16,7 @@
   "readableLineLength": true,
   "showIndentGuide": true,
   "autoConvertHtml": true,
-  "livePreview": false,
+  "livePreview": true,
   "showLineNumber": false,
   "foldIndent": true,
   "useTab": true,
@@ -25,6 +25,6 @@
   "foldHeading": true,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true
 }

@@ -11,28 +11,20 @@
             "id": "457706dea19a1b81",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2025-01-29.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-01-29"
+              "title": "新标签页"
             }
           },
           {
             "id": "663f22b3feb9c158",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2025-01-14.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-01-14"
+              "title": "新标签页"
             }
           },
           {
@@ -41,72 +33,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daliy/Diary/2025-02-18.md",
+                "file": "Diary/2025-05-03.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-18"
-            }
-          },
-          {
-            "id": "b8411b68c733bf23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security/项目/1.2 数据库审计.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "1.2 数据库审计"
-            }
-          },
-          {
-            "id": "170239b6d2db2a2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2025-03-09.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-03-09"
+              "title": "2025-05-03"
             }
           },
           {
             "id": "fb23740ffae01f0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daliy/Diary/2025-04-23.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-04-23"
+              "title": "新标签页"
             }
           },
           {
             "id": "8cf9584983364f67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Diary/2025-05-03.md",
-                "mode": "source",
-                "source": true
+                "file": "Diary/attachments/Pasted image 20241212163751.png"
               },
-              "icon": "lucide-file",
-              "title": "2025-05-03"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241212163751"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +137,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -347,7 +306,7 @@
               "state": {
                 "file": "Diary/2025-05-03.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "2025-05-03"
@@ -432,18 +391,23 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8cf9584983364f67",
+  "active": "3986a965a54d440f",
   "lastOpenFiles": [
+    "Diary/attachments/Pasted image 20250503210640.png",
+    "Diary/attachments/Pasted image 20250503210546.png",
+    "Diary/2025-05-03.md",
+    "Diary/attachments/Pasted image 20250113192839.png",
+    "Diary/attachments/Pasted image 20241212163751.png",
+    "Diary/attachments/Pasted image 20250503204935.png",
+    "Diary/attachments/Pasted image 20250503204933.png",
+    "Diary/attachments/Pasted image 20250503204629.png",
+    "Diary/attachments/Pasted image 20250503204530.png",
     "Diary/attachments/Pasted image 20250503204340.png",
     "Diary/attachments/Smart Contract Security.pdf",
-    "Diary/2025-05-03.md",
     "Diary/Diary.md",
     "Diary/attachments/Pasted image 20250503203718.png",
     "Diary/attachments/Pasted image 20250503201142.png",
-    "public/Pasted image 20250503201055.png",
-    "public/Pasted image 20250503165255.png",
     "public",
-    "Diary/attachments/Pasted image 20250503154505.png",
     "Template/Dairy Template.md",
     "Template/Tools Template.md",
     "SourceCode/SourceCode.md",
@@ -457,11 +421,6 @@
     "Workflow",
     "Npm",
     "Daliy/Daliy.md",
-    "Diary/attachments/attachments/Pasted image 20231008221842.png",
-    "Diary/attachments/attachments/Pasted image 20231008221842 1.png",
-    "Diary/attachments/attachments/Pasted image 20231008221818.png",
-    "Diary/attachments/attachments/Pasted image 20231008221818 1.png",
-    "Diary/attachments/attachments/Pasted image 20231008191904.png",
     "Diary/attachments/三级头招新.md",
     "Diary/attachments/三级头招新 1.md",
     "Diary/attachments/Smart Contract Security 1.pdf",

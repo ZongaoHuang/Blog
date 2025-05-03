@@ -5,6 +5,18 @@
       "path": "Diary/2025-05-03.md"
     },
     {
+      "basename": "Pasted image 20250113192839",
+      "path": "Diary/attachments/Pasted image 20250113192839.png"
+    },
+    {
+      "basename": "Pasted image 20241212163751",
+      "path": "Diary/attachments/Pasted image 20241212163751.png"
+    },
+    {
+      "basename": "Pasted image 20250503204935",
+      "path": "Diary/attachments/Pasted image 20250503204935.png"
+    },
+    {
       "basename": "Smart Contract Security",
       "path": "Diary/attachments/Smart Contract Security.pdf"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "手机作电脑摄像头",
       "path": "Tools/手机作电脑摄像头.md"
-    },
-    {
-      "basename": "中国软件著作权代码自动提取工具",
-      "path": "Tools/中国软件著作权代码自动提取工具.md"
-    },
-    {
-      "basename": "统计项目总代码量",
-      "path": "Tools/统计项目总代码量.md"
-    },
-    {
-      "basename": "2023-10-16",
-      "path": "Daliy/Diary/2023-10-16.md"
     }
   ],
   "omittedPaths": [],
