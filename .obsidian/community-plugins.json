@@ -30,5 +30,10 @@
   "highlightr-plugin",
   "make-md",
   "obsidian-projects",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "obsidian-annotator",
+  "editing-toolbar",
+  "oz-image-plugin",
+  "obsidian-linter",
+  "obsidian-zotero-desktop-connector"
 ]

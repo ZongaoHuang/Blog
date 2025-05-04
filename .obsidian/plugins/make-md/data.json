@@ -51,8 +51,7 @@
     "//Tags",
     "//Workflow",
     "//Npm",
-    "//Template",
-    "//Diary"
+    "//Template"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
