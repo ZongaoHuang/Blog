@@ -269,8 +269,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -298,7 +297,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "ea75a4b8e02cce7f",
+  "active": "3986a965a54d440f",
   "lastOpenFiles": [
     "Diary/2025-05-04.md",
     "Diary/Diary.md",
