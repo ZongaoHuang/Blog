@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-03.md",
+                "file": "Diary/2025-05-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-03"
+              "title": "2025-05-04"
             }
           },
           {
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daliy/Diary/2025-05-01.md",
+                "file": "Diary/2025-05-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-05-01 的反向链接列表"
+              "title": "2025-05-04 的反向链接列表"
             }
           },
           {
@@ -187,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daliy/Diary/2025-05-01.md",
+                "file": "Diary/2025-05-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-05-01 的出链列表"
+              "title": "2025-05-04 的出链列表"
             }
           },
           {
@@ -230,13 +230,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-05-03.md",
+                "file": "Diary/2025-05-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-03 的大纲"
+              "title": "2025-05-04 的大纲"
             }
           },
           {
@@ -269,7 +269,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -299,9 +300,9 @@
   },
   "active": "3986a965a54d440f",
   "lastOpenFiles": [
+    "Diary/2025-05-03.md",
     "Diary/2025-05-04.md",
     "Diary/Diary.md",
-    "Diary/2025-05-03.md",
     "Diary/attachments/Pasted image 20250503210640.png",
     "Diary/attachments/Pasted image 20250503210546.png",
     "Diary/attachments/Pasted image 20250113192839.png",
