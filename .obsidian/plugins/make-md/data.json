@@ -50,7 +50,9 @@
     "//misc",
     "//Tags",
     "//Workflow",
-    "//Npm"
+    "//Npm",
+    "//SourceCode",
+    "//SourceCode/SourceCode/Go"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "IO",
+      "path": "SourceCode/Go/IO.md"
+    },
+    {
+      "basename": "Go",
+      "path": "SourceCode/Go/Go.md"
+    },
+    {
+      "basename": "SourceCode",
+      "path": "SourceCode/SourceCode.md"
+    },
+    {
       "basename": "Diary",
       "path": "Diary/Diary.md"
     },
@@ -187,10 +199,6 @@
     {
       "basename": "2025-04-14",
       "path": "Daliy/Diary/2025-04-14.md"
-    },
-    {
-      "basename": "2025-04-13",
-      "path": "Daliy/Diary/2025-04-13.md"
     }
   ],
   "omittedPaths": [],
