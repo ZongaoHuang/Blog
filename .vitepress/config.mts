@@ -13,7 +13,7 @@ export default defineConfig({
 
   // #region fav
   head: [
-    ['link', { rel: 'icon', href: '../public/logo3.png' }],
+    ['link', { rel: 'icon', href: '/logo4.ico' }],
   ],
   // #endregion fav
 
