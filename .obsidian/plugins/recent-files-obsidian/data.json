@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
       "basename": "2025-05-05",
       "path": "Diary/2025-05-05.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2025-05-03",
       "path": "Diary/2025-05-03.md"
-    },
-    {
-      "basename": "Diary",
-      "path": "Diary/Diary.md"
     },
     {
       "basename": "Pasted image 20250113192839",
@@ -31,10 +35,6 @@
     {
       "basename": "Smart Contract Security",
       "path": "Diary/attachments/Smart Contract Security.pdf"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "Tools Template",
@@ -191,14 +191,6 @@
     {
       "basename": "2025-04-13",
       "path": "Daliy/Diary/2025-04-13.md"
-    },
-    {
-      "basename": "2025-04-12",
-      "path": "Daliy/Diary/2025-04-12.md"
-    },
-    {
-      "basename": "2025-04-07",
-      "path": "Daliy/Diary/2025-04-07.md"
     }
   ],
   "omittedPaths": [],

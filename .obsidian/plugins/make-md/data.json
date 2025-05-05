@@ -50,8 +50,7 @@
     "//misc",
     "//Tags",
     "//Workflow",
-    "//Npm",
-    "//Template"
+    "//Npm"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

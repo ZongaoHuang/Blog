@@ -21,50 +21,16 @@
             "id": "663f22b3feb9c158",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "3986a965a54d440f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Diary/2025-05-05.md",
-                "mode": "source",
-                "source": false
+                "path": "Diary"
               },
               "icon": "lucide-file",
-              "title": "2025-05-05"
-            }
-          },
-          {
-            "id": "fb23740ffae01f0e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "8cf9584983364f67",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Diary/attachments/Pasted image 20241212163751.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241212163751"
+              "title": "Diary"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,7 +235,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -297,8 +264,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "3986a965a54d440f",
+  "active": "663f22b3feb9c158",
   "lastOpenFiles": [
+    "Diary/Diary.md",
+    "nav/index.md",
+    "nav/mao.md",
+    "Template/Dairy Template.md",
     "Diary/2025-05-05.md",
     "public/favicon.ico",
     "public/logo4.ico",
@@ -311,14 +282,12 @@
     "public/微信图片_20250505093611.jpg",
     "Diary/2025-05-03.md",
     "Diary/2025-05-04.md",
-    "Diary/Diary.md",
     "Diary/attachments/Pasted image 20250503210640.png",
     "Diary/attachments/Pasted image 20250503210546.png",
     "Diary/attachments/Pasted image 20250113192839.png",
     "Diary/attachments/Pasted image 20241212163751.png",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
-    "Template/Dairy Template.md",
     "Template/Tools Template.md",
     "SourceCode/SourceCode.md",
     "Workflow/Workflow.md",
@@ -343,8 +312,6 @@
     "Diary/2025-04-26.md",
     "Diary/2025-04-25.md",
     "Diary/2025-04-23.md",
-    "Diary/2025-04-16.md",
-    "Diary/2025-04-15.md",
     "未命名.canvas"
   ]
 }
