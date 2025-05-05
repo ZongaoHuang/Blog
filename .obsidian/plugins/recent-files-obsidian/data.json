@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Tools",
+      "path": "Tools/Tools.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
+      "basename": "Workflow",
+      "path": "Workflow/Workflow.md"
+    },
+    {
+      "basename": "学习的环境与效率",
+      "path": "Workflow/Social Skills/学习的环境与效率.md"
+    },
+    {
+      "basename": "决策",
+      "path": "Workflow/Social Skills/决策.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Misc/Misc.md"
+    },
+    {
       "basename": "IO",
       "path": "SourceCode/Go/IO.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "Diary",
       "path": "Diary/Diary.md"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "2025-05-05",
@@ -51,10 +71,6 @@
     {
       "basename": "Tools Template",
       "path": "Template/Tools Template.md"
-    },
-    {
-      "basename": "Misc",
-      "path": "Misc/Misc.md"
     },
     {
       "basename": "2025-05-02",
@@ -181,24 +197,8 @@
       "path": "FinalSearch/开题报告/讨论过程.md"
     },
     {
-      "basename": "决策",
-      "path": "Misc/Social Skills/决策.md"
-    },
-    {
       "basename": "2025-04-16",
       "path": "Daliy/Diary/2025-04-16.md"
-    },
-    {
-      "basename": "2024-01-23",
-      "path": "Daliy/Diary/2024-01-23.md"
-    },
-    {
-      "basename": "2025-04-15",
-      "path": "Daliy/Diary/2025-04-15.md"
-    },
-    {
-      "basename": "2025-04-14",
-      "path": "Daliy/Diary/2025-04-14.md"
     }
   ],
   "omittedPaths": [],

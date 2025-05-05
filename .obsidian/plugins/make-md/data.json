@@ -49,10 +49,12 @@
     "//Daliy",
     "//misc",
     "//Tags",
-    "//Workflow",
-    "//Npm",
     "//SourceCode",
-    "//SourceCode/SourceCode/Go"
+    "//SourceCode/SourceCode/Go",
+    "//Misc",
+    "//Misc/Misc/Social Skills",
+    "//Workflow/Workflow/Social Skills",
+    "//Npm"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

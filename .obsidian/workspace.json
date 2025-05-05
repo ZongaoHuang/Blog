@@ -21,14 +21,12 @@
             "id": "663f22b3feb9c158",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "SourceCode/Go/IO.md",
-                "mode": "source",
-                "source": false
+                "path": "Tools"
               },
               "icon": "lucide-file",
-              "title": "IO"
+              "title": "Tools"
             }
           }
         ],
@@ -268,6 +266,12 @@
   },
   "active": "663f22b3feb9c158",
   "lastOpenFiles": [
+    "Tools/Tools.md",
+    "Template/Dairy Template.md",
+    "Workflow/Workflow.md",
+    "Workflow/Social Skills/学习的环境与效率.md",
+    "Workflow/Social Skills/决策.md",
+    "Misc/Misc.md",
     "SourceCode/Go/IO.md",
     "SourceCode/Go/Go.md",
     "SourceCode/Go",
@@ -275,7 +279,6 @@
     "Diary/Diary.md",
     "nav/index.md",
     "nav/mao.md",
-    "Template/Dairy Template.md",
     "Diary/2025-05-05.md",
     "public/favicon.ico",
     "public/logo4.ico",
@@ -295,10 +298,7 @@
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
     "Template/Tools Template.md",
-    "Workflow/Workflow.md",
-    "Tools/Tools.md",
     "Npm/Npm.md",
-    "Misc/Misc.md",
     "Diary/2025-05-02.md",
     "Tags",
     "SourceCode",
@@ -312,8 +312,6 @@
     "Diary/2025-05-01.md",
     "Diary/2025-04-30.md",
     "Diary/2025-04-28.md",
-    "Diary/2025-04-27.md",
-    "Diary/2025-04-26.md",
     "未命名.canvas"
   ]
 }
