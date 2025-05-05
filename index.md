@@ -9,8 +9,8 @@ hero:
   text: "日常学习"
   tagline: "Do Not Go Gentle Into That Good Night"
   image:
-    src: /logo.png
-    alt: VitePress
+    src: /logo2.png
+    alt: lol
   actions:
     - text: 笔记
       link: /Diary/Diary

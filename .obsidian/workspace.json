@@ -269,12 +269,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,6 +299,10 @@
   },
   "active": "cd584438ecc34e28",
   "lastOpenFiles": [
+    "public/logo3.png",
+    "public/英雄联盟-角色表情 (510)_爱给网_aigei_com.png",
+    "public/logo2.png",
+    "public/英雄联盟-角色表情 (115)_爱给网_aigei_com.png",
     "public/logo1.jpg",
     "public/微信图片_20250505093611.jpg",
     "Diary/2025-05-03.md",
@@ -310,10 +313,6 @@
     "Diary/attachments/Pasted image 20250113192839.png",
     "Diary/attachments/Pasted image 20241212163751.png",
     "Diary/attachments/Pasted image 20250503204935.png",
-    "Diary/attachments/Pasted image 20250503204933.png",
-    "Diary/attachments/Pasted image 20250503204629.png",
-    "Diary/attachments/Pasted image 20250503204530.png",
-    "Diary/attachments/Pasted image 20250503204340.png",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
     "Template/Dairy Template.md",

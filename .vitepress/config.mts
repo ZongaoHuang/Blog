@@ -12,9 +12,9 @@ export default defineConfig({
   description: "AoSnow's Blog",
 
   // #region fav
-  // head: [
-  //   ['link', { rel: 'icon', href: '../public/logo.png' }],
-  // ],
+  head: [
+    ['link', { rel: 'icon', href: '../public/logo3.png' }],
+  ],
   // #endregion fav
 
   base: '/Blog', //网站部署到github的vitepress这个仓库里
@@ -105,7 +105,7 @@ export default defineConfig({
   //主题配置
   themeConfig: {
     //左上角logo
-    logo: '/logo.png',
+    logo: '/logo3.png',
     //logo: 'https://vitejs.cn/vite3-cn/logo-with-shadow.png', //远程引用
     //siteTitle: false, //标题隐藏
 
@@ -242,8 +242,7 @@ export default defineConfig({
 
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
-      { icon: 'discord', link: 'https://chat.vitejs.dev/' },
+      { icon: 'github', link: 'https://github.com/ZongaoHuang' },
     ],
 
     //手机端深浅模式文字修改
