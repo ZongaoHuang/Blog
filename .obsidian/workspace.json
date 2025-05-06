@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflow/Social Skills/面试准备.md",
+                "file": "Diary/2025-04-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试准备"
+              "title": "2025-04-25"
             }
           }
         ],
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "qps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -268,8 +268,11 @@
   },
   "active": "663f22b3feb9c158",
   "lastOpenFiles": [
-    "Workflow/Social Skills/学习的环境与效率.md",
+    "Diary/2025-04-23.md",
+    "Diary/2025-04-27.md",
+    "Diary/2025-04-26.md",
     "Workflow/Social Skills/面试准备.md",
+    "Workflow/Social Skills/学习的环境与效率.md",
     "Workflow/Workflow.md",
     "Diary/2025-05-06.md",
     "SourceCode/SourceCode.md",
@@ -311,9 +314,6 @@
     "Daliy/Daliy.md",
     "Diary/attachments/三级头招新.md",
     "Diary/attachments/三级头招新 1.md",
-    "Diary/attachments/Pasted image 20231008221842.png.md",
-    "Diary/attachments/Pasted image 20231008191904.png.md",
-    "Diary/2025-05-01.md",
     "未命名.canvas"
   ]
 }
