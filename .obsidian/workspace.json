@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SourceCode/Go/IO.md",
-                "mode": "preview",
+                "file": "Workflow/Social Skills/面试准备.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IO"
+              "title": "面试准备"
             }
           }
         ],
@@ -96,16 +96,13 @@
             }
           },
           {
-            "id": "435da0a138f6146d",
+            "id": "15b2b2b34f5a7693",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -269,18 +266,20 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "435da0a138f6146d",
+  "active": "663f22b3feb9c158",
   "lastOpenFiles": [
+    "Workflow/Social Skills/学习的环境与效率.md",
+    "Workflow/Social Skills/面试准备.md",
+    "Workflow/Workflow.md",
+    "Diary/2025-05-06.md",
+    "SourceCode/SourceCode.md",
     "SourceCode/Go/Go.md",
     "SourceCode/Go/IO.md",
     "Tools/Tools.md",
     "Template/Dairy Template.md",
-    "Workflow/Workflow.md",
-    "Workflow/Social Skills/学习的环境与效率.md",
     "Workflow/Social Skills/决策.md",
     "Misc/Misc.md",
     "SourceCode/Go",
-    "SourceCode/SourceCode.md",
     "Diary/Diary.md",
     "nav/index.md",
     "nav/mao.md",
@@ -315,8 +314,6 @@
     "Diary/attachments/Pasted image 20231008221842.png.md",
     "Diary/attachments/Pasted image 20231008191904.png.md",
     "Diary/2025-05-01.md",
-    "Diary/2025-04-30.md",
-    "Diary/2025-04-28.md",
     "未命名.canvas"
   ]
 }

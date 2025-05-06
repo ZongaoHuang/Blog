@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "面试准备",
+      "path": "Workflow/Social Skills/面试准备.md"
+    },
+    {
+      "basename": "学习的环境与效率",
+      "path": "Workflow/Social Skills/学习的环境与效率.md"
+    },
+    {
+      "basename": "Workflow",
+      "path": "Workflow/Workflow.md"
+    },
+    {
       "basename": "2025-05-06",
       "path": "Diary/2025-05-06.md"
     },
     {
       "basename": "IO",
       "path": "SourceCode/Go/IO.md"
+    },
+    {
+      "basename": "SourceCode",
+      "path": "SourceCode/SourceCode.md"
     },
     {
       "basename": "Go",
@@ -21,24 +37,12 @@
       "path": "Template/Dairy Template.md"
     },
     {
-      "basename": "Workflow",
-      "path": "Workflow/Workflow.md"
-    },
-    {
-      "basename": "学习的环境与效率",
-      "path": "Workflow/Social Skills/学习的环境与效率.md"
-    },
-    {
       "basename": "决策",
       "path": "Workflow/Social Skills/决策.md"
     },
     {
       "basename": "Misc",
       "path": "Misc/Misc.md"
-    },
-    {
-      "basename": "SourceCode",
-      "path": "SourceCode/SourceCode.md"
     },
     {
       "basename": "Diary",
@@ -195,10 +199,6 @@
     {
       "basename": "开题报告第二版",
       "path": "FinalSearch/开题报告/开题报告第二版.md"
-    },
-    {
-      "basename": "讨论过程",
-      "path": "FinalSearch/开题报告/讨论过程.md"
     }
   ],
   "omittedPaths": [],

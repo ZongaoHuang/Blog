@@ -54,7 +54,8 @@
     "//Misc",
     "//Misc/Misc/Social Skills",
     "//Workflow/Workflow/Social Skills",
-    "//Npm"
+    "//Npm",
+    "//Workflow"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
