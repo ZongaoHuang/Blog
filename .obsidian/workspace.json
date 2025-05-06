@@ -21,12 +21,14 @@
             "id": "663f22b3feb9c158",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Tools"
+                "file": "SourceCode/Go/IO.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "IO"
             }
           }
         ],
@@ -97,10 +99,13 @@
             "id": "435da0a138f6146d",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -264,16 +269,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "663f22b3feb9c158",
+  "active": "435da0a138f6146d",
   "lastOpenFiles": [
+    "SourceCode/Go/Go.md",
+    "SourceCode/Go/IO.md",
     "Tools/Tools.md",
     "Template/Dairy Template.md",
     "Workflow/Workflow.md",
     "Workflow/Social Skills/学习的环境与效率.md",
     "Workflow/Social Skills/决策.md",
     "Misc/Misc.md",
-    "SourceCode/Go/IO.md",
-    "SourceCode/Go/Go.md",
     "SourceCode/Go",
     "SourceCode/SourceCode.md",
     "Diary/Diary.md",
