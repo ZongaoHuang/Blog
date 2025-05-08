@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Flag",
+      "path": "SourceCode/Go/Flag.md"
+    },
+    {
+      "basename": "IO",
+      "path": "SourceCode/Go/IO.md"
+    },
+    {
       "basename": "面试准备",
       "path": "Workflow/Social Skills/面试准备.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "Workflow",
       "path": "Workflow/Workflow.md"
-    },
-    {
-      "basename": "IO",
-      "path": "SourceCode/Go/IO.md"
     },
     {
       "basename": "SourceCode",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-04-10",
       "path": "Daliy/Diary/2025-04-10.md"
-    },
-    {
-      "basename": "开题答辩",
-      "path": "FinalSearch/开题报告/开题答辩.md"
     }
   ],
   "omittedPaths": [],
