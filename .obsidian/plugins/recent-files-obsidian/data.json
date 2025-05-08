@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-08",
+      "path": "Diary/2025-05-08.md"
+    },
+    {
+      "basename": "2025-04-25",
+      "path": "Diary/2025-04-25.md"
+    },
+    {
+      "basename": "Dairy Template",
+      "path": "Template/Dairy Template.md"
+    },
+    {
       "basename": "Flag",
       "path": "SourceCode/Go/Flag.md"
     },
@@ -23,14 +35,6 @@
     {
       "basename": "2025-05-07",
       "path": "Diary/2025-05-07.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "Dairy Template",
-      "path": "Template/Dairy Template.md"
     },
     {
       "basename": "2025-05-03",
@@ -195,10 +199,6 @@
     {
       "basename": "Google Agents 白皮书",
       "path": "FinalSearch/资料/Google Agents 白皮书.md"
-    },
-    {
-      "basename": "2025-04-10",
-      "path": "Daliy/Diary/2025-04-10.md"
     }
   ],
   "omittedPaths": [],

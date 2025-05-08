@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-04-25.md",
+                "file": "Diary/2025-05-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-25"
+              "title": "2025-05-08"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Flag"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             }
           },
           {
-            "id": "558c70fce67621fc",
+            "id": "8ddff5f361d34c1f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -284,18 +283,19 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "c70ef46b93d79dc5",
+  "active": "457706dea19a1b81",
   "lastOpenFiles": [
+    "Diary/2025-04-25.md",
+    "Diary/2025-05-08.md",
+    "Template/Dairy Template.md",
+    "SourceCode/Go/Flag.md",
     "SourceCode/Go/attachments/1746696535499_d.png",
     "SourceCode/Go/attachments",
     "SourceCode/Go/IO.md",
-    "SourceCode/Go/Flag.md",
     "Workflow/Social Skills/面试准备.md",
     "Workflow/Social Skills/决策.md",
     "Workflow/Social Skills/学习的环境与效率.md",
     "Diary/2025-05-07.md",
-    "Diary/2025-04-25.md",
-    "Template/Dairy Template.md",
     "Diary/2025-05-03.md",
     "Diary/Diary.md",
     "Diary/2025-05-04.md",
@@ -324,7 +324,6 @@
     "Diary/attachments/Pasted image 20250503210640.png",
     "Diary/attachments/Pasted image 20250503210546.png",
     "Diary/attachments/Pasted image 20250113192839.png",
-    "Diary/attachments/Pasted image 20241212163751.png",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
     "Template/Tools Template.md",
