@@ -1,7 +1,7 @@
 # Daily
 ## Daily Plan
 #todo
-- [ ] 写博客
+- [x] 写博客
 - [ ] 
 ## Daily Study
 
