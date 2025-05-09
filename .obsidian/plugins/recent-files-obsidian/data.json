@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-01",
+      "path": "Diary/2025-05-01.md"
+    },
+    {
+      "basename": "2025-03-20",
+      "path": "Diary/2025-03-20.md"
+    },
+    {
       "basename": "2025-05-09",
       "path": "Diary/2025-05-09.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2025-04-26",
       "path": "Daliy/Diary/2025-04-26.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Daliy/Diary/2025-04-25.md"
-    },
-    {
-      "basename": "2025-04-23",
-      "path": "Daliy/Diary/2025-04-23.md"
     }
   ],
   "omittedPaths": [],
