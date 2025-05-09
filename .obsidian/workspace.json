@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SourceCode/Go/Flag.md",
+                "file": "Diary/2025-05-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flag"
+              "title": "2025-05-06"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -283,27 +284,27 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "457706dea19a1b81",
+  "active": "c70ef46b93d79dc5",
   "lastOpenFiles": [
-    "Diary/2025-03-20.md",
-    "Diary/2025-05-01.md",
+    "Diary/2025-05-04.md",
+    "Diary/Diary.md",
+    "Diary/2025-05-03.md",
     "Diary/2025-05-09.md",
+    "Diary/2025-05-07.md",
+    "Diary/2025-05-06.md",
     "Diary/2025-05-08.md",
-    "Diary/2025-04-25.md",
-    "Template/Dairy Template.md",
+    "Diary/2025-05-01.md",
     "SourceCode/Go/Flag.md",
+    "Template/Dairy Template.md",
+    "Diary/2025-03-20.md",
+    "Diary/2025-04-25.md",
     "SourceCode/Go/attachments/1746696535499_d.png",
     "SourceCode/Go/attachments",
     "SourceCode/Go/IO.md",
     "Workflow/Social Skills/面试准备.md",
     "Workflow/Social Skills/决策.md",
     "Workflow/Social Skills/学习的环境与效率.md",
-    "Diary/2025-05-07.md",
-    "Diary/2025-05-03.md",
-    "Diary/Diary.md",
-    "Diary/2025-05-04.md",
     "Diary/2025-05-05.md",
-    "Diary/2025-05-06.md",
     "Diary/2025-04-23.md",
     "Diary/2025-04-27.md",
     "Diary/2025-04-26.md",

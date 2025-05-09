@@ -56,7 +56,8 @@
     "//Workflow/Workflow/Social Skills",
     "//Npm",
     "//Workflow",
-    "//Template"
+    "//Template",
+    "//Diary"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
