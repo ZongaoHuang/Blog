@@ -12,5 +12,6 @@ type Interface interface {
 ```
 
 常用结构和函数：
-- type IntSlice
-- func Search()
+- `type IntSlice/StringSlice/Float64Slice`：自带的三种排序类型
+- `func Search(n int, f func(int) bool) int`：在 `[0, n)` 之间查找满足 `func f` 条件的下标（使用二分查找），返回的是要插入的下标
+- `func Find(n int, cmp func(int) int) (i int, found bool)` : 在 `[0, n)` 之间满足 `func cmp` 条件的下标（使用二分查找）， 返回下标和是否找到
