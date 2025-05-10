@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-10.md",
+                "file": "Template/Tools Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-10"
+              "title": "Tools Template"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Misc.md",
+                "file": "Diary/2025-05-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "2025-05-10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -267,13 +269,14 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "ea75a4b8e02cce7f",
+  "active": "c70ef46b93d79dc5",
   "lastOpenFiles": [
     "Misc/Misc.md",
+    "Template/Tools Template.md",
+    "Template/Dairy Template.md",
+    "Diary/2025-05-10.md",
     "Misc/常用指令/常用指令.md",
     "SourceCode/Go/sort.md",
-    "Diary/2025-05-10.md",
-    "Template/Dairy Template.md",
     "Diary/2025-05-01.md",
     "SourceCode/Go/Flag.md",
     "SourceCode/Go/IO.md",
@@ -296,7 +299,6 @@
     "Diary/2025-04-27.md",
     "Diary/2025-04-26.md",
     "Workflow/Workflow.md",
-    "SourceCode/SourceCode.md",
     "SourceCode/Go",
     "public/favicon.ico",
     "public/logo4.ico",

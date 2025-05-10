@@ -9,12 +9,16 @@
       "path": "Misc/Misc.md"
     },
     {
-      "basename": "sort",
-      "path": "SourceCode/Go/sort.md"
+      "basename": "Tools Template",
+      "path": "Template/Tools Template.md"
     },
     {
       "basename": "Dairy Template",
       "path": "Template/Dairy Template.md"
+    },
+    {
+      "basename": "sort",
+      "path": "SourceCode/Go/sort.md"
     },
     {
       "basename": "2025-05-01",
@@ -123,10 +127,6 @@
     {
       "basename": "Smart Contract Security",
       "path": "Diary/attachments/Smart Contract Security.pdf"
-    },
-    {
-      "basename": "Tools Template",
-      "path": "Template/Tools Template.md"
     },
     {
       "basename": "2025-05-02",
