@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "sort",
+      "path": "SourceCode/Go/sort.md"
+    },
+    {
+      "basename": "Flag",
+      "path": "SourceCode/Go/Flag.md"
+    },
+    {
+      "basename": "IO",
+      "path": "SourceCode/Go/IO.md"
+    },
+    {
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
+    },
+    {
       "basename": "2025-05-10",
       "path": "Diary/2025-05-10.md"
+    },
+    {
+      "basename": "2025-05-09",
+      "path": "Diary/2025-05-09.md"
     },
     {
       "basename": "2025-05-06",
@@ -13,16 +33,8 @@
       "path": "Diary/2025-05-04.md"
     },
     {
-      "basename": "Diary",
-      "path": "Diary/Diary.md"
-    },
-    {
       "basename": "2025-05-03",
       "path": "Diary/2025-05-03.md"
-    },
-    {
-      "basename": "2025-05-09",
-      "path": "Diary/2025-05-09.md"
     },
     {
       "basename": "2025-05-07",
@@ -37,10 +49,6 @@
       "path": "Diary/2025-05-01.md"
     },
     {
-      "basename": "Flag",
-      "path": "SourceCode/Go/Flag.md"
-    },
-    {
       "basename": "Dairy Template",
       "path": "Template/Dairy Template.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "2025-04-25",
       "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "IO",
-      "path": "SourceCode/Go/IO.md"
     },
     {
       "basename": "面试准备",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-04-28",
       "path": "Daliy/Diary/2025-04-28.md"
-    },
-    {
-      "basename": "资料",
-      "path": "FinalSearch/资料/资料.md"
     }
   ],
   "omittedPaths": [],
