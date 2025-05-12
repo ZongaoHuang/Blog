@@ -8,7 +8,7 @@ type Interface interface {
 	// Less reports whether the element with // index i should sort before the element with index j. 
 	Less(i, j int) bool 
 	// Swap swaps the elements with indexes i and j.
-	Swap(i, j int) }
+	Swap(i, j int) 
 ```
 
 常用结构和函数：
