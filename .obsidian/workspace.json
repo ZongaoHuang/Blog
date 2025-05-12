@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-11.md",
+                "file": "Diary/2025-05-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-11"
+              "title": "2025-05-12"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "6250e274eff5937c",
+            "id": "0da9298eb9201ef9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -270,9 +270,10 @@
   },
   "active": "457706dea19a1b81",
   "lastOpenFiles": [
+    "Diary/2025-05-11.md",
+    "Diary/2025-05-12.md",
     "Template/Tools Template.md",
     "Diary/2025-04-30.md",
-    "Diary/2025-05-11.md",
     "Diary/2025-05-10.md",
     "Misc/Misc.md",
     "Template/Dairy Template.md",
@@ -297,7 +298,6 @@
     "Workflow/Social Skills/学习的环境与效率.md",
     "Diary/2025-05-05.md",
     "Diary/2025-04-23.md",
-    "Diary/2025-04-27.md",
     "SourceCode/Go",
     "public/favicon.ico",
     "public/logo4.ico",
