@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-12.md",
+                "file": "Diary/2025-05-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-12"
+              "title": "2025-05-13"
             }
           }
         ],
@@ -285,14 +285,16 @@
   },
   "active": "1fd691a9f629afb1",
   "lastOpenFiles": [
+    "Diary/2025-05-11.md",
+    "Diary/2025-05-12.md",
     "Diary/2025-05-13.md",
+    "Diary/attachments/1747134731009_d.png",
+    "Diary/attachments/1747134674753_d.png",
     "SourceCode/Go/time.md",
     "Misc/AI/Ollama学习.md",
     "SourceCode/Go/io.md",
-    "Diary/2025-05-12.md",
     "SourceCode/Go/sort.md",
     "SourceCode/Go/unsafe.md",
-    "Diary/2025-05-11.md",
     "Diary/2025-04-27.md",
     "Diary/2025-04-26.md",
     "Diary/2025-04-25.md",
@@ -311,7 +313,6 @@
     "Diary/2025-05-09.md",
     "Diary/2025-05-06.md",
     "Diary/2025-05-04.md",
-    "Diary/2025-05-03.md",
     "SourceCode/Go/attachments/1746696535499_d.png",
     "SourceCode/Go/attachments",
     "SourceCode/Go",
@@ -324,8 +325,6 @@
     "public/英雄联盟-角色表情 (115)_爱给网_aigei_com.png",
     "public/logo1.jpg",
     "public/微信图片_20250505093611.jpg",
-    "Diary/attachments/Pasted image 20250503210640.png",
-    "Diary/attachments/Pasted image 20250503210546.png",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
     "Tags",
