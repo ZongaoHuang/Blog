@@ -123,8 +123,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -285,13 +284,14 @@
   },
   "active": "1fd691a9f629afb1",
   "lastOpenFiles": [
-    "Diary/2025-05-13.md",
+    "SourceCode/Go/time.md",
     "Diary/2025-05-14.md",
+    "Diary/Diary.md",
+    "Diary/2025-05-13.md",
     "Diary/2025-05-11.md",
     "Diary/2025-05-12.md",
     "Diary/attachments/1747134731009_d.png",
     "Diary/attachments/1747134674753_d.png",
-    "SourceCode/Go/time.md",
     "Misc/AI/Ollama学习.md",
     "SourceCode/Go/io.md",
     "SourceCode/Go/sort.md",
@@ -310,7 +310,6 @@
     "Template/Dairy Template.md",
     "Misc/常用指令/常用指令.md",
     "Diary/2025-05-01.md",
-    "Diary/Diary.md",
     "Diary/2025-05-09.md",
     "Diary/2025-05-06.md",
     "Diary/2025-05-04.md",

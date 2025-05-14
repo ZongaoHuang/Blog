@@ -37,7 +37,18 @@ type Ticker struct {
 - `func AfterFunc(d Duration, f func()) *Timer`：在过了d时间后，创建一个`goroutine`执行`f`，返回一个`Timer`用来取消`goroutine`
 - `func NewTicker(d Duration) *Ticker`：创建一个定时器，本质上是一个缓冲区为1的`channel`，每隔d时间向通道发送当前时间
 - `func (t *Ticker) Stop()`：用 `defer t.Stop()`
+- `func After(d duration) <- chan Time`：一般用在超时处理
 
+```go
+func main(){
+	select {
+	case m := <-c:
+		handle(m)
+	case <-time.After(10 * time.Second):
+		fmt.Println("timed out")
+	}
+}
+```
 - `func Sleep(d Duration)`: 
 	`time.Sleep()`函数的内部实现基于Go语言的调度器。调度器负责管理goroutines的执行，确保它们按照预定的顺序执行。以下是`time.Sleep()`函数的工作原理：
 	
