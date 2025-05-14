@@ -114,20 +114,17 @@
             }
           },
           {
-            "id": "d7ad4a9a43045371",
+            "id": "845dbef3642d2cb5",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -288,10 +285,10 @@
   },
   "active": "1fd691a9f629afb1",
   "lastOpenFiles": [
+    "Diary/2025-05-13.md",
     "Diary/2025-05-14.md",
     "Diary/2025-05-11.md",
     "Diary/2025-05-12.md",
-    "Diary/2025-05-13.md",
     "Diary/attachments/1747134731009_d.png",
     "Diary/attachments/1747134674753_d.png",
     "SourceCode/Go/time.md",
