@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-13.md",
+                "file": "Diary/2025-05-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-13"
+              "title": "2025-05-14"
             }
           }
         ],
@@ -117,10 +117,13 @@
             "id": "d7ad4a9a43045371",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -285,6 +288,7 @@
   },
   "active": "1fd691a9f629afb1",
   "lastOpenFiles": [
+    "Diary/2025-05-14.md",
     "Diary/2025-05-11.md",
     "Diary/2025-05-12.md",
     "Diary/2025-05-13.md",

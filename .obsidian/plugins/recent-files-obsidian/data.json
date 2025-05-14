@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-14",
+      "path": "Diary/2025-05-14.md"
+    },
+    {
       "basename": "2025-05-13",
       "path": "Diary/2025-05-13.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ollama学习",
       "path": "AI/Ollama学习.md"
-    },
-    {
-      "basename": "FinalSearch",
-      "path": "FinalSearch/FinalSearch.md"
     }
   ],
   "omittedPaths": [],
