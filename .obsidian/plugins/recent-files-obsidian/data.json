@@ -5,12 +5,40 @@
       "path": "Diary/2025-05-15.md"
     },
     {
-      "basename": "2025-05-14",
-      "path": "Diary/2025-05-14.md"
+      "basename": "nethttp",
+      "path": "SourceCode/Go/nethttp.md"
+    },
+    {
+      "basename": "flag",
+      "path": "SourceCode/Go/flag.md"
+    },
+    {
+      "basename": "sync",
+      "path": "SourceCode/Go/sync.md"
+    },
+    {
+      "basename": "unsafe",
+      "path": "SourceCode/Go/unsafe.md"
+    },
+    {
+      "basename": "io",
+      "path": "SourceCode/Go/io.md"
+    },
+    {
+      "basename": "atomic",
+      "path": "SourceCode/Go/atomic.md"
     },
     {
       "basename": "time",
       "path": "SourceCode/Go/time.md"
+    },
+    {
+      "basename": "未知事物的恐惧",
+      "path": "Workflow/Social Skills/未知事物的恐惧.md"
+    },
+    {
+      "basename": "2025-05-14",
+      "path": "Diary/2025-05-14.md"
     },
     {
       "basename": "Diary",
@@ -33,16 +61,8 @@
       "path": "Misc/AI/Ollama学习.md"
     },
     {
-      "basename": "io",
-      "path": "SourceCode/Go/io.md"
-    },
-    {
       "basename": "sort",
       "path": "SourceCode/Go/sort.md"
-    },
-    {
-      "basename": "unsafe",
-      "path": "SourceCode/Go/unsafe.md"
     },
     {
       "basename": "2025-04-27",
@@ -55,10 +75,6 @@
     {
       "basename": "2025-04-25",
       "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "flag",
-      "path": "SourceCode/Go/flag.md"
     },
     {
       "basename": "Go",
@@ -183,22 +199,6 @@
     {
       "basename": "LeetCode 笔记",
       "path": "Language/C++/LeetCode 笔记.md"
-    },
-    {
-      "basename": "Study1",
-      "path": "Language/GO/Basic/Study1.md"
-    },
-    {
-      "basename": "YouTube Python Tutorial",
-      "path": "Language/Python/YouTube Python Tutorial.md"
-    },
-    {
-      "basename": "第一部分 基础知识",
-      "path": "Language/Python/Python编程：从入门到实践/第一部分 基础知识.md"
-    },
-    {
-      "basename": "Python3菜鸟学习",
-      "path": "Language/Python/Python3菜鸟学习.md"
     }
   ],
   "omittedPaths": [],

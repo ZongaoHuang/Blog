@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SourceCode/Go/time.md",
+                "file": "SourceCode/Go/nethttp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "time"
+              "title": "nethttp"
             }
           },
           {
-            "id": "1fd691a9f629afb1",
+            "id": "6635ded9af689ed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-14.md",
+                "file": "Diary/2025-05-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-14"
+              "title": "2025-05-15"
             }
           }
         ],
@@ -114,19 +114,17 @@
             }
           },
           {
-            "id": "845dbef3642d2cb5",
+            "id": "bbe4efa20dc16f32",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -218,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-05-12.md",
+                "file": "Diary/2025-05-15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-12 的大纲"
+              "title": "2025-05-15 的大纲"
             }
           },
           {
@@ -257,7 +255,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -285,9 +284,19 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1fd691a9f629afb1",
+  "active": "6635ded9af689ed4",
   "lastOpenFiles": [
+    "Diary/attachments/Pasted image 20250515220457.png",
+    "SourceCode/Go/nethttp.md",
+    "SourceCode/Go/flag.md",
+    "SourceCode/Go/sync.md",
+    "SourceCode/Go/unsafe.md",
+    "Diary/2025-05-15.md",
+    "SourceCode/Go/attachments/Pasted image 20250515154802.png",
+    "SourceCode/Go/io.md",
+    "SourceCode/Go/atomic.md",
     "SourceCode/Go/time.md",
+    "Workflow/Social Skills/未知事物的恐惧.md",
     "Diary/2025-05-14.md",
     "Diary/Diary.md",
     "Diary/2025-05-13.md",
@@ -296,26 +305,17 @@
     "Diary/attachments/1747134731009_d.png",
     "Diary/attachments/1747134674753_d.png",
     "Misc/AI/Ollama学习.md",
-    "SourceCode/Go/io.md",
     "SourceCode/Go/sort.md",
-    "SourceCode/Go/unsafe.md",
     "Diary/2025-04-27.md",
     "Diary/2025-04-26.md",
     "Diary/2025-04-25.md",
     "SourceCode/Go/attachments/Pasted image 20250512154103.png",
-    "SourceCode/Go/flag.md",
     "SourceCode/Go/Go.md",
     "Diary/2025-04-30.md",
     "SourceCode/SourceCode.md",
     "Template/Tools Template.md",
     "Diary/2025-05-10.md",
     "Misc/Misc.md",
-    "Template/Dairy Template.md",
-    "Misc/常用指令/常用指令.md",
-    "Diary/2025-05-01.md",
-    "Diary/2025-05-09.md",
-    "Diary/2025-05-06.md",
-    "Diary/2025-05-04.md",
     "SourceCode/Go/attachments/1746696535499_d.png",
     "SourceCode/Go/attachments",
     "SourceCode/Go",
@@ -327,7 +327,6 @@
     "public/logo2.png",
     "public/英雄联盟-角色表情 (115)_爱给网_aigei_com.png",
     "public/logo1.jpg",
-    "public/微信图片_20250505093611.jpg",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
     "Tags",
