@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-16",
+      "path": "Diary/2025-05-16.md"
+    },
+    {
+      "basename": "2025-04-25",
+      "path": "Diary/2025-04-25.md"
+    },
+    {
       "basename": "2025-05-15",
       "path": "Diary/2025-05-15.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "2025-04-26",
       "path": "Diary/2025-04-26.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
     },
     {
       "basename": "Go",
@@ -195,10 +199,6 @@
     {
       "basename": "Oracle_Audit",
       "path": "Language/Linux/Oracle_Audit.md"
-    },
-    {
-      "basename": "LeetCode 笔记",
-      "path": "Language/C++/LeetCode 笔记.md"
     }
   ],
   "omittedPaths": [],
