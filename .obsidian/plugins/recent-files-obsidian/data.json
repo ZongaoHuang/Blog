@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-17",
+      "path": "Diary/2025-05-17.md"
+    },
+    {
       "basename": "2025-05-16",
       "path": "Diary/2025-05-16.md"
+    },
+    {
+      "basename": "singleflight",
+      "path": "SourceCode/Go/singleflight.md"
+    },
+    {
+      "basename": "2025-05-15",
+      "path": "Diary/2025-05-15.md"
     },
     {
       "basename": "2025-04-25",
@@ -37,10 +49,6 @@
       "path": "Diary/Diary.md"
     },
     {
-      "basename": "singleflight",
-      "path": "SourceCode/Go/singleflight.md"
-    },
-    {
       "basename": "atomic",
       "path": "SourceCode/Go/atomic.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "flag",
       "path": "SourceCode/Go/flag.md"
-    },
-    {
-      "basename": "2025-05-15",
-      "path": "Diary/2025-05-15.md"
     },
     {
       "basename": "未知事物的恐惧",
@@ -195,10 +199,6 @@
     {
       "basename": "Smart Contract Security",
       "path": "Diary/attachments/Smart Contract Security.pdf"
-    },
-    {
-      "basename": "Daliy",
-      "path": "Daliy/Daliy.md"
     }
   ],
   "omittedPaths": [],

@@ -117,10 +117,13 @@
             "id": "90ea69950e438e79",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -285,6 +288,9 @@
   },
   "active": "7769d254c49d40cf",
   "lastOpenFiles": [
+    "SourceCode/Go/singleflight.md",
+    "Diary/2025-05-16.md",
+    "Diary/2025-05-15.md",
     "Diary/2025-04-25.md",
     "Diary/2025-04-26.md",
     "Diary/2025-04-27.md",
@@ -293,8 +299,6 @@
     "Diary/2025-05-01.md",
     "Diary/2025-05-02.md",
     "Diary/Diary.md",
-    "Diary/2025-05-16.md",
-    "SourceCode/Go/singleflight.md",
     "SourceCode/Go/atomic.md",
     "SourceCode/Go/http.md",
     "SourceCode/Go/sync.md",
@@ -303,7 +307,6 @@
     "SourceCode/Go/sort.md",
     "SourceCode/Go/io.md",
     "SourceCode/Go/flag.md",
-    "Diary/2025-05-15.md",
     "Diary/attachments/Pasted image 20250515220457.png",
     "SourceCode/Go/attachments/Pasted image 20250515154802.png",
     "Workflow/Social Skills/未知事物的恐惧.md",
