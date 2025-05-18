@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-18",
+      "path": "Diary/2025-05-18.md"
+    },
+    {
       "basename": "2025-05-17",
       "path": "Diary/2025-05-17.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250503204935",
       "path": "Diary/attachments/Pasted image 20250503204935.png"
-    },
-    {
-      "basename": "Smart Contract Security",
-      "path": "Diary/attachments/Smart Contract Security.pdf"
     }
   ],
   "omittedPaths": [],
