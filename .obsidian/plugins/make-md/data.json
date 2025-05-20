@@ -51,12 +51,14 @@
     "//Tags",
     "//SourceCode",
     "//SourceCode/SourceCode/Go",
-    "//Misc",
     "//Misc/Misc/Social Skills",
     "//Workflow/Workflow/Social Skills",
     "//Npm",
     "//Workflow",
-    "//Template"
+    "//Template",
+    "//Misc/Misc/Security",
+    "//Misc/Misc/Security/Misc/Security/项目",
+    "//Misc/Misc/Security/Misc/Security/项目/Misc/Security/项目/创新资助第三期"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
