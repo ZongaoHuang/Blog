@@ -5,6 +5,10 @@
       "path": "Diary/2025-05-19.md"
     },
     {
+      "basename": "2025-05-20",
+      "path": "Diary/2025-05-20.md"
+    },
+    {
       "basename": "2025-05-18",
       "path": "Diary/2025-05-18.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250113192839",
       "path": "Diary/attachments/Pasted image 20250113192839.png"
-    },
-    {
-      "basename": "Pasted image 20241212163751",
-      "path": "Diary/attachments/Pasted image 20241212163751.png"
     }
   ],
   "omittedPaths": [],
