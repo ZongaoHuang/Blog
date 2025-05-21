@@ -63,8 +63,7 @@
               "title": "2025-04-25"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,8 +295,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "4104d0f23ae4c276",
+  "active": "457706dea19a1b81",
   "lastOpenFiles": [
+    "Misc/Misc.md",
     "Npm/Npm.md",
     "Workflow/Workflow.md",
     "SourceCode/SourceCode.md",
@@ -323,7 +323,6 @@
     "Diary/2025-05-16.md",
     "Diary/2025-05-18.md",
     "Diary/2025-05-19.md",
-    "Diary/2025-05-17.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "Diary/attachments/Pasted image 20250515220457.png",

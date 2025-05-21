@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "context",
+      "path": "SourceCode/Go/context.md"
+    },
+    {
       "basename": "Misc",
       "path": "Misc/Misc.md"
     },
@@ -147,10 +151,6 @@
     {
       "basename": "http",
       "path": "SourceCode/Go/http.md"
-    },
-    {
-      "basename": "context",
-      "path": "SourceCode/Go/context.md"
     },
     {
       "basename": "unsafe",
