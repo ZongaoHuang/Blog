@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-21.md",
+                "file": "Diary/2025-05-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-21"
+              "title": "2025-05-22"
             }
           },
           {
@@ -127,16 +127,13 @@
             }
           },
           {
-            "id": "d80041b93e620afd",
+            "id": "39a3bc628b2baaad",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -301,6 +298,8 @@
   },
   "active": "457706dea19a1b81",
   "lastOpenFiles": [
+    "Diary/2025-05-21.md",
+    "Diary/2025-05-22.md",
     "SourceCode/Go/context.md",
     "Misc/Misc.md",
     "Npm/Npm.md",
@@ -325,8 +324,6 @@
     "Diary/2025-05-12.md",
     "Diary/2025-05-14.md",
     "Diary/2025-05-15.md",
-    "Diary/2025-05-16.md",
-    "Diary/2025-05-18.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "Diary/attachments/Pasted image 20250515220457.png",
