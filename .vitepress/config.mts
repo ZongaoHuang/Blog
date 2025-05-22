@@ -189,9 +189,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'QVKQI62L15',
-        apiKey: 'bef8783dde57293ce082c531aa7c7e0c',
-        indexName: 'doc',
+        appId: 'DVPBWZ7F33',
+        apiKey: '156d8274221b76c89f5f1e7ea3397bea',
+        indexName: 'zongaohuangio',
         locales: {
           root: {
             placeholder: '搜索文档',
