@@ -30,7 +30,7 @@ import notice from "./components/notice.vue" //公告
 import fluidborder from "./components/fluidborder.vue" //流体边框仅用于演示
 import MouseClick from "./components/MouseClick.vue"
 import MouseFollower from "./components/MouseFollower.vue"
-
+import DiaryArchive from "./components/DiaryArchive.vue" // 日记归档组件
 // 不蒜子
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
@@ -54,6 +54,7 @@ export default {
     app.component('fluidborder' , fluidborder) //流体边框仅用于演示
     app.component('MouseClick', MouseClick) //鼠标跟随组件
     app.component('MouseFollower', MouseFollower) //鼠标跟随组件
+    app.component('DiaryArchive', DiaryArchive) // 日记归档组件
 
     // 不蒜子
     if (inBrowser) {
@@ -124,10 +125,10 @@ export default {
 
     // giscus配置
     giscusTalk({
-      repo: 'Yiov/vitepress-doc', //仓库
-      repoId: 'R_kgDOGYFl1A', //仓库ID
+      repo: 'ZongaoHuang/Blog', //仓库
+      repoId: 'R_kgDOJezCLg', //仓库ID
       category: 'General', // 讨论分类
-      categoryId: 'DIC_kwDOGYFl1M4CayLN', //讨论分类ID
+      categoryId: 'DIC_kwDOJezCLs4Cqewc', //讨论分类ID
       mapping: 'pathname',
       inputPosition: 'bottom',
       lang: 'zh-CN',

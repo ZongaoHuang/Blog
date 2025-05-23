@@ -56,5 +56,5 @@ features:
 
 <confetti />
 
-<!-- <busuanzi /> -->
+<busuanzi />
 
