@@ -31,6 +31,7 @@ import fluidborder from "./components/fluidborder.vue" //流体边框仅用于�
 import MouseClick from "./components/MouseClick.vue"
 import MouseFollower from "./components/MouseFollower.vue"
 import DiaryArchive from "./components/DiaryArchive.vue" // 日记归档组件
+import FolderArchive from "./components/FolderArchive.vue" // 文件夹归档组件
 // 不蒜子
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
@@ -55,6 +56,7 @@ export default {
     app.component('MouseClick', MouseClick) //鼠标跟随组件
     app.component('MouseFollower', MouseFollower) //鼠标跟随组件
     app.component('DiaryArchive', DiaryArchive) // 日记归档组件
+    app.component('FolderArchive', FolderArchive) // 文件夹归档组件
 
     // 不蒜子
     if (inBrowser) {
@@ -132,6 +134,7 @@ export default {
       mapping: 'pathname',
       inputPosition: 'bottom',
       lang: 'zh-CN',
+      loading: 'lazy',
       }, 
       {
         frontmatter, route
