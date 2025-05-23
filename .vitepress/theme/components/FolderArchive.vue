@@ -147,8 +147,8 @@ const isMonthExpanded = (year: number, month: number) => {
   return expandedMonths.value.has(`${year}-${month}`)
 }
 
-// 处理文件跳转
-const navigateToFile = (filePath: string) => {
+// 处理文件路径，生成正确的链接
+const getFileLink = (filePath: string) => {
   // 移除开头的斜杠并添加 .html 扩展名
   let cleanPath = filePath.startsWith('/') ? filePath.substring(1) : filePath
   // 确保路径以 .html 结尾
@@ -156,9 +156,7 @@ const navigateToFile = (filePath: string) => {
     cleanPath += '.html'
   }
   // 在前面加上 /Blog/ 前缀
-  const fullPath = `/Blog/${cleanPath}`
-  console.log('Navigating to:', fullPath) // 调试用
-  router.go(fullPath)
+  return `/Blog/${cleanPath}`
 }
 </script>
 
@@ -209,10 +207,9 @@ const navigateToFile = (filePath: string) => {
               <a
                 v-for="file in monthStat.files"
                 :key="file.path"
-                :href="file.path"
+                :href="getFileLink(file.path)"
                 class="file-link"
                 :title="file.name"
-                @click.prevent="navigateToFile(file.path)"
               >
                 {{ file.name }}
               </a>

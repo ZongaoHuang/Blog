@@ -127,7 +127,7 @@
             }
           },
           {
-            "id": "0e3fac0cc4f2d3f3",
+            "id": "92c09f40a0174f43",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -268,7 +268,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
