@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-25",
+      "path": "Diary/2025-05-25.md"
+    },
+    {
       "basename": "2025-05-23",
       "path": "Diary/2025-05-23.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-02",
       "path": "Diary/2025-05-02.md"
-    },
-    {
-      "basename": "atomic",
-      "path": "SourceCode/Go/atomic.md"
     }
   ],
   "omittedPaths": [],
