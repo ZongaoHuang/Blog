@@ -1,3 +1,4 @@
+# unsafe
 源码链接：[unsafe.go - Go](https://cs.opensource.google/go/go/+/refs/tags/go1.24.3:src/unsafe/unsafe.go)
 
 主要使用类型：`type Pointer *ArbitraryType`，Pointer 可以指向任意类型，实际上它类似于 C 语言里的 `void*`。
