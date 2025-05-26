@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-26",
+      "path": "Diary/2025-05-26.md"
+    },
+    {
       "basename": "2025-05-25",
       "path": "Diary/2025-05-25.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Http的签名问题",
       "path": "Npm/Go/Http的签名问题.md"
-    },
-    {
-      "basename": "Go",
-      "path": "Npm/Go/Go.md"
     }
   ],
   "omittedPaths": [],

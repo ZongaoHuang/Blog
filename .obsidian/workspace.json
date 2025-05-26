@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-25.md",
+                "file": "Diary/2025-05-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-25"
+              "title": "2025-05-26"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "19658f76c9c280f0",
+            "id": "ac5833b8bce40378",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -257,8 +257,9 @@
   },
   "active": "457706dea19a1b81",
   "lastOpenFiles": [
-    "Diary/2025-04-25.md",
     "Diary/2025-05-25.md",
+    "Diary/2025-05-26.md",
+    "Diary/2025-04-25.md",
     "SourceCode/Go/strconv.md",
     "Diary/Diary.md",
     "Diary/2025-05-23.md",
@@ -282,7 +283,6 @@
     "Diary/2025-04-30.md",
     "Diary/2024-06-13.md",
     "Diary/2025-05-01.md",
-    "Diary/2025-05-03.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "Diary/attachments/Pasted image 20250515220457.png",
