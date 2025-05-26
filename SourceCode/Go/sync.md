@@ -63,6 +63,92 @@ func (o *Once) doSlow(f func()) {
 doSlow中首先加锁，然后对done进行二次检查，这里的目的是避免重复执行f，如图。
 ![](attachments/Pasted%20image%2020250515154802.png)
 
+## OnceFunc
+源码链接：[oncefunc.go - Go](https://cs.opensource.google/go/go/+/refs/tags/go1.24.3:src/sync/oncefunc.go)
+
+go1.21加入的，封装了 sync.Once 来更好的实现单例模式
+
+`func OnceFunc(f func()) func()`：**参数 `f func()`**: 你希望确保只执行一次的无参数、无返回值的函数。**返回值 `func()`**: 一个新的函数。调用这个新函数会（在首次调用时）执行 `f`
+
+源码：
+```go
+func OnceFunc(f func()) func() {
+	var (
+		once  Once
+		valid bool
+		p     any
+	)
+	// Construct the inner closure just once to reduce costs on the fast path.
+	g := func() {
+		defer func() {
+			p = recover()
+			if !valid {
+				// Re-panic immediately so on the first call the user gets a
+				// complete stack trace into f.
+				panic(p)
+			}
+		}()
+		f()
+		f = nil      // Do not keep f alive after invoking it.
+		valid = true // Set only if f does not panic.
+	}
+	return func() {
+		once.Do(g)
+		if !valid {
+			panic(p)
+		}
+	}
+}
+```
+- 定义了一个`Once`变量，用来使用`sync.Once`确保执行一次
+- 使用`vaild`标志，主要用于判断在执行过程中是否出现 `panic`。
+- 定义了 `p any`用来存储`panic`，同时在内部定义了一个闭包函数，使用 `defer-recover` 来延迟捕获`panic`，如果第一次发生了`panic`，对于后续的调用都会返回同样的 `panic`
+
+示例：
+```go
+package main
+
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
+var data string
+
+func initializeData() {
+	fmt.Println("Initializing data...")
+	time.Sleep(100 * time.Millisecond) // 模拟一些耗时操作
+	data = "Hello, OnceFunc!"
+}
+
+// 使用 OnceFunc 包装 initializeData
+var getDataOnceFunc = sync.OnceFunc(initializeData)
+
+func getData() string {
+	getDataOnceFunc() // 调用包装后的函数
+	return data
+}
+
+func main() {
+	var wg sync.WaitGroup
+	for i := 0; i < 5; i++ {
+		wg.Add(1)
+		go func(id int) {
+			defer wg.Done()
+			fmt.Printf("Goroutine %d trying to get data.\n", id)
+			val := getData()
+			fmt.Printf("Goroutine %d: %s\n", id, val)
+		}(i)
+	}
+	wg.Wait()
+
+	fmt.Println("--------------------")
+	// 再次调用，initializeData 不会再执行
+	fmt.Println("Main goroutine (1st call):", getData())
+	fmt.Println("Main goroutine (2nd call):", getData())
+}
+```
 ## WaitGroup
 涉及到race和runtime。源码之后再看吧
 

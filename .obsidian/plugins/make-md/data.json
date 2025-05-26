@@ -38,7 +38,6 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//Language/Language/Python/Language/Python/Python编程：从入门到实践",
     "//Linux/Linux/常用指令",
     "//FinalSearch/FinalSearch/学习资料",
@@ -58,6 +57,7 @@
     "//Misc/Misc/Security/Misc/Security/项目/Misc/Security/项目/创新资助第三期",
     "//Npm/Npm/Go",
     "//SourceCode",
+    "/",
     "//Diary"
   ],
   "expandFolderOnClick": true,
