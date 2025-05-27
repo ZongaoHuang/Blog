@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-20.md",
-                "mode": "preview",
+                "file": "Diary/2025-05-27.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-20"
+              "title": "2025-05-27"
             }
           }
         ],
@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "ac5833b8bce40378",
+            "id": "4d8820c371945044",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -202,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-05-20.md",
+                "file": "Diary/2025-05-27.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-20 的大纲"
+              "title": "2025-05-27 的大纲"
             }
           },
           {
@@ -272,13 +272,15 @@
   },
   "active": "e5c889c15b7810c4",
   "lastOpenFiles": [
+    "Diary/2025-05-26.md",
+    "Diary/2025-05-15.md",
+    "Diary/2025-05-27.md",
+    "Diary/2025-05-20.md",
     "Diary/2025-05-21.md",
     "Diary/2025-05-22.md",
     "Diary/2025-05-23.md",
     "Diary/2025-05-25.md",
     "Diary/2025-05-14.md",
-    "Diary/2025-05-26.md",
-    "Diary/2025-05-15.md",
     "Diary/Diary.md",
     "SourceCode/Go/sync.md",
     "SourceCode/Go/unsafe.md",
@@ -296,8 +298,6 @@
     "Misc/Misc.md",
     "Npm/Npm.md",
     "Workflow/Workflow.md",
-    "SourceCode/SourceCode.md",
-    "SourceCode/Go/Go.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "Diary/attachments/Pasted image 20250515220457.png",
