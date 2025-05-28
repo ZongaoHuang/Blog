@@ -9,6 +9,14 @@
       "path": "Diary/2025-05-27.md"
     },
     {
+      "basename": "2025-04-25",
+      "path": "Diary/2025-04-25.md"
+    },
+    {
+      "basename": "sync",
+      "path": "SourceCode/Go/sync.md"
+    },
+    {
       "basename": "2025-05-26",
       "path": "Diary/2025-05-26.md"
     },
@@ -45,20 +53,12 @@
       "path": "Diary/Diary.md"
     },
     {
-      "basename": "sync",
-      "path": "SourceCode/Go/sync.md"
-    },
-    {
       "basename": "unsafe",
       "path": "SourceCode/Go/unsafe.md"
     },
     {
       "basename": "Vault",
       "path": "Vault.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
     },
     {
       "basename": "strconv",
