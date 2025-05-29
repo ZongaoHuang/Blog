@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-28.md",
+                "file": "Diary/2025-05-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-28"
+              "title": "2025-05-25"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,14 +88,16 @@
             "id": "1f57f4aa038484b2",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-05-28.md",
+                "file": "Diary/2025-05-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-28 的大纲"
+              "title": "2025-05-25 的大纲"
             }
           },
           {
@@ -257,44 +259,44 @@
   },
   "active": "e5c889c15b7810c4",
   "lastOpenFiles": [
-    "Diary/attachments/Pasted image 20250528151426.png",
-    "Diary/attachments/Pasted image 20250528151419.png",
-    "Diary/attachments/Pasted image 20250528151358.png",
-    "Diary/attachments/Pasted image 20250528151344.png",
-    "Diary/attachments/Pasted image 20250528151314.png",
-    "Diary/2025-05-27.md",
-    "Diary/2025-04-25.md",
-    "Diary/2025-05-28.md",
-    "SourceCode/Go/sync.md",
-    "Diary/attachments/Pasted image 20250528103744.png",
     "Diary/2025-05-26.md",
+    "Diary/2025-05-04.md",
+    "Diary/2025-05-28.md",
+    "Diary/2025-05-12.md",
+    "Diary/2025-05-05.md",
+    "Diary/2025-05-06.md",
+    "Diary/2025-05-07.md",
+    "Diary/2025-05-08.md",
+    "Diary/2025-05-09.md",
+    "Diary/2025-05-10.md",
+    "Diary/2025-05-11.md",
+    "Diary/2025-05-13.md",
+    "Diary/2025-05-14.md",
     "Diary/2025-05-15.md",
+    "Diary/2025-05-16.md",
+    "Diary/2025-05-17.md",
+    "Diary/2025-05-18.md",
+    "Diary/2025-05-19.md",
     "Diary/2025-05-20.md",
     "Diary/2025-05-21.md",
     "Diary/2025-05-22.md",
     "Diary/2025-05-23.md",
     "Diary/2025-05-25.md",
-    "Diary/2025-05-14.md",
-    "Diary/Diary.md",
-    "SourceCode/Go/unsafe.md",
-    "Vault.md",
-    "SourceCode/Go/strconv.md",
-    "SourceCode/Go/time.md",
-    "SourceCode/Go/sort.md",
-    "SourceCode/Go/singleflight.md",
-    "SourceCode/Go/io.md",
-    "SourceCode/Go/http.md",
-    "SourceCode/Go/flag.md",
-    "SourceCode/Go/context.md",
-    "SourceCode/Go/atomic.md",
-    "Misc/Misc.md",
+    "Diary/2025-05-27.md",
+    "Diary/attachments/Pasted image 20250528151426.png",
+    "Diary/attachments/Pasted image 20250528151419.png",
+    "Diary/attachments/Pasted image 20250528151358.png",
+    "Diary/attachments/Pasted image 20250528151344.png",
+    "Diary/attachments/Pasted image 20250528151314.png",
+    "Diary/2025-04-25.md",
+    "SourceCode/Go/sync.md",
+    "Diary/attachments/Pasted image 20250528103744.png",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "Diary/attachments/Pasted image 20250515220457.png",
     "SourceCode/Go/attachments/Pasted image 20250515154802.png",
     "Diary/attachments/1747134731009_d.png",
     "Diary/attachments/1747134674753_d.png",
-    "SourceCode/Go/attachments/Pasted image 20250512154103.png",
     "SourceCode/Go/attachments",
     "SourceCode/Go",
     "public/favicon.ico",
