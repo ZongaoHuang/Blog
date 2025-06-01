@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Go的版本管理工具",
+      "path": "Tools/Go的版本管理工具.md"
+    },
+    {
       "basename": "2025-05-31",
       "path": "Diary/2025-05-31.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-04-30",
       "path": "Diary/2025-04-30.md"
-    },
-    {
-      "basename": "2024-12-18",
-      "path": "Diary/2024-12-18.md"
     }
   ],
   "omittedPaths": [],
