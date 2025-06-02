@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Go的版本管理工具.md",
+                "file": "Diary/2025-05-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go的版本管理工具"
+              "title": "2025-05-31"
             }
           }
         ]
@@ -88,13 +88,17 @@
             "id": "74f66f90bb2a079a",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -186,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Go的版本管理工具.md",
+                "file": "Diary/2025-05-31.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Go的版本管理工具 的大纲"
+              "title": "2025-05-31 的大纲"
             }
           },
           {
@@ -256,8 +260,8 @@
   },
   "active": "e5c889c15b7810c4",
   "lastOpenFiles": [
-    "Diary/2025-05-31.md",
     "Tools/Go的版本管理工具.md",
+    "Diary/2025-05-31.md",
     "Diary/2025-04-25.md",
     "Diary/attachments/6bbba6ec436951c6857ba231dcb14cefce7133d6833ece711230264e2bd9ce9c.png",
     "Diary/2025-05-10.md",
