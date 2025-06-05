@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-06-05",
+      "path": "Diary/2025-06-05.md"
+    },
+    {
+      "basename": "2025-03-02",
+      "path": "Diary/2025-03-02.md"
+    },
+    {
       "basename": "2025-06-03",
       "path": "Diary/2025-06-03.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Misc",
       "path": "Misc/Misc.md"
-    },
-    {
-      "basename": "Npm",
-      "path": "Npm/Npm.md"
-    },
-    {
-      "basename": "Workflow",
-      "path": "Workflow/Workflow.md"
     }
   ],
   "omittedPaths": [],
