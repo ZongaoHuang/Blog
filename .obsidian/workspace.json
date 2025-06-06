@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-05.md",
+                "file": "Diary/2025-06-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-05"
+              "title": "2025-06-06"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "bf53caa430d574fc",
+            "id": "7a3e6a752d149561",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -257,10 +257,11 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/2025-06-02.md",
     "Diary/2025-03-02.md",
+    "Diary/2025-06-06.md",
     "Diary/2025-06-05.md",
     "Diary/2025-06-03.md",
-    "Diary/2025-06-02.md",
     "Diary/2025-05-31.md",
     "Tools/Go的版本管理工具.md",
     "Diary/2025-04-25.md",
@@ -283,7 +284,6 @@
     "Diary/2024-06-13.md",
     "Diary/2025-05-01.md",
     "Diary/2025-05-05.md",
-    "Diary/2025-05-03.md",
     "Diary/attachments/Pasted image 20250529171420.png",
     "Diary/attachments/Pasted image 20250529170709.png",
     "Diary/attachments/Pasted image 20250529170632.png",
