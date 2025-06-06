@@ -5,6 +5,14 @@
       "path": "Diary/2025-06-06.md"
     },
     {
+      "basename": "2024-06-14",
+      "path": "Diary/2024-06-14.md"
+    },
+    {
+      "basename": "2024-06-13",
+      "path": "Diary/2024-06-13.md"
+    },
+    {
       "basename": "2025-06-02",
       "path": "Diary/2025-06-02.md"
     },
@@ -91,10 +99,6 @@
     {
       "basename": "SourceCode",
       "path": "SourceCode/SourceCode.md"
-    },
-    {
-      "basename": "2024-06-13",
-      "path": "Diary/2024-06-13.md"
     },
     {
       "basename": "2025-05-01",
@@ -195,10 +199,6 @@
     {
       "basename": "Diary",
       "path": "Diary/Diary.md"
-    },
-    {
-      "basename": "Vault",
-      "path": "Vault.md"
     }
   ],
   "omittedPaths": [],

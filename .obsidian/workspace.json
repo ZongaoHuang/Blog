@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "anywhere",
+                "query": "c盘",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "7a3e6a752d149561",
+            "id": "c98f929f46ffc5eb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -257,9 +257,11 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/2024-06-14.md",
+    "Diary/2024-06-13.md",
+    "Diary/2025-06-06.md",
     "Diary/2025-06-02.md",
     "Diary/2025-03-02.md",
-    "Diary/2025-06-06.md",
     "Diary/2025-06-05.md",
     "Diary/2025-06-03.md",
     "Diary/2025-05-31.md",
@@ -281,9 +283,7 @@
     "SourceCode/Go/context.md",
     "SourceCode/Go/strconv.md",
     "SourceCode/SourceCode.md",
-    "Diary/2024-06-13.md",
     "Diary/2025-05-01.md",
-    "Diary/2025-05-05.md",
     "Diary/attachments/Pasted image 20250529171420.png",
     "Diary/attachments/Pasted image 20250529170709.png",
     "Diary/attachments/Pasted image 20250529170632.png",
