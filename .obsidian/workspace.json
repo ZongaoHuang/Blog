@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-07.md",
+                "file": "Diary/2025-06-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-07"
+              "title": "2025-06-06"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "c盘",
+                "query": "Docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-05.md",
+                "file": "Diary/2025-06-06.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-05 的大纲"
+              "title": "2025-06-06 的大纲"
             }
           },
           {
@@ -257,8 +257,9 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
-    "Diary/2025-06-06.md",
     "Diary/2025-06-07.md",
+    "Diary/attachments/Pasted image 20250607144953.png",
+    "Diary/2025-06-06.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-13.md",
     "Diary/2025-06-02.md",
@@ -283,7 +284,6 @@
     "SourceCode/Go/singleflight.md",
     "SourceCode/Go/context.md",
     "SourceCode/Go/strconv.md",
-    "SourceCode/SourceCode.md",
     "Diary/attachments/Pasted image 20250529171420.png",
     "Diary/attachments/Pasted image 20250529170709.png",
     "Diary/attachments/Pasted image 20250529170632.png",
@@ -292,7 +292,6 @@
     "Diary/attachments/Pasted image 20250529165600.png",
     "Diary/attachments/Pasted image 20250529165558.png",
     "Diary/attachments/Pasted image 20250528151426.png",
-    "Diary/attachments/Pasted image 20250528151419.png",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
