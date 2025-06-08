@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-06.md",
+                "file": "Diary/2025-06-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-06"
+              "title": "2025-06-08"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "221d9c8a30e4aea9",
+            "id": "37f5e33d8d6c7579",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -257,9 +257,10 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/2025-06-06.md",
+    "Diary/2025-06-08.md",
     "Diary/2025-06-07.md",
     "Diary/attachments/Pasted image 20250607144953.png",
-    "Diary/2025-06-06.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-13.md",
     "Diary/2025-06-02.md",
