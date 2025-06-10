@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -256,6 +256,7 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/attachments/1749569234422_d.png",
     "Diary/2025-06-06.md",
     "Diary/2025-06-10.md",
     "Diary/2025-06-07.md",
@@ -291,7 +292,6 @@
     "SourceCode/Go/sort.md",
     "SourceCode/Go/time.md",
     "SourceCode/Go/io.md",
-    "SourceCode/Go/flag.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
