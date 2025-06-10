@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-06-05.md",
+                "file": "Diary/2025-06-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-05 的反向链接列表"
+              "title": "2025-06-10 的反向链接列表"
             }
           },
           {
@@ -144,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2025-06-05.md",
+                "file": "Diary/2025-06-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-05 的出链列表"
+              "title": "2025-06-10 的出链列表"
             }
           },
           {
