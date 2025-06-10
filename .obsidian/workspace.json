@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-09.md",
+                "file": "Diary/2025-06-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-09"
+              "title": "2025-06-10"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "71d7fcceb2edee5f",
+            "id": "a9d5778fdbf0ba94",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-09.md",
+                "file": "Diary/2025-06-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-09 的大纲"
+              "title": "2025-06-10 的大纲"
             }
           },
           {
@@ -226,8 +226,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -257,6 +256,8 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/2025-06-09.md",
+    "Diary/2025-06-10.md",
     "Diary/2025-05-31.md",
     "Diary/2025-06-03.md",
     "Diary/2025-06-02.md",
@@ -265,7 +266,6 @@
     "Diary/2025-06-07.md",
     "Diary/2025-06-08.md",
     "Diary/2025-06-06.md",
-    "Diary/2025-06-09.md",
     "Diary/attachments/1749374499296_d.png",
     "Diary/attachments/1749374154465_d.png",
     "Diary/attachments/Pasted image 20250608170738.png",
@@ -292,7 +292,6 @@
     "SourceCode/Go/http.md",
     "SourceCode/Go/atomic.md",
     "SourceCode/Go/singleflight.md",
-    "SourceCode/Go/context.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
