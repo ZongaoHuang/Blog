@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-10.md",
+                "file": "Diary/2025-06-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-10"
+              "title": "2025-06-11"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "24b4666c3c00542b",
+            "id": "7a6b72cae10ff01a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -256,9 +256,10 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
+    "Diary/2025-06-10.md",
+    "Diary/2025-06-11.md",
     "Diary/attachments/1749569234422_d.png",
     "Diary/2025-06-06.md",
-    "Diary/2025-06-10.md",
     "Diary/2025-06-07.md",
     "Diary/2025-05-31.md",
     "Diary/2025-06-08.md",
@@ -282,7 +283,6 @@
     "Diary/attachments/1749372765548_d.png",
     "Diary/attachments/1749372688940_d 1.png",
     "Diary/attachments/1749372688940_d.png",
-    "Diary/attachments/1749372450308_d.png",
     "Diary/2024-06-14.md",
     "Diary/2024-06-13.md",
     "Diary/2025-04-25.md",
