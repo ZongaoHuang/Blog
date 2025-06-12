@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-11.md",
+                "file": "Diary/2025-06-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-11"
+              "title": "2025-06-12"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "7a6b72cae10ff01a",
+            "id": "849042932fb0b443",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -270,24 +270,33 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
-    "Diary/2025-06-06.md",
-    "Diary/2025-06-10.md",
-    "Diary/2025-06-11.md",
-    "Diary/attachments/1749569234422_d.png",
-    "Diary/2025-06-07.md",
+    "Diary/2025-05-11.md",
+    "Diary/2025-06-12.md",
+    "Diary/2025-05-10.md",
+    "Diary/2025-05-12.md",
+    "Diary/2025-05-13.md",
+    "Diary/2025-05-14.md",
+    "Diary/2025-05-15.md",
+    "Diary/2025-05-16.md",
+    "Diary/2025-05-17.md",
+    "Diary/2025-05-18.md",
+    "Diary/2025-05-19.md",
+    "Diary/2025-05-20.md",
+    "Diary/2025-05-21.md",
+    "Diary/2025-05-22.md",
+    "Diary/2025-05-23.md",
+    "Diary/2025-05-25.md",
+    "Diary/2025-05-26.md",
+    "Diary/2025-05-27.md",
+    "Diary/2025-05-28.md",
+    "Diary/2025-05-29.md",
     "Diary/2025-05-31.md",
-    "Diary/2025-06-08.md",
-    "Tools/Linux终端管理工具.md",
-    "Tools/Go的版本管理工具.md",
-    "Tools/统计项目总代码量.md",
-    "Tools/手机作电脑摄像头.md",
-    "Tools/中国软件著作权代码自动提取工具.md",
-    "Diary/Diary.md",
-    "Diary/2025-06-09.md",
-    "Diary/2025-06-03.md",
     "Diary/2025-06-02.md",
-    "Diary/2025-03-02.md",
+    "Diary/2025-06-03.md",
     "Diary/2025-06-05.md",
+    "Diary/2025-06-06.md",
+    "Diary/2025-06-07.md",
+    "Diary/attachments/1749569234422_d.png",
     "Diary/attachments/1749374499296_d.png",
     "Diary/attachments/1749374154465_d.png",
     "Diary/attachments/Pasted image 20250608170738.png",
@@ -297,15 +306,6 @@
     "Diary/attachments/1749372765548_d.png",
     "Diary/attachments/1749372688940_d 1.png",
     "Diary/attachments/1749372688940_d.png",
-    "Diary/2024-06-14.md",
-    "Diary/2024-06-13.md",
-    "Diary/2025-04-25.md",
-    "Diary/2025-05-10.md",
-    "Diary/2025-05-27.md",
-    "Diary/2025-05-28.md",
-    "SourceCode/Go/sort.md",
-    "SourceCode/Go/time.md",
-    "SourceCode/Go/io.md",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
