@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-12.md",
+                "file": "Diary/2025-06-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-12"
+              "title": "2025-06-13"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "849042932fb0b443",
+            "id": "88b0d869cab463aa",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -270,8 +270,15 @@
   },
   "active": "34e35ab7021e9528",
   "lastOpenFiles": [
-    "Diary/2025-05-11.md",
     "Diary/2025-06-12.md",
+    "Diary/2025-06-13.md",
+    "Diary/attachments/Pasted image 20250613111549.png",
+    "Diary/attachments/1749784034810_d 1.png",
+    "Diary/attachments/1749784034810_d.png",
+    "SourceCode/Go/unsafe.md",
+    "Diary/2025-06-06.md",
+    "SourceCode/SourceCode.md",
+    "Diary/2025-05-11.md",
     "Diary/2025-05-10.md",
     "Diary/2025-05-12.md",
     "Diary/2025-05-13.md",
@@ -292,10 +299,6 @@
     "Diary/2025-05-29.md",
     "Diary/2025-05-31.md",
     "Diary/2025-06-02.md",
-    "Diary/2025-06-03.md",
-    "Diary/2025-06-05.md",
-    "Diary/2025-06-06.md",
-    "Diary/2025-06-07.md",
     "Diary/attachments/1749569234422_d.png",
     "Diary/attachments/1749374499296_d.png",
     "Diary/attachments/1749374154465_d.png",
@@ -303,9 +306,6 @@
     "Diary/attachments/Pasted image 20250608170238.png",
     "Diary/attachments/1749373126459_d.png",
     "Diary/attachments/1749372954965_d.png",
-    "Diary/attachments/1749372765548_d.png",
-    "Diary/attachments/1749372688940_d 1.png",
-    "Diary/attachments/1749372688940_d.png",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",

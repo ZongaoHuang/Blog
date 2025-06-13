@@ -57,7 +57,8 @@
     "//Misc/Misc/Security/Misc/Security/项目/Misc/Security/项目/创新资助第三期",
     "//Npm/Npm/Go",
     "/",
-    "//Tools"
+    "//Tools",
+    "//SourceCode"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
