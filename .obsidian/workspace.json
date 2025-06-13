@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-13.md",
+                "file": "Diary/2025-06-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-13"
+              "title": "2025-06-12"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-06.md",
-                "mode": "preview",
+                "file": "Diary/2025-06-13.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-06"
+              "title": "2025-06-13"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -268,16 +269,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "34e35ab7021e9528",
+  "active": "2e1e8d4f26ae9b9a",
   "lastOpenFiles": [
     "Diary/2025-06-12.md",
     "Diary/2025-06-13.md",
+    "Diary/2025-06-06.md",
+    "SourceCode/SourceCode.md",
     "Diary/attachments/Pasted image 20250613111549.png",
     "Diary/attachments/1749784034810_d 1.png",
     "Diary/attachments/1749784034810_d.png",
     "SourceCode/Go/unsafe.md",
-    "Diary/2025-06-06.md",
-    "SourceCode/SourceCode.md",
     "Diary/2025-05-11.md",
     "Diary/2025-05-10.md",
     "Diary/2025-05-12.md",
