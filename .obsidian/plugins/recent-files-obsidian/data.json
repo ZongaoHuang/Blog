@@ -5,6 +5,30 @@
       "path": "Diary/2025-06-15.md"
     },
     {
+      "basename": "开题答辩",
+      "path": "Misc/FinalSearch/开题报告/开题答辩.md"
+    },
+    {
+      "basename": "开题答辩PPT第二版",
+      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md"
+    },
+    {
+      "basename": "集成的Agent",
+      "path": "Misc/FinalSearch/集成的Agent.md"
+    },
+    {
+      "basename": "FinalSearch",
+      "path": "Misc/FinalSearch/FinalSearch.md"
+    },
+    {
+      "basename": "Google Agents 白皮书",
+      "path": "Misc/FinalSearch/资料/Google Agents 白皮书.md"
+    },
+    {
+      "basename": "资料",
+      "path": "Misc/FinalSearch/资料/资料.md"
+    },
+    {
       "basename": "2025-06-14",
       "path": "Diary/2025-06-14.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Diary",
       "path": "Diary/Diary.md"
-    },
-    {
-      "basename": "2025-03-02",
-      "path": "Diary/2025-03-02.md"
-    },
-    {
-      "basename": "2024-06-14",
-      "path": "Diary/2024-06-14.md"
-    },
-    {
-      "basename": "2024-06-13",
-      "path": "Diary/2024-06-13.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "sort",
-      "path": "SourceCode/Go/sort.md"
-    },
-    {
-      "basename": "time",
-      "path": "SourceCode/Go/time.md"
     }
   ],
   "omittedPaths": [],
