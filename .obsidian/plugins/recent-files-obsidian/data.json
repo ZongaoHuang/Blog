@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-06-15",
+      "path": "Diary/2025-06-15.md"
+    },
+    {
       "basename": "2025-06-14",
       "path": "Diary/2025-06-14.md"
+    },
+    {
+      "basename": "关键词",
+      "path": "Misc/Security/Web安全/关键词.md"
+    },
+    {
+      "basename": "云鼎攻防矩阵",
+      "path": "Misc/Security/Web安全/云鼎攻防矩阵.md"
     },
     {
       "basename": "2025-06-08",
@@ -187,18 +199,6 @@
     {
       "basename": "time",
       "path": "SourceCode/Go/time.md"
-    },
-    {
-      "basename": "io",
-      "path": "SourceCode/Go/io.md"
-    },
-    {
-      "basename": "flag",
-      "path": "SourceCode/Go/flag.md"
-    },
-    {
-      "basename": "sync",
-      "path": "SourceCode/Go/sync.md"
     }
   ],
   "omittedPaths": [],
