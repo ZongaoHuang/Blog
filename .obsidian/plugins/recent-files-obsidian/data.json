@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-06-15",
-      "path": "Diary/2025-06-15.md"
+      "basename": "2025-06-16",
+      "path": "Diary/2025-06-16.md"
+    },
+    {
+      "basename": "开题答辩PPT第一版",
+      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md"
+    },
+    {
+      "basename": "开题答辩PPT第二版",
+      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md"
     },
     {
       "basename": "开题答辩",
       "path": "Misc/FinalSearch/开题报告/开题答辩.md"
     },
     {
-      "basename": "开题答辩PPT第二版",
-      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md"
+      "basename": "2025-06-15",
+      "path": "Diary/2025-06-15.md"
     },
     {
       "basename": "集成的Agent",
@@ -191,14 +199,6 @@
     {
       "basename": "手机作电脑摄像头",
       "path": "Tools/手机作电脑摄像头.md"
-    },
-    {
-      "basename": "中国软件著作权代码自动提取工具",
-      "path": "Tools/中国软件著作权代码自动提取工具.md"
-    },
-    {
-      "basename": "Diary",
-      "path": "Diary/Diary.md"
     }
   ],
   "omittedPaths": [],
