@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Diary/2025-06-11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-11"
+            }
+          },
+          {
+            "id": "20868a760fadba67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Diary/2025-06-16.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "2025-06-16"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "screen",
+                "query": "渗透测试",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -255,20 +270,22 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "5ecd02b172643131",
+  "active": "20868a760fadba67",
   "lastOpenFiles": [
-    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
+    "Diary/2025-06-11.md",
+    "Misc/Security/Web安全/云鼎攻防矩阵.md",
+    "Diary/2025-06-15.md",
     "Diary/2025-06-16.md",
+    "Diary/attachments/Pasted image 20250617114346.png",
+    "Diary/2025-06-14.md",
+    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
     "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
     "Misc/FinalSearch/开题报告/开题答辩.md",
-    "Diary/2025-06-15.md",
     "Misc/FinalSearch/集成的Agent.md",
     "Misc/FinalSearch/FinalSearch.md",
     "Misc/FinalSearch/资料/Google Agents 白皮书.md",
     "Misc/FinalSearch/资料/资料.md",
-    "Diary/2025-06-14.md",
     "Misc/Security/Web安全/关键词.md",
-    "Misc/Security/Web安全/云鼎攻防矩阵.md",
     "Diary/attachments/1749953086069_d.png",
     "Diary/2025-06-08.md",
     "Diary/2025-03-03.md",
@@ -284,7 +301,6 @@
     "Diary/2025-06-07.md",
     "Diary/2025-06-09.md",
     "Diary/2025-06-10.md",
-    "Diary/2025-06-11.md",
     "Diary/attachments/Pasted image 20250613111549.png",
     "Diary/attachments/1749784034810_d 1.png",
     "Diary/attachments/1749784034810_d.png",
@@ -292,7 +308,6 @@
     "Diary/attachments/1749374499296_d.png",
     "Diary/attachments/1749374154465_d.png",
     "Diary/attachments/Pasted image 20250608170738.png",
-    "Diary/attachments/Pasted image 20250608170238.png",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
