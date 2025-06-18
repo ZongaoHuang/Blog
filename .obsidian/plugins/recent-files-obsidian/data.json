@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-06-18",
+      "path": "Diary/2025-06-18.md"
+    },
+    {
+      "basename": "2025-06-17",
+      "path": "Diary/2025-06-17.md"
+    },
+    {
+      "basename": "2025-06-11",
+      "path": "Diary/2025-06-11.md"
+    },
+    {
+      "basename": "sort",
+      "path": "SourceCode/Go/sort.md"
+    },
+    {
       "basename": "2025-05-27",
       "path": "Diary/2025-05-27.md"
     },
@@ -49,10 +65,6 @@
       "path": "Diary/2025-06-10.md"
     },
     {
-      "basename": "2025-06-11",
-      "path": "Diary/2025-06-11.md"
-    },
-    {
       "basename": "2025-06-12",
       "path": "Diary/2025-06-12.md"
     },
@@ -71,10 +83,6 @@
     {
       "basename": "2025-06-16",
       "path": "Diary/2025-06-16.md"
-    },
-    {
-      "basename": "2025-06-17",
-      "path": "Diary/2025-06-17.md"
     },
     {
       "basename": "云鼎攻防矩阵",
@@ -191,14 +199,6 @@
     {
       "basename": "2025-05-26",
       "path": "Diary/2025-05-26.md"
-    },
-    {
-      "basename": "Linux终端管理工具",
-      "path": "Tools/Linux终端管理工具.md"
-    },
-    {
-      "basename": "Go的版本管理工具",
-      "path": "Tools/Go的版本管理工具.md"
     }
   ],
   "omittedPaths": [],
