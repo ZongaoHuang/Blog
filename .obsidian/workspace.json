@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-16.md",
+                "file": "Diary/2025-05-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-16"
+              "title": "2025-05-27"
+            }
+          },
+          {
+            "id": "08a80c594adde1a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "前后端分离应用的渗透测试方案"
             }
           }
         ],
@@ -100,7 +114,7 @@
             }
           },
           {
-            "id": "732c7b7ac6ff8066",
+            "id": "4959ae31a651a932",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,8 +123,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-14.md",
+                "file": "Diary/2025-05-27.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-14 的大纲"
+              "title": "2025-05-27 的大纲"
             }
           },
           {
@@ -242,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -272,35 +285,35 @@
   },
   "active": "20868a760fadba67",
   "lastOpenFiles": [
-    "Diary/2025-06-11.md",
-    "Misc/Security/Web安全/云鼎攻防矩阵.md",
-    "Diary/2025-06-15.md",
-    "Diary/2025-06-16.md",
-    "Diary/attachments/Pasted image 20250617114346.png",
-    "Diary/2025-06-14.md",
-    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
-    "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
-    "Misc/FinalSearch/开题报告/开题答辩.md",
-    "Misc/FinalSearch/集成的Agent.md",
-    "Misc/FinalSearch/FinalSearch.md",
-    "Misc/FinalSearch/资料/Google Agents 白皮书.md",
-    "Misc/FinalSearch/资料/资料.md",
-    "Misc/Security/Web安全/关键词.md",
-    "Diary/attachments/1749953086069_d.png",
-    "Diary/2025-06-08.md",
-    "Diary/2025-03-03.md",
-    "Diary/attachments/f786f0fa2274e2ef2131fbf1cfd86a4.png",
-    "Diary/2025-06-12.md",
-    "Diary/2025-05-29.md",
     "Diary/2025-05-28.md",
+    "Diary/2025-05-27.md",
+    "Diary/2025-05-29.md",
     "Diary/2025-05-31.md",
     "Diary/2025-06-02.md",
     "Diary/2025-06-03.md",
     "Diary/2025-06-05.md",
     "Diary/2025-06-06.md",
     "Diary/2025-06-07.md",
+    "Diary/2025-06-08.md",
     "Diary/2025-06-09.md",
     "Diary/2025-06-10.md",
+    "Diary/2025-06-11.md",
+    "Diary/2025-06-12.md",
+    "Diary/2025-06-13.md",
+    "Diary/2025-06-14.md",
+    "Diary/2025-06-15.md",
+    "Diary/2025-06-16.md",
+    "Diary/2025-06-17.md",
+    "Misc/Security/Web安全/云鼎攻防矩阵.md",
+    "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md",
+    "Diary/attachments/Pasted image 20250617114346.png",
+    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
+    "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
+    "Misc/FinalSearch/开题报告/开题答辩.md",
+    "Misc/FinalSearch/集成的Agent.md",
+    "Misc/FinalSearch/FinalSearch.md",
+    "Diary/attachments/1749953086069_d.png",
+    "Diary/attachments/f786f0fa2274e2ef2131fbf1cfd86a4.png",
     "Diary/attachments/Pasted image 20250613111549.png",
     "Diary/attachments/1749784034810_d 1.png",
     "Diary/attachments/1749784034810_d.png",
