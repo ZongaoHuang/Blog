@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-19.md",
+                "file": "Workflow/Social Skills/决策.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-19"
+              "title": "决策"
+            }
+          },
+          {
+            "id": "28bf5f8b46fa3b51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflow/Social Skills/HR面试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HR面试"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,8 +137,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-06-19.md",
+                "file": "Workflow/Social Skills/HR面试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +177,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-19 的反向链接列表"
+              "title": "HR面试 的反向链接列表"
             }
           },
           {
@@ -173,12 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2025-06-19.md",
+                "file": "Workflow/Social Skills/HR面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-19 的出链列表"
+              "title": "HR面试 的出链列表"
             }
           },
           {
@@ -216,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-19.md",
+                "file": "Workflow/Social Skills/HR面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-19 的大纲"
+              "title": "HR面试 的大纲"
             }
           },
           {
@@ -255,7 +268,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -283,8 +297,14 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "20868a760fadba67",
+  "active": "ea75a4b8e02cce7f",
   "lastOpenFiles": [
+    "Workflow/Social Skills/决策.md",
+    "Workflow/Social Skills/HR面试.md",
+    "Workflow/Social Skills/学习的环境与效率.md",
+    "Workflow/Social Skills/面试准备.md",
+    "Workflow/Social Skills/未知事物的恐惧.md",
+    "Misc/Funny Recording/Eason R&Q.md",
     "Diary/2025-05-20.md",
     "Diary/2025-06-19.md",
     "Diary/2025-06-05.md",
@@ -308,12 +328,6 @@
     "SourceCode/Go/unsafe.md",
     "Diary/2025-05-15.md",
     "Diary/2025-05-13.md",
-    "Diary/2025-05-10.md",
-    "Diary/2025-06-16.md",
-    "Diary/2025-06-15.md",
-    "Diary/2025-06-14.md",
-    "Diary/2025-06-11.md",
-    "Diary/2025-06-13.md",
     "Diary/attachments/Pasted image 20250617114346.png",
     "Diary/attachments/1749953086069_d.png",
     "Diary/attachments/f786f0fa2274e2ef2131fbf1cfd86a4.png",
