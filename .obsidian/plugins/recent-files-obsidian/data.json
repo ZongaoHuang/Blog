@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-06-24",
+      "path": "Diary/2025-06-24.md"
+    },
+    {
       "basename": "2025-06-22",
       "path": "Diary/2025-06-22.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "开题答辩",
       "path": "Misc/FinalSearch/开题报告/开题答辩.md"
-    },
-    {
-      "basename": "集成的Agent",
-      "path": "Misc/FinalSearch/集成的Agent.md"
     }
   ],
   "omittedPaths": [],
