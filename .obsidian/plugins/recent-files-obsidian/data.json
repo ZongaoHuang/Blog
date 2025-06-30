@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-06-30",
+      "path": "Diary/2025-06-30.md"
+    },
+    {
       "basename": "2025-06-24",
       "path": "Diary/2025-06-24.md"
     },
     {
       "basename": "2025-06-22",
       "path": "Diary/2025-06-22.md"
+    },
+    {
+      "basename": "2025-06-21",
+      "path": "Diary/2025-06-21.md"
+    },
+    {
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
     },
     {
       "basename": "2025-06-19",
@@ -19,10 +31,6 @@
     {
       "basename": "2025-06-17",
       "path": "Diary/2025-06-17.md"
-    },
-    {
-      "basename": "2025-06-21",
-      "path": "Diary/2025-06-21.md"
     },
     {
       "basename": "2025-05-20",
@@ -191,14 +199,6 @@
     {
       "basename": "开题答辩PPT第一版",
       "path": "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md"
-    },
-    {
-      "basename": "开题答辩PPT第二版",
-      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md"
-    },
-    {
-      "basename": "开题答辩",
-      "path": "Misc/FinalSearch/开题报告/开题答辩.md"
     }
   ],
   "omittedPaths": [],
