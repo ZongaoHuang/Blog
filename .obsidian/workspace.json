@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-30.md",
+                "file": "Misc/Info/Mentor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-30"
+              "title": "Mentor"
             }
           },
           {
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "缓存",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,8 +136,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -297,9 +296,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "734dcdba300efcce",
+  "active": "5ecd02b172643131",
   "lastOpenFiles": [
     "Diary/2025-06-24.md",
+    "Misc/Info/Mentor.md",
+    "Misc/Info",
     "Diary/2025-06-30.md",
     "Diary/2025-06-22.md",
     "Diary/2025-06-21.md",
@@ -324,7 +325,6 @@
     "Diary/2025-05-16.md",
     "Diary/2025-05-14.md",
     "Diary/2025-05-12.md",
-    "Diary/2025-05-11.md",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
@@ -344,7 +344,6 @@
     "public/logo3.ico",
     "Diary/attachments/Smart Contract Security.pdf",
     "public",
-    "Tags",
     "未命名.canvas"
   ]
 }

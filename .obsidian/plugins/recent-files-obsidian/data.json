@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-06-30",
-      "path": "Diary/2025-06-30.md"
+      "basename": "Mentor",
+      "path": "Misc/Info/Mentor.md"
     },
     {
       "basename": "2025-06-24",
       "path": "Diary/2025-06-24.md"
+    },
+    {
+      "basename": "2025-06-30",
+      "path": "Diary/2025-06-30.md"
     },
     {
       "basename": "2025-06-22",
@@ -195,10 +199,6 @@
     {
       "basename": "云鼎攻防矩阵",
       "path": "Misc/Security/Web安全/云鼎攻防矩阵.md"
-    },
-    {
-      "basename": "开题答辩PPT第一版",
-      "path": "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md"
     }
   ],
   "omittedPaths": [],
