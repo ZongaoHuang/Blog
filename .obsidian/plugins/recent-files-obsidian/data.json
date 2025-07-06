@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Tools",
+      "path": "Tools/Tools.md"
+    },
+    {
       "basename": "2025-07-06",
       "path": "Diary/2025-07-06.md"
-    },
-    {
-      "basename": "2025-06-24",
-      "path": "Diary/2025-06-24.md"
-    },
-    {
-      "basename": "Mentor",
-      "path": "Misc/Info/Mentor.md"
     },
     {
       "basename": "2025-06-30",
       "path": "Diary/2025-06-30.md"
     },
     {
+      "basename": "2025-06-24",
+      "path": "Diary/2025-06-24.md"
+    },
+    {
       "basename": "2025-06-22",
       "path": "Diary/2025-06-22.md"
+    },
+    {
+      "basename": "Mentor",
+      "path": "Misc/Info/Mentor.md"
     },
     {
       "basename": "2025-06-21",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-29",
       "path": "Diary/2025-05-29.md"
-    },
-    {
-      "basename": "2025-05-28",
-      "path": "Diary/2025-05-28.md"
     }
   ],
   "omittedPaths": [],

@@ -11,14 +11,12 @@
             "id": "5ecd02b172643131",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Diary/2025-06-24.md",
-                "mode": "source",
-                "source": false
+                "path": "Tools"
               },
               "icon": "lucide-file",
-              "title": "2025-06-24"
+              "title": "Tools"
             }
           },
           {
@@ -299,11 +297,13 @@
   },
   "active": "5ecd02b172643131",
   "lastOpenFiles": [
-    "Misc/Info/Mentor.md",
-    "Diary/2025-06-24.md",
-    "Misc/Info",
+    "Tools/Tools.md",
+    "Diary/2025-07-06.md",
     "Diary/2025-06-30.md",
+    "Diary/2025-06-24.md",
     "Diary/2025-06-22.md",
+    "Misc/Info/Mentor.md",
+    "Misc/Info",
     "Diary/2025-06-21.md",
     "Diary/Diary.md",
     "Diary/2025-06-19.md",
@@ -324,8 +324,6 @@
     "Diary/2025-05-17.md",
     "Diary/2025-05-19.md",
     "Diary/2025-05-16.md",
-    "Diary/2025-05-14.md",
-    "Diary/2025-05-12.md",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
