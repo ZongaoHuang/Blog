@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-07-10",
+      "path": "Diary/2025-07-10.md"
+    },
+    {
       "basename": "AI Code",
       "path": "Workflow/Code/AI Code.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "sort",
       "path": "SourceCode/Go/sort.md"
-    },
-    {
-      "basename": "2025-06-06",
-      "path": "Diary/2025-06-06.md"
     }
   ],
   "omittedPaths": [],
