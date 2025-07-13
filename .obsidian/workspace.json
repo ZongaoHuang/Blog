@@ -150,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -309,21 +309,23 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e699d424e794e53a",
+  "active": "00d955a57ab31cb0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Diary/2025-07-13.md",
-    "Tools/Tools.md",
-    "Diary/2025-07-10.md",
-    "Workflow/Code/Code.md",
-    "Workflow/Code/AI Code.md",
-    "Workflow/Code",
     "Diary/2025-07-09.md",
     "Diary/2025-07-06.md",
     "Diary/2025-06-30.md",
-    "Diary/2025-06-24.md",
     "Diary/2025-06-22.md",
+    "Diary/2025-06-24.md",
+    "Diary/2025-07-13.md",
+    "Diary/2025-07-10.md",
+    "Workflow/Code/AI Code.md",
     "Misc/Info/Mentor.md",
+    "Workflow/Code/Code.md",
+    "Workflow/Workflow.md",
+    "Workflow/Social Skills/HR面试.md",
+    "conflict-files-obsidian-git.md",
+    "Tools/Tools.md",
+    "Workflow/Code",
     "Misc/Info",
     "Diary/2025-06-21.md",
     "Diary/Diary.md",
@@ -335,10 +337,8 @@
     "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md",
     "Misc/Funny Recording/Eason R&Q.md",
     "Diary/2025-06-05.md",
-    "Workflow/Social Skills/HR面试.md",
     "Workflow/Social Skills/决策.md",
     "Workflow/Social Skills/学习的环境与效率.md",
-    "Workflow/Social Skills/面试准备.md",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
