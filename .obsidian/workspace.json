@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-07-10.md",
+                "file": "Diary/2025-07-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-10"
+              "title": "2025-07-13"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "640eb6eb4b1341a1",
+            "id": "fdede8f0c5a04238",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-07-10.md",
+                "file": "Diary/2025-07-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-10 的大纲"
+              "title": "2025-07-13 的大纲"
             }
           },
           {
@@ -271,9 +271,10 @@
   },
   "active": "5ecd02b172643131",
   "lastOpenFiles": [
-    "Workflow/Code/AI Code.md",
     "Diary/2025-07-10.md",
+    "Diary/2025-07-13.md",
     "Diary/2025-07-09.md",
+    "Workflow/Code/AI Code.md",
     "Diary/Diary.md",
     "Workflow/Code/Code.md",
     "Workflow/Code/.md",
@@ -299,7 +300,6 @@
     "Misc/Funny Recording/Eason R&Q.md",
     "Diary/2025-06-05.md",
     "Workflow/Social Skills/HR面试.md",
-    "Workflow/Social Skills/学习的环境与效率.md",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
