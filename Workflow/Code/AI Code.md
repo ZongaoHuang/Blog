@@ -6,3 +6,8 @@
 3. 执行后再返回给 Gemini 和 o3 进行最终的 final pre-commit review
 
 相关链接：https://openrouter.ai/
+
+
+
+可以改进的地方:
+- 自定义中转api

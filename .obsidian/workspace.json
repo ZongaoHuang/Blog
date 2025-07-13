@@ -20,6 +20,20 @@
             }
           },
           {
+            "id": "c6d54e98417adde5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2025-07-13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-13"
+            }
+          },
+          {
             "id": "20868a760fadba67",
             "type": "leaf",
             "state": {
@@ -61,7 +75,8 @@
               "title": "前后端分离应用的渗透测试方案"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +140,7 @@
             }
           },
           {
-            "id": "4fa983acc6ea672f",
+            "id": "55e6630177c46a55",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -165,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-06-18.md",
+                "file": "Diary/2025-07-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-18 的反向链接列表"
+              "title": "2025-07-13 的反向链接列表"
             }
           },
           {
@@ -184,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2025-06-18.md",
+                "file": "Diary/2025-07-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-18 的出链列表"
+              "title": "2025-07-13 的出链列表"
             }
           },
           {
@@ -227,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-22.md",
+                "file": "Diary/2025-07-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-22 的大纲"
+              "title": "2025-07-13 的大纲"
             }
           },
           {
@@ -266,8 +281,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -295,13 +309,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "5ecd02b172643131",
+  "active": "e699d424e794e53a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Diary/2025-07-13.md",
+    "Tools/Tools.md",
+    "Diary/2025-07-10.md",
     "Workflow/Code/Code.md",
     "Workflow/Code/AI Code.md",
     "Workflow/Code",
     "Diary/2025-07-09.md",
-    "Tools/Tools.md",
     "Diary/2025-07-06.md",
     "Diary/2025-06-30.md",
     "Diary/2025-06-24.md",
@@ -322,9 +339,6 @@
     "Workflow/Social Skills/决策.md",
     "Workflow/Social Skills/学习的环境与效率.md",
     "Workflow/Social Skills/面试准备.md",
-    "Workflow/Social Skills/未知事物的恐惧.md",
-    "Diary/2025-04-25.md",
-    "Diary/2025-06-07.md",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
