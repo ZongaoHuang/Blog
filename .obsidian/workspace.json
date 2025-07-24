@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-07-23.md",
+                "file": "Diary/2025-07-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-23"
+              "title": "2025-07-24"
             }
           }
         ],
@@ -202,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-07-23.md",
+                "file": "Diary/2025-07-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-23 的大纲"
+              "title": "2025-07-24 的大纲"
             }
           },
           {
@@ -272,8 +272,9 @@
   },
   "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
-    "Workflow/Code/AI Code.md",
     "Diary/2025-07-23.md",
+    "Diary/2025-07-24.md",
+    "Workflow/Code/AI Code.md",
     "Diary/2025-07-14.md",
     "Workflow/Workflow.md",
     "SourceCode/SourceCode.md",
@@ -299,7 +300,6 @@
     "Diary/2025-07-06.md",
     "Diary/2025-06-30.md",
     "Diary/2025-06-24.md",
-    "Diary/2025-06-22.md",
     "Misc/Info",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
