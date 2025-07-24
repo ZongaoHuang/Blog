@@ -35,7 +35,8 @@
               "title": "2025-07-23"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             }
           },
           {
-            "id": "0d438076e9103508",
+            "id": "6b103a7bd11a2e81",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflow/Code/AI Code.md",
+                "file": "Diary/2025-07-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI Code 的大纲"
+              "title": "2025-07-23 的大纲"
             }
           },
           {
@@ -269,11 +270,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "5ecd02b172643131",
+  "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Workflow/Code/AI Code.md",
     "Diary/2025-07-23.md",
     "Diary/2025-07-14.md",
-    "Workflow/Code/AI Code.md",
     "Workflow/Workflow.md",
     "SourceCode/SourceCode.md",
     "Diary/2025-07-22.md",
