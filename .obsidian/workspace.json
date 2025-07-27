@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             }
           },
           {
-            "id": "6b103a7bd11a2e81",
+            "id": "ac5ddfed835c89ec",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
