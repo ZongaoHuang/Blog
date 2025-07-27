@@ -51,14 +51,14 @@
             "id": "c75efe47a6ed6e36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Diary/2025-07-27.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Diary/2025-07-27.md",
+                "bFile": "Diary/2025-07-27.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2025-07-27"
+              "icon": "diff",
+              "title": "Diff: 2025-07-27"
             }
           },
           {
@@ -339,8 +339,8 @@
   },
   "active": "c75efe47a6ed6e36",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Diary/2025-07-27.md",
+    "conflict-files-obsidian-git.md",
     "Diary/2025-07-13.md",
     "Diary/2025-07-09.md",
     "Diary/2025-07-06.md",
