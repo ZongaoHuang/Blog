@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-07-27.md",
+                "file": "Diary/2025-08-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-27"
+              "title": "2025-08-01"
             }
           },
           {
@@ -112,7 +112,7 @@
             }
           },
           {
-            "id": "15f454a3ed4fed0a",
+            "id": "7f3a4301ecd8587b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -284,11 +284,13 @@
   },
   "active": "c6d54e98417adde5",
   "lastOpenFiles": [
+    "Diary/2025-07-31.md",
+    "Diary/2025-08-01.md",
+    "Diary/2025-07-27.md",
     "Workflow/Code/AI Code.md",
     "Tools/Tools.md",
     "Diary/2025-07-30.md",
     "Diary/2025-07-29.md",
-    "Diary/2025-07-27.md",
     "Diary/2025-07-28.md",
     "Diary/2025-07-24.md",
     "Diary/2025-07-23.md",
@@ -309,8 +311,6 @@
     "Workflow/Code/.md",
     "Workflow/Code",
     "Workflow/未命名.md",
-    "Workflow/Social Skills/决策.md",
-    "Diary/2025-05-27.md",
     "Tags",
     "Misc/Info",
     "Diary/attachments/Pasted image 20250619142349.png",
