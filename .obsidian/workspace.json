@@ -214,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-07-27.md",
+                "file": "Diary/2025-08-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-27 的大纲"
+              "title": "2025-08-03 的大纲"
             }
           },
           {
@@ -254,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -282,7 +282,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "c6d54e98417adde5",
+  "active": "ea75a4b8e02cce7f",
   "lastOpenFiles": [
     "Diary/2025-08-01.md",
     "Diary/2025-08-03.md",
