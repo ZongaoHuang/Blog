@@ -1,24 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-08-07",
-      "path": "Diary/2025-08-07.md"
-    },
-    {
-      "basename": "2025-08-06",
-      "path": "Diary/2025-08-06.md"
-    },
-    {
-      "basename": "2025-08-05",
-      "path": "Diary/2025-08-05.md"
-    },
-    {
-      "basename": "time",
-      "path": "SourceCode/Go/time.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "Diary/未命名.md"
+      "basename": "2025-08-01",
+      "path": "Diary/2025-08-01.md"
     },
     {
       "basename": "2025-08-04",
@@ -29,8 +13,20 @@
       "path": "Diary/2025-08-03.md"
     },
     {
-      "basename": "2025-08-01",
-      "path": "Diary/2025-08-01.md"
+      "basename": "2025-08-05",
+      "path": "Diary/2025-08-05.md"
+    },
+    {
+      "basename": "2025-08-06",
+      "path": "Diary/2025-08-06.md"
+    },
+    {
+      "basename": "2025-08-07",
+      "path": "Diary/2025-08-07.md"
+    },
+    {
+      "basename": "time",
+      "path": "SourceCode/Go/time.md"
     },
     {
       "basename": "2025-07-31",

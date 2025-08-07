@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-06.md",
+                "file": "Diary/2025-08-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-06"
+              "title": "2025-08-01"
             }
           },
           {
@@ -149,8 +149,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -242,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-08-06.md",
+                "file": "Diary/2025-08-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-08-06 的大纲"
+              "title": "2025-08-01 的大纲"
             }
           },
           {
@@ -282,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -312,14 +311,20 @@
   },
   "active": "c6d54e98417adde5",
   "lastOpenFiles": [
+    "Diary/2025-08-04.md",
+    "Diary/2025-08-03.md",
+    "Diary/未命名.md",
     "Diary/2025-08-05.md",
     "Diary/2025-08-06.md",
+    "Diary/2025-08-07.md",
+    "Diary/attachments/Pasted image 20250807204218.png",
+    "Diary/attachments/Pasted image 20250807203648.png",
+    "Diary/attachments/Pasted image 20250807203540.png",
+    "Diary/attachments/Pasted image 20250807203532.png",
+    "Diary/attachments/Pasted image 20250807202405.png",
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131154.png",
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131047.png",
     "SourceCode/Go/time.md",
-    "Diary/未命名.md",
-    "Diary/2025-08-04.md",
-    "Diary/2025-08-03.md",
     "Diary/2025-08-01.md",
     "Diary/2025-07-31.md",
     "Diary/2025-07-27.md",
@@ -338,19 +343,12 @@
     "Diary/2025-07-09.md",
     "Diary/2025-07-15.md",
     "Diary/2025-07-16.md",
-    "Diary/2025-07-17.md",
-    "Diary/2025-07-18.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
     "Diary/attachments/Pasted image 20250619142349.png",
     "Diary/attachments/1750304137847_d.png",
     "Diary/attachments/Pasted image 20250619112031.png",
-    "Diary/attachments/Pasted image 20250617114346.png",
-    "Diary/attachments/1749953086069_d.png",
-    "Diary/attachments/f786f0fa2274e2ef2131fbf1cfd86a4.png",
-    "Diary/attachments/Pasted image 20250613111549.png",
-    "Diary/attachments/1749784034810_d 1.png",
     "Npm/Go",
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
