@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-08.md",
+                "file": "Diary/2025-08-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-08"
+              "title": "2025-08-11"
             }
           },
           {
@@ -126,7 +126,7 @@
             }
           },
           {
-            "id": "9a208b4cb1a3e705",
+            "id": "53e5d4b4df340cd1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -298,6 +298,7 @@
   },
   "active": "c6d54e98417adde5",
   "lastOpenFiles": [
+    "Diary/2025-08-11.md",
     "Diary/2025-07-31.md",
     "Diary/2025-08-03.md",
     "Diary/2025-08-04.md",
@@ -330,7 +331,6 @@
     "Diary/2025-07-22.md",
     "Diary/2025-07-21.md",
     "Diary/2025-07-09.md",
-    "Diary/2025-07-15.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
