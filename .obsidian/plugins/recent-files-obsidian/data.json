@@ -5,12 +5,16 @@
       "path": "Diary/2025-08-18.md"
     },
     {
-      "basename": "2025-08-15",
-      "path": "Diary/2025-08-15.md"
-    },
-    {
       "basename": "2025-08-14",
       "path": "Diary/2025-08-14.md"
+    },
+    {
+      "basename": "time",
+      "path": "SourceCode/Go/time.md"
+    },
+    {
+      "basename": "2025-08-15",
+      "path": "Diary/2025-08-15.md"
     },
     {
       "basename": "2025-08-12",
@@ -67,10 +71,6 @@
     {
       "basename": "Workflow",
       "path": "Workflow/Workflow.md"
-    },
-    {
-      "basename": "time",
-      "path": "SourceCode/Go/time.md"
     },
     {
       "basename": "2025-07-27",
