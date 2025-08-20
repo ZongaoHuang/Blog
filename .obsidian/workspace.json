@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "firecrawl",
+                "query": "prompt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -286,20 +286,24 @@
   },
   "active": "5ecd02b172643131",
   "lastOpenFiles": [
-    "Diary/2025-08-15.md",
-    "Diary/2025-08-19.md",
-    "Diary/2025-08-18.md",
-    "Diary/2025-08-14.md",
-    "SourceCode/Go/time.md",
     "Diary/2025-08-12.md",
+    "Workflow/Code/AI Code.md",
+    "Diary/2025-07-23.md",
+    "Diary/2025-07-15.md",
+    "Diary/2025-05-27.md",
+    "Diary/2025-08-07.md",
+    "Diary/2025-08-19.md",
+    "Diary/2025-08-14.md",
     "Diary/2025-08-11.md",
+    "Diary/2025-08-15.md",
+    "Diary/2025-08-18.md",
+    "SourceCode/Go/time.md",
     "Diary/2025-08-08.md",
     "Diary/2025-07-31.md",
     "Diary/2025-08-01.md",
     "Diary/2025-08-04.md",
     "Diary/2025-08-03.md",
     "Diary/2025-08-05.md",
-    "Diary/2025-08-07.md",
     "Diary/2025-08-06.md",
     "Tools/Tools.md",
     "Diary/Diary.md",
@@ -314,11 +318,7 @@
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131154.png",
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131047.png",
     "Diary/2025-07-27.md",
-    "Workflow/Code/AI Code.md",
     "Diary/2025-07-30.md",
-    "Diary/2025-07-29.md",
-    "Diary/2025-07-28.md",
-    "Diary/2025-07-24.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
