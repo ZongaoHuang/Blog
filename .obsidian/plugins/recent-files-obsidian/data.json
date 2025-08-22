@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-22",
+      "path": "Diary/2025-08-22.md"
+    },
+    {
+      "basename": "2025-08-21",
+      "path": "Diary/2025-08-21.md"
+    },
+    {
       "basename": "2025-08-20",
       "path": "Diary/2025-08-20.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "前后端分离应用的渗透测试方案",
       "path": "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md"
-    },
-    {
-      "basename": "2025-06-21",
-      "path": "Diary/2025-06-21.md"
-    },
-    {
-      "basename": "2025-06-19",
-      "path": "Diary/2025-06-19.md"
     }
   ],
   "omittedPaths": [],

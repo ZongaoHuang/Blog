@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-20.md",
+                "file": "Diary/2025-08-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-20"
+              "title": "2025-08-22"
             }
           },
           {
@@ -113,7 +113,7 @@
             }
           },
           {
-            "id": "126a334291494eae",
+            "id": "52c00d1e9e2c9c40",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -286,8 +286,10 @@
   },
   "active": "5ecd02b172643131",
   "lastOpenFiles": [
-    "Diary/2025-08-19.md",
+    "Diary/2025-08-21.md",
+    "Diary/2025-08-22.md",
     "Diary/2025-08-20.md",
+    "Diary/2025-08-19.md",
     "Diary/2025-08-12.md",
     "Workflow/Code/AI Code.md",
     "Diary/2025-07-23.md",
@@ -310,7 +312,6 @@
     "Diary/Diary.md",
     "Diary/2025-07-10.md",
     "Workflow/Workflow.md",
-    "Diary/未命名.md",
     "Diary/attachments/Pasted image 20250807204218.png",
     "Diary/attachments/Pasted image 20250807203648.png",
     "Diary/attachments/Pasted image 20250807203540.png",
@@ -318,7 +319,6 @@
     "Diary/attachments/Pasted image 20250807202405.png",
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131154.png",
     "Diary/attachments/Untitled diagram _ Mermaid Chart-2025-08-05-131047.png",
-    "Diary/2025-07-27.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
