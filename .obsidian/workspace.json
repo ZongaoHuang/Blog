@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-19.md",
+                "file": "Diary/2025-08-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-19"
+              "title": "2025-08-20"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SourceCode/Go/time.md",
-                "mode": "preview",
+                "file": "Diary/2025-08-25.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "time"
+              "title": "2025-08-25"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "2025-07-30"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             }
           },
           {
-            "id": "52c00d1e9e2c9c40",
+            "id": "861a288cbb798798",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -123,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -284,12 +285,14 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "00d955a57ab31cb0",
+  "active": "9e3bea27ede8350e",
   "lastOpenFiles": [
+    "SourceCode/Go/time.md",
+    "Diary/2025-08-25.md",
     "Diary/2025-08-20.md",
+    "Diary/2025-08-19.md",
     "Diary/2025-08-22.md",
     "Diary/2025-08-21.md",
-    "Diary/2025-08-19.md",
     "Diary/2025-08-12.md",
     "Workflow/Code/AI Code.md",
     "Diary/2025-07-23.md",
@@ -300,7 +303,6 @@
     "Diary/2025-08-11.md",
     "Diary/2025-08-15.md",
     "Diary/2025-08-18.md",
-    "SourceCode/Go/time.md",
     "Diary/2025-08-08.md",
     "Diary/2025-07-31.md",
     "Diary/2025-08-01.md",
@@ -311,7 +313,6 @@
     "Tools/Tools.md",
     "Diary/Diary.md",
     "Diary/2025-07-10.md",
-    "Workflow/Workflow.md",
     "Diary/attachments/Pasted image 20250807204218.png",
     "Diary/attachments/Pasted image 20250807203648.png",
     "Diary/attachments/Pasted image 20250807203540.png",
