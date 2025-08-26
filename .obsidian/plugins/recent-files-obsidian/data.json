@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-26",
+      "path": "Diary/2025-08-26.md"
+    },
+    {
       "basename": "2025-08-25",
       "path": "Diary/2025-08-25.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Code",
       "path": "Workflow/Code/Code.md"
-    },
-    {
-      "basename": "决策",
-      "path": "Workflow/Social Skills/决策.md"
     }
   ],
   "omittedPaths": [],

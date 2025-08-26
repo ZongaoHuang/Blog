@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-25.md",
+                "file": "Diary/2025-08-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-25"
+              "title": "2025-08-26"
             }
           },
           {
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "861a288cbb798798",
+            "id": "ed6ed0c7db2bfa34",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -287,8 +287,9 @@
   },
   "active": "9e3bea27ede8350e",
   "lastOpenFiles": [
-    "SourceCode/Go/time.md",
     "Diary/2025-08-25.md",
+    "Diary/2025-08-26.md",
+    "SourceCode/Go/time.md",
     "Diary/2025-08-20.md",
     "Diary/2025-08-19.md",
     "Diary/2025-08-22.md",
@@ -312,7 +313,6 @@
     "Diary/2025-08-06.md",
     "Tools/Tools.md",
     "Diary/Diary.md",
-    "Diary/2025-07-10.md",
     "Diary/attachments/Pasted image 20250807204218.png",
     "Diary/attachments/Pasted image 20250807203648.png",
     "Diary/attachments/Pasted image 20250807203540.png",
