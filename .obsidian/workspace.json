@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-09-03.md",
+                "file": "Diary/2025-05-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-03"
+              "title": "2025-05-20"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "max",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "d8d37a11409107a3",
+            "id": "a61bfb72189cf93b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -272,30 +272,31 @@
   },
   "active": "1a8f276e26fc7a64",
   "lastOpenFiles": [
-    "Diary/2025-08-25.md",
-    "Diary/2025-08-22.md",
-    "Diary/2025-08-26.md",
-    "Diary/2025-08-27.md",
-    "Diary/2025-08-28.md",
-    "Diary/2025-09-01.md",
-    "Diary/2025-09-02.md",
-    "Diary/2025-08-15.md",
-    "Diary/2025-09-03.md",
-    "Diary/attachments/Pasted image 20250903152522.png",
-    "Diary/attachments/Pasted image 20250903150123.png",
-    "Diary/attachments/Pasted image 20250903152530.png",
-    "Diary/attachments/1.png",
-    "Diary/attachments/2.png",
     "Diary/attachments/Pasted image 20250903152946.png",
     "Diary/attachments/Pasted image 20250903152936.png",
     "Diary/attachments/Pasted image 20250903152922.png",
     "Diary/attachments/Pasted image 20250903152908.png",
     "Diary/attachments/Pasted image 20250903152902.png",
-    "Diary/2025-07-30.md",
+    "Diary/attachments/Pasted image 20250903152820.png",
+    "Diary/attachments/Pasted image 20250903152609.png",
+    "Diary/attachments/Pasted image 20250903152530.png",
+    "Diary/attachments/Pasted image 20250903152522.png",
+    "Diary/attachments/Pasted image 20250903150123.png",
+    "Diary/attachments/2.png",
+    "Diary/2025-09-03.md",
+    "Diary/2025-09-02.md",
+    "Diary/2025-08-15.md",
+    "Diary/2025-09-01.md",
     "Diary/Diary.md",
+    "Diary/2025-08-26.md",
+    "Diary/2025-08-27.md",
+    "Diary/2025-08-28.md",
+    "Diary/2025-08-25.md",
+    "Diary/2025-07-30.md",
     "Diary/2025-08-20.md",
     "SourceCode/Go/time.md",
     "Diary/2025-08-19.md",
+    "Diary/2025-08-22.md",
     "Diary/2025-08-21.md",
     "Diary/2025-08-12.md",
     "Workflow/Code/AI Code.md",
