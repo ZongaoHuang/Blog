@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-09-12",
+      "path": "Diary/2025-09-12.md"
+    },
+    {
+      "basename": "2025-07-30",
+      "path": "Diary/2025-07-30.md"
+    },
+    {
       "basename": "2025-09-03",
       "path": "Diary/2025-09-03.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "2",
       "path": "Diary/attachments/2.png"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Diary/2025-07-30.md"
     },
     {
       "basename": "Diary",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-07-09",
       "path": "Diary/2025-07-09.md"
-    },
-    {
-      "basename": "2025-07-16",
-      "path": "Diary/2025-07-16.md"
     }
   ],
   "omittedPaths": [],

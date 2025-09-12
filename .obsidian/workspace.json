@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-07-30.md",
+                "file": "Diary/2025-09-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-30"
+              "title": "2025-09-12"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "2025-05-20"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             }
           },
           {
-            "id": "a61bfb72189cf93b",
+            "id": "c65e50c075f0bd2e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -110,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -270,8 +269,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1a8f276e26fc7a64",
+  "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Diary/2025-07-30.md",
+    "Diary/2025-09-12.md",
+    "Diary/2025-05-20.md",
     "Diary/attachments/Pasted image 20250903152946.png",
     "Diary/attachments/Pasted image 20250903152936.png",
     "Diary/attachments/Pasted image 20250903152922.png",
@@ -282,7 +284,6 @@
     "Diary/attachments/Pasted image 20250903152530.png",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20250903150123.png",
-    "Diary/attachments/2.png",
     "Diary/2025-09-03.md",
     "Diary/2025-09-02.md",
     "Diary/2025-08-15.md",
@@ -292,7 +293,6 @@
     "Diary/2025-08-27.md",
     "Diary/2025-08-28.md",
     "Diary/2025-08-25.md",
-    "Diary/2025-07-30.md",
     "Diary/2025-08-20.md",
     "SourceCode/Go/time.md",
     "Diary/2025-08-19.md",
@@ -307,7 +307,6 @@
     "Diary/2025-08-14.md",
     "Diary/2025-08-11.md",
     "Diary/2025-08-18.md",
-    "Diary/2025-08-08.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
