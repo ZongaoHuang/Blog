@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-19.md",
+                "file": "Diary/2025-09-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-19"
+              "title": "2025-09-15"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "437361441f31baaf",
+            "id": "74582f17996d1441",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-08-19.md",
+                "file": "Diary/2025-09-15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-08-19 的大纲"
+              "title": "2025-09-15 的大纲"
             }
           },
           {
@@ -256,12 +256,13 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "00d955a57ab31cb0",
+  "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Diary/2025-08-19.md",
+    "Diary/2025-09-15.md",
     "Diary/2025-09-13.md",
     "Diary/2025-05-20.md",
     "Diary/2025-08-18.md",
-    "Diary/2025-08-19.md",
     "Diary/2025-08-20.md",
     "Diary/2025-08-21.md",
     "Diary/2025-08-22.md",
@@ -293,7 +294,6 @@
     "Diary/2025-07-15.md",
     "Diary/2025-05-27.md",
     "Diary/2025-08-07.md",
-    "Diary/2025-08-14.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
