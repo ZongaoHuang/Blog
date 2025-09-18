@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-09-13.md",
+                "file": "Diary/2025-09-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-13"
+              "title": "2025-09-01"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pprof",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,16 +85,13 @@
             }
           },
           {
-            "id": "4efaeb9e7dd01d88",
+            "id": "e77c0029d50f2047",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ]
@@ -189,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-09-13.md",
+                "file": "Diary/2025-09-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-13 的大纲"
+              "title": "2025-09-01 的大纲"
             }
           },
           {
@@ -260,29 +257,32 @@
   },
   "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Diary/2025-09-02.md",
+    "Diary/2025-09-03.md",
+    "Diary/2025-09-12.md",
+    "Diary/2025-09-13.md",
     "Diary/2025-09-15.md",
     "Diary/2025-09-17.md",
+    "Diary/2025-09-18.md",
+    "Diary/2025-09-01.md",
+    "Diary/2025-02-21.md",
+    "Diary/2025-02-19.md",
+    "Diary/2025-02-18.md",
+    "Diary/2025-02-17.md",
+    "Diary/2025-05-06.md",
+    "Diary/2025-04-25.md",
+    "Diary/2025-08-25.md",
+    "Diary/2025-08-22.md",
+    "Diary/2025-08-21.md",
+    "Diary/2025-08-20.md",
+    "Diary/2025-08-18.md",
+    "Diary/2025-08-19.md",
     "Diary/2024-09-03.md",
     "Diary/2024-09-12.md",
     "Diary/2024-09-18.md",
     "Tools/中国软件著作权代码自动提取工具.md",
-    "Diary/2025-08-19.md",
-    "Diary/2025-09-13.md",
     "Diary/2025-05-20.md",
-    "Diary/2025-08-18.md",
-    "Diary/2025-08-20.md",
-    "Diary/2025-08-21.md",
-    "Diary/2025-08-22.md",
-    "Diary/2025-08-25.md",
     "Diary/2025-08-26.md",
-    "Diary/2025-08-27.md",
-    "Diary/2025-08-28.md",
-    "Diary/2025-09-01.md",
-    "Diary/2025-09-02.md",
-    "Diary/2025-09-03.md",
-    "Diary/2025-09-12.md",
-    "Diary/Diary.md",
-    "Diary/2025-07-30.md",
     "Diary/attachments/Pasted image 20250903152946.png",
     "Diary/attachments/Pasted image 20250903152936.png",
     "Diary/attachments/Pasted image 20250903152922.png",
@@ -293,9 +293,6 @@
     "Diary/attachments/Pasted image 20250903152530.png",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20250903150123.png",
-    "Diary/2025-08-15.md",
-    "SourceCode/Go/time.md",
-    "Diary/2025-08-12.md",
     "Workflow/Code",
     "Tags",
     "Misc/Info",
