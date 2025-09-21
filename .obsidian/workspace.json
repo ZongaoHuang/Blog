@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-07-27.md",
+                "file": "Diary/2025-09-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-27"
+              "title": "2025-09-21"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "5ca153485f6f056e",
+            "id": "f01fe582ec1399af",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -94,7 +94,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-07-27.md",
+                "file": "Diary/2025-09-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-27 的大纲"
+              "title": "2025-09-21 的大纲"
             }
           },
           {
@@ -294,9 +295,24 @@
   },
   "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Diary/attachments/Pasted image 20250903152522.png",
+    "Diary/2025-09-21.md",
+    "Diary/2025-06-21.md",
+    "Diary/2025-06-22.md",
+    "Diary/2025-06-30.md",
+    "Diary/2025-07-06.md",
+    "Diary/2025-07-09.md",
+    "Diary/2025-07-10.md",
+    "Diary/2025-07-14.md",
+    "Diary/2025-07-13.md",
+    "Diary/2025-07-15.md",
+    "Diary/2025-07-17.md",
+    "Diary/2025-07-16.md",
+    "Diary/2025-07-18.md",
+    "Diary/2025-07-22.md",
+    "Diary/2025-07-24.md",
     "Diary/2025-07-25.md",
     "Diary/2025-07-27.md",
-    "Diary/2025-07-24.md",
     "Diary/2025-07-23.md",
     "Diary/2025-07-28.md",
     "Diary/2025-07-30.md",
@@ -305,22 +321,6 @@
     "Diary/2025-08-01.md",
     "Diary/2025-08-03.md",
     "Diary/2025-08-04.md",
-    "Diary/2025-08-05.md",
-    "Diary/2025-08-06.md",
-    "Diary/2025-08-07.md",
-    "Diary/attachments/Pasted image 20250903152522.png",
-    "Diary/2025-08-08.md",
-    "Diary/2025-08-11.md",
-    "Diary/2025-08-12.md",
-    "Diary/2025-08-14.md",
-    "Diary/2025-08-15.md",
-    "Diary/2025-08-18.md",
-    "Diary/2025-08-19.md",
-    "Diary/2025-08-20.md",
-    "Diary/2025-08-21.md",
-    "Diary/2025-08-22.md",
-    "Diary/2025-08-25.md",
-    "Diary/2025-08-26.md",
     "Diary/attachments/Pasted image 20250903152946.png",
     "Diary/attachments/Pasted image 20250903152936.png",
     "Diary/attachments/Pasted image 20250903152922.png",
