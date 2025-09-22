@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-20.md",
+                "file": "Diary/2025-05-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-20"
+              "title": "2025-05-09"
             }
           }
         ]
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/attachments/Pasted image 20250903152522.png",
+                "file": "Diary/2025-05-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250903152522 的大纲"
+              "title": "2025-05-09 的大纲"
             }
           },
           {
@@ -292,11 +292,26 @@
       }
     ]
   },
-  "active": "a0c96f30aa4737ae",
+  "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
-    "Diary/2025-05-20.md",
+    "Diary/attachments/Pasted image 20250903152522.png",
+    "Diary/2025-05-09.md",
+    "Diary/2025-05-10.md",
+    "Diary/2025-05-11.md",
+    "Diary/2025-05-12.md",
+    "Diary/2025-05-13.md",
+    "Diary/2025-05-14.md",
+    "Diary/2025-05-15.md",
+    "Diary/2025-05-16.md",
+    "Diary/2025-05-17.md",
+    "Diary/2025-05-18.md",
     "Diary/2025-05-19.md",
+    "Diary/2025-05-20.md",
     "Diary/2025-05-21.md",
+    "Diary/2025-09-21.md",
+    "Diary/2025-09-17.md",
+    "Diary/2025-09-18.md",
+    "Diary/2025-09-19.md",
     "Diary/2025-05-22.md",
     "Diary/2025-05-23.md",
     "Diary/2025-05-25.md",
@@ -305,23 +320,7 @@
     "Diary/2025-05-28.md",
     "Diary/2025-06-09.md",
     "Diary/2025-04-12.md",
-    "Diary/2025-04-13.md",
-    "Diary/2025-04-11.md",
-    "Diary/2025-04-14.md",
-    "Diary/2025-04-23.md",
-    "Diary/2025-04-25.md",
-    "Diary/2025-04-26.md",
-    "Diary/2025-04-27.md",
-    "Diary/2025-04-28.md",
-    "Diary/2025-04-30.md",
-    "Diary/2025-05-01.md",
-    "Diary/2025-05-02.md",
-    "Diary/2025-05-03.md",
-    "Diary/2025-05-04.md",
-    "Diary/2025-05-05.md",
-    "Diary/2025-05-06.md",
     "Diary/attachments/1750304137847_d.png",
-    "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20250903152946.png",
     "Diary/attachments/Pasted image 20250903152936.png",
     "Diary/attachments/Pasted image 20250903152922.png",
