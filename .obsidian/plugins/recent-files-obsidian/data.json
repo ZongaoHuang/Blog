@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
+      "basename": "2025-08-11",
+      "path": "Diary/2025-08-11.md"
+    },
+    {
+      "basename": "2025-09-24",
+      "path": "Diary/2025-09-24.md"
+    },
+    {
+      "basename": "2025-09-28",
+      "path": "Diary/2025-09-28.md"
+    },
+    {
+      "basename": "2025-09-29",
+      "path": "Diary/2025-09-29.md"
+    },
+    {
+      "basename": "2025-09-30",
+      "path": "Diary/2025-09-30.md"
+    },
+    {
       "basename": "2025-04-25",
       "path": "Diary/2025-04-25.md"
     },
@@ -157,26 +181,6 @@
       "path": "Diary/2025-09-23.md"
     },
     {
-      "basename": "2025-08-11",
-      "path": "Diary/2025-08-11.md"
-    },
-    {
-      "basename": "2025-09-28",
-      "path": "Diary/2025-09-28.md"
-    },
-    {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
-    },
-    {
-      "basename": "2025-09-24",
-      "path": "Diary/2025-09-24.md"
-    },
-    {
-      "basename": "2025-09-29",
-      "path": "Diary/2025-09-29.md"
-    },
-    {
       "basename": "http",
       "path": "SourceCode/Go/http.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "atomic",
       "path": "SourceCode/Go/atomic.md"
-    },
-    {
-      "basename": "sort",
-      "path": "SourceCode/Go/sort.md"
     }
   ],
   "omittedPaths": [],
