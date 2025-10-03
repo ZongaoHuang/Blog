@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-10-03",
+      "path": "Diary/2025-10-03.md"
+    },
+    {
+      "basename": "2025-10-02",
+      "path": "Diary/2025-10-02.md"
+    },
+    {
       "basename": "2025-09-30",
       "path": "Diary/2025-09-30.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "flag",
       "path": "SourceCode/Go/flag.md"
-    },
-    {
-      "basename": "context",
-      "path": "SourceCode/Go/context.md"
-    },
-    {
-      "basename": "atomic",
-      "path": "SourceCode/Go/atomic.md"
     }
   ],
   "omittedPaths": [],

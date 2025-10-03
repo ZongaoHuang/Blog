@@ -25,12 +25,14 @@
             "id": "42309f8e3a61af99",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Diary/2025-10-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.14"
+              "icon": "lucide-file",
+              "title": "2025-10-02"
             }
           }
         ],
@@ -98,7 +100,7 @@
             }
           },
           {
-            "id": "0d257b28a46756a6",
+            "id": "e8db473fe1dca467",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -110,8 +112,7 @@
               "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,12 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Diary/2025-10-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-10-02 的大纲"
             }
           },
           {
@@ -274,6 +276,7 @@
   "active": "42309f8e3a61af99",
   "lastOpenFiles": [
     "Diary/2025-09-30.md",
+    "Diary/2025-10-02.md",
     "Diary/2025-09-27.md",
     "Diary/2025-08-11.md",
     "Diary/2025-09-24.md",
@@ -298,7 +301,6 @@
     "Diary/2025-07-27.md",
     "Diary/2025-07-28.md",
     "Diary/2025-07-25.md",
-    "Diary/2025-07-23.md",
     "Diary/attachments/1759050842553_d.png",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/1750304137847_d.png",
