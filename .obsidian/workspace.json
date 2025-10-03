@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-10-02.md",
+                "file": "Diary/2025-10-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-02"
+              "title": "2025-10-03"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qps",
+                "query": "hp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "e8db473fe1dca467",
+            "id": "f909c9f4832b7cd4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -112,7 +112,8 @@
               "title": "文件列表"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -204,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-10-02.md",
+                "file": "Diary/2025-05-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-10-02 的大纲"
+              "title": "2025-05-10 的大纲"
             }
           },
           {
@@ -275,8 +276,9 @@
   },
   "active": "42309f8e3a61af99",
   "lastOpenFiles": [
-    "Diary/2025-09-30.md",
+    "Diary/2025-10-03.md",
     "Diary/2025-10-02.md",
+    "Diary/2025-09-30.md",
     "Diary/2025-09-27.md",
     "Diary/2025-08-11.md",
     "Diary/2025-09-24.md",
@@ -300,7 +302,6 @@
     "Diary/2025-07-30.md",
     "Diary/2025-07-27.md",
     "Diary/2025-07-28.md",
-    "Diary/2025-07-25.md",
     "Diary/attachments/1759050842553_d.png",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/1750304137847_d.png",
