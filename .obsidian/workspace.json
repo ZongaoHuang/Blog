@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-09-30.md",
+                "file": "Diary/2025-09-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-30"
+              "title": "2025-09-24"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-09-30.md",
+                "file": "Diary/2025-09-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-09-30 的反向链接列表"
+              "title": "2025-09-24 的反向链接列表"
             }
           },
           {
@@ -158,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2025-09-30.md",
+                "file": "Diary/2025-09-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-09-30 的出链列表"
+              "title": "2025-09-24 的出链列表"
             }
           },
           {
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-09-30.md",
+                "file": "Diary/2025-09-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-30 的大纲"
+              "title": "2025-09-24 的大纲"
             }
           },
           {
@@ -269,9 +269,13 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1d3c74f823e85eb2",
+  "active": "42309f8e3a61af99",
   "lastOpenFiles": [
-    "Diary/2025-10-09.md",
+    "Diary/2025-09-27.md",
+    "Diary/2025-09-28.md",
+    "Diary/2025-09-29.md",
+    "Diary/2025-09-30.md",
+    "Diary/2025-10-04.md",
     "Diary/2025-04-14.md",
     "Diary/2025-04-23.md",
     "Diary/2025-04-25.md",
@@ -281,10 +285,6 @@
     "Diary/2025-09-21.md",
     "Diary/2025-09-03.md",
     "Diary/2025-09-23.md",
-    "Diary/2025-09-27.md",
-    "Diary/2025-09-28.md",
-    "Diary/2025-09-29.md",
-    "Diary/2025-09-30.md",
     "Diary/2025-10-07.md",
     "Diary/2025-10-10.md",
     "Diary/2025-05-28.md",
