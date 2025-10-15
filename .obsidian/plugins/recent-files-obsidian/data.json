@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-10-15",
+      "path": "Diary/2025-10-15.md"
+    },
+    {
+      "basename": "2025-09-01",
+      "path": "Diary/2025-09-01.md"
+    },
+    {
+      "basename": "2025-08-03",
+      "path": "Diary/2025-08-03.md"
+    },
+    {
+      "basename": "2025-07-15",
+      "path": "Diary/2025-07-15.md"
+    },
+    {
+      "basename": "2025-07-16",
+      "path": "Diary/2025-07-16.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
       "basename": "2025-10-04",
       "path": "Diary/2025-10-04.md"
     },
@@ -69,10 +93,6 @@
       "path": "Diary/2025-08-28.md"
     },
     {
-      "basename": "2025-09-01",
-      "path": "Diary/2025-09-01.md"
-    },
-    {
       "basename": "2025-09-02",
       "path": "Diary/2025-09-02.md"
     },
@@ -87,10 +107,6 @@
     {
       "basename": "2025-09-24",
       "path": "Diary/2025-09-24.md"
-    },
-    {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
     },
     {
       "basename": "2025-09-28",
@@ -161,10 +177,6 @@
       "path": "Diary/2025-08-01.md"
     },
     {
-      "basename": "2025-08-03",
-      "path": "Diary/2025-08-03.md"
-    },
-    {
       "basename": "2025-08-05",
       "path": "Diary/2025-08-05.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "2025-05-10",
       "path": "Diary/2025-05-10.md"
-    },
-    {
-      "basename": "unsafe",
-      "path": "SourceCode/Go/unsafe.md"
-    },
-    {
-      "basename": "2025-05-09",
-      "path": "Diary/2025-05-09.md"
-    },
-    {
-      "basename": "2025-05-06",
-      "path": "Diary/2025-05-06.md"
     }
   ],
   "omittedPaths": [],
