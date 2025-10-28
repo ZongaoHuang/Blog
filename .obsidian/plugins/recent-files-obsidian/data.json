@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-10-13",
-      "path": "Diary/2025-10-13.md"
+      "basename": "2025-08-14",
+      "path": "Diary/2025-08-14.md"
     },
     {
-      "basename": "2025-10-05",
-      "path": "Diary/2025-10-05.md"
+      "basename": "2025-07-10",
+      "path": "Diary/2025-07-10.md"
     },
     {
-      "basename": "2025-10-22",
-      "path": "Diary/2025-10-22.md"
+      "basename": "2025-07-14",
+      "path": "Diary/2025-07-14.md"
     },
     {
-      "basename": "2025-10-26",
-      "path": "Diary/2025-10-26.md"
+      "basename": "2025-07-13",
+      "path": "Diary/2025-07-13.md"
     },
     {
-      "basename": "2025-09-30",
-      "path": "Diary/2025-09-30.md"
+      "basename": "2025-07-17",
+      "path": "Diary/2025-07-17.md"
     },
     {
       "basename": "2025-08-07",
@@ -29,24 +29,56 @@
       "path": "Diary/2025-07-23.md"
     },
     {
-      "basename": "2025-07-17",
-      "path": "Diary/2025-07-17.md"
+      "basename": "2025-10-05",
+      "path": "Diary/2025-10-05.md"
     },
     {
-      "basename": "2025-07-13",
-      "path": "Diary/2025-07-13.md"
+      "basename": "2025-10-13",
+      "path": "Diary/2025-10-13.md"
     },
     {
-      "basename": "2025-08-14",
-      "path": "Diary/2025-08-14.md"
+      "basename": "2025-10-22",
+      "path": "Diary/2025-10-22.md"
     },
     {
-      "basename": "2025-07-14",
-      "path": "Diary/2025-07-14.md"
+      "basename": "2025-10-26",
+      "path": "Diary/2025-10-26.md"
     },
     {
-      "basename": "2025-07-10",
-      "path": "Diary/2025-07-10.md"
+      "basename": "sort",
+      "path": "SourceCode/Go/sort.md"
+    },
+    {
+      "basename": "2025-05-20",
+      "path": "Diary/2025-05-20.md"
+    },
+    {
+      "basename": "aws-security-study-plan",
+      "path": "Misc/Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md"
+    },
+    {
+      "basename": "common-skills-study-plan",
+      "path": "Misc/Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md"
+    },
+    {
+      "basename": "2025-06-05",
+      "path": "Diary/2025-06-05.md"
+    },
+    {
+      "basename": "2025-06-19",
+      "path": "Diary/2025-06-19.md"
+    },
+    {
+      "basename": "2025-05-10",
+      "path": "Diary/2025-05-10.md"
+    },
+    {
+      "basename": "2025-06-12",
+      "path": "Diary/2025-06-12.md"
+    },
+    {
+      "basename": "2025-09-30",
+      "path": "Diary/2025-09-30.md"
     },
     {
       "basename": "2025-05-06",
@@ -55,14 +87,6 @@
     {
       "basename": "2025-07-29",
       "path": "Diary/2025-07-29.md"
-    },
-    {
-      "basename": "2025-06-12",
-      "path": "Diary/2025-06-12.md"
-    },
-    {
-      "basename": "2025-05-20",
-      "path": "Diary/2025-05-20.md"
     },
     {
       "basename": "2025-06-18",
@@ -109,10 +133,6 @@
       "path": "Diary/2025-06-17.md"
     },
     {
-      "basename": "2025-06-19",
-      "path": "Diary/2025-06-19.md"
-    },
-    {
       "basename": "2025-06-22",
       "path": "Diary/2025-06-22.md"
     },
@@ -135,10 +155,6 @@
     {
       "basename": "2025-05-19",
       "path": "Diary/2025-05-19.md"
-    },
-    {
-      "basename": "2025-05-10",
-      "path": "Diary/2025-05-10.md"
     },
     {
       "basename": "2025-04-16",
@@ -183,22 +199,6 @@
     {
       "basename": "2025-07-16",
       "path": "Diary/2025-07-16.md"
-    },
-    {
-      "basename": "2025-05-11",
-      "path": "Diary/2025-05-11.md"
-    },
-    {
-      "basename": "2025-05-27",
-      "path": "Diary/2025-05-27.md"
-    },
-    {
-      "basename": "2025-05-12",
-      "path": "Diary/2025-05-12.md"
-    },
-    {
-      "basename": "2025-08-12",
-      "path": "Diary/2025-08-12.md"
     }
   ],
   "omittedPaths": [],
