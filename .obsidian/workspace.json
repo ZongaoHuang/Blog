@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-14.md",
+                "file": "Diary/2025-10-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-14"
+              "title": "2025-10-29"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "0863625877be71a5",
+            "id": "3d293481012a93e3",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-08-14.md",
+                "file": "Diary/2025-10-29.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-08-14 的大纲"
+              "title": "2025-10-29 的大纲"
             }
           },
           {
@@ -272,11 +272,12 @@
   },
   "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
+    "Diary/2025-08-14.md",
+    "Diary/2025-10-29.md",
     "Diary/2025-07-10.md",
     "Diary/2025-07-14.md",
     "Diary/2025-07-13.md",
     "Diary/2025-07-17.md",
-    "Diary/2025-08-14.md",
     "Diary/2025-08-07.md",
     "Diary/2025-07-23.md",
     "Diary/2025-10-05.md",
@@ -297,7 +298,6 @@
     "Diary/2025-06-18.md",
     "Diary/2023-11-13.md",
     "Diary/2025-04-02.md",
-    "Diary/2025-05-07.md",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20251009002939.png",
     "Diary/attachments/Pasted image 20251009001906.png",
