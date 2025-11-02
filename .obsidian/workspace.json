@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-10-30.md",
+                "file": "Diary/2025-05-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-30"
+              "title": "2025-05-29"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mcp",
+                "query": "幻读",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "9529f46c54b721c6",
+            "id": "ce782609b92efe7e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -204,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-10-30.md",
+                "file": "Diary/2025-05-29.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-10-30 的大纲"
+              "title": "2025-05-29 的大纲"
             }
           },
           {
@@ -275,32 +275,32 @@
   },
   "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
-    "Diary/2025-10-13.md",
+    "Diary/2025-06-18.md",
+    "Workflow/Social Skills/HR面试.md",
     "Diary/2025-08-07.md",
-    "Diary/2025-10-29.md",
-    "Diary/2025-10-30.md",
+    "Diary/2025-06-12.md",
+    "Diary/2025-05-20.md",
+    "Diary/2025-06-19.md",
+    "Diary/2025-08-03.md",
+    "Diary/2025-08-26.md",
+    "Diary/2025-09-01.md",
+    "Diary/2025-08-12.md",
+    "Diary/2025-07-15.md",
+    "Diary/2025-07-29.md",
+    "Diary/2025-09-23.md",
+    "Diary/2025-09-30.md",
+    "Diary/2025-09-21.md",
     "Diary/2025-08-14.md",
+    "Diary/2025-10-05.md",
+    "Diary/2025-10-31.md",
+    "Diary/2025-10-30.md",
+    "Diary/2025-10-13.md",
+    "Diary/2025-10-29.md",
     "Diary/2025-07-10.md",
     "Diary/2025-07-14.md",
     "Diary/2025-07-13.md",
     "Diary/2025-07-17.md",
     "Diary/2025-07-23.md",
-    "Diary/2025-10-05.md",
-    "Diary/2025-10-22.md",
-    "Diary/2025-10-26.md",
-    "SourceCode/Go/sort.md",
-    "Diary/2025-05-20.md",
-    "Misc/Security/security-study-plan-main/security-study-plan-main/aws-security-study-plan.md",
-    "Misc/Security/security-study-plan-main/security-study-plan-main/common-skills-study-plan.md",
-    "Diary/2025-06-05.md",
-    "Diary/2025-06-19.md",
-    "Diary/2025-05-10.md",
-    "Diary/2025-06-12.md",
-    "Diary/2025-09-30.md",
-    "Diary/2025-05-06.md",
-    "Diary/2025-07-29.md",
-    "Diary/2025-06-18.md",
-    "Diary/2023-11-13.md",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20251009002939.png",
     "Diary/attachments/Pasted image 20251009001906.png",
