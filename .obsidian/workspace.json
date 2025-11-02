@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-05-29.md",
+                "file": "Diary/2025-09-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-29"
+              "title": "2025-09-27"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-08-07.md",
+                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-07"
+              "title": "摘要 && 方法 && 实验"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "幻读",
+                "query": "owasp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,16 +100,13 @@
             }
           },
           {
-            "id": "ce782609b92efe7e",
+            "id": "0203f3a41678dbaf",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -204,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-05-29.md",
+                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-29 的大纲"
+              "title": "摘要 && 方法 && 实验 的大纲"
             }
           },
           {
@@ -273,11 +271,19 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e6c8b40c6d0144f9",
+  "active": "42309f8e3a61af99",
   "lastOpenFiles": [
+    "Diary/2025-09-27.md",
+    "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+    "Tools/中国软件著作权代码自动提取工具.md",
+    "Diary/2025-11-02.md",
+    "Misc/FinalSearch/中期答辩",
+    "Diary/2025-08-07.md",
+    "Diary/2024-11-13.md",
+    "Diary/2024-12-18.md",
+    "Diary/2025-05-29.md",
     "Diary/2025-06-18.md",
     "Workflow/Social Skills/HR面试.md",
-    "Diary/2025-08-07.md",
     "Diary/2025-06-12.md",
     "Diary/2025-05-20.md",
     "Diary/2025-06-19.md",
@@ -294,13 +300,6 @@
     "Diary/2025-10-05.md",
     "Diary/2025-10-31.md",
     "Diary/2025-10-30.md",
-    "Diary/2025-10-13.md",
-    "Diary/2025-10-29.md",
-    "Diary/2025-07-10.md",
-    "Diary/2025-07-14.md",
-    "Diary/2025-07-13.md",
-    "Diary/2025-07-17.md",
-    "Diary/2025-07-23.md",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20251009002939.png",
     "Diary/attachments/Pasted image 20251009001906.png",
@@ -320,7 +319,6 @@
     "SourceCode/Go",
     "public/favicon.ico",
     "public/logo4.ico",
-    "public/logo3.ico",
     "未命名.canvas"
   ]
 }
