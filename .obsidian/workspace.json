@@ -35,8 +35,7 @@
               "title": "摘要 && 方法 && 实验"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+                "file": "Diary/2025-09-27.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "摘要 && 方法 && 实验 的大纲"
+              "title": "2025-09-27 的大纲"
             }
           },
           {
@@ -271,10 +270,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "42309f8e3a61af99",
+  "active": "e6c8b40c6d0144f9",
   "lastOpenFiles": [
-    "Diary/2025-09-27.md",
     "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+    "Diary/2025-09-27.md",
     "Tools/中国软件著作权代码自动提取工具.md",
     "Diary/2025-11-02.md",
     "Misc/FinalSearch/中期答辩",
