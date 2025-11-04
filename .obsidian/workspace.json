@@ -35,7 +35,8 @@
               "title": "摘要 && 方法 && 实验"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-09-27.md",
+                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-27 的大纲"
+              "title": "摘要 && 方法 && 实验 的大纲"
             }
           },
           {
@@ -270,8 +271,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e6c8b40c6d0144f9",
+  "active": "42309f8e3a61af99",
   "lastOpenFiles": [
+    "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md",
     "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
     "Diary/2025-09-27.md",
     "Tools/中国软件著作权代码自动提取工具.md",
@@ -298,7 +300,6 @@
     "Diary/2025-08-14.md",
     "Diary/2025-10-05.md",
     "Diary/2025-10-31.md",
-    "Diary/2025-10-30.md",
     "Diary/attachments/Pasted image 20250903152522.png",
     "Diary/attachments/Pasted image 20251009002939.png",
     "Diary/attachments/Pasted image 20251009001906.png",
