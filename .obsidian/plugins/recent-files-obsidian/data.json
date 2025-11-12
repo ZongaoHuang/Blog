@@ -5,6 +5,14 @@
       "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
     },
     {
+      "basename": "中期报告",
+      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
+    },
+    {
+      "basename": "开题报告第二版",
+      "path": "Misc/FinalSearch/开题报告/开题报告第二版.md"
+    },
+    {
       "basename": "sort",
       "path": "SourceCode/Go/sort.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2025-04-25",
       "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "Diary/2025-06-14.md"
-    },
-    {
-      "basename": "2025-06-17",
-      "path": "Diary/2025-06-17.md"
     }
   ],
   "omittedPaths": [],
