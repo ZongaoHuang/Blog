@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+                "file": "Misc/FinalSearch/中期答辩/中期报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "摘要 && 方法 && 实验"
+              "title": "中期报告"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "摘要 && 方法 && 实验"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "流程图",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+                "file": "Misc/FinalSearch/中期答辩/中期报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "摘要 && 方法 && 实验 的大纲"
+              "title": "中期报告 的大纲"
             }
           },
           {
@@ -270,10 +269,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "2ebaa7abf5afbbc9",
+  "active": "42309f8e3a61af99",
   "lastOpenFiles": [
-    "Misc/FinalSearch/中期答辩/中期报告.md",
     "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md",
+    "Misc/FinalSearch/中期答辩/中期报告.md",
     "Misc/FinalSearch/开题报告/开题报告第二版.md",
     "SourceCode/Go/sort.md",
     "Diary/2025-09-27.md",
