@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "中期报告",
-      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
-    },
-    {
       "basename": "摘要 && 方法 && 实验",
       "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
+    },
+    {
+      "basename": "中期修改",
+      "path": "Misc/FinalSearch/中期答辩/中期修改.md"
+    },
+    {
+      "basename": "中期报告",
+      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
     },
     {
       "basename": "开题报告第二版",
@@ -195,10 +199,6 @@
     {
       "basename": "sync",
       "path": "SourceCode/Go/sync.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
     }
   ],
   "omittedPaths": [],
