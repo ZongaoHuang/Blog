@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-11-25.md",
+                "file": "Misc/FinalSearch/中期答辩/中期修改.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-25"
+              "title": "中期修改"
             }
           },
           {
@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-11-25.md",
+                "file": "Misc/FinalSearch/中期答辩/中期修改.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-25 的大纲"
+              "title": "中期修改 的大纲"
             }
           },
           {
@@ -272,8 +272,8 @@
   },
   "active": "2ebaa7abf5afbbc9",
   "lastOpenFiles": [
-    "Misc/FinalSearch/中期答辩/中期修改.md",
     "Diary/2025-11-25.md",
+    "Misc/FinalSearch/中期答辩/中期修改.md",
     "Diary/2025-11-21.md",
     "Diary/2025-11-07.md",
     "Diary/2025-09-27.md",
