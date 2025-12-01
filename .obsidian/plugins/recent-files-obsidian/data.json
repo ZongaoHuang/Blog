@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-12-01",
+      "path": "Diary/2025-12-01.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
+      "basename": "2025-11-02",
+      "path": "Diary/2025-11-02.md"
+    },
+    {
+      "basename": "2025-10-22",
+      "path": "Diary/2025-10-22.md"
+    },
+    {
+      "basename": "2025-11-26",
+      "path": "Diary/2025-11-26.md"
+    },
+    {
+      "basename": "2025-08-07",
+      "path": "Diary/2025-08-07.md"
+    },
+    {
+      "basename": "2025-10-05",
+      "path": "Diary/2025-10-05.md"
+    },
+    {
+      "basename": "2025-11-27",
+      "path": "Diary/2025-11-27.md"
+    },
+    {
       "basename": "2025-10-04",
       "path": "Diary/2025-10-04.md"
+    },
+    {
+      "basename": "2025-11-28",
+      "path": "Diary/2025-11-28.md"
+    },
+    {
+      "basename": "2025-06-18",
+      "path": "Diary/2025-06-18.md"
+    },
+    {
+      "basename": "2025-11-30",
+      "path": "Diary/2025-11-30.md"
     },
     {
       "basename": "2025-05-13",
@@ -11,18 +55,6 @@
     {
       "basename": "2025-09-01",
       "path": "Diary/2025-09-01.md"
-    },
-    {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
-    },
-    {
-      "basename": "2025-06-18",
-      "path": "Diary/2025-06-18.md"
-    },
-    {
-      "basename": "2025-11-28",
-      "path": "Diary/2025-11-28.md"
     },
     {
       "basename": "2025-06-22",
@@ -61,32 +93,8 @@
       "path": "Diary/2025-10-13.md"
     },
     {
-      "basename": "2025-11-02",
-      "path": "Diary/2025-11-02.md"
-    },
-    {
-      "basename": "2025-10-22",
-      "path": "Diary/2025-10-22.md"
-    },
-    {
       "basename": "2025-05-10",
       "path": "Diary/2025-05-10.md"
-    },
-    {
-      "basename": "2025-11-26",
-      "path": "Diary/2025-11-26.md"
-    },
-    {
-      "basename": "2025-08-07",
-      "path": "Diary/2025-08-07.md"
-    },
-    {
-      "basename": "2025-10-05",
-      "path": "Diary/2025-10-05.md"
-    },
-    {
-      "basename": "2025-11-27",
-      "path": "Diary/2025-11-27.md"
     },
     {
       "basename": "2025-05-23",
@@ -191,14 +199,6 @@
     {
       "basename": "HR面试",
       "path": "Workflow/Social Skills/HR面试.md"
-    },
-    {
-      "basename": "2025-05-20",
-      "path": "Diary/2025-05-20.md"
-    },
-    {
-      "basename": "2025-06-19",
-      "path": "Diary/2025-06-19.md"
     }
   ],
   "omittedPaths": [],
