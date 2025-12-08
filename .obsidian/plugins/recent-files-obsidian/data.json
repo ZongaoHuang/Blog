@@ -1,24 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-12-01",
-      "path": "Diary/2025-12-01.md"
+      "basename": "中期修改",
+      "path": "Misc/FinalSearch/中期答辩/中期修改.md"
     },
     {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
+      "basename": "摘要 && 方法 && 实验",
+      "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
     },
     {
-      "basename": "2025-11-02",
-      "path": "Diary/2025-11-02.md"
-    },
-    {
-      "basename": "2025-10-22",
-      "path": "Diary/2025-10-22.md"
-    },
-    {
-      "basename": "2025-11-26",
-      "path": "Diary/2025-11-26.md"
+      "basename": "中期报告",
+      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
     },
     {
       "basename": "2025-08-07",
@@ -31,6 +23,10 @@
     {
       "basename": "2025-11-27",
       "path": "Diary/2025-11-27.md"
+    },
+    {
+      "basename": "2025-06-14",
+      "path": "Diary/2025-06-14.md"
     },
     {
       "basename": "2025-10-04",
@@ -47,6 +43,30 @@
     {
       "basename": "2025-11-30",
       "path": "Diary/2025-11-30.md"
+    },
+    {
+      "basename": "2025-12-01",
+      "path": "Diary/2025-12-01.md"
+    },
+    {
+      "basename": "2025-12-03",
+      "path": "Diary/2025-12-03.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
+      "basename": "2025-11-02",
+      "path": "Diary/2025-11-02.md"
+    },
+    {
+      "basename": "2025-10-22",
+      "path": "Diary/2025-10-22.md"
+    },
+    {
+      "basename": "2025-11-26",
+      "path": "Diary/2025-11-26.md"
     },
     {
       "basename": "2025-05-13",
@@ -67,10 +87,6 @@
     {
       "basename": "2025-07-29",
       "path": "Diary/2025-07-29.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "Diary/2025-06-14.md"
     },
     {
       "basename": "2025-05-01",
@@ -157,18 +173,6 @@
       "path": "Diary/2025-05-19.md"
     },
     {
-      "basename": "中期修改",
-      "path": "Misc/FinalSearch/中期答辩/中期修改.md"
-    },
-    {
-      "basename": "摘要 && 方法 && 实验",
-      "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
-    },
-    {
-      "basename": "中期报告",
-      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
-    },
-    {
       "basename": "开题报告第二版",
       "path": "Misc/FinalSearch/开题报告/开题报告第二版.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-29",
       "path": "Diary/2025-05-29.md"
-    },
-    {
-      "basename": "HR面试",
-      "path": "Workflow/Social Skills/HR面试.md"
     }
   ],
   "omittedPaths": [],
