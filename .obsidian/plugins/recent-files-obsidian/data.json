@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "unicode",
+      "path": "SourceCode/Go/unicode.md"
+    },
+    {
+      "basename": "2025-05-08",
+      "path": "Diary/2025-05-08.md"
+    },
+    {
+      "basename": "2025-03-03",
+      "path": "Diary/2025-03-03.md"
+    },
+    {
+      "basename": "2025-06-22",
+      "path": "Diary/2025-06-22.md"
+    },
+    {
+      "basename": "2025-08-08",
+      "path": "Diary/2025-08-08.md"
+    },
+    {
+      "basename": "2025-05-28",
+      "path": "Diary/2025-05-28.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
+      "basename": "2025-10-04",
+      "path": "Diary/2025-10-04.md"
+    },
+    {
       "basename": "HR面试",
       "path": "Workflow/Social Skills/HR面试.md"
     },
@@ -37,10 +69,6 @@
       "path": "Diary/2025-06-14.md"
     },
     {
-      "basename": "2025-10-04",
-      "path": "Diary/2025-10-04.md"
-    },
-    {
       "basename": "2025-11-28",
       "path": "Diary/2025-11-28.md"
     },
@@ -61,10 +89,6 @@
       "path": "Diary/2025-12-03.md"
     },
     {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
-    },
-    {
       "basename": "2025-11-02",
       "path": "Diary/2025-11-02.md"
     },
@@ -83,14 +107,6 @@
     {
       "basename": "2025-09-01",
       "path": "Diary/2025-09-01.md"
-    },
-    {
-      "basename": "2025-06-22",
-      "path": "Diary/2025-06-22.md"
-    },
-    {
-      "basename": "2025-05-28",
-      "path": "Diary/2025-05-28.md"
     },
     {
       "basename": "2025-07-29",
@@ -183,22 +199,6 @@
     {
       "basename": "开题报告第二版",
       "path": "Misc/FinalSearch/开题报告/开题报告第二版.md"
-    },
-    {
-      "basename": "sort",
-      "path": "SourceCode/Go/sort.md"
-    },
-    {
-      "basename": "前后端分离应用的渗透测试方案",
-      "path": "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md"
-    },
-    {
-      "basename": "中国软件著作权代码自动提取工具",
-      "path": "Tools/中国软件著作权代码自动提取工具.md"
-    },
-    {
-      "basename": "2024-11-13",
-      "path": "Diary/2024-11-13.md"
     }
   ],
   "omittedPaths": [],
