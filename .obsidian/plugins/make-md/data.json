@@ -50,12 +50,11 @@
     "//SourceCode/SourceCode/Go",
     "//Misc/Misc/Social Skills",
     "//Misc/Misc/Security",
-    "//Misc/Misc/Security/Misc/Security/项目",
     "//Misc/Misc/Security/Misc/Security/项目/Misc/Security/项目/创新资助第三期",
     "//Npm/Npm/Go",
     "/",
-    "//Workflow/Workflow/Code",
-    "//Diary"
+    "//Workflow",
+    "//Misc/Misc/Security/Misc/Security/Web安全"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
