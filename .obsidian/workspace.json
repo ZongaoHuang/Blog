@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-12-26.md",
+                "file": "Diary/2025-11-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-26"
+              "title": "2025-11-02"
+            }
+          },
+          {
+            "id": "80b18ba2de571d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2025-11-03.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-03"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mvcc",
+                "query": "线程安全",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-09-02.md",
+                "file": "Diary/2025-11-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-02 的大纲"
+              "title": "2025-11-03 的大纲"
             }
           },
           {
@@ -256,12 +271,24 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "737cfa459092c125",
+  "active": "80b18ba2de571d3f",
   "lastOpenFiles": [
+    "Diary/2025-09-23.md",
+    "Diary/2025-11-03.md",
+    "Diary/2025-12-09.md",
+    "Diary/2025-11-02.md",
+    "2025-",
+    "Diary/2025-12-22.md",
+    "Diary/2025-12-21.md",
+    "Diary/2025-12-17.md",
+    "Diary/2025-12-20.md",
     "Diary/2025-12-26.md",
+    "Diary/2025-08-28.md",
+    "Diary/2025-08-27.md",
+    "Diary/2025-09-01.md",
+    "Diary/2025-09-02.md",
     "Diary/2025-09-03.md",
     "Diary/2025-09-21.md",
-    "Diary/2025-09-23.md",
     "Diary/2025-09-24.md",
     "Diary/2025-09-27.md",
     "Diary/2025-09-28.md",
@@ -270,24 +297,13 @@
     "Diary/2025-10-04.md",
     "Diary/2025-10-05.md",
     "Diary/2025-10-13.md",
-    "Diary/2025-11-02.md",
     "Diary/2025-10-22.md",
-    "Diary/2025-12-09.md",
-    "Diary/2025-12-20.md",
-    "Diary/2025-12-22.md",
-    "Diary/2025-12-21.md",
-    "Diary/2025-12-23.md",
-    "Diary/2025-12-17.md",
-    "Diary/2025-05-29.md",
-    "Diary/Diary.md",
+    "Diary/2025-05-10.md",
+    "Diary/2025-08-07.md",
     "Diary/attachments/Pasted image 20251222103620.png",
     "Diary/attachments/Pasted image 20251222103605.png",
     "Diary/attachments/Pasted image 20251222103550.png",
     "Diary/attachments/Pasted image 20251222103516.png",
-    "Diary/2025-05-15.md",
-    "Diary/2025-05-10.md",
-    "Diary/2025-05-19.md",
-    "Diary/2025-04-16.md",
     "Misc/FinalSearch/中期答辩/attachments/Pasted image 20251118140614.png",
     "Misc/FinalSearch/中期答辩/attachments/Pasted image 20251117164402.png",
     "Misc/FinalSearch/中期答辩/attachments",
@@ -303,7 +319,6 @@
     "Misc/Security/项目/创新资助第三期",
     "SourceCode/Go/attachments",
     "SourceCode/Go",
-    "public/favicon.ico",
     "未命名.canvas"
   ]
 }
