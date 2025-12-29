@@ -1,24 +1,148 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-12-29",
-      "path": "Diary/2025-12-29.md"
+      "basename": "2025-06-18",
+      "path": "Diary/2025-06-18.md"
     },
     {
-      "basename": "2025-05-01",
-      "path": "Diary/2025-05-01.md"
+      "basename": "unicode",
+      "path": "SourceCode/Go/unicode.md"
+    },
+    {
+      "basename": "中期修改",
+      "path": "Misc/FinalSearch/中期答辩/中期修改.md"
+    },
+    {
+      "basename": "2025-12-21",
+      "path": "Diary/2025-12-21.md"
+    },
+    {
+      "basename": "2025-06-12",
+      "path": "Diary/2025-06-12.md"
+    },
+    {
+      "basename": "2025-08-25",
+      "path": "Diary/2025-08-25.md"
     },
     {
       "basename": "2025-10-05",
       "path": "Diary/2025-10-05.md"
     },
     {
+      "basename": "2025-10-04",
+      "path": "Diary/2025-10-04.md"
+    },
+    {
+      "basename": "2025-05-01",
+      "path": "Diary/2025-05-01.md"
+    },
+    {
+      "basename": "2025-05-07",
+      "path": "Diary/2025-05-07.md"
+    },
+    {
+      "basename": "2025-05-06",
+      "path": "Diary/2025-05-06.md"
+    },
+    {
+      "basename": "2025-05-10",
+      "path": "Diary/2025-05-10.md"
+    },
+    {
+      "basename": "中期报告",
+      "path": "Misc/FinalSearch/中期答辩/中期报告.md"
+    },
+    {
+      "basename": "2025-04-02",
+      "path": "Diary/2025-04-02.md"
+    },
+    {
+      "basename": "面试准备",
+      "path": "Workflow/Social Skills/面试准备.md"
+    },
+    {
+      "basename": "2025-10-22",
+      "path": "Diary/2025-10-22.md"
+    },
+    {
       "basename": "2025-11-03",
       "path": "Diary/2025-11-03.md"
     },
     {
+      "basename": "2025-05-20",
+      "path": "Diary/2025-05-20.md"
+    },
+    {
+      "basename": "2025-05-09",
+      "path": "Diary/2025-05-09.md"
+    },
+    {
+      "basename": "2025-07-29",
+      "path": "Diary/2025-07-29.md"
+    },
+    {
+      "basename": "2025-05-16",
+      "path": "Diary/2025-05-16.md"
+    },
+    {
+      "basename": "2025-05-14",
+      "path": "Diary/2025-05-14.md"
+    },
+    {
+      "basename": "2025-04-30",
+      "path": "Diary/2025-04-30.md"
+    },
+    {
+      "basename": "2025-03-20",
+      "path": "Diary/2025-03-20.md"
+    },
+    {
+      "basename": "2025-02-18",
+      "path": "Diary/2025-02-18.md"
+    },
+    {
+      "basename": "2025-08-28",
+      "path": "Diary/2025-08-28.md"
+    },
+    {
+      "basename": "2025-08-08",
+      "path": "Diary/2025-08-08.md"
+    },
+    {
+      "basename": "2025-06-22",
+      "path": "Diary/2025-06-22.md"
+    },
+    {
       "basename": "2025-06-19",
       "path": "Diary/2025-06-19.md"
+    },
+    {
+      "basename": "2025-06-13",
+      "path": "Diary/2025-06-13.md"
+    },
+    {
+      "basename": "2025-04-25",
+      "path": "Diary/2025-04-25.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
+    },
+    {
+      "basename": "2025-12-29",
+      "path": "Diary/2025-12-29.md"
+    },
+    {
+      "basename": "2025-12-26",
+      "path": "Diary/2025-12-26.md"
+    },
+    {
+      "basename": "2025-12-23",
+      "path": "Diary/2025-12-23.md"
+    },
+    {
+      "basename": "2025-12-22",
+      "path": "Diary/2025-12-22.md"
     },
     {
       "basename": "2025-05-29",
@@ -31,10 +155,6 @@
     {
       "basename": "2025-03-18",
       "path": "Diary/2025-03-18.md"
-    },
-    {
-      "basename": "2025-03-20",
-      "path": "Diary/2025-03-20.md"
     },
     {
       "basename": "2025-03-16",
@@ -53,32 +173,12 @@
       "path": "Misc/Security/项目/1.2 数据库审计.md"
     },
     {
-      "basename": "2025-05-20",
-      "path": "Diary/2025-05-20.md"
-    },
-    {
-      "basename": "2025-06-22",
-      "path": "Diary/2025-06-22.md"
-    },
-    {
       "basename": "2025-08-26",
       "path": "Diary/2025-08-26.md"
     },
     {
-      "basename": "2025-08-08",
-      "path": "Diary/2025-08-08.md"
-    },
-    {
       "basename": "2025-09-21",
       "path": "Diary/2025-09-21.md"
-    },
-    {
-      "basename": "2025-10-22",
-      "path": "Diary/2025-10-22.md"
-    },
-    {
-      "basename": "2025-09-27",
-      "path": "Diary/2025-09-27.md"
     },
     {
       "basename": "2025-08-14",
@@ -87,10 +187,6 @@
     {
       "basename": "2025-10-13",
       "path": "Diary/2025-10-13.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "Diary/未命名.md"
     },
     {
       "basename": "2025-09-23",
@@ -103,102 +199,6 @@
     {
       "basename": "2025-11-02",
       "path": "Diary/2025-11-02.md"
-    },
-    {
-      "basename": "2025-12-22",
-      "path": "Diary/2025-12-22.md"
-    },
-    {
-      "basename": "2025-12-21",
-      "path": "Diary/2025-12-21.md"
-    },
-    {
-      "basename": "2025-12-17",
-      "path": "Diary/2025-12-17.md"
-    },
-    {
-      "basename": "2025-12-20",
-      "path": "Diary/2025-12-20.md"
-    },
-    {
-      "basename": "2025-12-26",
-      "path": "Diary/2025-12-26.md"
-    },
-    {
-      "basename": "2025-08-28",
-      "path": "Diary/2025-08-28.md"
-    },
-    {
-      "basename": "2025-08-27",
-      "path": "Diary/2025-08-27.md"
-    },
-    {
-      "basename": "2025-09-01",
-      "path": "Diary/2025-09-01.md"
-    },
-    {
-      "basename": "2025-09-02",
-      "path": "Diary/2025-09-02.md"
-    },
-    {
-      "basename": "2025-09-03",
-      "path": "Diary/2025-09-03.md"
-    },
-    {
-      "basename": "2025-09-24",
-      "path": "Diary/2025-09-24.md"
-    },
-    {
-      "basename": "2025-09-28",
-      "path": "Diary/2025-09-28.md"
-    },
-    {
-      "basename": "2025-09-29",
-      "path": "Diary/2025-09-29.md"
-    },
-    {
-      "basename": "2025-09-30",
-      "path": "Diary/2025-09-30.md"
-    },
-    {
-      "basename": "2025-10-04",
-      "path": "Diary/2025-10-04.md"
-    },
-    {
-      "basename": "2025-05-10",
-      "path": "Diary/2025-05-10.md"
-    },
-    {
-      "basename": "2025-08-07",
-      "path": "Diary/2025-08-07.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "Diary/2025-06-14.md"
-    },
-    {
-      "basename": "2025-12-23",
-      "path": "Diary/2025-12-23.md"
-    },
-    {
-      "basename": "Diary",
-      "path": "Diary/Diary.md"
-    },
-    {
-      "basename": "2025-05-15",
-      "path": "Diary/2025-05-15.md"
-    },
-    {
-      "basename": "2025-05-19",
-      "path": "Diary/2025-05-19.md"
-    },
-    {
-      "basename": "2025-04-16",
-      "path": "Diary/2025-04-16.md"
-    },
-    {
-      "basename": "学习的环境与效率",
-      "path": "Workflow/Social Skills/学习的环境与效率.md"
     }
   ],
   "omittedPaths": [],
