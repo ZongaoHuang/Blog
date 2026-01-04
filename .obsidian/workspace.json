@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-12-23.md",
+                "file": "Diary/2026-01-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-23"
+              "title": "2026-01-04"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "分析",
+                "query": "isD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "6bd0feed94108a26",
+            "id": "b3d6daf2fb0ee289",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -123,7 +123,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -215,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-12-23.md",
+                "file": "SourceCode/Go/unicode.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-23 的大纲"
+              "title": "unicode 的大纲"
             }
           },
           {
@@ -286,8 +287,10 @@
   },
   "active": "80b18ba2de571d3f",
   "lastOpenFiles": [
-    "Diary/2025-12-26.md",
+    "Diary/2026-01-04.md",
+    "Diary/2026-01-03.md",
     "Diary/2025-12-23.md",
+    "Diary/2025-12-26.md",
     "Diary/2025-12-22.md",
     "Diary/2025-12-29.md",
     "Diary/2025-12-31.md",
@@ -310,8 +313,6 @@
     "Diary/2025-04-02.md",
     "Workflow/Social Skills/面试准备.md",
     "Diary/2025-10-22.md",
-    "Diary/2025-11-03.md",
-    "Diary/2025-05-20.md",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
     "Diary/attachments/Pasted image 20251222103605.png",
