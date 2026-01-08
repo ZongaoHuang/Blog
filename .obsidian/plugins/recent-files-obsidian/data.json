@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-01-08",
+      "path": "Diary/2026-01-08.md"
+    },
+    {
       "basename": "2026-01-07",
       "path": "Diary/2026-01-07.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "singleflight",
       "path": "SourceCode/Go/singleflight.md"
-    },
-    {
-      "basename": "sync",
-      "path": "SourceCode/Go/sync.md"
     }
   ],
   "omittedPaths": [],
