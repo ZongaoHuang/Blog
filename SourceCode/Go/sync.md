@@ -1,7 +1,71 @@
+## sync.pool
 
-# sync
+顶层结构
 
-未完待续
+```go
+type Pool struct {
+	noCopy noCopy     // 1. 防止结构体被值拷贝（静态检查机制）
+
+	local     unsafe.Pointer // 2. 指向 [P]poolLocal 数组的指针, 数组长度等于 GOMAXPROCS，每个P对应数组中的一个元素
+	localSize uintptr        // 3. 数组的大小 (等于 P 的数量，GOMAXPROCS)
+
+	victim     unsafe.Pointer // 4. 受害者缓存 (上一轮 GC 幸存者)
+	victimSize uintptr
+
+	New func() any // 5. 自定义构造函数 (池子空时调用)
+}
+```
+
+P的本地池 `poolLocal`（local数据中具体的元素）
+```go
+type poolLocal struct {
+	poolLocalInternal // 核心存储区
+
+	// 【面试杀手锏】CPU 缓存行填充 (Cache Line Padding)
+	// 防止 False Sharing (伪共享) 导致性能下降。
+	pad [128 - unsafe.Sizeof(poolLocalInternal{})%128]byte
+}
+```
+**pad 的作用**：CPU 的 L1/L2 缓存是按 Cache Line (通常 64 或 128 字节) 读取的。如果 P1 和 P2 的 poolLocal 挨得太近（在同一个 Cache Line 里），当 P1 修改自己的数据时，P2 的缓存行也会失效，导致 P2 必须强制重新从内存读取。pad 强行把它们撑开，保证每个 P 的数据独占一个缓存行。
+
+内部存储 `poolLocalInternal`
+```go
+type poolLocalInternal struct {
+	private any       // 1. 私有区 (只能被 owner P 访问)
+	shared  poolChain // 2. 共享区 (双向链表，支持 Steal)
+}
+```
+
+- `private`：**速度最快，完全无锁**。只能存放 1 个对象。Get/Put 优先操作这里。
+- `shared`：双端队列 (Deque)。
+    - Owner P：从 Head 存取 (PushHead/PopHead)。
+    - Thief P (其他 P)：从 Tail 偷取 (PopTail)。
+    - 底层是一个无锁/乐观锁链表 (`poolChain`)。
+
+### `Get` 和 `Put` 流程
+
+#### Get()：获取对象流程
+
+2. Pin (绑定)：调用 `runtime_procPin()`。这将当前 G 固定在当前 P 上，禁止抢占，同时返回 P 的 ID (`pid`)。
+3. 查 Private：
+    - 查看 `local[pid].private`。
+    - 如果不为空：清空 `private`，返回对象。**（耗时约 1ns，极快）**
+4. 查 Shared (Head)：`private` 为空。去 `local[pid].shared` 的头部弹出一个。
+5. Steal (偷窃)：
+    - `shared` 也空了。
+    - 遍历其他 P 的 `shared` 尾部，尝试偷一个 (PopTail)。
+    - 注：为了防止一直偷不到导致 CPU 空转，这里使用了基于随机的 Steal 策略
+6. 查 Victim：都没偷到。去 `victim` (受害者缓存) 里找一遍（流程同上：先 private 后 shared）。
+7. New：实在没有了。调用用户定义的 `New()` 函数创建一个新的。
+8. Unpin：解除 P 绑定。
+
+####  Put()：归还对象流程
+
+调用 `pool.Put(x)`：
+1. Pin：固定当前 P。
+2. 存 Private：如果 `local[pid].private` 是空的，直接把 x 放在这里。
+3. 存 Shared：如果 `private` 已经占了，把 x 推入 `local[pid].shared` 的头部。
+4. Unpin。
 ## Once
 
 源码链接：[once.go - Go](https://cs.opensource.google/go/go/+/refs/tags/go1.24.3:src/sync/once.go)
