@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "strconv",
-      "path": "SourceCode/Go/strconv.md"
+      "basename": "2025-06-15",
+      "path": "Diary/2025-06-15.md"
     },
     {
-      "basename": "2025-06-03",
-      "path": "Diary/2025-06-03.md"
+      "basename": "2025-09-27",
+      "path": "Diary/2025-09-27.md"
     },
     {
       "basename": "中期修改",
       "path": "Misc/FinalSearch/中期答辩/中期修改.md"
     },
     {
-      "basename": "2025-06-15",
-      "path": "Diary/2025-06-15.md"
+      "basename": "2024-05-09",
+      "path": "Diary/2024-05-09.md"
+    },
+    {
+      "basename": "web-pentest-study-plan",
+      "path": "Misc/Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md"
+    },
+    {
+      "basename": "云鼎攻防矩阵",
+      "path": "Misc/Security/Web安全/云鼎攻防矩阵.md"
+    },
+    {
+      "basename": "前后端分离应用的渗透测试方案",
+      "path": "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md"
+    },
+    {
+      "basename": "摘要 && 方法 && 实验",
+      "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
+    },
+    {
+      "basename": "2026-01-04",
+      "path": "Diary/2026-01-04.md"
+    },
+    {
+      "basename": "2026-01-03",
+      "path": "Diary/2026-01-03.md"
+    },
+    {
+      "basename": "2026-01-06",
+      "path": "Diary/2026-01-06.md"
+    },
+    {
+      "basename": "2026-01-07",
+      "path": "Diary/2026-01-07.md"
+    },
+    {
+      "basename": "2026-01-08",
+      "path": "Diary/2026-01-08.md"
+    },
+    {
+      "basename": "strconv",
+      "path": "SourceCode/Go/strconv.md"
+    },
+    {
+      "basename": "2025-06-03",
+      "path": "Diary/2025-06-03.md"
     },
     {
       "basename": "2025-12-23",
@@ -27,10 +71,6 @@
     {
       "basename": "2026-01-01",
       "path": "Diary/2026-01-01.md"
-    },
-    {
-      "basename": "2026-01-08",
-      "path": "Diary/2026-01-08.md"
     },
     {
       "basename": "2025-05-22",
@@ -159,46 +199,6 @@
     {
       "basename": "2025-07-27",
       "path": "Diary/2025-07-27.md"
-    },
-    {
-      "basename": "2025-07-28",
-      "path": "Diary/2025-07-28.md"
-    },
-    {
-      "basename": "2025-07-29",
-      "path": "Diary/2025-07-29.md"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Diary/2025-07-30.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "Diary/2025-07-31.md"
-    },
-    {
-      "basename": "2025-08-01",
-      "path": "Diary/2025-08-01.md"
-    },
-    {
-      "basename": "2025-08-03",
-      "path": "Diary/2025-08-03.md"
-    },
-    {
-      "basename": "2025-08-04",
-      "path": "Diary/2025-08-04.md"
-    },
-    {
-      "basename": "2025-08-05",
-      "path": "Diary/2025-08-05.md"
-    },
-    {
-      "basename": "2025-08-06",
-      "path": "Diary/2025-08-06.md"
-    },
-    {
-      "basename": "2025-08-07",
-      "path": "Diary/2025-08-07.md"
     }
   ],
   "omittedPaths": [],
