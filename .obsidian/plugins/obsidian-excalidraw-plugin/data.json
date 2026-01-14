@@ -76,6 +76,7 @@
   "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
+  "syncElementLinkWithText": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -123,7 +124,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "previousRelease": "2.18.2",
+  "previousRelease": "2.19.0",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -132,6 +133,7 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",
