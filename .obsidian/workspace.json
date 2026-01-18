@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-09-01.md",
+                "file": "Misc/FinalSearch/中期答辩/中期修改.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-01"
+              "title": "中期修改"
             }
           },
           {
@@ -99,7 +99,7 @@
             }
           },
           {
-            "id": "35151d886656a0b5",
+            "id": "95971c781efaca29",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -108,8 +108,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-09-01.md",
+                "file": "Misc/FinalSearch/中期答辩/中期修改.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-01 的大纲"
+              "title": "中期修改 的大纲"
             }
           },
           {
@@ -272,6 +271,8 @@
   },
   "active": "98f7237e3347d8c7",
   "lastOpenFiles": [
+    "Diary/2026-01-08.md",
+    "Diary/2025-09-01.md",
     "Diary/2025-11-03.md",
     "Diary/2025-12-23.md",
     "Misc/FinalSearch/中期答辩/中期修改.md",
@@ -286,7 +287,6 @@
     "Diary/2026-01-04.md",
     "Diary/2026-01-06.md",
     "Diary/2026-01-07.md",
-    "Diary/2026-01-08.md",
     "Diary/2025-05-20.md",
     "Diary/2025-06-18.md",
     "SourceCode/Go/unicode.md",
@@ -298,7 +298,6 @@
     "Diary/2025-12-29.md",
     "Diary/2026-01-14.md",
     "Diary/未命名.base",
-    "Diary/Diary.md",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
     "Diary/attachments/Pasted image 20251222103605.png",
