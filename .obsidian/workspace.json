@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-01-27.md",
+                "file": "Diary/2026-01-28.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-27"
+              "title": "2026-01-28"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "4676e2a18a950f0a",
+            "id": "71f4a41df7849ed4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2026-01-27.md",
+                "file": "Diary/2026-01-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-27 的大纲"
+              "title": "2026-01-28 的大纲"
             }
           },
           {
@@ -258,6 +258,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Diary/2026-01-28.md",
     "Diary/2026-01-27.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",
     "Diary/2025-04-28.md",
@@ -284,7 +285,6 @@
     "Diary/2026-01-06.md",
     "Diary/2026-01-07.md",
     "Diary/2025-05-20.md",
-    "Diary/2025-06-18.md",
     "Diary/未命名.base",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
