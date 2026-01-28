@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-01-28.md",
-                "mode": "preview",
+                "file": "Diary/2025-02-18.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-28"
+              "title": "2025-02-18"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "资助",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "71f4a41df7849ed4",
+            "id": "deafb8f32b3da26b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2026-01-28.md",
+                "file": "Diary/2026-01-08.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-28 的大纲"
+              "title": "2026-01-08 的大纲"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -258,33 +258,33 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2026-01-28.md",
-    "Diary/2026-01-27.md",
-    "Misc/Security/项目/创新资助第三期/申请书.md",
-    "Diary/2025-04-28.md",
-    "Misc/Security/项目/创新资助第三期/创新资助第三期.md",
-    "Diary/2025-10-22.md",
-    "Diary/2025-09-01.md",
-    "Diary/2026-01-19.md",
-    "Diary/2026-01-22.md",
-    "Diary/2026-01-25.md",
-    "Diary/2026-01-08.md",
-    "Diary/Diary.md",
-    "未命名",
-    "Misc/FinalSearch/中期答辩/中期修改.md",
-    "Diary/2025-11-03.md",
-    "Diary/2025-12-23.md",
+    "Diary/2025-07-25.md",
     "Diary/2025-06-15.md",
+    "Diary/2025-05-20.md",
+    "Diary/2025-10-22.md",
+    "Misc/FinalSearch/中期答辩/中期修改.md",
+    "Diary/2026-01-28.md",
+    "Diary/2026-01-22.md",
+    "Diary/2026-01-08.md",
+    "Diary/2026-01-19.md",
+    "Diary/2025-12-20.md",
     "Diary/2025-12-21.md",
-    "Diary/2025-09-24.md",
     "Diary/2025-12-22.md",
+    "Diary/2025-12-23.md",
     "Diary/2025-12-31.md",
     "Diary/2026-01-01.md",
     "Diary/2026-01-03.md",
     "Diary/2026-01-04.md",
     "Diary/2026-01-06.md",
     "Diary/2026-01-07.md",
-    "Diary/2025-05-20.md",
+    "Diary/2025-09-01.md",
+    "Diary/2026-01-25.md",
+    "Diary/2026-01-27.md",
+    "Misc/Security/项目/创新资助第三期/申请书.md",
+    "Diary/2025-04-28.md",
+    "Misc/Security/项目/创新资助第三期/创新资助第三期.md",
+    "Diary/Diary.md",
+    "未命名",
     "Diary/未命名.base",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
