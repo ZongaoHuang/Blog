@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-02-18.md",
-                "mode": "source",
+                "file": "Diary/2026-01-29.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-18"
+              "title": "2026-01-29"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis",
+                "query": "港",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "deafb8f32b3da26b",
+            "id": "5e9c6d93affc44c5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -258,6 +258,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Diary/2026-01-29.md",
+    "Misc/Info/Mentor.md",
+    "Diary/2025-02-18.md",
     "Diary/2025-07-25.md",
     "Diary/2025-06-15.md",
     "Diary/2025-05-20.md",
@@ -281,9 +284,6 @@
     "Diary/2026-01-25.md",
     "Diary/2026-01-27.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",
-    "Diary/2025-04-28.md",
-    "Misc/Security/项目/创新资助第三期/创新资助第三期.md",
-    "Diary/Diary.md",
     "未命名",
     "Diary/未命名.base",
     "2025-",
