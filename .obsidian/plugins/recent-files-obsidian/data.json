@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-12-23",
-      "path": "Diary/2025-12-23.md"
+      "basename": "2026-01-30",
+      "path": "Diary/2026-01-30.md"
+    },
+    {
+      "basename": "2025-09-30",
+      "path": "Diary/2025-09-30.md"
+    },
+    {
+      "basename": "2025-09-29",
+      "path": "Diary/2025-09-29.md"
+    },
+    {
+      "basename": "2025-10-04",
+      "path": "Diary/2025-10-04.md"
+    },
+    {
+      "basename": "2025-10-05",
+      "path": "Diary/2025-10-05.md"
+    },
+    {
+      "basename": "2025-10-13",
+      "path": "Diary/2025-10-13.md"
+    },
+    {
+      "basename": "2025-10-22",
+      "path": "Diary/2025-10-22.md"
+    },
+    {
+      "basename": "2025-11-02",
+      "path": "Diary/2025-11-02.md"
+    },
+    {
+      "basename": "2025-11-03",
+      "path": "Diary/2025-11-03.md"
+    },
+    {
+      "basename": "2025-12-09",
+      "path": "Diary/2025-12-09.md"
+    },
+    {
+      "basename": "2025-12-17",
+      "path": "Diary/2025-12-17.md"
     },
     {
       "basename": "2025-12-22",
       "path": "Diary/2025-12-22.md"
+    },
+    {
+      "basename": "2025-12-20",
+      "path": "Diary/2025-12-20.md"
+    },
+    {
+      "basename": "2025-12-21",
+      "path": "Diary/2025-12-21.md"
+    },
+    {
+      "basename": "2025-12-23",
+      "path": "Diary/2025-12-23.md"
     },
     {
       "basename": "2025-12-31",
@@ -49,10 +101,6 @@
       "path": "Diary/2026-01-28.md"
     },
     {
-      "basename": "2025-10-22",
-      "path": "Diary/2025-10-22.md"
-    },
-    {
       "basename": "2025-04-02",
       "path": "Diary/2025-04-02.md"
     },
@@ -81,14 +129,6 @@
       "path": "Diary/2025-05-13.md"
     },
     {
-      "basename": "2025-09-30",
-      "path": "Diary/2025-09-30.md"
-    },
-    {
-      "basename": "2025-10-04",
-      "path": "Diary/2025-10-04.md"
-    },
-    {
       "basename": "面试准备",
       "path": "Workflow/Social Skills/面试准备.md"
     },
@@ -101,28 +141,8 @@
       "path": "Diary/2025-06-15.md"
     },
     {
-      "basename": "2025-12-21",
-      "path": "Diary/2025-12-21.md"
-    },
-    {
       "basename": "申请书",
       "path": "Misc/Security/项目/创新资助第三期/申请书.md"
-    },
-    {
-      "basename": "2025-11-02",
-      "path": "Diary/2025-11-02.md"
-    },
-    {
-      "basename": "2025-12-09",
-      "path": "Diary/2025-12-09.md"
-    },
-    {
-      "basename": "2025-12-17",
-      "path": "Diary/2025-12-17.md"
-    },
-    {
-      "basename": "2025-12-20",
-      "path": "Diary/2025-12-20.md"
     },
     {
       "basename": "中期修改",
@@ -157,10 +177,6 @@
       "path": "Diary/Diary.md"
     },
     {
-      "basename": "2025-11-03",
-      "path": "Diary/2025-11-03.md"
-    },
-    {
       "basename": "2025-09-24",
       "path": "Diary/2025-09-24.md"
     },
@@ -173,10 +189,6 @@
       "path": "SourceCode/Go/unicode.md"
     },
     {
-      "basename": "2025-10-13",
-      "path": "Diary/2025-10-13.md"
-    },
-    {
       "basename": "2025-09-27",
       "path": "Diary/2025-09-27.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "web-pentest-study-plan",
       "path": "Misc/Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md"
-    },
-    {
-      "basename": "云鼎攻防矩阵",
-      "path": "Misc/Security/Web安全/云鼎攻防矩阵.md"
-    },
-    {
-      "basename": "前后端分离应用的渗透测试方案",
-      "path": "Misc/Security/Web安全/前后端分离应用的渗透测试方案.md"
-    },
-    {
-      "basename": "摘要 && 方法 && 实验",
-      "path": "Misc/FinalSearch/中期答辩/摘要 && 方法 && 实验.md"
     }
   ],
   "omittedPaths": [],
