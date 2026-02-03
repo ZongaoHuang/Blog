@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-02-03.md",
-                "mode": "preview",
+                "file": "Misc/FinalSearch/初稿/初稿1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-03"
+              "title": "初稿1"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2026-02-03.md",
+                "file": "Misc/FinalSearch/初稿/初稿1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-02-03 的大纲"
+              "title": "初稿1 的大纲"
             }
           },
           {
@@ -259,6 +258,10 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Diary/2026-02-03.md",
+    "Misc/FinalSearch/初稿/初稿1.md",
+    "Misc/FinalSearch/初稿",
+    "未命名",
+    "Diary/2026-02-01.md",
     "Diary/2026-01-30.md",
     "Diary/2025-10-22.md",
     "Diary/2025-10-13.md",
@@ -280,11 +283,8 @@
     "Diary/2026-01-19.md",
     "Diary/2026-01-22.md",
     "Diary/2026-01-28.md",
-    "Diary/2026-02-01.md",
     "Diary/2025-10-04.md",
     "Diary/2026-01-03.md",
-    "Diary/2025-08-07.md",
-    "未命名",
     "Diary/未命名.base",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
@@ -303,7 +303,6 @@
     "Tags",
     "Misc/Info",
     "Npm/Go",
-    "Misc/Security/项目/创新资助第三期",
     "未命名.canvas"
   ]
 }
