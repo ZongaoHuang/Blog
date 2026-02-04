@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/FinalSearch/初稿/初稿1.md",
-                "mode": "source",
+                "file": "Diary/2026-02-04.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "初稿1"
+              "title": "2026-02-04"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "c4712c986985e7a8",
+            "id": "a3664c02caff5773",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -94,7 +94,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/FinalSearch/初稿/初稿1.md",
+                "file": "Diary/2026-02-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "初稿1 的大纲"
+              "title": "2026-02-04 的大纲"
             }
           },
           {
@@ -257,8 +258,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2026-02-03.md",
+    "Diary/2026-02-04.md",
     "Misc/FinalSearch/初稿/初稿1.md",
+    "Misc/FinalSearch/初稿/参考文献.md",
+    "Diary/2026-02-03.md",
     "Misc/FinalSearch/初稿",
     "未命名",
     "Diary/2026-02-01.md",
@@ -283,8 +286,6 @@
     "Diary/2026-01-19.md",
     "Diary/2026-01-22.md",
     "Diary/2026-01-28.md",
-    "Diary/2025-10-04.md",
-    "Diary/2026-01-03.md",
     "Diary/未命名.base",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
