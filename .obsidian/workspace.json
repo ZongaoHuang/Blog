@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2026-02-01.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-02-01"
             }
           }
         ]
@@ -81,16 +85,13 @@
             }
           },
           {
-            "id": "a3664c02caff5773",
+            "id": "0c204e47d172f61c",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ]
@@ -185,12 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Diary/2026-02-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026-02-01 的大纲"
             }
           },
           {
@@ -255,9 +257,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2026-02-01.md",
     "Diary/2026-01-30.md",
     "Diary/2026-01-28.md",
+    "Diary/2026-02-05.md",
+    "Diary/2026-02-01.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2025-12-20.md",
     "Diary/2025-12-21.md",
@@ -282,7 +285,6 @@
     "Diary/2025-10-05.md",
     "Diary/2025-11-02.md",
     "Diary/2025-11-03.md",
-    "Diary/2025-12-09.md",
     "Diary/未命名.base",
     "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
