@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-10-13.md",
+                "file": "Diary/2025-10-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-13"
+              "title": "2025-10-05"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mvcc",
+                "query": "map",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-10-13.md",
+                "file": "Diary/2025-11-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-10-13 的大纲"
+              "title": "2025-11-03 的大纲"
             }
           },
           {
@@ -271,18 +270,23 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "56d9bd418d86b00e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2025-11-03.md",
-    "Diary/2025-06-22.md",
+    "Diary/2025-10-05.md",
+    "Diary/2025-12-21.md",
     "Diary/2026-01-30.md",
+    "Diary/2025-05-20.md",
+    "Diary/2025-11-03.md",
+    "Diary/2025-05-01.md",
+    "Diary/2025-12-23.md",
+    "Diary/2025-07-25.md",
+    "Diary/2025-10-13.md",
+    "Diary/2025-06-22.md",
     "Diary/2025-11-02.md",
     "Diary/2025-12-09.md",
     "Diary/2025-12-17.md",
     "Diary/2025-12-20.md",
-    "Diary/2025-12-21.md",
     "Diary/2025-12-22.md",
-    "Diary/2025-12-23.md",
     "Diary/2025-12-31.md",
     "Diary/2026-01-03.md",
     "Diary/2026-01-04.md",
@@ -294,11 +298,6 @@
     "Diary/2026-01-28.md",
     "Diary/2026-02-01.md",
     "Diary/2026-02-05.md",
-    "Misc/FinalSearch/初稿/初稿1.md",
-    "Diary/2026-01-01.md",
-    "Diary/2026-02-03.md",
-    "Diary/2025-10-22.md",
-    "Diary/2026-02-04.md",
     "Misc/FinalSearch/初稿",
     "未命名",
     "Diary/未命名.base",
