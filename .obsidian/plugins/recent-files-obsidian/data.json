@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "申请书",
-      "path": "Misc/Security/项目/创新资助第三期/申请书.md"
+      "basename": "2026-02-08",
+      "path": "Diary/2026-02-08.md"
     },
     {
       "basename": "2026-02-05",
@@ -13,8 +13,12 @@
       "path": "Diary/2025-04-27.md"
     },
     {
-      "basename": "2026-02-08",
-      "path": "Diary/2026-02-08.md"
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
+    },
+    {
+      "basename": "申请书",
+      "path": "Misc/Security/项目/创新资助第三期/申请书.md"
     },
     {
       "basename": "2025-11-03",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-14",
       "path": "Diary/2025-05-14.md"
-    },
-    {
-      "basename": "2025-05-15",
-      "path": "Diary/2025-05-15.md"
     }
   ],
   "omittedPaths": [],

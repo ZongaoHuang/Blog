@@ -81,13 +81,16 @@
             }
           },
           {
-            "id": "d882f8085baabfdc",
+            "id": "846bfd7e4a5d8d19",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -253,10 +256,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Misc/Security/项目/创新资助第三期/申请书.md",
+    "Diary/2026-02-08.md",
     "Diary/2026-02-05.md",
     "Diary/2025-04-27.md",
-    "Diary/2026-02-08.md",
+    "Diary/Diary.md",
+    "Misc/Security/项目/创新资助第三期/申请书.md",
     "Diary/2025-11-03.md",
     "Diary/2025-05-12.md",
     "Diary/2026-01-30.md",
@@ -278,7 +282,6 @@
     "Diary/2025-12-22.md",
     "Diary/2025-12-31.md",
     "Diary/2026-01-03.md",
-    "Diary/2026-01-04.md",
     "Misc/FinalSearch/初稿",
     "未命名",
     "Diary/未命名.base",
