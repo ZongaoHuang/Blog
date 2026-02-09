@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2026-02-08.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-02-08"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openguass",
+                "query": "SSTI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,20 +85,16 @@
             }
           },
           {
-            "id": "846bfd7e4a5d8d19",
+            "id": "e18f45a11396a371",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,12 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Diary/2026-02-08.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026-02-08 的大纲"
             }
           },
           {
@@ -256,8 +257,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2026-02-08.md",
     "Diary/2026-02-05.md",
+    "Diary/2026-02-08.md",
+    "Misc/FinalSearch/初稿/初稿1.md",
+    "Misc/FinalSearch/初稿/参考文献.md",
+    "Misc/FinalSearch/中期答辩/中期修改.md",
     "Diary/2025-04-27.md",
     "Diary/Diary.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",
@@ -279,9 +283,6 @@
     "Diary/2025-12-09.md",
     "Diary/2025-12-17.md",
     "Diary/2025-12-20.md",
-    "Diary/2025-12-22.md",
-    "Diary/2025-12-31.md",
-    "Diary/2026-01-03.md",
     "Misc/FinalSearch/初稿",
     "未命名",
     "Diary/未命名.base",
