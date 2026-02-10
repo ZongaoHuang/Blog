@@ -90,8 +90,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,7 +250,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "4104d0f23ae4c276",
   "lastOpenFiles": [
     "Misc/FinalSearch/初稿/RAG内容.md",
     "Diary/2026-02-08.md",
