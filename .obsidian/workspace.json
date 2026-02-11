@@ -81,7 +81,7 @@
             }
           },
           {
-            "id": "9652df4fb8d3e3d9",
+            "id": "e88f319586285f32",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -90,7 +90,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -250,7 +251,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "4104d0f23ae4c276",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Misc/FinalSearch/初稿/RAG内容.md",
     "Diary/2026-02-08.md",
