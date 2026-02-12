@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SourceCode/Go/interface.md",
-                "mode": "preview",
+                "file": "Misc/FinalSearch/初稿/参考文献.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interface"
+              "title": "参考文献"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SourceCode/Go/interface.md",
+                "file": "Misc/FinalSearch/初稿/参考文献.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "interface 的大纲"
+              "title": "参考文献 的大纲"
             }
           },
           {
@@ -256,10 +255,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "ea75a4b8e02cce7f",
+  "active": "1749a396de04a961",
   "lastOpenFiles": [
-    "SourceCode/Go/未命名.base",
+    "Misc/FinalSearch/初稿/初稿1.md",
+    "Misc/FinalSearch/初稿/参考文献.md",
     "SourceCode/Go/interface.md",
+    "SourceCode/Go/未命名.base",
     "Misc/FinalSearch/初稿/RAG内容.md",
     "Diary/2026-02-08.md",
     "Diary/2025-11-03.md",
@@ -267,11 +268,9 @@
     "Diary/2026-02-05.md",
     "Diary/2025-04-27.md",
     "Diary/2025-05-20.md",
-    "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2026-01-28.md",
     "Diary/2026-01-30.md",
     "Diary/2026-02-01.md",
-    "Misc/FinalSearch/初稿/参考文献.md",
     "Misc/FinalSearch/中期答辩/中期修改.md",
     "Diary/Diary.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",

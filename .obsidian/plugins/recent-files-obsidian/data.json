@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "参考文献",
+      "path": "Misc/FinalSearch/初稿/参考文献.md"
+    },
+    {
+      "basename": "初稿1",
+      "path": "Misc/FinalSearch/初稿/初稿1.md"
+    },
+    {
       "basename": "interface",
       "path": "SourceCode/Go/interface.md"
     },
@@ -33,10 +41,6 @@
       "path": "Diary/2025-05-20.md"
     },
     {
-      "basename": "初稿1",
-      "path": "Misc/FinalSearch/初稿/初稿1.md"
-    },
-    {
       "basename": "2026-01-28",
       "path": "Diary/2026-01-28.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "2026-02-01",
       "path": "Diary/2026-02-01.md"
-    },
-    {
-      "basename": "参考文献",
-      "path": "Misc/FinalSearch/初稿/参考文献.md"
     },
     {
       "basename": "中期修改",
