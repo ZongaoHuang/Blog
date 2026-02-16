@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { useData, useRouter } from 'vitepress'
 
 // 组件props
 interface Props {
@@ -17,6 +16,11 @@ interface FileInfo {
   name: string
   path: string
   createTime: Date
+}
+
+interface PageData {
+  frontmatter?: Record<string, unknown>
+  lastUpdated?: number
 }
 
 // 年度统计接口
@@ -37,8 +41,6 @@ interface MonthStats {
 
 const files = ref<FileInfo[]>([])
 const expandedMonths = ref<Set<string>>(new Set()) // 展开的月份状态
-const { site } = useData()
-const router = useRouter()
 
 // 月份名称映射
 const monthNames = [
@@ -51,10 +53,78 @@ const folderName = computed(() => {
   return props.title || props.folderPath.split('/').pop() || 'Files'
 })
 
+const parsePageData = (module: Record<string, unknown>): PageData | null => {
+  const raw = module.__pageData
+
+  if (!raw) return null
+
+  if (typeof raw === 'string') {
+    try {
+      return JSON.parse(raw) as PageData
+    } catch {
+      return null
+    }
+  }
+
+  if (typeof raw === 'object') {
+    return raw as PageData
+  }
+
+  return null
+}
+
+const parseDateValue = (value: unknown): Date | null => {
+  if (value == null) return null
+
+  if (value instanceof Date) {
+    return Number.isNaN(value.getTime()) ? null : value
+  }
+
+  if (typeof value === 'number') {
+    const date = new Date(value)
+    return Number.isNaN(date.getTime()) ? null : date
+  }
+
+  if (typeof value === 'string') {
+    const trimmed = value.trim()
+    if (!trimmed) return null
+
+    const isoDate = new Date(trimmed)
+    if (!Number.isNaN(isoDate.getTime())) {
+      return isoDate
+    }
+
+    // 支持 YYYYMMDD 这种紧凑格式
+    const compactDateMatch = trimmed.match(/^(\d{4})(\d{2})(\d{2})$/)
+    if (compactDateMatch) {
+      const [, year, month, day] = compactDateMatch
+      const compactDate = new Date(`${year}-${month}-${day}`)
+      return Number.isNaN(compactDate.getTime()) ? null : compactDate
+    }
+  }
+
+  return null
+}
+
+const parseDateFromFileName = (fileName: string): Date | null => {
+  // 先匹配 YYYY-MM-DD
+  const isoMatch = fileName.match(/(\d{4}-\d{2}-\d{2})/)
+  if (isoMatch) {
+    return parseDateValue(isoMatch[1])
+  }
+
+  // 再匹配 YYYYMMDD
+  const compactMatch = fileName.match(/(?:^|\D)(\d{8})(?:\D|$)/)
+  if (compactMatch) {
+    return parseDateValue(compactMatch[1])
+  }
+
+  return null
+}
+
 onMounted(async () => {
   try {
     // 使用 import.meta.glob 获取指定文件夹中的所有文件
-    const pattern = `${props.folderPath}/**/*.md`
     const modules = import.meta.glob('/**/*.md', { eager: true })
     
     const fileList: FileInfo[] = []
@@ -63,25 +133,24 @@ onMounted(async () => {
       // 检查文件是否在指定文件夹中
       if (path.startsWith(props.folderPath) && path !== `${props.folderPath}.md`) {
         const fileName = path.split('/').pop()?.replace('.md', '') || ''
-        
-        // 获取文件的创建时间
-        let createTime = new Date()
-        
-        // 尝试从文件的 frontmatter 中获取创建时间
-        if (module && typeof module === 'object' && 'frontmatter' in module) {
-          const frontmatter = module.frontmatter as any
-          if (frontmatter?.date) {
-            createTime = new Date(frontmatter.date)
-          } else if (frontmatter?.created) {
-            createTime = new Date(frontmatter.created)
-          }
-        }
-        
-        // 如果没有 frontmatter 中的时间，尝试从文件名解析日期
-        const dateMatch = fileName.match(/(\d{4}-\d{2}-\d{2})/)
-        if (dateMatch) {
-          createTime = new Date(dateMatch[1])
-        }
+
+        if (!module || typeof module !== 'object') continue
+
+        const moduleObj = module as Record<string, unknown>
+        const pageData = parsePageData(moduleObj)
+
+        // 优先使用 frontmatter 时间，其次是 VitePress pageData.lastUpdated
+        const frontmatter = pageData?.frontmatter ?? {}
+        const createTime =
+          parseDateValue(frontmatter.date) ??
+          parseDateValue(frontmatter.created) ??
+          parseDateValue(frontmatter.createTime) ??
+          parseDateValue(frontmatter.ctime) ??
+          parseDateValue(pageData?.lastUpdated) ??
+          parseDateFromFileName(fileName)
+
+        // 没有有效时间时不回退到当前时间，避免全部归档到当月
+        if (!createTime) continue
         
         fileList.push({
           name: fileName,
