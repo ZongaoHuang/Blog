@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/FinalSearch/初稿/参考文献.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "参考文献"
+              "title": "新标签页"
             }
           }
         ]
@@ -85,7 +81,7 @@
             }
           },
           {
-            "id": "5abfd4031a1b044c",
+            "id": "64d63266b02fa0a0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -94,7 +90,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/FinalSearch/初稿/参考文献.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考文献 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -257,9 +253,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Misc/FinalSearch/初稿/参考文献.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2026-02-08.md",
-    "Misc/FinalSearch/初稿/参考文献.md",
     "SourceCode/Go/interface.md",
     "SourceCode/Go/未命名.base",
     "Misc/FinalSearch/初稿/RAG内容.md",
