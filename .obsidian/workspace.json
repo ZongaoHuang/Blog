@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2025-11-03.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-11-03"
             }
           }
         ]
@@ -81,20 +85,17 @@
             }
           },
           {
-            "id": "64d63266b02fa0a0",
+            "id": "4918bde45ce67eba",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,12 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Diary/2025-11-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-11-03 的大纲"
             }
           },
           {
@@ -256,8 +258,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2025-11-03.md",
     "Diary/2026-01-01.md",
+    "Diary/2025-11-03.md",
     "Diary/2026-02-05.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2025-05-20.md",
