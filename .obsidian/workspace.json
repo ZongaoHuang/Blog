@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "go",
+                "query": "reverse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -144,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2026-02-08.md",
+                "file": "Diary/2025-11-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-02-08 的出链列表"
+              "title": "2025-11-03 的出链列表"
             }
           },
           {
@@ -226,8 +226,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,10 +255,13 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1d3c74f823e85eb2",
   "lastOpenFiles": [
-    "Diary/2026-01-01.md",
+    "Diary/2025-08-15.md",
+    "Diary/2025-06-05.md",
+    "Diary/2024-10-15.md",
     "Diary/2025-11-03.md",
+    "Diary/2026-01-01.md",
     "Diary/2026-02-05.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2025-05-20.md",
@@ -282,9 +284,6 @@
     "Diary/2025-12-21.md",
     "Diary/2025-12-23.md",
     "Diary/2025-07-25.md",
-    "Diary/2025-10-13.md",
-    "Diary/2025-06-22.md",
-    "Diary/2025-11-02.md",
     "Misc/FinalSearch/初稿",
     "未命名",
     "Diary/未命名.base",
