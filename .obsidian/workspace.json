@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-01-28.md",
-                "mode": "preview",
+                "file": "Diary/2026-03-13.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-28"
+              "title": "2026-03-13"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "智能",
+                "query": "interface",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +94,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2026-01-28.md",
+                "file": "Diary/2026-03-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-28 的大纲"
+              "title": "2026-03-13 的大纲"
             }
           },
           {
@@ -226,8 +225,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -258,8 +256,21 @@
   },
   "active": "ab73e1ee79bdbe55",
   "lastOpenFiles": [
-    "Diary/2025-05-01.md",
+    "Diary/2026-02-26.md",
+    "Diary/2026-03-13.md",
+    "Diary/Diary.md",
+    "SourceCode/Go/interface.md",
+    "Diary/2025-07-25.md",
+    "Diary/2025-05-20.md",
+    "Diary/2025-09-30.md",
+    "Diary/2026-01-28.md",
+    "Workflow/Social Skills/面试准备.md",
+    "Diary/2025-08-07.md",
     "Diary/2025-11-03.md",
+    "Diary/2026-01-30.md",
+    "Diary/2025-04-27.md",
+    "Diary/2025-04-26.md",
+    "Diary/2025-05-01.md",
     "Diary/2024-03-14.md",
     "Diary/2024-04-30.md",
     "SourceCode/Go/context.md",
@@ -271,19 +282,6 @@
     "Diary/2025-09-23.md",
     "Diary/2025-12-17.md",
     "Misc/FinalSearch/中期答辩/中期修改.md",
-    "Diary/2026-01-07.md",
-    "Diary/2025-08-07.md",
-    "Diary/2026-02-05.md",
-    "Misc/Info/Mentor.md",
-    "Diary/2024-04-14.md",
-    "Misc/Security/security-study-plan-main/security-study-plan-main/application-security-study-plan.md",
-    "Misc/Security/security-study-plan-main/security-study-plan-main/web-pentest-study-plan.md",
-    "Diary/2023-10-13.md",
-    "Diary/2026-02-08.md",
-    "Diary/2026-02-26.md",
-    "Diary/2025-12-23.md",
-    "Diary/2026-01-30.md",
-    "Diary/2026-01-01.md",
     "Diary/attachments/Pasted image 20260221230412.png",
     "Diary/attachments/Pasted image 20260221230401.png",
     "SourceCode/Go/未命名.base",
