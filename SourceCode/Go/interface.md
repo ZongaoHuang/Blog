@@ -3,7 +3,7 @@ Interface 是一组方法签名的集合。一个类型只要实现了接口中�
 
 Go Runtime定义了两种接口结构：
 
-1.eface (Empty Interface) —— 空接口 interface{}，于表示没有方法的接口（即 `any`）。因为它不需要查方法表，所以结构简单。
+1.**eface** (Empty Interface) —— 空接口 interface{}，于表示没有方法的接口（即 `any`）。因为它不需要查方法表，所以结构简单。
 ```go
 type eface struct {
     _type *_type          // 1. 动态类型：指向这个数据的类型信息（它是 int? string? 还是 Dog?）
@@ -11,7 +11,7 @@ type eface struct {
 }
 ```
 
-2.iface (Non-empty Interface) —— 非空接口，用于包含方法的接口。它需要知道怎么调用那些方法
+2.**iface** (Non-empty Interface) —— 非空接口，用于包含方法的接口。它需要知道怎么调用那些方法
 ```go
 type iface struct {
     tab  *itab           // 1. 接口表：包含类型信息 + 方法分发表（函数指针列表）
@@ -28,10 +28,14 @@ type itab struct {
     _type *_type         // 2. 静态：具体类型的类型信息 (如 "*os.File")
     hash  uint32         // 3. 动态：_type.hash 的拷贝，用于快速类型断言
     _     [4]byte        //    (内存对齐填充)
-    fun   [1]uintptr     // 4. 动态：函数指针数组 (可变长度)
+    fun   [1]uintptr     // 4. 动态：函数指针数组 (可变长度)，实现动态派发
 }
 ```
 
+itab中出现了两个type类型，分别是interfacetype和_type，原因：
+- 实现**接口的高效解耦与方法调用**
+- **快速校验与生成 fun 数组**：在发生赋值（r = f）时，Go 运行时会拿出 interfacetype 里要求的接口方法，去 type 提供的方法集里挨个比对。如果全都找到了，说明类型实现了接口。接着，Go 会把这些找到的具体方法地址，按顺序提取出来，存放到 itab 的 fun 数组中。
+- **O(1) 复杂度的方法调用**：之后当你调用 r.Read() 时，底层根本不需要再去反射或者动态查找。它直接通过 iface.tab.fun[0] 拿到 os.File 的 Read 方法地址，并把 iface.data（文件指针）作为第一个参数（接收者）传进去执行。
 ### 具体例子说明如下：
 ```go
 // 1. 定义接口 (2个方法)
