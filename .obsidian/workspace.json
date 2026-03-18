@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Diary/2025-12-23.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gc",
+                "query": "逃逸",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,8 +226,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -258,14 +257,15 @@
   },
   "active": "ab73e1ee79bdbe55",
   "lastOpenFiles": [
+    "Diary/2025-11-03.md",
+    "Diary/2025-12-23.md",
+    "Diary/2026-03-13.md",
+    "Diary/2026-02-26.md",
     "Diary/2025-07-25.md",
     "Diary/2026-01-30.md",
-    "Diary/2025-11-03.md",
     "Diary/2026-02-01.md",
     "Diary/2026-02-05.md",
     "Diary/2026-02-08.md",
-    "Diary/2026-02-26.md",
-    "Diary/2026-03-13.md",
     "Diary/2025-04-27.md",
     "Diary/2025-05-10.md",
     "Diary/2025-06-14.md",
@@ -283,7 +283,6 @@
     "Diary/2025-08-20.md",
     "Workflow/Social Skills/面试准备.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",
-    "Diary/2025-06-21.md",
     "Diary/attachments/Pasted image 20260221230412.png",
     "Diary/attachments/Pasted image 20260221230401.png",
     "SourceCode/Go/未命名.base",
