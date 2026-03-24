@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-03-13.md",
+                "file": "Diary/2025-12-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-13"
+              "title": "2025-12-23"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "报告",
+                "query": "gc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-11-03.md",
+                "file": "Diary/2025-12-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-03 的反向链接列表"
+              "title": "2025-12-23 的反向链接列表"
             }
           },
           {
@@ -143,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2026-03-13.md",
+                "file": "Diary/2025-12-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-03-13 的出链列表"
+              "title": "2025-12-23 的出链列表"
             }
           },
           {
@@ -186,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2026-03-13.md",
+                "file": "Diary/2025-12-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-13 的大纲"
+              "title": "2025-12-23 的大纲"
             }
           },
           {
@@ -225,7 +226,8 @@
               "title": "Timeline"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -254,11 +256,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1d3c74f823e85eb2",
+  "active": "ea75a4b8e02cce7f",
   "lastOpenFiles": [
-    "Diary/2026-02-26.md",
-    "Diary/2026-03-13.md",
     "Diary/2025-11-03.md",
+    "Diary/2026-03-13.md",
+    "Diary/2026-02-26.md",
     "Misc/Security/项目/创新资助第三期/申请书.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Diary/2025-12-22.md",
