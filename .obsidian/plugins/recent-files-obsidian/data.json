@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-12-23",
-      "path": "Diary/2025-12-23.md"
+      "basename": "2026-03-13",
+      "path": "Diary/2026-03-13.md"
+    },
+    {
+      "basename": "2025-09-23",
+      "path": "Diary/2025-09-23.md"
     },
     {
       "basename": "2025-11-03",
       "path": "Diary/2025-11-03.md"
     },
     {
-      "basename": "2026-03-13",
-      "path": "Diary/2026-03-13.md"
+      "basename": "sync",
+      "path": "SourceCode/Go/sync.md"
+    },
+    {
+      "basename": "2025-12-23",
+      "path": "Diary/2025-12-23.md"
     },
     {
       "basename": "2026-02-26",
@@ -191,14 +199,6 @@
     {
       "basename": "2025-06-13",
       "path": "Diary/2025-06-13.md"
-    },
-    {
-      "basename": "2025-08-27",
-      "path": "Diary/2025-08-27.md"
-    },
-    {
-      "basename": "2025-08-19",
-      "path": "Diary/2025-08-19.md"
     }
   ],
   "omittedPaths": [],
