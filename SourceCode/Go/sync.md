@@ -335,3 +335,15 @@ func main() {
 }
 ```
 
+## sync.map
+
+博客：https://golangstar.cn/go_series/go_principles/sync.map_principles.html#sync-map
+
+### 总结
+- sync.Map是一个线程安全的map,可以多线程并发安全执行
+- sync.Map的核心思想是采用空间换时间,内置了两个map来存储数据,read和dirty,其中read支持原子操作,read的操作不加锁,dirty操作需要加锁
+- sync.Map将增删改查四个操作都做了细分,只有新增操作直接加锁操作dirty,其余的改,查,还有删除都是优先不加锁操作read,在发现read中没有对应key或者需要同步数据到dirty的时候才会加锁操作dirty,这样尽可能减少加锁次数,提升程序性能
+- 在删除一个key的时候,如果key存在于read中则是延迟删除,key存在于dirty,不存在于read会立即删除
+- dirty和read都会依靠另一个进行重建,在dirty不为空的时候,dirtyf包含map中的所有有效key,在dirty为空的时候,read包含map中的所有有效key
+- read中的key在dirty中可能存在,也可能不存在;dirty中的key在reatd中也可能存在,可能不存在
+- sync.Map中的entry里的p指针有三种状态,nil,正常值还有expungged

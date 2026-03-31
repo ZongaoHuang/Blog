@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "sync",
+      "path": "SourceCode/Go/sync.md"
+    },
+    {
+      "basename": "2025-12-23",
+      "path": "Diary/2025-12-23.md"
+    },
+    {
+      "basename": "Go",
+      "path": "SourceCode/Go/Go.md"
+    },
+    {
+      "basename": "http",
+      "path": "SourceCode/Go/http.md"
+    },
+    {
+      "basename": "flag",
+      "path": "SourceCode/Go/flag.md"
+    },
+    {
+      "basename": "context",
+      "path": "SourceCode/Go/context.md"
+    },
+    {
+      "basename": "atomic",
+      "path": "SourceCode/Go/atomic.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "SourceCode/Go/未命名.base"
+    },
+    {
+      "basename": "SourceCode",
+      "path": "SourceCode/SourceCode.md"
+    },
+    {
+      "basename": "2025-11-03",
+      "path": "Diary/2025-11-03.md"
+    },
+    {
       "basename": "2026-03-13",
       "path": "Diary/2026-03-13.md"
     },
@@ -17,10 +57,6 @@
       "path": "Diary/2026-02-26.md"
     },
     {
-      "basename": "2025-11-03",
-      "path": "Diary/2025-11-03.md"
-    },
-    {
       "basename": "申请书",
       "path": "Misc/Security/项目/创新资助第三期/申请书.md"
     },
@@ -35,14 +71,6 @@
     {
       "basename": "2025-09-23",
       "path": "Diary/2025-09-23.md"
-    },
-    {
-      "basename": "sync",
-      "path": "SourceCode/Go/sync.md"
-    },
-    {
-      "basename": "2025-12-23",
-      "path": "Diary/2025-12-23.md"
     },
     {
       "basename": "初稿1",
@@ -171,34 +199,6 @@
     {
       "basename": "Diary",
       "path": "Diary/Diary.md"
-    },
-    {
-      "basename": "2025-09-30",
-      "path": "Diary/2025-09-30.md"
-    },
-    {
-      "basename": "2025-04-26",
-      "path": "Diary/2025-04-26.md"
-    },
-    {
-      "basename": "2025-05-01",
-      "path": "Diary/2025-05-01.md"
-    },
-    {
-      "basename": "2024-03-14",
-      "path": "Diary/2024-03-14.md"
-    },
-    {
-      "basename": "2024-04-30",
-      "path": "Diary/2024-04-30.md"
-    },
-    {
-      "basename": "context",
-      "path": "SourceCode/Go/context.md"
-    },
-    {
-      "basename": "2025-06-13",
-      "path": "Diary/2025-06-13.md"
     }
   ],
   "omittedPaths": [],
