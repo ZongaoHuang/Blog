@@ -81,19 +81,17 @@
             }
           },
           {
-            "id": "6adef5803332dae8",
+            "id": "2faf2adc066d51c4",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -256,14 +254,14 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Misc/FinalSearch/盲审/问题和要求.md",
+    "Diary/2025-12-23.md",
+    "Diary/2025-11-03.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Misc/FinalSearch/盲审",
     "Misc/FinalSearch/开题报告/开题报告第一版.md",
     "Diary/2024-05-09.md",
     "Diary/2024-05-28.md",
     "Diary/2026-01-30.md",
-    "Diary/2025-11-03.md",
-    "Diary/2025-12-23.md",
     "Diary/2026-01-01.md",
     "SourceCode/Go/sort.md",
     "Diary/2025-06-19.md",
