@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "string",
+      "path": "SourceCode/Go/string.md"
+    },
+    {
+      "basename": "sync",
+      "path": "SourceCode/Go/sync.md"
+    },
+    {
+      "basename": "2025-11-03",
+      "path": "Diary/2025-11-03.md"
+    },
+    {
       "basename": "问题和要求",
       "path": "Misc/FinalSearch/盲审/问题和要求.md"
     },
     {
       "basename": "2025-12-23",
       "path": "Diary/2025-12-23.md"
-    },
-    {
-      "basename": "2025-11-03",
-      "path": "Diary/2025-11-03.md"
     },
     {
       "basename": "初稿1",
@@ -83,10 +91,6 @@
     {
       "basename": "2025-05-27",
       "path": "Diary/2025-05-27.md"
-    },
-    {
-      "basename": "sync",
-      "path": "SourceCode/Go/sync.md"
     },
     {
       "basename": "2026-03-13",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-08-01",
       "path": "Diary/2025-08-01.md"
-    },
-    {
-      "basename": "2025-08-20",
-      "path": "Diary/2025-08-20.md"
     }
   ],
   "omittedPaths": [],
