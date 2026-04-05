@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/FinalSearch/盲审/问题和要求.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "问题和要求"
+              "title": "新标签页"
             }
           }
         ]
@@ -88,10 +84,13 @@
             "id": "6adef5803332dae8",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
@@ -186,13 +185,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/FinalSearch/盲审/问题和要求.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "问题和要求 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -257,8 +255,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Misc/FinalSearch/初稿/初稿1.md",
     "Misc/FinalSearch/盲审/问题和要求.md",
+    "Misc/FinalSearch/初稿/初稿1.md",
     "Misc/FinalSearch/盲审",
     "Misc/FinalSearch/开题报告/开题报告第一版.md",
     "Diary/2024-05-09.md",
