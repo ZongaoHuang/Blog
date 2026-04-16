@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2025-11-03.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-11-03"
+              "title": "新标签页"
             }
           }
         ]
@@ -88,10 +84,13 @@
             "id": "2faf2adc066d51c4",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -187,13 +186,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-11-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-03 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -258,9 +256,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Diary/2025-11-03.md",
     "Diary/2025-06-18.md",
     "Diary/2025-05-20.md",
-    "Diary/2025-11-03.md",
     "Diary/2025-12-23.md",
     "SourceCode/Go/Go.md",
     "SourceCode/Go/sync.md",
