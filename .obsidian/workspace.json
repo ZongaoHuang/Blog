@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2df04e077acd71c9",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "6cee47993e730206",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2026-04-20.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-04-20"
+              "title": "新标签页"
             }
           }
         ]
@@ -88,10 +84,13 @@
             "id": "405a9df19b577cc8",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
@@ -254,7 +253,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "6cee47993e730206",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Diary/2026-04-20.md",
     "Diary/2025-05-20.md",
