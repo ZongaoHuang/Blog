@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "修改",
+      "path": "Misc/FinalSearch/答辩/修改.md"
+    },
+    {
+      "basename": "问题和要求",
+      "path": "Misc/FinalSearch/盲审/问题和要求.md"
+    },
+    {
       "basename": "2026-04-20",
       "path": "Diary/2026-04-20.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "string",
       "path": "SourceCode/Go/string.md"
-    },
-    {
-      "basename": "问题和要求",
-      "path": "Misc/FinalSearch/盲审/问题和要求.md"
     },
     {
       "basename": "初稿1",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-12",
       "path": "Diary/2025-05-12.md"
-    },
-    {
-      "basename": "2026-01-28",
-      "path": "Diary/2026-01-28.md"
     }
   ],
   "omittedPaths": [],
