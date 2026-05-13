@@ -143,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2026-01-30.md",
+                "file": "Misc/FinalSearch/答辩/修改.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-01-30 的出链列表"
+              "title": "修改 的出链列表"
             }
           },
           {
@@ -225,8 +225,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -255,7 +254,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "a28add42e3c7f178",
   "lastOpenFiles": [
     "Misc/FinalSearch/盲审/问题和要求.md",
     "Misc/FinalSearch/答辩/修改.md",
