@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Coffee/咖啡基础学习.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "咖啡基础学习"
+              "title": "新标签页"
             }
           }
         ]
@@ -85,7 +81,7 @@
             }
           },
           {
-            "id": "48a746856ad73ba4",
+            "id": "b5cec357a130626f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -94,7 +90,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -256,9 +253,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Misc/Coffee/咖啡基础学习.md",
     "Misc/Coffee/attachments/Pasted image 20260613151745.png",
     "Misc/Coffee/attachments",
-    "Misc/Coffee/咖啡基础学习.md",
     "Misc/Coffee",
     "Misc/Misc.md",
     "Misc/Untitled.md",
@@ -301,7 +298,6 @@
     "Misc/FinalSearch/中期答辩/attachments/Pasted image 20251117164402.png",
     "Misc/FinalSearch/中期答辩/attachments",
     "Diary/attachments/Pasted image 20250903152522.png",
-    "Diary/attachments/Pasted image 20251009002939.png",
     "未命名.canvas"
   ]
 }
