@@ -3,5 +3,6 @@
   "cssTheme": "Things",
   "baseFontSize": 24,
   "theme": "moonstone",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": []
 }
