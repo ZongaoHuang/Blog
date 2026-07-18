@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Diary/2026-07-16.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -85,19 +85,17 @@
             }
           },
           {
-            "id": "99f9aec9e44a3b2b",
+            "id": "6f25e0c7fde788c1",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -279,9 +277,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Diary/2026-07-13.md",
     "Diary/2026-07-16.md",
     "Misc/Coffee/咖啡基础学习.md",
-    "Diary/2026-07-13.md",
     "Diary/2026-04-20.md",
     "Tags",
     "Misc/Coffee/attachments/Pasted image 20260613151745.png",
