@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2026-07-16.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-07-16"
+              "title": "新标签页"
             }
           }
         ]
@@ -85,7 +81,7 @@
             }
           },
           {
-            "id": "6f25e0c7fde788c1",
+            "id": "6b9b6145bd427cd2",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -277,8 +273,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2026-07-13.md",
     "Diary/2026-07-16.md",
+    "Diary/2026-07-13.md",
     "Misc/Coffee/咖啡基础学习.md",
     "Diary/2026-04-20.md",
     "Tags",
