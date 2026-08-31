@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2026-08-18.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-08-18"
+              "title": "新标签页"
             }
           }
         ]
@@ -87,18 +83,13 @@
             }
           },
           {
-            "id": "2f7c9d57a1b5a304",
+            "id": "fa99a9dc5917802e",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byModifiedTime",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -284,8 +275,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Diary/2023-09-25.md",
     "Diary/2026-08-18.md",
+    "Diary/2023-09-25.md",
     "Diary/2026-07-16.md",
     "Diary/2026-03-13.md",
     "Diary/2026-07-13.md",
