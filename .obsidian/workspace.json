@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Diary/2026-08-31.md",
-                "mode": "source",
-                "source": false
+                "path": "Diary"
               },
               "icon": "lucide-file",
-              "title": "2026-08-31"
+              "title": "Diary"
             }
           }
         ]
@@ -87,7 +85,7 @@
             }
           },
           {
-            "id": "fa99a9dc5917802e",
+            "id": "c9f23d3484943f6e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -117,8 +115,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -224,8 +222,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -234,8 +232,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
             }
           },
           {
@@ -244,11 +242,32 @@
             "state": {
               "type": "planner-time-tracker",
               "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
+              "icon": "lucide-ghost",
+              "title": "planner-time-tracker"
+            }
+          },
+          {
+            "id": "b52c47c1e344b2e5",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "9adb6d2bd02dbca1",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -263,7 +282,7 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-kanban:Create new board": false,
+      "obsidian-kanban:创建新看板": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
@@ -271,16 +290,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "dbfolder:Create a new database table": false,
+      "dbfolder:创建一个新数据库表": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-projects:打开项目": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c9f23d3484943f6e",
   "lastOpenFiles": [
-    "Diary/2026-08-18.md",
+    "Diary/Diary.md",
+    "Diary/2026-09-20.md",
+    "Tags",
     "Diary/2026-08-31.md",
+    "Diary/2026-08-18.md",
     "Diary/2026-07-16.md",
     "Diary/2023-09-25.md",
     "Diary/2026-03-13.md",
@@ -290,14 +312,12 @@
     "Diary/2026-02-08.md",
     "Diary/2025-12-23.md",
     "Misc/Coffee/咖啡基础学习.md",
-    "Tags",
     "Misc/Coffee/attachments/Pasted image 20260613151745.png",
     "Misc/Coffee/attachments",
     "Misc/Coffee",
     "Misc/Misc.md",
     "Misc/Untitled.md",
     "Workflow/Workflow.md",
-    "Diary/Diary.md",
     "Misc/FinalSearch/答辩/修改.md",
     "Misc/FinalSearch/盲审/问题和要求.md",
     "Misc/FinalSearch/答辩",
@@ -310,8 +330,6 @@
     "SourceCode/Go/string.md",
     "Misc/FinalSearch/初稿/初稿1.md",
     "Misc/FinalSearch/盲审",
-    "Misc/FinalSearch/开题报告/开题报告第一版.md",
-    "Diary/2024-05-09.md",
     "SourceCode/Go/未命名.base",
     "Diary/attachments/Pasted image 20260221230412.png",
     "Diary/attachments/Pasted image 20260221230401.png",

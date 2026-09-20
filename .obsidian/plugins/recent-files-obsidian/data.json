@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Diary",
+      "path": "Diary/Diary.md"
+    },
+    {
       "basename": "2026-08-31",
       "path": "Diary/2026-08-31.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Workflow",
       "path": "Workflow/Workflow.md"
-    },
-    {
-      "basename": "Diary",
-      "path": "Diary/Diary.md"
     },
     {
       "basename": "修改",
