@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -115,8 +115,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -227,26 +227,6 @@
             }
           },
           {
-            "id": "c68e74ca3537bdbe",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
-            }
-          },
-          {
-            "id": "d50289572abdd3bc",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-time-tracker"
-            }
-          },
-          {
             "id": "b52c47c1e344b2e5",
             "type": "leaf",
             "state": {
@@ -257,7 +237,7 @@
             }
           },
           {
-            "id": "9adb6d2bd02dbca1",
+            "id": "006c25109a2ff702",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -265,9 +245,18 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "45cbf89cbb5e0b82",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "horizontal",
@@ -296,7 +285,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "c9f23d3484943f6e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Diary/Diary.md",
     "Diary/2026-09-20.md",
