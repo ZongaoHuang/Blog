@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Diary/2026-08-31.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -262,8 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
