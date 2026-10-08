@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2026-09-20.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-09-20"
+              "title": "新标签页"
             }
           }
         ]
@@ -87,7 +83,7 @@
             }
           },
           {
-            "id": "ab583856acd6c241",
+            "id": "13bd3cd9e10d6f24",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
