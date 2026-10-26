@@ -8,17 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0aa4fc01d5743f52",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "bases",
               "state": {
-                "aFile": ".trash/Untitled.canvas",
-                "bFile": ".trash/Untitled.canvas",
-                "aRef": ""
+                "file": "未命名.base",
+                "viewName": "视图"
               },
-              "icon": "diff",
-              "title": "Diff: Untitled.canvas  (Working Tree)"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -288,8 +287,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "34ad7b272f31fc1d",
+  "active": "0aa4fc01d5743f52",
   "lastOpenFiles": [
+    "未命名.base",
     "Diary/Diary.md",
     "Diary/Untitled.canvas",
     "Diary/2026-10-10.md",
