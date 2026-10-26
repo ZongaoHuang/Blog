@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8e53f10774765886",
         "type": "tabs",
         "children": [
           {
-            "id": "0aa4fc01d5743f52",
+            "id": "be88f4813bfd0958",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "未命名.base",
-                "viewName": "视图"
-              },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -70,7 +67,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "fbfae6f0f76aa2ac",
+            "id": "7eed95061f495d8c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5,
-    "collapsed": true
+    "width": 223.5
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -199,16 +198,6 @@
             }
           },
           {
-            "id": "cd584438ecc34e28",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
-            }
-          },
-          {
             "id": "06508f6540453cc6",
             "type": "leaf",
             "state": {
@@ -257,12 +246,22 @@
               "icon": "timer",
               "title": "Time Tracker"
             }
+          },
+          {
+            "id": "c38db86d8bc82d41",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 270.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,9 +272,9 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "homepage:Open homepage": false,
       "obsidian-kanban:创建新看板": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -284,15 +283,17 @@
       "dbfolder:创建一个新数据库表": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-projects:打开项目": false
+      "obsidian-projects:打开项目": false,
+      "obsidian-checklist-plugin:Open Checklist": false
     }
   },
-  "active": "0aa4fc01d5743f52",
+  "active": "be88f4813bfd0958",
   "lastOpenFiles": [
+    "file:C:/Users/11060/Documents/Code/Project/Auto-Privacy-Leakage-Detection/README.md",
+    "Diary/2026-10-10.md",
     "未命名.base",
     "Diary/Diary.md",
     "Diary/Untitled.canvas",
-    "Diary/2026-10-10.md",
     "Diary/2026-09-20.md",
     "Misc/Funny Recording/Vedio.md",
     "Diary/2026-08-31.md",
@@ -328,7 +329,6 @@
     "Diary/attachments/Pasted image 20260221230401.png",
     "Misc/FinalSearch/初稿",
     "Diary/未命名.base",
-    "2025-",
     "Diary/attachments/Pasted image 20251222103620.png",
     "Diary/attachments/Pasted image 20251222103605.png",
     "Diary/attachments/Pasted image 20251222103550.png",
