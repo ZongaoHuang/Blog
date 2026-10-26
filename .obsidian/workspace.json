@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".trash/Untitled.canvas",
+                "bFile": ".trash/Untitled.canvas",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Untitled.canvas  (Working Tree)"
             }
           }
         ]
@@ -97,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "7632ac95680edf7f",
@@ -283,8 +288,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "34ad7b272f31fc1d",
   "lastOpenFiles": [
+    "Diary/Diary.md",
+    "Diary/Untitled.canvas",
     "Diary/2026-10-10.md",
     "Diary/2026-09-20.md",
     "Misc/Funny Recording/Vedio.md",
@@ -296,7 +303,6 @@
     "Misc/Info/Mentor.md",
     "Diary/2026-08-18.md",
     "Diary/2026-07-16.md",
-    "Diary/Diary.md",
     "Tags",
     "Diary/2023-09-25.md",
     "Diary/2026-03-13.md",
@@ -316,7 +322,6 @@
     "Misc/FinalSearch/盲审/问题和要求.md",
     "Misc/FinalSearch/答辩",
     "未命名",
-    "Diary/2025-05-20.md",
     "Misc/FinalSearch/盲审",
     "SourceCode/Go/未命名.base",
     "Diary/attachments/Pasted image 20260221230412.png",
