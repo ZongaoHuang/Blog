@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e53f10774765886",
+        "id": "859c6d8ba1e0ea33",
         "type": "tabs",
         "children": [
           {
-            "id": "be88f4813bfd0958",
+            "id": "474554f327e94958",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -287,8 +287,11 @@
       "obsidian-checklist-plugin:Open Checklist": false
     }
   },
-  "active": "be88f4813bfd0958",
+  "active": "474554f327e94958",
   "lastOpenFiles": [
+    "file:C:/Users/11060/Documents/xwechat_files/wxid_zbf1ekpgqf1g21_93c8/msg/file/2026-10/部署脚本问题清单-20261020.md",
+    "file:C:/Users/11060/Documents/Code/Project/Python-Django-/README.md",
+    "file:C:/Users/11060/Documents/Code/Project/Model-TestBox/UI/README.md",
     "file:C:/Users/11060/Documents/Code/Project/Auto-Privacy-Leakage-Detection/README.md",
     "Diary/2026-10-10.md",
     "未命名.base",
@@ -318,9 +321,6 @@
     "Misc/Coffee",
     "Misc/Misc.md",
     "Misc/Untitled.md",
-    "Workflow/Workflow.md",
-    "Misc/FinalSearch/答辩/修改.md",
-    "Misc/FinalSearch/盲审/问题和要求.md",
     "Misc/FinalSearch/答辩",
     "未命名",
     "Misc/FinalSearch/盲审",
