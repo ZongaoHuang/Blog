@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Linux"
             }
+          },
+          {
+            "id": "43094324eadc478a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,10 +291,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "43094324eadc478a",
   "lastOpenFiles": [
-    "Misc/Language/Linux/Oracle_Audit.md",
     "Misc/Language/Linux/Linux.md",
+    "conflict-files-obsidian-git.md",
+    "Misc/Funny Recording/Vedio.md",
+    "Diary/2026-10-10.md",
+    "Diary/2026-09-20.md",
+    "Misc/Language/Linux/Oracle_Audit.md",
     "public/heart.gif",
     "public/logo.png",
     "public/img_test.jpg",
@@ -316,10 +335,6 @@
     "未命名",
     "Diary/2025-05-20.md",
     "Diary/2025-11-03.md",
-    "Diary/2025-06-18.md",
-    "SourceCode/Go/Go.md",
-    "SourceCode/Go/sync.md",
-    "SourceCode/Go/string.md",
     "Misc/FinalSearch/盲审",
     "SourceCode/Go/未命名.base",
     "Misc/FinalSearch/初稿",
