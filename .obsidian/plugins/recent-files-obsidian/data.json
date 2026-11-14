@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux",
+      "path": "Misc/Language/Linux/Linux.md"
+    },
+    {
+      "basename": "Oracle_Audit",
+      "path": "Misc/Language/Linux/Oracle_Audit.md"
+    },
+    {
+      "basename": "heart",
+      "path": "public/heart.gif"
+    },
+    {
+      "basename": "logo",
+      "path": "public/logo.png"
+    },
+    {
+      "basename": "img_test",
+      "path": "public/img_test.jpg"
+    },
+    {
+      "basename": "logo2",
+      "path": "public/logo2.png"
+    },
+    {
+      "basename": "logo3",
+      "path": "public/logo3.png"
+    },
+    {
+      "basename": "lol",
+      "path": "public/lol.png"
+    },
+    {
+      "basename": "lol",
+      "path": "public/lol.mp4"
+    },
+    {
+      "basename": "vscode-03",
+      "path": "public/vscode/vscode-03.png"
+    },
+    {
+      "basename": "云鼎攻防矩阵",
+      "path": "Misc/Security/Web安全/云鼎攻防矩阵.md"
+    },
+    {
+      "basename": "docsearch-44",
+      "path": "public/docsearch/docsearch-44.png"
+    },
+    {
+      "basename": "docsearch-46",
+      "path": "public/docsearch/docsearch-46.png"
+    },
+    {
+      "basename": "docsearch-49",
+      "path": "public/docsearch/docsearch-49.png"
+    },
+    {
+      "basename": "docsearch-48",
+      "path": "public/docsearch/docsearch-48.png"
+    },
+    {
+      "basename": "cmd-02",
+      "path": "public/cmd/cmd-02.png"
+    },
+    {
+      "basename": "cmd-03",
+      "path": "public/cmd/cmd-03.png"
+    },
+    {
+      "basename": "cmd-04",
+      "path": "public/cmd/cmd-04.png"
+    },
+    {
+      "basename": "cmd-05",
+      "path": "public/cmd/cmd-05.png"
+    },
+    {
+      "basename": "cmd-06",
+      "path": "public/cmd/cmd-06.png"
+    },
+    {
+      "basename": "cmd-07",
+      "path": "public/cmd/cmd-07.png"
+    },
+    {
+      "basename": "cmd-08",
+      "path": "public/cmd/cmd-08.png"
+    },
+    {
       "basename": "2026-08-31",
       "path": "Diary/2026-08-31.md"
     },
@@ -111,94 +199,6 @@
     {
       "basename": "2025-06-19",
       "path": "Diary/2025-06-19.md"
-    },
-    {
-      "basename": "2025-05-10",
-      "path": "Diary/2025-05-10.md"
-    },
-    {
-      "basename": "2025-06-12",
-      "path": "Diary/2025-06-12.md"
-    },
-    {
-      "basename": "2025-04-14",
-      "path": "Diary/2025-04-14.md"
-    },
-    {
-      "basename": "2025-04-25",
-      "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "2025-05-28",
-      "path": "Diary/2025-05-28.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "Diary/2025-06-14.md"
-    },
-    {
-      "basename": "2025-07-29",
-      "path": "Diary/2025-07-29.md"
-    },
-    {
-      "basename": "2025-06-22",
-      "path": "Diary/2025-06-22.md"
-    },
-    {
-      "basename": "2025-05-27",
-      "path": "Diary/2025-05-27.md"
-    },
-    {
-      "basename": "http",
-      "path": "SourceCode/Go/http.md"
-    },
-    {
-      "basename": "flag",
-      "path": "SourceCode/Go/flag.md"
-    },
-    {
-      "basename": "context",
-      "path": "SourceCode/Go/context.md"
-    },
-    {
-      "basename": "atomic",
-      "path": "SourceCode/Go/atomic.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "SourceCode/Go/未命名.base"
-    },
-    {
-      "basename": "SourceCode",
-      "path": "SourceCode/SourceCode.md"
-    },
-    {
-      "basename": "2026-02-05",
-      "path": "Diary/2026-02-05.md"
-    },
-    {
-      "basename": "申请书",
-      "path": "Misc/Security/项目/创新资助第三期/申请书.md"
-    },
-    {
-      "basename": "2025-04-27",
-      "path": "Diary/2025-04-27.md"
-    },
-    {
-      "basename": "2025-12-21",
-      "path": "Diary/2025-12-21.md"
-    },
-    {
-      "basename": "2025-09-23",
-      "path": "Diary/2025-09-23.md"
-    },
-    {
-      "basename": "2025-12-22",
-      "path": "Diary/2025-12-22.md"
-    },
-    {
-      "basename": "2025-07-25",
-      "path": "Diary/2025-07-25.md"
     }
   ],
   "omittedPaths": [],
