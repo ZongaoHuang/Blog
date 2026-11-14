@@ -54,7 +54,8 @@
     "/",
     "//Misc/Misc/Security/Misc/Security/Web安全",
     "//Misc",
-    "//Diary"
+    "//Tools",
+    "//Tools/Tools/attachments"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
