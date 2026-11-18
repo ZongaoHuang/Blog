@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "859c6d8ba1e0ea33",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "474554f327e94958",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.15.0"
             }
           }
         ]
@@ -86,7 +88,7 @@
             }
           },
           {
-            "id": "7eed95061f495d8c",
+            "id": "0d9f45426cc04c0b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -287,8 +289,15 @@
       "obsidian-checklist-plugin:Open Checklist": false
     }
   },
-  "active": "474554f327e94958",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Misc/FinalSearch/FinalSearch.md",
+    "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
+    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
+    "Misc/FinalSearch/开题报告/开题答辩.md",
+    "Misc/FinalSearch/开题报告/讨论过程.md",
+    "Misc/FinalSearch/开题报告/开题报告第一版.md",
+    "Misc/FinalSearch/开题报告/开题报告第二版.md",
     "file:C:/Users/11060/Documents/xwechat_files/wxid_zbf1ekpgqf1g21_93c8/msg/file/2026-10/部署脚本问题清单-20261020.md",
     "file:C:/Users/11060/Documents/Code/Project/Python-Django-/README.md",
     "file:C:/Users/11060/Documents/Code/Project/Model-TestBox/UI/README.md",
@@ -311,16 +320,9 @@
     "Diary/2023-09-25.md",
     "Diary/2026-03-13.md",
     "Diary/2026-07-13.md",
-    "Diary/2026-04-20.md",
-    "Diary/2026-02-26.md",
-    "Diary/2026-02-08.md",
-    "Diary/2025-12-23.md",
-    "Misc/Coffee/咖啡基础学习.md",
     "Misc/Coffee/attachments/Pasted image 20260613151745.png",
     "Misc/Coffee/attachments",
     "Misc/Coffee",
-    "Misc/Misc.md",
-    "Misc/Untitled.md",
     "Misc/FinalSearch/答辩",
     "未命名",
     "Misc/FinalSearch/盲审",
