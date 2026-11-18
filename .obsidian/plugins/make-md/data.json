@@ -53,8 +53,13 @@
     "//Npm/Npm/Go",
     "/",
     "//Misc/Misc/Security/Misc/Security/Web安全",
+<<<<<<< HEAD
     "//Misc",
     "//Tools/Tools/attachments"
+=======
+    "//Misc/Misc/FinalSearch/Misc/FinalSearch/开题报告",
+    "//public"
+>>>>>>> origin/master
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

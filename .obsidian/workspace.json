@@ -11,6 +11,7 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "Misc/Language/Linux/Linux.md",
@@ -19,6 +20,12 @@
               },
               "icon": "lucide-file",
               "title": "Linux"
+=======
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+>>>>>>> origin/master
             }
           }
         ]
@@ -55,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kafka",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +94,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "34b47e73e95ba6d6",
+=======
+            "id": "9ec835650838fd33",
+>>>>>>> origin/master
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -97,7 +108,11 @@
             }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 3
+=======
+        "currentTab": 4
+>>>>>>> origin/master
       }
     ],
     "direction": "horizontal",
@@ -256,7 +271,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+<<<<<<< HEAD
       "obsidian-checklist-plugin:Open Checklist": false,
+=======
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-checklist-plugin:Open Checklist": false,
+      "dbfolder:创建一个新数据库表": false,
+>>>>>>> origin/master
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -264,7 +285,6 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
@@ -272,7 +292,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
