@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ae849e00f83c6d3c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "f20725c046b492b5",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Language/Linux/Linux.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Linux"
+            }
+          },
+          {
+            "id": "43094324eadc478a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,10 +86,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -86,7 +102,7 @@
             }
           },
           {
-            "id": "914e0320926c4d06",
+            "id": "b14a5c4db6300b04",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -95,8 +111,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,6 +213,16 @@
             }
           },
           {
+            "id": "cd584438ecc34e28",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "todo"
+            }
+          },
+          {
             "id": "06508f6540453cc6",
             "type": "leaf",
             "state": {
@@ -213,22 +238,12 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
-            }
-          },
-          {
-            "id": "b52c47c1e344b2e5",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
           },
           {
-            "id": "006c25109a2ff702",
+            "id": "c68e74ca3537bdbe",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -238,7 +253,7 @@
             }
           },
           {
-            "id": "45cbf89cbb5e0b82",
+            "id": "d50289572abdd3bc",
             "type": "leaf",
             "state": {
               "type": "planner-time-tracker",
@@ -246,22 +261,12 @@
               "icon": "timer",
               "title": "Time Tracker"
             }
-          },
-          {
-            "id": "c38db86d8bc82d41",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 270.2999267578125
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,70 +277,68 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "homepage:Open homepage": false,
-      "obsidian-kanban:创建新看板": false,
+      "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "dbfolder:创建一个新数据库表": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "dbfolder:Create a new database table": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
-      "obsidian-checklist-plugin:Open Checklist": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f20725c046b492b5",
+  "active": "43094324eadc478a",
   "lastOpenFiles": [
     "Misc/Language/Linux/Linux.md",
-    "Misc/Language/Linux/Oracle_Audit.md",
-    "Diary/2024-07-24.md",
-    "Misc/FinalSearch/FinalSearch.md",
-    "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
-    "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
-    "Misc/FinalSearch/开题报告/开题答辩.md",
-    "Misc/FinalSearch/开题报告/讨论过程.md",
-    "Misc/FinalSearch/开题报告/开题报告第一版.md",
-    "Misc/FinalSearch/开题报告/开题报告第二版.md",
-    "file:C:/Users/11060/Documents/xwechat_files/wxid_zbf1ekpgqf1g21_93c8/msg/file/2026-10/部署脚本问题清单-20261020.md",
-    "file:C:/Users/11060/Documents/Code/Project/Python-Django-/README.md",
-    "file:C:/Users/11060/Documents/Code/Project/Model-TestBox/UI/README.md",
-    "file:C:/Users/11060/Documents/Code/Project/Auto-Privacy-Leakage-Detection/README.md",
-    "Diary/2026-10-10.md",
-    "未命名.base",
-    "Diary/Diary.md",
-    "Diary/Untitled.canvas",
-    "Diary/2026-09-20.md",
+    "conflict-files-obsidian-git.md",
     "Misc/Funny Recording/Vedio.md",
+    "Diary/2026-10-10.md",
+    "Diary/2026-09-20.md",
+    "Misc/Language/Linux/Oracle_Audit.md",
+    "public/heart.gif",
+    "public/logo.png",
+    "public/img_test.jpg",
+    "public/logo2.png",
+    "public/logo3.png",
+    "public/lol.png",
+    "public/lol.mp4",
+    "public/vscode/vscode-03.png",
+    "Misc/Security/Web安全/云鼎攻防矩阵.md",
+    "public/docsearch/docsearch-44.png",
+    "public/docsearch/docsearch-46.png",
+    "public/docsearch/docsearch-49.png",
     "Diary/2026-08-31.md",
-    "index.md",
-    "Misc/Funny Recording/Eason R&Q.md",
-    "Misc/Course/English Prenstation.md",
-    "Misc/Funny Recording/.md",
-    "Misc/Info/Mentor.md",
     "Diary/2026-08-18.md",
     "Diary/2026-07-16.md",
+    "Diary/2023-09-25.md",
+    "Diary/2026-03-13.md",
+    "Diary/2026-07-13.md",
+    "Diary/2026-04-20.md",
+    "Diary/2026-02-26.md",
+    "Diary/2026-02-08.md",
+    "Diary/2025-12-23.md",
+    "Misc/Coffee/咖啡基础学习.md",
     "Tags",
-    "Misc/Coffee/attachments/Pasted image 20260613151745.png",
     "Misc/Coffee/attachments",
     "Misc/Coffee",
+    "Misc/Misc.md",
+    "Misc/Untitled.md",
+    "Workflow/Workflow.md",
+    "Diary/Diary.md",
+    "Misc/FinalSearch/答辩/修改.md",
+    "Misc/FinalSearch/盲审/问题和要求.md",
     "Misc/FinalSearch/答辩",
     "未命名",
+    "Diary/2025-05-20.md",
+    "Diary/2025-11-03.md",
     "Misc/FinalSearch/盲审",
     "SourceCode/Go/未命名.base",
-    "Diary/attachments/Pasted image 20260221230412.png",
-    "Diary/attachments/Pasted image 20260221230401.png",
     "Misc/FinalSearch/初稿",
     "Diary/未命名.base",
-    "Diary/attachments/Pasted image 20251222103620.png",
-    "Diary/attachments/Pasted image 20251222103605.png",
-    "Diary/attachments/Pasted image 20251222103550.png",
-    "Diary/attachments/Pasted image 20251222103516.png",
-    "Misc/FinalSearch/中期答辩/attachments/Pasted image 20251118140614.png",
-    "Misc/FinalSearch/中期答辩/attachments/Pasted image 20251117164402.png",
-    "Diary/attachments/Pasted image 20250903152522.png",
     "未命名.canvas"
   ]
 }

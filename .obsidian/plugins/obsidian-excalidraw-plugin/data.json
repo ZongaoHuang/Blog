@@ -6,18 +6,11 @@
   "phoneFooterSafeAreaPadding": false,
   "tabletFooterSafeAreaPadding": false,
   "folder": "Excalidraw",
-  "libraryFolderPath": "Excalidraw/Libraries",
-  "libraryFileName": "local-library",
-  "libraryStorageMode": "vault",
-  "libraryMigrationStatus": "not-required",
-  "libraryMigrationSnoozeUntil": 0,
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
-  "allowJavaScriptFiles": false,
-  "storeScriptFilesAsJavaScript": false,
   "fontAssetsPath": "Excalidraw/CJK Fonts",
   "loadChineseFonts": false,
   "loadJapaneseFonts": false,
@@ -25,6 +18,8 @@
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
+  "onceOffGPTVersionReset": true,
+  "autosave": true,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
@@ -62,6 +57,7 @@
   "penModeDoubleTapEraser": true,
   "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": true,
+  "panWithRightMouseButton": false,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
@@ -135,36 +131,9 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "markdownImageSettings": {
-    "defaults": {
-      "width": 500,
-      "paddingBottom": 10,
-      "fontFamily": "Virgil",
-      "fontColor": "Black",
-      "border": {
-        "enabled": false,
-        "color": "Black"
-      },
-      "css": "",
-      "transclusion": {
-        "enabled": false,
-        "fontFamily": "Cascadia",
-        "fontColor": "Black",
-        "border": {
-          "enabled": false,
-          "color": "Black"
-        },
-        "css": ""
-      }
-    }
-  },
-  "markdownImageDeletionPreference": "ask",
   "scriptEngineSettings": {},
-  "autostartScripts": {},
-  "autostartScriptFailures": {},
   "previousRelease": "2.29.0",
   "showReleaseNotes": true,
-  "useDeclarativeSettings": true,
   "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -790,7 +759,6 @@
     }
   },
   "aiDefaultTextModel": "gpt-3.5-turbo-1106",
-  "aiDefaultMultimodalModel": "gpt-5-mini",
   "aiDefaultImageGenerationModel": "dall-e-3",
   "aiDefaultMaxOutgoingTokens": 0,
   "aiDefaultMaxResponseTokens": 4096,
@@ -1115,9 +1083,40 @@
     "margin": "normal"
   },
   "disableContextMenu": false,
-  "panWithRightMouseButton": false,
-  "onceOffGPTVersionReset": true,
-  "autosave": true,
+  "libraryFolderPath": "Excalidraw/Libraries",
+  "libraryFileName": "local-library",
+  "libraryStorageMode": "vault",
+  "libraryMigrationStatus": "not-required",
+  "libraryMigrationSnoozeUntil": 0,
+  "allowJavaScriptFiles": false,
+  "storeScriptFilesAsJavaScript": false,
+  "markdownImageSettings": {
+    "defaults": {
+      "width": 500,
+      "paddingBottom": 10,
+      "fontFamily": "Virgil",
+      "fontColor": "Black",
+      "border": {
+        "enabled": false,
+        "color": "Black"
+      },
+      "css": "",
+      "transclusion": {
+        "enabled": false,
+        "fontFamily": "Cascadia",
+        "fontColor": "Black",
+        "border": {
+          "enabled": false,
+          "color": "Black"
+        },
+        "css": ""
+      }
+    }
+  },
+  "markdownImageDeletionPreference": "ask",
+  "autostartScripts": {},
+  "autostartScriptFailures": {},
+  "useDeclarativeSettings": true,
   "isDebugMode": false,
   "defaultTrayMode": true,
   "autosaveInterval": 15000,
