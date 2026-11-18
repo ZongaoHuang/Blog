@@ -53,8 +53,8 @@
     "//Npm/Npm/Go",
     "/",
     "//Misc/Misc/Security/Misc/Security/Web安全",
-    "//Misc",
-    "//Diary"
+    "//Misc/Misc/FinalSearch/Misc/FinalSearch/开题报告",
+    "//public"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
