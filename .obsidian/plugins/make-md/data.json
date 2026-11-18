@@ -54,7 +54,6 @@
     "/",
     "//Misc/Misc/Security/Misc/Security/Web安全",
     "//Misc",
-    "//Tools",
     "//Tools/Tools/attachments"
   ],
   "expandFolderOnClick": true,
@@ -68,6 +67,7 @@
     "_blocks"
   ],
   "newFileLocation": "current",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

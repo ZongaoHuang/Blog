@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux",
+      "path": "Misc/Language/Linux/Linux.md"
+    },
+    {
       "basename": "Adobe 弹窗问题",
       "path": "Tools/Adobe 弹窗问题.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "2026-08-31",
       "path": "Diary/2026-08-31.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Misc/Language/Linux/Linux.md"
     }
   ],
   "omittedPaths": [],
