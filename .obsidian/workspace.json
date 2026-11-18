@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "6a8d806a850c5575",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "c952a73d736f4e5a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.0"
+                "file": "Misc/Language/Linux/Linux.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.15.0"
+              "icon": "lucide-file",
+              "title": "Linux"
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kafka",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +99,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -289,8 +290,11 @@
       "obsidian-checklist-plugin:Open Checklist": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c952a73d736f4e5a",
   "lastOpenFiles": [
+    "Misc/Language/Linux/Oracle_Audit.md",
+    "Misc/Language/Linux/Linux.md",
+    "Diary/2024-07-24.md",
     "Misc/FinalSearch/FinalSearch.md",
     "Misc/FinalSearch/开题报告/开题答辩PPT第二版.md",
     "Misc/FinalSearch/开题报告/开题答辩PPT第一版.md",
@@ -317,9 +321,6 @@
     "Diary/2026-08-18.md",
     "Diary/2026-07-16.md",
     "Tags",
-    "Diary/2023-09-25.md",
-    "Diary/2026-03-13.md",
-    "Diary/2026-07-13.md",
     "Misc/Coffee/attachments/Pasted image 20260613151745.png",
     "Misc/Coffee/attachments",
     "Misc/Coffee",

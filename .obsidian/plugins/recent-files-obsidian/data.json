@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux",
+      "path": "Misc/Language/Linux/Linux.md"
+    },
+    {
+      "basename": "Oracle_Audit",
+      "path": "Misc/Language/Linux/Oracle_Audit.md"
+    },
+    {
+      "basename": "2024-07-24",
+      "path": "Diary/2024-07-24.md"
+    },
+    {
       "basename": "FinalSearch",
       "path": "Misc/FinalSearch/FinalSearch.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "2025-04-25",
       "path": "Diary/2025-04-25.md"
-    },
-    {
-      "basename": "2025-05-28",
-      "path": "Diary/2025-05-28.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "Diary/2025-06-14.md"
-    },
-    {
-      "basename": "2025-07-29",
-      "path": "Diary/2025-07-29.md"
     }
   ],
   "omittedPaths": [],
