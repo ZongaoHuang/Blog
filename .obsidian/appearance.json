@@ -4,5 +4,6 @@
   "baseFontSize": 24,
   "theme": "moonstone",
   "showViewHeader": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }
